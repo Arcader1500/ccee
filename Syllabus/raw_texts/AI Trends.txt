@@ -1,0 +1,240 @@
+ACTS, Pune 
+PG-DAI Page 1 of 5 
+ 
+ 
+  
+Suggested Teaching Guidelines for 
+AI Compute Platforms, Applications & Trends  
+PG-DAI August 2025  
+ 
+ 
+Duration: 52 Classroom hours and 58 Lab hours 
+  
+Objective: The objective of this module is to make students aware with the latest AI tools 
+and Techniques used by IT Industry 
+Prerequisites: Knowledge of fundamentals of programming and basic mathematics. ML & 
+statistical knowledge 
+Evaluation method: Theory exam– 40% weightage 
+    Lab exam – 40% weightage      
+Internal exam – 20% weightage 
+List of Books / Other training material 
+Courseware: No specific courseware for the module, faculty may share some course materials 
+ 
+Reference: 
+ Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville 
+ Neural Networks and Learning Machines, Simon Haykin 
+ Pattern Recognition and Machine Learning, Christopher M. Bishop 
+ Cloud Computing: Master The Concepts, Architecture and Applications With Real -
+World Examples And Case Studies by Mehul Mahrishi Kamal Kant Hiran, Ruchi 
+Doshi, Dr. Fagbola Temitayo 
+ Kubernetes: Up and Running - Dive into the Future of Infrastructure, Second Edition 
+[Paperback] Brendan Burns; Kelsey Hightower and Joe Beda by Brendan Burns 
+(Author), Kelsey Hightower (Author), Joe Beda (Author) 
+ Hands-on Pipeline as Code with Jenkins: CI/CD Implementation for Mobile, Web, and 
+Hybrid Applications Using Declarative Pipeline in Jenkins (English Edition) by Ankita 
+Patil Mitesh Soni 
+ Introducing GitHub 2e by Brent Beer 
+ 
+Note: 
+o 40 hours for PySpark including both theory and lab sessions. 
+o 70 hours for cloud computing including both theory and lab sessions. 
+o Applications/case studies are advised to be covered under Lab Hours. 
+o Each session is having 2 Hours for Theory and 2 Hours of Lab unless 
+indicated otherwise. Lab assignments are indicatives. 
+o Faculty is advised to give appropriate assignment for sufficient hands-on. 
+o Faculty is advised to give at-least one end-to-end problem statement 
+where students can execute their learning in a proper manner. 
+ 
+ 
+
+ACTS, Pune 
+PG-DAI Page 2 of 5 
+ 
+ 
+  
+Suggested Teaching Guidelines for 
+AI Compute Platforms, Applications & Trends  
+PG-DAI August 2025  
+ 
+PySpark (20 Hrs of Theory and 20 Hrs of Lab) 40 Hours 
+ 
+Session 1 & 2: 
+ 
+o Apache Spark APIs for large-scale data processing 
+o Overview, Linking with Spark, 
+o Initializing Spark 
+o Spark session & spark context 
+ 
+o Resilient Distributed Datasets (RDDs), External Datasets, RDD Operations, 
+o Passing Functions to Spark, Working with Key-Value Pairs, Shuffle operations, 
+o RDD Persistence, Removing Data, Shared Variables, Deploying to a Cluster 
+o Spark Data Frames 
+ 
+Lab Assignments: 
+o Run the provided Hadoop Streaming program using python 
+o Install Spark 
+ 
+Session 3 & 4: 
+o EDA using PySpark 
+o ETL jobs using sparks 
+ 
+Lab Assignments: 
+o Explore Data using PySpark 
+Session 5: 
+o Introduction to Kafka 
+o Working with Kafka using Spark 
+o Spark streaming 
+ 
+Lab Assignments: 
+o Install Kafka 
+o Execute the spark streaming with Kafka 
+ 
+Session 6: 
+o Integration of setting Spark and Kafka 
+o Setting up Kafka Producer and Consumer 
+o Kafka Connect API 
+ 
+Lab Assignments: 
+o Connect the Kafka with API 
+Session 7: 
+o Machine Learning using Spark’s MLlib 
+ 
+ACTS, Pune 
+PG-DAI Page 3 of 5 
+ 
+ 
+  
+Suggested Teaching Guidelines for 
+AI Compute Platforms, Applications & Trends  
+PG-DAI August 2025  
+ 
+Lab Assignments: 
+o Explore MLib 
+Session 8: 
+o Deep Learning using Spark 
+ 
+Lab Assignments: 
+o Explore Deep Learning 
+ 
+Session 9: 
+o Spark SQL 
+ 
+ 
+Lab Assignments: 
+o Run the Spark SQL programs using step –runs for each and every code line 
+o Analyze the election data using spark and provide analysis 
+Session 10: 
+o Connecting DB’s with Spark 
+o Working with DB’s 
+ 
+Lab Assignments: 
+o Connecting DB’s with Spark 
+o Accessing and manipulating the DB’s 
+o Create a complex workflow using bash operator, a simple workflow using python 
+ 
+ 
+DevOps for AI/ML (32 Hrs of Theory and 38 Hrs of Lab) 70 Hours 
+ 
+Session 11 & 12: Git / GitHub 
+ 
+o Introduction to Version control systems 
+o Creating GitHub repository 
+o Using Git – Introduction to Git commands 
+ 
+Lab Assignment: 
+o Create a GitHub repository from the command line 
+ 
+Session 13 & 14: Introduction to containers (4T + 6L) 
+o Introduction to DevOps 
+o Introduction to Containers 
+o Advantages of using container-based applications 
+o Installing Docker and using basic Docker commands 
+ACTS, Pune 
+PG-DAI Page 4 of 5 
+ 
+ 
+  
+Suggested Teaching Guidelines for 
+AI Compute Platforms, Applications & Trends  
+PG-DAI August 2025  
+ 
+o Build your own container-based application image 
+o Networking in Docker 
+o Managing containers – Logs / Resources 
+ 
+ 
+Lab Assignments: 
+o Create an httpd container running on port 8000. Name the container as web5. Do 
+not map any directory. Create an “index.html” file & copy this file inside the container 
+and check if the website displays your webpage. Again, modify the “index.html” file 
+and copy it inside the container, and check if the website is updated or not. 
+o Test any program on-base machine. Then create an image using Dockerfile to 
+execute this exe program. Give image name as “Name: v1”. 
+ 
+Session 15 & 16: Introduction to Kubernetes (4T + 6L) 
+o Need for Kubernetes 
+o Introduction to Kubernetes cluster – Basic terms - Management node, Worker 
+Nodes, Pods, Deployment, and Service Types etc. 
+o Working with Kubernetes Cluster – Creating deployment, Exposing Deployment as a 
+service, managing your applications. Rolling application updates etc. 
+ 
+Lab assignment:  
+o Create a Kubernetes cluster, deploy and explore any app. 
+ 
+Session 17 & 18: CI/CD with Jenkins (4T + 6L) 
+ 
+o Introduction to CI/CD 
+o Using Jenkins to build a CI/CD pipeline. 
+ 
+Lab Assignments: 
+ 
+o Create a CI/CD pipeline using Jenkins, Docker, and GitHub to automate the web by 
+using the NGINX image. 
+o Create a CI/CD pipeline using Jenkins, Docker, and GitHub to automate the web by 
+using the httpd image. 
+ 
+Cloud Computing: 
+Session 19 & 20: 
+o Cloud Computing Basics, Understanding Cloud Vendors
+ (AWS/Azure/GCP), Definition, Characteristics, Components 
+ 
+Lab Assignments: 
+o Study about cloud and other similar configuration 
+o Explore available solutions 
+o Cloud Architecture 
+ACTS, Pune 
+PG-DAI Page 5 of 5 
+ 
+ 
+  
+Suggested Teaching Guidelines for 
+AI Compute Platforms, Applications & Trends  
+PG-DAI August 2025  
+ 
+  
+Session 21 & 22: 
+o Cloud provider, SAAS, PAAS, IAAS and other Organizational scenarios of clouds, 
+Administering & Monitoring cloud services, benefits, and limitations 
+ 
+Lab Assignments: 
+o Provide a solution on cloud as SAAS using available systems. 
+ 
+Session 23 & 24: 
+o Deploy application over cloud. Comparison among SAAS, PAAS, IAAS, Cloud 
+Products and Solutions, Cloud Pricing, Compute Products and Services, Elastic 
+Cloud Compute, Dashboard. 
+ 
+Lab Assignments: 
+o Deploy any application over the cloud platform. 
+ 
+Session 25 & 26: 
+o Exploring cloud services for AI/ML 
+ 
+Lab Assignments: 
+ 
+o Explore the different cloud computing platforms for AI/ML. 
+ 
+Self-Study: AI applications in Financial Services including Insurance banking, stock markets 
+& other financial markets like Forex–and Artificial Economics, AI applications in Health 
+Sciences & other Scientific Applications, AI in Cloud Environment , Deployment of Models on 
+a distributed platform. 

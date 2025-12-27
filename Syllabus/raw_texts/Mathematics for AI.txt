@@ -1,0 +1,151 @@
+PG-DAI 
+ACTS, Pune 
+Page 1 of 3 
+ 
+Suggested Teaching Guidelines for 
+Mathematics & Statistics for Artificial Intelligence 
+PG-DAI August 2025  
+ 
+ 
+Duration: 40 Classroom hours 
+ 
+Objective: To reinforce knowledge of general Aptitude, Mathematics, and Statistics concepts 
+ 
+Prerequisites: Knowledge of basic of Mathematics. 
+ 
+Evaluation method: Theory exam– 80% weightage 
+   Internal exam– 20% weightage 
+ 
+List of Books / Other training material 
+ 
+Reference Book: 
+ 
+1. An Introduction to Statistical Learning: with Applications in R by Daniela Witten, 
+Gareth James, Robert Tibshirani, and Trevor Hastie ISBN 9781461471387 
+2. Advanced Engineering Mathematics by Erwin Kreyszig, ISBN 978-8126531356 
+3. Linear Algebra by Jim Hefferon, ISBN- 978-1944325039 
+4. Higher Engineering Mathematics by B V Ramana ISBN - 978-0070634190 
+5. The elements of Statistical Learning: Data Mining, Inference & Prediction by 
+Trevor Hastie, Jerome Friedman 
+ 
+Note: 
+• Each session is of 2 hours of theory. 
+• Faculty is advised to relate the mathematical concepts with some 
+application in real world scenarios 
+• Faculty is advised to relate the topics with machine learning algorithms 
+ 
+Linear Algebra 
+ 
+Session 1 & 2 
+Lecture 
+ Vectors, Definition, 
+ Scalars, Addition, Scalar Multiplication 
+ Inner Product (Dot Product), Vector Projection 
+ Cosine Similarity, Orthogonal Vectors 
+ 
+Session 3 & 4 
+Lecture 
+ Normal And Orthonormal Vectors 
+ Vector Norm, Vector Space 
+ Linear Combination, Linear Span 
+ Linear Independence, Basis Vectors 
+ 
+PG-DAI 
+ACTS, Pune 
+Page 2 of 3 
+ 
+Suggested Teaching Guidelines for 
+Mathematics & Statistics for Artificial Intelligence 
+PG-DAI August 2025  
+ 
+Assignments: Consider the vectors {[3, 0, 4], [−1, 0, 7], [2, 9, 11]} .Check that the 
+vectors are linearly independent or not ? 
+ 
+Session 5 
+Lecture 
+ Linear Independence 
+ Basis and Rank 
+ Linear Mappings 
+ Affine Spaces 
+ 
+Session 6 & 7 
+Lecture 
+ Matrices Definition, Addition, Transpose 
+ Scalar Multiplication, Matrix Multiplication, Matrix Multiplication Properties 
+ Hadamard Product, Functions, Linear Transformation, Determinant, Identity 
+Matrix, 
+ Invertible 
+Assignments: X = [0 1 3]T and Y = [2 4 0]T 
+• Find V = Subspace of X 
+• Find W = Subspace of Y 
+• Describe V intersection W ? 
+ 
+Session 8 & 9 
+Lecture 
+ Matrix and Inverse, Rank, Trace 
+ Popular Type of Matrices- Symmetric, Diagonal, Orthogonal, Orthonormal 
+ Positive Definite Matrix 
+ Matrix Phylogeny 
+ Matrix Approximation 
+ 
+Session 10 & 11 
+Lecture 
+ Eigen Values & Eigenvectors, Concept, Intuition, Significance 
+ How To Find Principle Component Analysis 
+ Concept, Properties, Applications 
+ Singular Value Decomposition 
+Assignments: Find the eigen values and eigenvectors for the matrix 
+
+PG-DAI 
+ACTS, Pune 
+Page 3 of 3 
+ 
+Suggested Teaching Guidelines for 
+Mathematics & Statistics for Artificial Intelligence 
+PG-DAI August 2025  
+ 
+ 
+Calculus 
+Session 12 & 13 
+Lecture 
+ Functions, Scalar Derivative, Definition, Intuition 
+ Common Rules Of Differentiation, Chain Rule 
+ 
+Session 14 & 15 
+Lecture 
+ Partial Derivatives, Gradient 
+ Concept, Intuition, Properties 
+ Directional Derivative 
+ 
+Assignments: Let f(x,y,z)=xyex2+z2−5f(x,y,z)=xyex2+z2−5. Calculate the 
+gradient of ff at the point (1,3,−2)(1,3,−2) and calculate the directional derivative 
+DufDuf at the point (1,3,−2)(1,3,−2) in the direction of the vector 
+v=(3,−1,4)v=(3,−1,4). 
+ 
+Session 16 & 17 
+Lecture 
+ Gradients of Vector Valued Functions 
+ Gradient of Matrices 
+ Useful Identities for Computing Gradients 
+ Back propagation and Automatic Differentiation 
+ Linearization and Multivariate Taylor Series 
+ 
+Session 18 
+Lecture 
+ Optimization Using Gradient Descent 
+ Constrained Optimization and Lagrange Multipliers 
+ Convex Optimization 
+ 
+Session 19 
+Lecture 
+ Vector And Matrix Calculus 
+ How To Find Derivative Of Scalar-Valued 
+ Vector-Valued Function With Respect To Scalar, Vector , Four Combinations- 
+Jacobian 
+ 
+Session 20 
+Lecture 
+ Gradient Algorithms, Local/Global Maxima and Minima 
+ Saddle Point, Convex Functions 
+ Gradient Descent Algorithms- Batch, Mini-Batch, Stochastic 
+ Performance Comparison 

@@ -1,0 +1,268 @@
+ACTS, Pune 
+PG-DAI Page 1 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+ 
+Duration: 40 Classroom hours and 60 Lab hours 
+ 
+Objective: To Introduce the students to Natural Language Processing &Computer Vision. 
+ 
+Prerequisites: Good knowledge of Python Programming and fundamentals of Artificial 
+Intelligence. 
+ 
+Evaluation method: Theory exam– 40% 
+  Lab Exam - 40% 
+  Internal exam- 20% 
+List of Books / Other training material 
+Courseware: 
+Natural Language Processing, by Pushpak Bhattacharyya, Aditya Joshi / Wiley India, 2023 
+ 
+Reference Book: 
+1. The Big Book of NLP Techniques by Shlomo Vaknin 
+2. Theory and Practice of NLP Coaching: A Psychological Approach by Bruce 
+Grimley 
+ 
+Note: 
+ Each session mentioned is of 2 hours of Theory and 2 hours of Lab duration, 
+unless indicated otherwise.  
+ 
+ 
+NLP (26 Hrs Theory + 44 Hrs Lab) 
+ 
+ 
+Session 1: 
+Lecture 
+Language in Cognitive Science 
+• Definitions of language 
+• Language as a rule-governed dynamic system 
+• Knowledge of language: Innateness of Grammar 
+• Language as a biological, social and psychological phenomenon 
+• Modes of language: spoken and written 
+• Language system as expression and content 
+• Language and symbolic systems: Artificial language (Logical 
+language/programming Language)vs. Natural Language 
+• Linguistics as a scientific study 
+ 
+ 
+ACTS, Pune 
+PG-DAI Page 2 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+Session 2: 
+Lecture 
+Language Analysis and Computational Linguistics  
+Language Analysis: 
+• Paradigmatic and Syntagmatic relationship 
+• Form, Function and Meaning in Language Analysis 
+• Levels of Linguistic Analysis: Phonetics, Phonology, Morphology, Syntax, 
+Semantics, 
+• Discourse, Pragmatics, Lexicology 
+• Artificial Intelligence (AI) and its sub disciplines 
+• Natural Language Understanding (NLU) 
+• Natural Language Generation (NLG) 
+• Natural Language Interaction (NLI) 
+Assignment: Difference between Semantics and Pragmatics 
+ 
+ 
+Session 3: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+Shallow Parsing and Tools for NLP 
+• Morphological Analysis 
+• Tokenization & PoS Tagging 
+• Chunking & Multi word expression (MWE) 
+• Named-Entity Recognition 
+• Lemmatizer & Stemming 
+• Morphological Synthesis 
+• Word Sense Disambiguation 
+• Universal Networking Language 
+ 
+Assignment:  Apply tok , stemming , lemma, and POS tagging for following data 
+https://www.kaggle.com/arushchillar/disneyland-reviews 
+ 
+ 
+Session 4: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+Deep Parsing and Tools for NLP 
+• Syntactic Parsing Techniques and algorithms 
+• Semantic Parsing 
+• Information Extraction 
+• Automatic Summarization 
+• Anaphora Resolution, Pragmatics and Discourse analysis 
+• Ontology & Semantic Web 
+ 
+ 
+ 
+ACTS, Pune 
+PG-DAI Page 3 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+Session 5: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+Statistical Approaches 
+• Probability Theory & Models 
+• Discrete Time Models 
+• Markov Models, Entropy Models 
+• Statistical Parsing 
+• Text Categorization / Classification and Clustering 
+• Text Classification Using Support Vector Machine (SVM) 
+• Centroid based Classification 
+ 
+Session 6: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+NLP with Machine Learning and Deep Learning 
+• Machine Learning & Deep Learning for NLP 
+• ML vs. DL along with respective algorithms names 
+• Linear Algebra Review 
+• ANN, RNN, CNN, DNN Long Short-Term Memory (LSTM) 
+• Gated Feedback Recurrent Neural Networks 
+Assignment: Difference between ANN, RNN and CNN 
+ 
+Session 7: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+Study of Important ML/DL Algorithms & Case Studies: 
+• Pre-processing 
+• Need of Pre-processing Data 
+• Introduction to NLTK, spaCy 
+• Using Python Scripts 
+ 
+Session 8: (2 Hrs of Theory + 4 Hrs of Lab) 
+• Introduction to gates, GRU and LSTM 
+• How LSTM and GRU resolves exploding and vanishing gradient problems 
+Assignment –Lab: 
+• Implement LSTM and GRU in python 
+• Sequence Modeling Lab 
+• Using Tensor Flow and python for music 
+• Generation using deep learning 
+ 
+Session 9: (2 Hrs of Theory + 4 Hrs of Lab) 
+• Sequence Modeling - Word representation 
+• word embedding matrix 
+• learning words and embedding’s 
+• Sentiment classifications 
+ACTS, Pune 
+PG-DAI Page 4 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+ 
+Session 10: (2 Hrs of Theory + 4 Hrs of Lab) 
+Lecture 
+Word2Vec models (Skip-gram, CBOW, Glove, one hot Encoding) 
+• Sequence-to-sequence models (Seq2Seq) - GloVe: Global Vectors for 
+Word representation 
+• Brief on Sequence-to-Sequence Models  
+• RNN based Sequence-to-Sequence Model  
+• Challenges 
+• Transformer in NLP  
+• Understanding the Model Architecture  
+o Getting Hang of Self- Attention 
+o Calculation of Self-Attention  
+o Limitations of the Transformer 
+• Transformer-XL o Using Transformer for Language Modeling  
+• Using Transformer- XL for Language Modeling 
+ 
+Session 11: (2 Hrs of Theory + 4 Hrs of Lab) 
+• Bert in NLP  
+• Model Architecture 
+• BERT Pre-Training Tasks 
+• NLP Model Deployment Techniques using Flask 
+ 
+Session 12 & 13: 
+Speech Processing 
+• Articulatory Phonetics 
+• Speech Sounds and Phonetic Transcription 
+• Acoustic Phonetics 
+• Phonology 
+• Computational Phonology 
+• Digital Signal Processing Techniques 
+• Automatic Speech Recognition (ASR) 
+• Speech Recognition Approaches 
+• Text to Speech (TTS) system 
+• Speech Synthesis Approaches 
+• Language Models 
+ 
+Lab Session: 
+NLP Applications 
+• Lexicon, Dictionaries, thesaurus 
+• Transliteration, Spell Checker, Grammar Checker, Domain identification, 
+Language identification 
+• Auto suggest/ Auto complete, Gender Prediction 
+ACTS, Pune 
+PG-DAI Page 5 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+• Machine Translation 
+• Neural machine translation 
+• Information extraction and Retrieval 
+• Question answering & dialogue agents 
+• Speech Technologies 
+• OCR, Hand Writing Recognition 
+• Indian Language Script Technology 
+• Language identification 
+• Auto suggest/ Auto complete, chat bots, Robotics 
+ 
+ 
+ 
+Computer Vision (14 Hrs Theory + 16 Hrs Lab) 
+ 
+Session 14 & 15: 
+• Introduction to Computer Vision 
+• Computer Vision and Natural Language Processing 
+• The Three R's of Computer Vision 
+• Basics of Image Processing 
+• Vision Level – Low, Mid & High 
+ 
+Lab Assignments: Load any .jpeg image and process the image using Open CV 
+ 
+Session 16 & 17: 
+• Edge Detection, Interest Points and Corners 
+• Image Classification 
+• Recognition, Bag of Features, and Large-scale Instance Recognition 
+• Transfer Learning 
+ 
+Lab Assignments: Load any image and classify the image and implement the edge 
+detection 
+ 
+Session 18: (2 Hrs of Theory and 4 Hrs of Lab) 
+• Alex Net, 
+• ResNet, 
+• Image Net 
+ 
+Lab Assignments: Implement AlexNet, ResNet and Image Net on the data sets. 
+ 
+Session 19 & 20: 
+Introduction to Object Detection Algorithms 
+• YoLo (High Level Overview) 
+• RCNN 
+• Fast RCNN 
+ACTS, Pune 
+PG-DAI Page 6 of 6 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PG-DAI August 2025  
+ 
+• Faster RCNN 
+• Mask RCNN 
+ 
+Lab Session 
+Applications of Computer Vision 
+• Gender Prediction 
+• Image Mapping 
+• Face / Object Recognition 
+• Image Recreation 
+• Image Matching 

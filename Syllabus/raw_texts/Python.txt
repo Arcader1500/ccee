@@ -1,0 +1,405 @@
+ACTS, Pune 
+PG-DAI Page 1 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ 
+Duration: 44 Classroom hours and 46 Lab hours 
+ 
+Objective: To introduce the student to Python Programming 
+ 
+Prerequisites: Knowledge of programming in any language like C, C++ and basic statistical 
+knowledge. 
+ 
+Evaluation method: Theory exam– 40% weightage 
+                                     Lab exam – 40% weightage          
+Internal exam– 20% weightage 
+ 
+List of Books / Other training material 
+ 
+Courseware: Python For Everybody: Exploring Data In Python 3, Charles R.Severance, 
+ 
+Reference Book: 
+ 
+1. Data wrangling using python by Jacqueline Kazil, Katharine Jarmul 
+2. Introduction to Computer Science using Python, Charles/ Wiley 
+3. Learn Python the Hard Way, Zed A.Shaw, Pearson , 2018 
+4. Python Crash Course: A Hands-on, Project-Based Introduction to Programming 
+5. Python Cookbook by David B. Brain K. Jones / Shroff / O'reilly Publisher 
+6. Head First Python by Paul Barry / Shroff / O'reilly Publisher 
+7. Beginning Programming with Python for Dummies by John Paul Muller / Wiley 
+ 
+Note: 
+• Each session mentioned is of 2 hours of Theory and 2 hours of Lab unless 
+indicated otherwise. T considered as Theory and L considered as Lab. 
+• Lab assignments are indicative; faculty shall provide adequate assignments 
+for better practice. 
+• Faculties are advised to give at least one lab assignment as end-to-end 
+application. 
+ 
+Session 1 & 2:  
+Lecture 
+ Installing Python 
+ Introduction to Python 
+ Introduction to different Python IDE 
+ Basic Syntax 
+ Data Types, Variables, Operators, Input/output 
+ Declaring variable, data types in programs 
+
+ACTS, Pune 
+PG-DAI Page 2 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ Your First Python Program 
+ Flow of Control (Modules, Branching) 
+ If, If- else, Nested if-else o Looping, For, While 
+ Nested loops 
+ Control Structure 
+ Uses of Break & Continue 
+Lab Assignments: 
+Q.1. Using for loop, write and run a Python program for this 
+algorithm. Here is an algorithm to print out n! (n factorial) 
+from 0! to 10! : 
+1. Set f = 1 
+2. Set n = 0 
+3. Repeat the following 10 times: 
+a. Output n, "! = ", f 
+b. Add 1 to n 
+c. Multiply f by n 
+ 
+Q.2. Modify the program above using a while loop so it prints out all of the factorial values 
+that are less than 2 billion. (You should be able to do this without looking at the output of 
+the previous exercise.) 
+ 
+Session 3  
+Lecture 
+Pass, Strings and 
+Tuples 
+ Accessing Strings 
+ Basic Operations 
+ Assigning Multiple Values at Once 
+ Formatting Strings 
+ String slices, 
+ Historical Note on String Methods 
+ 
+Lab Assignments: 
+Q.1. Write a program that asks the user how many days are in a particular month, and 
+what day of the week the month begins on (0 for Monday, 1 for Tuesday, etc), and then 
+prints a calendar for that month. For example, here is the output for a 30-day month that 
+begins on day 4 (Thursday): S 
+M   T   W   T   F   S   S 
+                  1   2   3    4 
+5    6    7    8   9  10 11 
+12 13  14  15 16 17 18  
+19 20   21 22 23 24 25 
+26 27   28 29 30
+ACTS, Pune 
+PG-DAI Page 3 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ 
+Q. 2. A pangram is a sentence that contains all the letters of the English alphabet at least 
+once, for example: The quick brown fox jumps over the lazy dog. Your task here is to write a 
+function to check a sentence to see if it is a pangram or not. 
+ 
+Session 4  
+Lecture 
+Dictionaries 
+ Introducing Dictionaries 
+ Defining Dictionaries 
+ Modifying Dictionaries 
+ Deleting Items from Dictionaries 
+Lab Assignments: 
+Q. 1. In cryptography, a Caesar cipher is a very simple encryption techniques in which each 
+letter in the  plain text is replaced by a letter some fixed number of positions down the 
+alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and 
+so on. The method is named after Julius Caesar, who used it to communicate with his 
+generals. ROT -13 ("rotate by 13 places") is a widely used example of a Caesar cipher 
+where the shift is 13. In Python, the key for ROT -13 may be represented by means of the 
+following dictionary: 
+ 
+key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u', 'i':'v', 'j':'w', 'k':'x', 'l':'y', 'm':'z', 'n':'a', 
+'o':'b', 
+'p':'c', 'q':'d', 'r':'e', 's':'f', 't':'g', 'u':'h', 'v':'i', 'w':'j', 'x':'k', 'y':'l', 'z':'m', 'A':'N', 'B':'O', 'C':'P', 'D':'Q', 
+'E':'R', 
+'F':'S', 'G':'T', 'H':'U', 'I':'V', 'J':'W', 'K':'X', 'L':'Y', 'M':'Z', 'N':'A', 'O':'B', 'P':'C', 'Q':'D', 'R':'E', 
+'S':'F', 'T':'G', 'U':'H', 'V':'I', 'W':'J', 'X':'K', 'Y':'L', 'Z':'M'} 
+ 
+Your task in this exercise is to implement an encoder/decoder of ROT-13. Once you're 
+done, you will be able to read the following secret message: 
+ 
+Pnrfne pvcure? V zhpu cersre Pnrfne fnynq! 
+Note that since English has 26 characters, your ROT-13 program will be able to both 
+encode and decode texts written in English. 
+ 
+Session 5 & 6  
+Lecture 
+Working with Lists 
+ Introducing Lists 
+ Defining Lists 
+ Declare, assign and retrieve values from Lists 
+ Accessing list o Operations in Lists 
+ Adding Elements to Lists 
+ACTS, Pune 
+PG-DAI Page 4 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ Searching Lists 
+ Deleting List Elements 
+ Using List Operators 
+ Mapping Lists 
+ Joining Lists and Splitting Strings 
+ 
+Lab Assignments: 
+ 
+Write programs using lists in python 
+Q.1. Reverse a given list in Python  
+= [100, 200, 300, 400, 500] output: 
+[500, 400, 300, 200, 100] 
+Q.2. Find the largest and smallest number in the list which taken as input from user 
+using list operations. 
+ 
+Session 7 & 8 
+Lecture 
+Function and Methods 
+ Defining a function 
+ Calling a function 
+ Types of functions 
+ Function Arguments 
+ Anonymous functions 
+ Global and local variables 
+ Using Optional and Named Arguments 
+ Using type, str, dir, and Other Built-In Functions 
+ Regular Expressions Using python 
+ 
+Lab Assignments: 
+Q1.Given a dictionary of students and their favourite
+ colours: people={'Arham':'Blue','Lisa':'Yellow',''Vinod:'Purple','Jenny':'Pink'} 
+1. Find out how many students are in the list 
+2. Change Lisa’s favourite colour 
+3. Remove 'Jenny' and her favourite colour 
+4. Sort and print students and their favourite colours alphabetically by name 
+ 
+Write a function translate() that will translate a text into "rövarspråket" (Swedish for 
+"robber's language"). That is, double every consonant and place an occurrence of "o" in 
+between. For example, translate("this is fun") should return the string 
+"tothohisosisosfofunon". 
+ 
+Q.2. Write a function filter_long_words() that takes a list of words and an integer n and 
+returns the list of words that are longer than n
+ACTS, Pune 
+PG-DAI Page 5 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ 
+Session 9  
+Lecture 
+Working with Tuples 
+ Introducing Tuples 
+ Accessing tuples 
+ Operations 
+ 
+Lab Assignments: 
+Q.1. Swap the following two 
+tuples tuple1 = (11, 22) 
+tuple2 = 
+(99, 88) Expected output: 
+tuple1 = (99, 88) 
+tuple2 = (11, 22) 
+ 
+Session 10 & 11 (4T + 6L) 
+Lecture 
+Advanced Python: 
+ Object Oriented Python 
+ OOPs concept 
+ What's an Object? 
+ Native Data types 
+ Declaring variables 
+ Referencing Variables 
+ Object References 
+ Class and object 
+ Decorators 
+ Attributes, Inheritance 
+ Overloading & Overriding 
+ Data hiding 
+ 
+Lab Assignments: 
+ 
+Q.1. Write a python program using Object oriented programming for the following: 
+Accept data in following format for salaried employee objects and contract employee. 
+employee objects:  
+Salaried employee 
+12,kishori,training,Manager,1111 
+13,rajan,game,game 
+designer,11111 
+ 
+ 
+ACTS, Pune 
+PG-DAI Page 6 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+contractemployee 
+12,esha,insurance,Manager,12,1000.00 
+13,revati,ux,ux designer,111,1500.00 
+ 
+Using inheritance, Create classes as follows: person 
+----id,name 
+employee :dept,desg(person is a parent class) 
+salariedemp :sal, bonus (20% of sal) (employee is a parent class) 
+contractemp: hrs worked , hourly charges (employee is a parent class) 
+ 
+Store employee data in a list and perform the following function on it.  
+a) Add new Employee 
+b) Delete employee 
+c) Modify salary of employee 
+d) Search employee 
+e) Calculate Salary of Employee 
+f) Display All 
+g) Exit --- 
+ 
+Add calculate Sal function in both 
+classes Formula for calculate Sal for 
+salariedEmp= 
+Da=10% of sal 
+Hra=15% of sal 
+Pf=8% of sal 
+Net sal=sal+da+hra-pf 
+Formula for calculate Sal for contract Emp = hrs_worked * hourly charges 
+ 
+Session 12:  
+Lecture 
+Operations Exception 
+ 
+ Exception Handling 
+ Except clause 
+ Try finally clause 
+ User Defined Exceptions 
+ 
+Lab Assignments: 
+Q1. Create a short program that prompts the user for a list of grades separated by 
+commas. Split the string into individual grades and use a list comprehension to convert 
+each string to an integer. Use a “try” statement to inform the user when the values they 
+entered cannot be converted. 
+ACTS, Pune 
+PG-DAI Page 7 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ Q2. Investigate what happens when there is a “return” statement in both try clause and 
+finally clause of try statement. 
+Q3. Create a file named “data.txt”, Open it for reading using python, use try block to catch 
+exception that arises when file doesn’t exist. 
+ 
+Session 13 
+Lecture 
+ Libraries and Functionality Programming 
+ Debugging basics 
+ Logging using Python 
+ 
+Lab Assignments: 
+ 
+Q.1. Write a program for factorial using recursion. 
+Q.2. Write a code to check the number is Armstrong or not using Lambda Function. 
+ 
+ 
+Session 14, 15 & 16 
+Lecture 
+ Working with Numpy, Scipy 
+ Working with Pandas 
+ Data wrangling with Pandas 
+ 
+Lab Assignments: 
+ 
+Q.1. Numpy assignments - accept 20 numbers from user and store it in a list1, list2, list3, 
+list4 (5 numbers in each list) 
+Then convert these list into 2 numpy array (list1, list2 in array1 and list3 and list4 in 
+array2) and find member wise addition, multiplication, subtraction also find exponential of 
+first array 
+ 
+Q.2. Complete following 
+program import pandas as pd 
+mymoviedata=pd.read_table("http://bit.ly/movieusers",sep="|",header=None) 
+print(mymovie data.head()) 
+ 
+# add headings to the column- sr.no, age, Gender, profession, Views 
+#display only column gender 
+#add col6 concatenate values of age and gender and separate them by : 
+# retrieve values of age and views display bar graph(hint : agewise grouping and find 
+average views) # retrieve values of profession and views display bar graph (use 
+grouping) 
+
+ACTS, Pune 
+PG-DAI Page 8 of 8 
+ 
+ 
+Suggested Teaching Guidelines for 
+Advanced Programming Using Python 
+PG-DAI August 2025  
+ 
+ 
+Session 17 & 18 
+Lecture 
+ Working with matplotlib seaborn 
+ Working with ggplot, plotly 
+ 
+Lab Assignments: 
+ 
+Q.1. #create a list for storing year 2010 to 2014 
+#create a list for each year for storing sales amount for 5 products in each 
+years #draw pie chart and stack graph to compare sales 
+1. Yearly comparison 
+Year and max sale in each year 
+2. Draw separate graph for each year(5 different pie 
+charts) Product and average sale of that product 
+ 
+Session 19 
+Lecture 
+ DB’s in Python 
+ Working on DB using Python 
+ 
+Lab Assignments: 
+Q1. Create user table in database to store username, address, mobile and email. Add 10 
+records in the table Write a python program to accept username and address from user 
+check whether user exists in user table. If exists, then display details of user on the 
+screen and if user not found then accept user details and store it in the table 
+ 
+Session 20 & 21 
+Lecture 
+ Web based frameworks: Flask and Django 
+ 
+Lab Assignments: 
+Q.1. Create website using Flask and Django frameworks. 
+Q.2.  
+Session 22 
+Lecture 
+ Request and URL-Lib 
+ Working with scrappy 
+ 
+Lab Assignments: 
+Q.1.Extract any website data using Scrappy. 
