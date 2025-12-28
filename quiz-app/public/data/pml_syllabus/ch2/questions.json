@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch2_1",
+        "text": "What is 'Clustering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Task of grouping a set of objects such that objects in the same group are more similar to each other than to those in other groups."
+            },
+            {
+                "id": "b",
+                "text": "Predicting numbers."
+            },
+            {
+                "id": "c",
+                "text": "Labeling data."
+            },
+            {
+                "id": "d",
+                "text": "Sorting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Unsupervised task.",
+        "explanation": "No labels are provided; the algorithm finds natural patterns."
+    },
+    {
+        "id": "pml_ch2_2",
+        "text": "How does K-Means Clustering work?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It iteratively moves centroids to the center of clusters and reassigns points."
+            },
+            {
+                "id": "b",
+                "text": "It builds a tree."
+            },
+            {
+                "id": "c",
+                "text": "It uses a voting system."
+            },
+            {
+                "id": "d",
+                "text": "It calculates gradients."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Centroid-based.",
+        "explanation": "Highly efficient but requires pre-specifying 'K'."
+    },
+    {
+        "id": "pml_ch2_3",
+        "text": "What is 'K' in K-Means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Number of clusters desired."
+            },
+            {
+                "id": "b",
+                "text": "Number of columns."
+            },
+            {
+                "id": "c",
+                "text": "A constant value of 10."
+            },
+            {
+                "id": "d",
+                "text": "Total number of data points."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hyperparameter.",
+        "explanation": "Determines how many groups the data will be split into."
+    },
+    {
+        "id": "pml_ch2_4",
+        "text": "What is 'Hierarchical Clustering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A method that seeks to build a hierarchy of clusters (often shown as a Dendrogram)."
+            },
+            {
+                "id": "b",
+                "text": "Clustering for bosses."
+            },
+            {
+                "id": "c",
+                "text": "Faster K-Means."
+            },
+            {
+                "id": "d",
+                "text": "A flat clustering."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Tree-like structure.",
+        "explanation": "Can be Agglomerative (bottom-up) or Divisive (top-down)."
+    },
+    {
+        "id": "pml_ch2_5",
+        "text": "What is a 'Dendrogram'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A tree diagram representing the arrangement of clusters produced by hierarchical clustering."
+            },
+            {
+                "id": "b",
+                "text": "A type of graph for regression."
+            },
+            {
+                "id": "c",
+                "text": "A pie chart."
+            },
+            {
+                "id": "d",
+                "text": "A unit of memory."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Visualizing hierarchy.",
+        "explanation": "Shows at what distance clusters were merged."
+    },
+    {
+        "id": "pml_ch2_6",
+        "text": "What is 'DBSCAN'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Density-Based Spatial Clustering of Applications with Noise."
+            },
+            {
+                "id": "b",
+                "text": "Deep Binary Scan."
+            },
+            {
+                "id": "c",
+                "text": "Database Scan."
+            },
+            {
+                "id": "d",
+                "text": "Distance Based Scan."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Density-based.",
+        "explanation": "Finds arbitrarily shaped clusters and identifies noise (outliers)."
+    },
+    {
+        "id": "pml_ch2_7",
+        "text": "Advantage of DBSCAN over K-Means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Doesn't require pre-specifying the number of clusters."
+            },
+            {
+                "id": "b",
+                "text": "Can find non-spherical clusters."
+            },
+            {
+                "id": "c",
+                "text": "Identifies outliers automatically."
+            },
+            {
+                "id": "d",
+                "text": "All of the above."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Robust clustering.",
+        "explanation": "DBSCAN is much more flexible for complex distributions."
+    },
+    {
+        "id": "pml_ch2_8",
+        "text": "In DBSCAN, what is 'Epsilon' (eps)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Maximum distance between two samples for one to be considered in neighborhood of another."
+            },
+            {
+                "id": "b",
+                "text": "Number of clusters."
+            },
+            {
+                "id": "c",
+                "text": "Starting point."
+            },
+            {
+                "id": "d",
+                "text": "Error rate."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Radius of neighborhood.",
+        "explanation": "Controls the 'reach' of the density search."
+    },
+    {
+        "id": "pml_ch2_9",
+        "text": "What is 'WCSS' (Within-Cluster Sum of Squares)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sum of squared distances between each point and its centroid."
+            },
+            {
+                "id": "b",
+                "text": "Total variance."
+            },
+            {
+                "id": "c",
+                "text": "Mean of clusters."
+            },
+            {
+                "id": "d",
+                "text": "Accuracy score."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Measure of compactness.",
+        "explanation": "Used in the Elbow Method to evaluate K-Means."
+    },
+    {
+        "id": "pml_ch2_10",
+        "text": "What is the 'Silhouette Score'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Measure of how similar an object is to its own cluster compared to other clusters."
+            },
+            {
+                "id": "b",
+                "text": "Count of empty clusters."
+            },
+            {
+                "id": "c",
+                "text": "Speed of code."
+            },
+            {
+                "id": "d",
+                "text": "The depth of a tree."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Distance between clusters.",
+        "explanation": "Ranges from -1 (wrong) to +1 (perfectly matched)."
+    },
+    {
+        "id": "pml_ch2_11",
+        "text": "What is 'Agglomerative' clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bottom-up approach where each point starts as a cluster and merges."
+            },
+            {
+                "id": "b",
+                "text": "Top-down approach."
+            },
+            {
+                "id": "c",
+                "text": "Random clustering."
+            },
+            {
+                "id": "d",
+                "text": "Using centroids only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Merging clusters.",
+        "explanation": "Most common type of hierarchical clustering."
+    },
+    {
+        "id": "pml_ch2_12",
+        "text": "What is 'Linkage' in hierarchical clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The rule used to calculate distance between two clusters (e.g., ward, single, complete)."
+            },
+            {
+                "id": "b",
+                "text": "Joining computers."
+            },
+            {
+                "id": "c",
+                "text": "Loading data."
+            },
+            {
+                "id": "d",
+                "text": "Deleting clusters."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "How to measure cluster distance.",
+        "explanation": "'Single' uses the closest points; 'Complete' uses the furthest."
+    },
+    {
+        "id": "pml_ch2_13",
+        "text": "K-Means is sensitive to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Outliers."
+            },
+            {
+                "id": "b",
+                "text": "Initial choice of centroids."
+            },
+            {
+                "id": "c",
+                "text": "Scaling of features."
+            },
+            {
+                "id": "d",
+                "text": "All of the above."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Weaknesses of K-Means.",
+        "explanation": "Needs careful initialization (like K-Means++) and normalized data."
+    },
+    {
+        "id": "pml_ch2_14",
+        "text": "What is a 'Centroid'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The center of a cluster (average of all points in it)."
+            },
+            {
+                "id": "b",
+                "text": "A type of robot."
+            },
+            {
+                "id": "c",
+                "text": "The first data point."
+            },
+            {
+                "id": "d",
+                "text": "A rejected point."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Geographic center.",
+        "explanation": "Represents the cluster prototype."
+    },
+    {
+        "id": "pml_ch2_15",
+        "text": "If WCSS drops sharply and then slowly, the sharp bend is called the?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Elbow."
+            },
+            {
+                "id": "b",
+                "text": "Knee."
+            },
+            {
+                "id": "c",
+                "text": "Spine."
+            },
+            {
+                "id": "d",
+                "text": "Edge."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Optimization graph.",
+        "explanation": "Indicates the point of diminishing return for K."
+    },
+    {
+        "id": "pml_ch2_16",
+        "text": "What is 'Mean Shift' clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A sliding-window balanced algorithm that attempts to find dense areas of data points."
+            },
+            {
+                "id": "b",
+                "text": "Shifting all data to 0."
+            },
+            {
+                "id": "c",
+                "text": "A type of regression."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Centroid shifting.",
+        "explanation": "It iterates to find the mode of a density distribution."
+    },
+    {
+        "id": "pml_ch2_17",
+        "text": "In DBSCAN, a 'Core Point' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A point with at least 'min_samples' in its neighborhood."
+            },
+            {
+                "id": "b",
+                "text": "The center of the world."
+            },
+            {
+                "id": "c",
+                "text": "The first point."
+            },
+            {
+                "id": "d",
+                "text": "An outlier."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dense point.",
+        "explanation": "Starts a new cluster or expands one."
+    },
+    {
+        "id": "pml_ch2_18",
+        "text": "In DBSCAN, a 'Noise Point' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A point that is neither a core point nor reachable from any core point."
+            },
+            {
+                "id": "b",
+                "text": "A point that talks too much."
+            },
+            {
+                "id": "c",
+                "text": "A zero point."
+            },
+            {
+                "id": "d",
+                "text": "Center of cluster."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Outlier.",
+        "explanation": "These are the 'noise' that the algorithm ignores."
+    },
+    {
+        "id": "pml_ch2_19",
+        "text": "What is 'Medoid' (in K-Medoids)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The ACTUAL data point that is closest to all other points in a cluster."
+            },
+            {
+                "id": "b",
+                "text": "The average point."
+            },
+            {
+                "id": "c",
+                "text": "A random point."
+            },
+            {
+                "id": "d",
+                "text": "A type of medicine."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Real point vs Mean.",
+        "explanation": "More robust to outliers than K-Means."
+    },
+    {
+        "id": "pml_ch2_20",
+        "text": "Most common distance metric for K-Means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Euclidean Distance."
+            },
+            {
+                "id": "b",
+                "text": "Manhattan Distance."
+            },
+            {
+                "id": "c",
+                "text": "Hamming Distance."
+            },
+            {
+                "id": "d",
+                "text": "Cosine Similarity."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Straight line distance.",
+        "explanation": "Standard measure in many-dimensional numeric space."
+    },
+    {
+        "id": "pml_ch2_21",
+        "text": "Can K-Means work with categorical data directly?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, because 'mean' of categories is not defined."
+            },
+            {
+                "id": "b",
+                "text": "Yes, always."
+            },
+            {
+                "id": "c",
+                "text": "Only for binary."
+            },
+            {
+                "id": "d",
+                "text": "Maybe."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mathematical limitation.",
+        "explanation": "Requires encoding or specialized variants like K-Modes."
+    },
+    {
+        "id": "pml_ch2_22",
+        "text": "What is 'Spectral Clustering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using eigenvalues of similarity matrix to perform dimensionality reduction before clustering."
+            },
+            {
+                "id": "b",
+                "text": "Clustering for ghosts."
+            },
+            {
+                "id": "c",
+                "text": "Clustering light waves."
+            },
+            {
+                "id": "d",
+                "text": "Searching web."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Graph-based clustering.",
+        "explanation": "Useful for identifying clusters based on connectivity rather than just distance."
+    },
+    {
+        "id": "pml_ch2_23",
+        "text": "What is 'Curse of Dimensionality' in clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Distance between points becomes almost uniform, making clusters hard to find."
+            },
+            {
+                "id": "b",
+                "text": "Too much memory use."
+            },
+            {
+                "id": "c",
+                "text": "Model crashes."
+            },
+            {
+                "id": "d",
+                "text": "Sorting error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sparse data issue.",
+        "explanation": "As dimensionality increases, the concept of 'closest' neighbor fades."
+    },
+    {
+        "id": "pml_ch2_24",
+        "text": "'GMM' (Gaussian Mixture Model) is different from K-Means because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It uses probabilities (Soft assignment) instead of hard labels."
+            },
+            {
+                "id": "b",
+                "text": "It is faster."
+            },
+            {
+                "id": "c",
+                "text": "It is discrete."
+            },
+            {
+                "id": "d",
+                "text": "It uses trees."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Probability based.",
+        "explanation": "GMM assumes points come from multiple normal distributions overlapping."
+    },
+    {
+        "id": "pml_ch2_25",
+        "text": "In hierarchical clustering, what is 'Divisive'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Top-down approach where all points start in one cluster and split."
+            },
+            {
+                "id": "b",
+                "text": "Bottom-up approach."
+            },
+            {
+                "id": "c",
+                "text": "Division of numbers."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Splitting hierarchy.",
+        "explanation": "Starts with everyone in a single large group."
+    },
+    {
+        "id": "pml_ch2_26",
+        "text": "What is 'Balanced iterative reducing and clustering using hierarchies' (BIRCH)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A memory-efficient clustering algorithm for very large datasets."
+            },
+            {
+                "id": "b",
+                "text": "A type of tree."
+            },
+            {
+                "id": "c",
+                "text": "A sorting method."
+            },
+            {
+                "id": "d",
+                "text": "A database tool."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Large scale clustering.",
+        "explanation": "Designed to handle massive data by building a tree summarize."
+    },
+    {
+        "id": "pml_ch2_27",
+        "text": "Complexity of K-Means is roughly?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Linear with number of points O(n)."
+            },
+            {
+                "id": "b",
+                "text": "Exponential O(e^n)."
+            },
+            {
+                "id": "c",
+                "text": "Logarithmic O(log n)."
+            },
+            {
+                "id": "d",
+                "text": "Infinite."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Efficient algorithm.",
+        "explanation": "It's very scalable for millions of points."
+    },
+    {
+        "id": "pml_ch2_28",
+        "text": "What is a 'Flat' clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clusters that don't have a hierarchical relationship (like K-Means)."
+            },
+            {
+                "id": "b",
+                "text": "Zero depth."
+            },
+            {
+                "id": "c",
+                "text": "Empty clustering."
+            },
+            {
+                "id": "d",
+                "text": "Flat file."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Direct partitioning.",
+        "explanation": "The output is just a list of cluster labels."
+    },
+    {
+        "id": "pml_ch2_29",
+        "text": "What refers to 'Compactness' in clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "How close the points in a cluster are to the centroid."
+            },
+            {
+                "id": "b",
+                "text": "Total number of points."
+            },
+            {
+                "id": "c",
+                "text": "File size."
+            },
+            {
+                "id": "d",
+                "text": "Speed."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Density.",
+        "explanation": "High compactness usually means a 'better' cluster."
+    },
+    {
+        "id": "pml_ch2_30",
+        "text": "What refers to 'Separation' in clustering?",
+        "options": [
+            {
+                "id": "a",
+                "text": "How well distinct clusters are separated from each other."
+            },
+            {
+                "id": "b",
+                "text": "Splitting a file."
+            },
+            {
+                "id": "c",
+                "text": "Removing data."
+            },
+            {
+                "id": "d",
+                "text": "Deleting code."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Inter-cluster distance.",
+        "explanation": "High separation ensures clusters are distinct and not overlapping too much."
+    }
+]

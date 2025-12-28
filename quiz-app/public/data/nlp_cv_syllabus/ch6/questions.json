@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch6_1",
+        "text": "What is 'Convolutional Neural Network' (CNN)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Type of deep neural network specialized for processing structured grid data like images."
+            },
+            {
+                "id": "b",
+                "text": "A network for text only."
+            },
+            {
+                "id": "c",
+                "text": "A simple list of rules."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Image processing NN.",
+        "explanation": "Uses convolutional layers to learn local patterns (edges, textures)."
+    },
+    {
+        "id": "nlp_cv_ch6_2",
+        "text": "What is a 'Convolutional Layer'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A layer that applies learned filters to find features."
+            },
+            {
+                "id": "b",
+                "text": "A layer that sorts pixels."
+            },
+            {
+                "id": "c",
+                "text": "A fully connected layer."
+            },
+            {
+                "id": "d",
+                "text": "Input layer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feature extractor.",
+        "explanation": "The core building block of a CNN."
+    },
+    {
+        "id": "nlp_cv_ch6_3",
+        "text": "What is 'Pooling' (Max/Average Pooling) used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To reduce the spatial dimensions (Width/Height) of the feature maps, reducing parameters."
+            },
+            {
+                "id": "b",
+                "text": "To add more pixels."
+            },
+            {
+                "id": "c",
+                "text": "To change colors."
+            },
+            {
+                "id": "d",
+                "text": "To save the image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Downsampling.",
+        "explanation": "Makes the network invariant to small shifts in the input."
+    },
+    {
+        "id": "nlp_cv_ch6_4",
+        "text": "What is 'ReLU' (Rectified Linear Unit)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Activation function that outputs input if positive, else 0."
+            },
+            {
+                "id": "b",
+                "text": "A type of CNN."
+            },
+            {
+                "id": "c",
+                "text": "A pooling method."
+            },
+            {
+                "id": "d",
+                "text": "A layer type."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "f(x) = max(0, x).",
+        "explanation": "Standard non-linear activation for CNNs to speed up training."
+    },
+    {
+        "id": "nlp_cv_ch6_5",
+        "text": "What is 'Padding'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding zero pixels around image border to control the size of the output feature map."
+            },
+            {
+                "id": "b",
+                "text": "Deleting borders."
+            },
+            {
+                "id": "c",
+                "text": "Adding more images."
+            },
+            {
+                "id": "d",
+                "text": "Writing comments in code."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Border maintenance.",
+        "explanation": "'Same' padding ensures output size equals input size (with stride 1)."
+    },
+    {
+        "id": "nlp_cv_ch6_6",
+        "text": "What is 'Stride'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The distance the filter moves (slides) across the image."
+            },
+            {
+                "id": "b",
+                "text": "Size of the filter."
+            },
+            {
+                "id": "c",
+                "text": "Depth of the network."
+            },
+            {
+                "id": "d",
+                "text": "Speed of training."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Step size.",
+        "explanation": "Stride > 1 results in downsampling."
+    },
+    {
+        "id": "nlp_cv_ch6_7",
+        "text": "What made 'AlexNet' (2012) significant?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Won ImageNet competition by a large margin, launching the Deep Learning revolution."
+            },
+            {
+                "id": "b",
+                "text": "Built by Einstein."
+            },
+            {
+                "id": "c",
+                "text": "First neural network ever."
+            },
+            {
+                "id": "d",
+                "text": "Was a very shallow network."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Deep CV breakthrough.",
+        "explanation": "Proved that deep CNNs on GPUs outperfrom hand-crafted features."
+    },
+    {
+        "id": "nlp_cv_ch6_8",
+        "text": "What is the key feature of 'ResNet' (Residual Network)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Skip connections (Residual blocks) to allow training very deep networks (100+ layers)."
+            },
+            {
+                "id": "b",
+                "text": "Uses no convolution."
+            },
+            {
+                "id": "c",
+                "text": "Is very thin."
+            },
+            {
+                "id": "d",
+                "text": "Only for text."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Solving vanishing gradients.",
+        "explanation": "Helps gradients flow through much deeper layers without fading."
+    },
+    {
+        "id": "nlp_cv_ch6_9",
+        "text": "What is 'Object Detection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classification + Localization (predicting bounding boxes and labels for multiple objects)."
+            },
+            {
+                "id": "b",
+                "text": "Identifying image category."
+            },
+            {
+                "id": "c",
+                "text": "Pixel-wise coloring."
+            },
+            {
+                "id": "d",
+                "text": "Deleting objects."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Boxes and labels.",
+        "explanation": "Answers 'What is it?' and 'Where is it?'."
+    },
+    {
+        "id": "nlp_cv_ch6_10",
+        "text": "What does 'YOLO' stand for in CV?",
+        "options": [
+            {
+                "id": "a",
+                "text": "You Only Look Once."
+            },
+            {
+                "id": "b",
+                "text": "Your Object Location Output."
+            },
+            {
+                "id": "c",
+                "text": "Yellow Object Level Optimizer."
+            },
+            {
+                "id": "d",
+                "text": "Yellow One Logic Only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Fast detection.",
+        "explanation": "Processes the whole image in one single pass, making it very fast for real-time video."
+    },
+    {
+        "id": "nlp_cv_ch6_11",
+        "text": "What is 'Semantic Segmentation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classifying every pixel into a category."
+            },
+            {
+                "id": "b",
+                "text": "Classifying every object but not pixels."
+            },
+            {
+                "id": "c",
+                "text": "Only detecting edges."
+            },
+            {
+                "id": "d",
+                "text": "Summarizing image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Pixel-level classification.",
+        "explanation": "Example: Every pixel belonging to a 'tree' is colored green."
+    },
+    {
+        "id": "nlp_cv_ch6_12",
+        "text": "What is 'Instance Segmentation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Different pixels belonging to different individuals of the SAME class (e.g., separate People)."
+            },
+            {
+                "id": "b",
+                "text": "Only one segment."
+            },
+            {
+                "id": "c",
+                "text": "Classification only."
+            },
+            {
+                "id": "d",
+                "text": "Object detection box."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Semantic + Detection.",
+        "explanation": "Mask R-CNN is a popular architecture for this."
+    },
+    {
+        "id": "nlp_cv_ch6_13",
+        "text": "What is 'Transfer Learning' in CV?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using weights from a model pre-trained on a large dataset (like ImageNet) for a new task."
+            },
+            {
+                "id": "b",
+                "text": "Copying files between computers."
+            },
+            {
+                "id": "c",
+                "text": "Teaching a model 2 things at once."
+            },
+            {
+                "id": "d",
+                "text": "Learning without data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Don't start from scratch.",
+        "explanation": "Saves time and data; early layers learn general features like edges anyway."
+    },
+    {
+        "id": "nlp_cv_ch6_14",
+        "text": "What is 'Data Augmentation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Artificially increasing training dataset by applying transforms like flipping, rotation, and cropping."
+            },
+            {
+                "id": "b",
+                "text": "Deleting data."
+            },
+            {
+                "id": "c",
+                "text": "Buying more storage."
+            },
+            {
+                "id": "d",
+                "text": "Writing more labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Synthetic data variety.",
+        "explanation": "Reduces overfitting and makes model more robust."
+    },
+    {
+        "id": "nlp_cv_ch6_15",
+        "text": "The 'Fully Connected' layer in a CNN usually comes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "At the beginning."
+            },
+            {
+                "id": "b",
+                "text": "At the end (for classification)."
+            },
+            {
+                "id": "c",
+                "text": "In every layer."
+            },
+            {
+                "id": "d",
+                "text": "Never used."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Classification head.",
+        "explanation": "Flattened feature maps are fed into dense layers to produce final labels."
+    },
+    {
+        "id": "nlp_cv_ch6_16",
+        "text": "What is 'VGG16' known for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Simple, uniform architecture using many 3x3 filters."
+            },
+            {
+                "id": "b",
+                "text": "Being very fast."
+            },
+            {
+                "id": "c",
+                "text": "No pooling."
+            },
+            {
+                "id": "d",
+                "text": "16 layers only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Deep, simple CNN.",
+        "explanation": "Showed that depth is important for high performance."
+    },
+    {
+        "id": "nlp_cv_ch6_17",
+        "text": "What is 'IOU' (Intersection over Union) used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Measuring overlap between predicted and ground-truth bounding boxes."
+            },
+            {
+                "id": "b",
+                "text": "Measuring speed."
+            },
+            {
+                "id": "c",
+                "text": "Counting labels."
+            },
+            {
+                "id": "d",
+                "text": "Sorting images."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Object detection metric.",
+        "explanation": "Used to determine if a detection is a hit (TP) or miss."
+    },
+    {
+        "id": "nlp_cv_ch6_18",
+        "text": "What does a 'Bottleneck' layer do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reduce number of channels using 1x1 convolution (computationally efficient)."
+            },
+            {
+                "id": "b",
+                "text": "Slow down the model."
+            },
+            {
+                "id": "c",
+                "text": "Delete half the pixels."
+            },
+            {
+                "id": "d",
+                "text": "Stop the model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dimension reduction.",
+        "explanation": "Introduced in Inception and ResNet to handle deeper models efficiently."
+    },
+    {
+        "id": "nlp_cv_ch6_19",
+        "text": "What is 'Global Average Pooling' (GAP)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Averaging all pixels in each feature map channel into a single value."
+            },
+            {
+                "id": "b",
+                "text": "Taking average of whole dataset."
+            },
+            {
+                "id": "c",
+                "text": "A type of CNN."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Alternative to Flatten.",
+        "explanation": "Reduces parameters significantly compared to fully connected layers."
+    },
+    {
+        "id": "nlp_cv_ch6_20",
+        "text": "Purpose of 1x1 Convolution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dimensionality (channel) reduction and non-linearity addition."
+            },
+            {
+                "id": "b",
+                "text": "Edge detection."
+            },
+            {
+                "id": "c",
+                "text": "Blurring."
+            },
+            {
+                "id": "d",
+                "text": "No effect."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Channel mixer.",
+        "explanation": "Allows changing the number of filters without shrinking spatial dimensions."
+    },
+    {
+        "id": "nlp_cv_ch6_21",
+        "text": "What is 'GAN' (Generative Adversarial Network)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Two networks (Generator and Discriminator) competing to create realistic images."
+            },
+            {
+                "id": "b",
+                "text": "A network for classification."
+            },
+            {
+                "id": "c",
+                "text": "Global Area Network."
+            },
+            {
+                "id": "d",
+                "text": "Sorting algorithm."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Synthetic data generation.",
+        "explanation": "Generator creates images; Discriminator tries to tell which is real/fake."
+    },
+    {
+        "id": "nlp_cv_ch6_22",
+        "text": "What is 'R-CNN'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Regions with CNN (pioneer in object detection using region proposals)."
+            },
+            {
+                "id": "b",
+                "text": "Random CNN."
+            },
+            {
+                "id": "c",
+                "text": "Recursive CNN."
+            },
+            {
+                "id": "d",
+                "text": "Robot CNN."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Regional object detection.",
+        "explanation": "Led to Faster R-CNN and Mask R-CNN development."
+    },
+    {
+        "id": "nlp_cv_ch6_23",
+        "text": "A 'Siamese Network' is often used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Face Verification / Similarity tasks."
+            },
+            {
+                "id": "b",
+                "text": "Object detection."
+            },
+            {
+                "id": "c",
+                "text": "Generating text."
+            },
+            {
+                "id": "d",
+                "text": "Image segmentation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Twin networks.",
+        "explanation": "Compares two images to see if they are the same person/object."
+    },
+    {
+        "id": "nlp_cv_ch6_24",
+        "text": "What refers to 'Invariance' in CNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Ability to recognize object even if it is rotated, scaled, or shifted."
+            },
+            {
+                "id": "b",
+                "text": "Model never changing."
+            },
+            {
+                "id": "c",
+                "text": "Fixed resolution."
+            },
+            {
+                "id": "d",
+                "text": "Binary labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Robust recognition.",
+        "explanation": "CNNs (especially with pooling) are robust to small translations."
+    },
+    {
+        "id": "nlp_cv_ch6_25",
+        "text": "'mAP' (mean Average Precision) is a common metric for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Object Detection."
+            },
+            {
+                "id": "b",
+                "text": "Image classification."
+            },
+            {
+                "id": "c",
+                "text": "Memory use."
+            },
+            {
+                "id": "d",
+                "text": "Training time."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Performance metric.",
+        "explanation": "Calculates precision across different categories and IOU thresholds."
+    },
+    {
+        "id": "nlp_cv_ch6_26",
+        "text": "What is 'Anchor Boxes' in object detection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predefined boxes with fixed ratios used as reference for model to predict offsets."
+            },
+            {
+                "id": "b",
+                "text": "Boxes made of metal."
+            },
+            {
+                "id": "c",
+                "text": "Final boxes."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard priors.",
+        "explanation": "Used in YOLO and Faster R-CNN to handle objects of different shapes."
+    },
+    {
+        "id": "nlp_cv_ch6_27",
+        "text": "What is 'Style Transfer'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Applying the artistic style of one image to the content of another."
+            },
+            {
+                "id": "b",
+                "text": "Changing font style."
+            },
+            {
+                "id": "c",
+                "text": "Copying code style."
+            },
+            {
+                "id": "d",
+                "text": "Image cropping."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Neural style transfer.",
+        "explanation": "Uses CNN layer activations to separate and recombine style and content."
+    },
+    {
+        "id": "nlp_cv_ch6_28",
+        "text": "'Overfitting' in CNNs can be seen when?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Training loss is much lower than validation loss."
+            },
+            {
+                "id": "b",
+                "text": "Training takes too long."
+            },
+            {
+                "id": "c",
+                "text": "Model is small."
+            },
+            {
+                "id": "d",
+                "text": "Data is clean."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Generalization gap.",
+        "explanation": "Model memorizes training images instead of learning features."
+    },
+    {
+        "id": "nlp_cv_ch6_29",
+        "text": "What is 'Batch Normalization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normalizing layer outputs to have zero mean and unit variance for training stability."
+            },
+            {
+                "id": "b",
+                "text": "Sorting images."
+            },
+            {
+                "id": "c",
+                "text": "Adding more pixels."
+            },
+            {
+                "id": "d",
+                "text": "Binary search."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Speed up training.",
+        "explanation": "Reduces internal covariate shift and allows higher learning rates."
+    },
+    {
+        "id": "nlp_cv_ch6_30",
+        "text": "ImageNet comprises roughly how many images?",
+        "options": [
+            {
+                "id": "a",
+                "text": "14 million labels and 22,000 categories."
+            },
+            {
+                "id": "b",
+                "text": "100"
+            },
+            {
+                "id": "c",
+                "text": "1,000"
+            },
+            {
+                "id": "d",
+                "text": "Infinite."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Massive dataset.",
+        "explanation": "Benchmark dataset that drove progress in vision research."
+    }
+]

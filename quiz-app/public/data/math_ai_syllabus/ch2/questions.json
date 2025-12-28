@@ -1,0 +1,752 @@
+[
+    {
+        "id": "math_ai_ch2_1",
+        "text": "What is a 'Matrix'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A rectangular array of numbers organized in rows and columns."
+            },
+            {
+                "id": "b",
+                "text": "A 1D list."
+            },
+            {
+                "id": "c",
+                "text": "A single number."
+            },
+            {
+                "id": "d",
+                "text": "A circle."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "2D grid.",
+        "explanation": "Matrices represent linear transformations or systems of equations."
+    },
+    {
+        "id": "math_ai_ch2_2",
+        "text": "What is the 'Dimensions' of a matrix with 3 rows and 2 columns?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2x3"
+            },
+            {
+                "id": "b",
+                "text": "3x2"
+            },
+            {
+                "id": "c",
+                "text": "6"
+            },
+            {
+                "id": "d",
+                "text": "5"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Row x Col.",
+        "explanation": "Standard notation is (Rows x Columns)."
+    },
+    {
+        "id": "math_ai_ch2_3",
+        "text": "When can two matrices A and B be multiplied (A*B)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Always."
+            },
+            {
+                "id": "b",
+                "text": "If columns of A = rows of B."
+            },
+            {
+                "id": "c",
+                "text": "If rows of A = columns of B."
+            },
+            {
+                "id": "d",
+                "text": "If they have the same size."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inner dimensions must match.",
+        "explanation": "The result will have dimensions (Rows A x Cols B)."
+    },
+    {
+        "id": "math_ai_ch2_4",
+        "text": "What is the 'Transpose' of a matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Swapping the rows and columns."
+            },
+            {
+                "id": "b",
+                "text": "Multiplying by -1."
+            },
+            {
+                "id": "c",
+                "text": "The inverse."
+            },
+            {
+                "id": "d",
+                "text": "The determinant."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "A^T.",
+        "explanation": "If A is m x n, A^T is n x m."
+    },
+    {
+        "id": "math_ai_ch2_5",
+        "text": "What is an 'Identity Matrix' (I)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matrix with all zeros."
+            },
+            {
+                "id": "b",
+                "text": "Square matrix with 1s on the main diagonal and 0s elsewhere."
+            },
+            {
+                "id": "c",
+                "text": "Matrix with all 1s."
+            },
+            {
+                "id": "d",
+                "text": "Matrix that looks like a person."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Acts like '1' in math.",
+        "explanation": "A * I = A."
+    },
+    {
+        "id": "math_ai_ch2_6",
+        "text": "What is the 'Determinant' of a 2x2 matrix [[a, b], [c, d]]?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ad - bc"
+            },
+            {
+                "id": "b",
+                "text": "ab - cd"
+            },
+            {
+                "id": "c",
+                "text": "ac - bd"
+            },
+            {
+                "id": "d",
+                "text": "a+d - b+c"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Main diagonal - anti diagonal product.",
+        "explanation": "Formula for det(A) of 2x2."
+    },
+    {
+        "id": "math_ai_ch2_7",
+        "text": "If det(A) = 0, the matrix is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Invertible."
+            },
+            {
+                "id": "b",
+                "text": "Singular (non-invertible)."
+            },
+            {
+                "id": "c",
+                "text": "Identity."
+            },
+            {
+                "id": "d",
+                "text": "Square."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cannot be inverted.",
+        "explanation": "A matrix is singular if it cannot be inverted."
+    },
+    {
+        "id": "math_ai_ch2_8",
+        "text": "What is the 'Inverse' of a matrix A which satisfies A * A^-1 = I?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1 / A (entry-wise)."
+            },
+            {
+                "id": "b",
+                "text": "A matrix that 'undoes' the transformation of A."
+            },
+            {
+                "id": "c",
+                "text": "The transpose."
+            },
+            {
+                "id": "d",
+                "text": "Negative A."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Undo.",
+        "explanation": "Inverting a matrix allows solving systems of linear equations Ax = b."
+    },
+    {
+        "id": "math_ai_ch2_9",
+        "text": "What is the 'Trace' of a square matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sum of all elements."
+            },
+            {
+                "id": "b",
+                "text": "Sum of the elements on the main diagonal."
+            },
+            {
+                "id": "c",
+                "text": "Product of diagonal elements."
+            },
+            {
+                "id": "d",
+                "text": "The determinant."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sum of diagonal.",
+        "explanation": "Trace(A) = a11 + a22 + ... + ann."
+    },
+    {
+        "id": "math_ai_ch2_10",
+        "text": "What are 'Eigenvectors'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vectors which only change by a scalar factor (lambda) during a linear transformation."
+            },
+            {
+                "id": "b",
+                "text": "Vectors that become zero."
+            },
+            {
+                "id": "c",
+                "text": "Random vectors."
+            },
+            {
+                "id": "d",
+                "text": "Orthogonal vectors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Ax = lambda * x.",
+        "explanation": "The direction remains unchanged; only the scale changes."
+    },
+    {
+        "id": "math_ai_ch2_11",
+        "text": "What are 'Eigenvalues'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The scalar factor lambda corresponding to an eigenvector."
+            },
+            {
+                "id": "b",
+                "text": "The size of a matrix."
+            },
+            {
+                "id": "c",
+                "text": "Number of columns."
+            },
+            {
+                "id": "d",
+                "text": "The first row."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Scale factor.",
+        "explanation": "They represent how much the eigenvector is scaled."
+    },
+    {
+        "id": "math_ai_ch2_12",
+        "text": "What is a 'Symmetric' matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A^T = A"
+            },
+            {
+                "id": "b",
+                "text": "A^T = -A"
+            },
+            {
+                "id": "c",
+                "text": "det(A) = 1"
+            },
+            {
+                "id": "d",
+                "text": "A = I"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Equal to its transpose.",
+        "explanation": "Elements are mirrored across the main diagonal."
+    },
+    {
+        "id": "math_ai_ch2_13",
+        "text": "What is an 'Orthogonal' matrix (Q)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Q^T = Q"
+            },
+            {
+                "id": "b",
+                "text": "Q^T * Q = I (or Q^-1 = Q^T)"
+            },
+            {
+                "id": "c",
+                "text": "Q = 0"
+            },
+            {
+                "id": "d",
+                "text": "det(Q) = 0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Transpose is the inverse.",
+        "explanation": "Rows and columns are orthonormal sets."
+    },
+    {
+        "id": "math_ai_ch2_14",
+        "text": "What is 'Singular Value Decomposition' (SVD)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding two matrices."
+            },
+            {
+                "id": "b",
+                "text": "Factoring a matrix into three specific matrices (A = U * Sigma * V^T)."
+            },
+            {
+                "id": "c",
+                "text": "Finding the average."
+            },
+            {
+                "id": "d",
+                "text": "Solving equations."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "A = UΣV^T.",
+        "explanation": "SVD is a powerful tool used in data compression and dimensionality reduction."
+    },
+    {
+        "id": "math_ai_ch2_15",
+        "text": "What does PCA (Principal Component Analysis) use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Eigen-decomposition or SVD of the covariance matrix."
+            },
+            {
+                "id": "b",
+                "text": "Linear regression."
+            },
+            {
+                "id": "c",
+                "text": "Binary search."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dimensionality reduction.",
+        "explanation": "PCA finds directions of maximum variance."
+    },
+    {
+        "id": "math_ai_ch2_16",
+        "text": "Is matrix multiplication commutative (A*B = B*A)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, always."
+            },
+            {
+                "id": "b",
+                "text": "No, generally order matters."
+            },
+            {
+                "id": "c",
+                "text": "Only for 2x2."
+            },
+            {
+                "id": "d",
+                "text": "Only for row matrices."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Order matters.",
+        "explanation": "A*B is usually not equal to B*A."
+    },
+    {
+        "id": "math_ai_ch2_17",
+        "text": "What is 'Matrix Rank'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Number of rows."
+            },
+            {
+                "id": "b",
+                "text": "Maximum number of linearly independent rows or columns."
+            },
+            {
+                "id": "c",
+                "text": "Largest element."
+            },
+            {
+                "id": "d",
+                "text": "Smallest element."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Independent rows/cols.",
+        "explanation": "Rank defines the dimension of the output space."
+    },
+    {
+        "id": "math_ai_ch2_18",
+        "text": "What is a 'Diagonal Matrix'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matrix with 0s on the diagonal."
+            },
+            {
+                "id": "b",
+                "text": "Matrix with entries only on the main diagonal."
+            },
+            {
+                "id": "c",
+                "text": "Matrix with all 1s."
+            },
+            {
+                "id": "d",
+                "text": "Matrix with all diagonal entries same."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zero entries off-diagonal.",
+        "explanation": "Easy to raise to powers."
+    },
+    {
+        "id": "math_ai_ch2_19",
+        "text": "The determinant of a product det(A*B) is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "det(A) + det(B)"
+            },
+            {
+                "id": "b",
+                "text": "det(A) * det(B)"
+            },
+            {
+                "id": "c",
+                "text": "det(A) / det(B)"
+            },
+            {
+                "id": "d",
+                "text": "Always 0."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Product rule.",
+        "explanation": "Determinant of product is product of determinants."
+    },
+    {
+        "id": "math_ai_ch2_20",
+        "text": "A 'Unitary Matrix' is the complex version of an?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Identity matrix."
+            },
+            {
+                "id": "b",
+                "text": "Orthogonal matrix."
+            },
+            {
+                "id": "c",
+                "text": "Symmetric matrix."
+            },
+            {
+                "id": "d",
+                "text": "Invertible matrix."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "U* U = I.",
+        "explanation": "It preserves the norm of vectors."
+    },
+    {
+        "id": "math_ai_ch2_21",
+        "text": "How many eigenvalues does an n x n matrix have?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Exactly n (counting repeats)."
+            },
+            {
+                "id": "b",
+                "text": "Infinite."
+            },
+            {
+                "id": "c",
+                "text": "1"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Roots of characteristic poly.",
+        "explanation": "Obtained from det(A - lambda*I) = 0."
+    },
+    {
+        "id": "math_ai_ch2_22",
+        "text": "What is 'Sparse Matrix'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matrix with mostly zeros."
+            },
+            {
+                "id": "b",
+                "text": "Small matrix."
+            },
+            {
+                "id": "c",
+                "text": "Empty matrix."
+            },
+            {
+                "id": "d",
+                "text": "Matrix with many negatives."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mostly zero.",
+        "explanation": "Common in NLP (large dictionaries) and Graph AI."
+    },
+    {
+        "id": "math_ai_ch2_23",
+        "text": "Inverse of product (A*B)^-1 is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A^-1 * B^-1"
+            },
+            {
+                "id": "b",
+                "text": "B^-1 * A^-1"
+            },
+            {
+                "id": "c",
+                "text": "A^-1 + B^-1"
+            },
+            {
+                "id": "d",
+                "text": "A*B"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reverse order.",
+        "explanation": "Shoes then Socks... undo by Socks off then Shoes off."
+    },
+    {
+        "id": "math_ai_ch2_24",
+        "text": "What 'rank-deficient' matrix means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rank is less than the number of rows or columns."
+            },
+            {
+                "id": "b",
+                "text": "Matrix has all 0s."
+            },
+            {
+                "id": "c",
+                "text": "Rank is 0."
+            },
+            {
+                "id": "d",
+                "text": "It is a vector."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Not full rank.",
+        "explanation": "Such matrices are singular (non-invertible)."
+    },
+    {
+        "id": "math_ai_ch2_25",
+        "text": "If you multiply matrix by identity matrix (A*I), you get?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A"
+            },
+            {
+                "id": "b",
+                "text": "I"
+            },
+            {
+                "id": "c",
+                "text": "0"
+            },
+            {
+                "id": "d",
+                "text": "1"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Neutral element.",
+        "explanation": "Identity matrix is the multiplicative identity."
+    },
+    {
+        "id": "math_ai_ch2_26",
+        "text": "What is 'Entry-wise' multiplication (Hadamard product)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Standard matrix multiplication."
+            },
+            {
+                "id": "b",
+                "text": "Multiplying corresponding elements: C_ij = A_ij * B_ij."
+            },
+            {
+                "id": "c",
+                "text": "Dot product."
+            },
+            {
+                "id": "d",
+                "text": "Divide."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "A .* B.",
+        "explanation": "Used often in neural networks (e.g. Dropout mask)."
+    },
+    {
+        "id": "math_ai_ch2_27",
+        "text": "Eigenvalues of a diagonal matrix are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Zeros."
+            },
+            {
+                "id": "b",
+                "text": "The diagonal elements themselves."
+            },
+            {
+                "id": "c",
+                "text": "Always 1."
+            },
+            {
+                "id": "d",
+                "text": "Inverse of diagonal."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "On diagonal.",
+        "explanation": "Directly readable from the matrix."
+    },
+    {
+        "id": "math_ai_ch2_28",
+        "text": "If A is symmetric, its eigenvalues are always?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Real numbers."
+            },
+            {
+                "id": "b",
+                "text": "Complex numbers."
+            },
+            {
+                "id": "c",
+                "text": "Positive."
+            },
+            {
+                "id": "d",
+                "text": "Zero."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Symmetry property.",
+        "explanation": "Symmetric matrices have real eigenvalues and orthogonal eigenvectors."
+    },
+    {
+        "id": "math_ai_ch2_29",
+        "text": "Determinant of identity matrix is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "n"
+            },
+            {
+                "id": "d",
+                "text": "A"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Product of 1s.",
+        "explanation": "Unit volume expansion."
+    },
+    {
+        "id": "math_ai_ch2_30",
+        "text": "What does a matrix multiplication usually represent geometrically?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A point."
+            },
+            {
+                "id": "b",
+                "text": "A linear transformation (rotation, scaling, shear)."
+            },
+            {
+                "id": "c",
+                "text": "A line."
+            },
+            {
+                "id": "d",
+                "text": "A curve."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Transform Space.",
+        "explanation": "Matrices act on vectors to move them in space."
+    }
+]

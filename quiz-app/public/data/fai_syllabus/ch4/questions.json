@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch4_1",
+        "text": "What is 'Uninformed Search' (Blind Search)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching without looking."
+            },
+            {
+                "id": "b",
+                "text": "Search strategy that has no information about the state space other than the goal definition."
+            },
+            {
+                "id": "c",
+                "text": "Searching for missing data."
+            },
+            {
+                "id": "d",
+                "text": "Randomly guessing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No heuristic.",
+        "explanation": "BFS and DFS are examples of uninformed search."
+    },
+    {
+        "id": "fai_ch4_2",
+        "text": "What is 'Informed Search' (Heuristic Search)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A search that knows the answer already."
+            },
+            {
+                "id": "b",
+                "text": "A search that uses domain-specific knowledge (heuristics) to guide the search towards the goal."
+            },
+            {
+                "id": "c",
+                "text": "Searching only on the internet."
+            },
+            {
+                "id": "d",
+                "text": "Searching for information."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Uses guidance.",
+        "explanation": "A* search is a popular informed search algorithm."
+    },
+    {
+        "id": "fai_ch4_3",
+        "text": "Which algorithm is optimal and complete for informed search?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DFS"
+            },
+            {
+                "id": "b",
+                "text": "A* Search (with admissible heuristic)."
+            },
+            {
+                "id": "c",
+                "text": "Greedy Best-First Search"
+            },
+            {
+                "id": "d",
+                "text": "Random Search"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "f(n) = g(n) + h(n).",
+        "explanation": "A* finds the shortest path if the heuristic never overestimates the cost."
+    },
+    {
+        "id": "fai_ch4_4",
+        "text": "What is 'Depth-First Search' (DFS)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching broad first."
+            },
+            {
+                "id": "b",
+                "text": "Searching as deep as possible down one branch before backtracking."
+            },
+            {
+                "id": "c",
+                "text": "Searching underwater."
+            },
+            {
+                "id": "d",
+                "text": "Searching in the middle."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Vertical search.",
+        "explanation": "DFS uses a stack (or recursion) to explore paths to their end."
+    },
+    {
+        "id": "fai_ch4_5",
+        "text": "What is 'Adversarial Search' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Competitive games (like Chess or Go)."
+            },
+            {
+                "id": "b",
+                "text": "Finding friends."
+            },
+            {
+                "id": "c",
+                "text": "Sorting lists."
+            },
+            {
+                "id": "d",
+                "text": "Weather prediction."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Playing against someone.",
+        "explanation": "It handles environments where multiple agents have conflicting goals."
+    },
+    {
+        "id": "fai_ch4_6",
+        "text": "Which algorithm is commonly used in game playing AI to minimize loss?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BFS"
+            },
+            {
+                "id": "b",
+                "text": "Minimax Algorithm."
+            },
+            {
+                "id": "c",
+                "text": "Linear Search"
+            },
+            {
+                "id": "d",
+                "text": "Selection Sort"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zero-sum games.",
+        "explanation": "Minimax assumes the opponent plays optimally to minimize our score."
+    },
+    {
+        "id": "fai_ch4_7",
+        "text": "What is 'Alpha-Beta Pruning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Coding in Greek."
+            },
+            {
+                "id": "b",
+                "text": "An optimization technique for Minimax that eliminates branches that cannot influence the final decision."
+            },
+            {
+                "id": "c",
+                "text": "Deleting code."
+            },
+            {
+                "id": "d",
+                "text": "Sorting Greek letters."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cut off branches.",
+        "explanation": "It significantly reduces the search space without changing the outcome."
+    },
+    {
+        "id": "fai_ch4_8",
+        "text": "What is 'Constraint Satisfaction Problem' (CSP)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A problem with no solution."
+            },
+            {
+                "id": "b",
+                "text": "A problem where variables must be assigned values that satisfy a set of constraints (e.g., Sudoku, Map Coloring)."
+            },
+            {
+                "id": "c",
+                "text": "A difficult boss."
+            },
+            {
+                "id": "d",
+                "text": "A mathematical error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Restricted assignments.",
+        "explanation": "CSPs focus on the 'what' rather than the 'how' of a solution."
+    },
+    {
+        "id": "fai_ch4_9",
+        "text": "What is an 'Intelligent Agent'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A smart spy."
+            },
+            {
+                "id": "b",
+                "text": "An autonomous entity which observes and acts upon an environment to achieve goals."
+            },
+            {
+                "id": "c",
+                "text": "A high-end computer."
+            },
+            {
+                "id": "d",
+                "text": "A human expert."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rational actor.",
+        "explanation": "It acts 'rationally' to maximize its performance measure."
+    },
+    {
+        "id": "fai_ch4_10",
+        "text": "What is 'Hill Climbing' search?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clustering data."
+            },
+            {
+                "id": "b",
+                "text": "A local search algorithm that moves to the neighbor with the best value (maximizes heuristic)."
+            },
+            {
+                "id": "c",
+                "text": "A fitness app."
+            },
+            {
+                "id": "d",
+                "text": "Searching on mountains."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Greedy local search.",
+        "explanation": "It can get stuck in 'local maxima' which are worse than the global maximum."
+    },
+    {
+        "id": "fai_ch4_11",
+        "text": "What is the 'PEAS' framework for defining agents?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Performance, Environment, Actuators, Sensors."
+            },
+            {
+                "id": "b",
+                "text": "People, Eat, Apples, Sometimes."
+            },
+            {
+                "id": "c",
+                "text": "Process, Entity, Action, System."
+            },
+            {
+                "id": "d",
+                "text": "Power, Energy, Area, Speed."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Agent environment.",
+        "explanation": "PEAS is the standard way to specify an agent's task environment."
+    },
+    {
+        "id": "fai_ch4_12",
+        "text": "What is a 'Heuristic Function' h(n)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Actual cost to goal."
+            },
+            {
+                "id": "b",
+                "text": "Estimated cost from node n to the goal."
+            },
+            {
+                "id": "c",
+                "text": "The memory used."
+            },
+            {
+                "id": "d",
+                "text": "Random number."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Estimate.",
+        "explanation": "It guides the search by estimating how far the goal is."
+    },
+    {
+        "id": "fai_ch4_13",
+        "text": "What is 'State Space Explosion'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A computer blowing up."
+            },
+            {
+                "id": "b",
+                "text": "The exponential growth of the number of states as the complexity of the problem increases."
+            },
+            {
+                "id": "c",
+                "text": "A big bang."
+            },
+            {
+                "id": "d",
+                "text": "Too much data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Exponential growth.",
+        "explanation": "This makes exhaustive search impossible for complex problems like Chess."
+    },
+    {
+        "id": "fai_ch4_14",
+        "text": "What is an 'Admissible Heuristic'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "One that is allowed in court."
+            },
+            {
+                "id": "b",
+                "text": "One that never overestimates the cost to reach the goal."
+            },
+            {
+                "id": "c",
+                "text": "One that is fast."
+            },
+            {
+                "id": "d",
+                "text": "One that is simple."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Conservative estimate.",
+        "explanation": "Admissibility is required for A* to find the optimal solution."
+    },
+    {
+        "id": "fai_ch4_15",
+        "text": "What is 'Iterative Deepening DFS'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching deep once."
+            },
+            {
+                "id": "b",
+                "text": "Search that repeats DFS with increasing depth limits."
+            },
+            {
+                "id": "c",
+                "text": "Searching for loops."
+            },
+            {
+                "id": "d",
+                "text": "A random walk."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "BFS-like behavior with DFS memory.",
+        "explanation": "It combines BFS's optimality/completeness with DFS's low space complexity."
+    },
+    {
+        "id": "fai_ch4_16",
+        "text": "Which is more space-efficient: BFS or DFS?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BFS"
+            },
+            {
+                "id": "b",
+                "text": "DFS"
+            },
+            {
+                "id": "c",
+                "text": "Both same."
+            },
+            {
+                "id": "d",
+                "text": "Neither."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stack vs Queue.",
+        "explanation": "DFS only stores the current path, while BFS stores the entire 'frontier' (levels)."
+    },
+    {
+        "id": "fai_ch4_17",
+        "text": "What is 'Manhattan Distance' often used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GPS navigation."
+            },
+            {
+                "id": "b",
+                "text": "Heuristic in grid-based pathfinding (like 8-puzzle)."
+            },
+            {
+                "id": "c",
+                "text": "Measuring weight."
+            },
+            {
+                "id": "d",
+                "text": "Social networking."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Taxicab geometry.",
+        "explanation": "Distance moving only along grid lines (right angles)."
+    },
+    {
+        "id": "fai_ch4_18",
+        "text": "What describes a 'Simple Reflex Agent'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learns from history."
+            },
+            {
+                "id": "b",
+                "text": "Selects actions based only on current percept (If-else)."
+            },
+            {
+                "id": "c",
+                "text": "Has hidden state."
+            },
+            {
+                "id": "d",
+                "text": "Predicts future."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Condition-action rules.",
+        "explanation": "Lowest level of agent complexity, just reacts to input."
+    },
+    {
+        "id": "fai_ch4_19",
+        "text": "What is 'Simulated Annealing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Playing games."
+            },
+            {
+                "id": "b",
+                "text": "Optimization technique that uses a 'temperature' parameter to allow occasional bad moves (to escape local maxima)."
+            },
+            {
+                "id": "c",
+                "text": "A heating system."
+            },
+            {
+                "id": "d",
+                "text": "A 3D simulation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Probabilistic local search.",
+        "explanation": "Inspired by the process of annealing in metallurgy."
+    },
+    {
+        "id": "fai_ch4_20",
+        "text": "The 'Traveling Salesperson Problem' (TSP) is a classic example of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BFS."
+            },
+            {
+                "id": "b",
+                "text": "Combinatorial Optimization / Search."
+            },
+            {
+                "id": "c",
+                "text": "Regression."
+            },
+            {
+                "id": "d",
+                "text": "Classification."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Finding shortest route.",
+        "explanation": "Search space grows exponentially with number of cities."
+    },
+    {
+        "id": "fai_ch4_21",
+        "text": "What is 'Backtracking Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Walking backwards."
+            },
+            {
+                "id": "b",
+                "text": "A general algorithm for finding solutions to constraint satisfaction problems by abandoning a path as soon as a constraint is violated."
+            },
+            {
+                "id": "c",
+                "text": "Undo button."
+            },
+            {
+                "id": "d",
+                "text": "Reversing a list."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Trial and error.",
+        "explanation": "Essential for Sudoku solvers and logic programming."
+    },
+    {
+        "id": "fai_ch4_22",
+        "text": "What is 'Greedy Best-First Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching everything."
+            },
+            {
+                "id": "b",
+                "text": "Search that expands the node that is estimated to be closest to the goal (f(n) = h(n))."
+            },
+            {
+                "id": "c",
+                "text": "Optimal search."
+            },
+            {
+                "id": "d",
+                "text": "Search with no memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Only looks ahead.",
+        "explanation": "Unlike A*, it ignores the cost of getting to the current node (g(n))."
+    },
+    {
+        "id": "fai_ch4_23",
+        "text": "In Search, what is the 'Frontier' (or Open List)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The final state."
+            },
+            {
+                "id": "b",
+                "text": "The set of all nodes currently discovered but not yet expanded."
+            },
+            {
+                "id": "c",
+                "text": "The computer monitor."
+            },
+            {
+                "id": "d",
+                "text": "The deleted nodes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Boundary of search.",
+        "explanation": "Search algorithms differ mainly in how they pick from the frontier."
+    },
+    {
+        "id": "fai_ch4_24",
+        "text": "What is the 'Branching Factor'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Number of trees."
+            },
+            {
+                "id": "b",
+                "text": "The number of successors (children) of a node."
+            },
+            {
+                "id": "c",
+                "text": "Number of lines of code."
+            },
+            {
+                "id": "d",
+                "text": "Speed of search."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Choices per step.",
+        "explanation": "Determines the width of the search tree."
+    },
+    {
+        "id": "fai_ch4_25",
+        "text": "Which environment is 'Fully Observable'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Chess."
+            },
+            {
+                "id": "b",
+                "text": "Driving a car."
+            },
+            {
+                "id": "c",
+                "text": "Playing Poker."
+            },
+            {
+                "id": "d",
+                "text": "Medical diagnosis."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "You see everything.",
+        "explanation": "In Chess, the agent can see the entire state of the board at once."
+    },
+    {
+        "id": "fai_ch4_26",
+        "text": "What is a 'Global Maximum' in search?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A big number."
+            },
+            {
+                "id": "b",
+                "text": "The best possible state in the entire state space."
+            },
+            {
+                "id": "c",
+                "text": "The starting point."
+            },
+            {
+                "id": "d",
+                "text": "The end of code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Highest peak.",
+        "explanation": "Optimization algorithms aim to find this, rather than local traps."
+    },
+    {
+        "id": "fai_ch4_27",
+        "text": "What is 'Parallel Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching in straight lines."
+            },
+            {
+                "id": "b",
+                "text": "Using multiple processors or threads to explore the search space simultaneously."
+            },
+            {
+                "id": "c",
+                "text": "Wait-and-watch."
+            },
+            {
+                "id": "d",
+                "text": "Searching twice."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Concurrency.",
+        "explanation": "Crucial for massively complex search spaces like Go."
+    },
+    {
+        "id": "fai_ch4_28",
+        "text": "What is 'Stochastic' environment?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predictable."
+            },
+            {
+                "id": "b",
+                "text": "One involving randomness or uncertainty in outcomes (e.g., throwing dice)."
+            },
+            {
+                "id": "c",
+                "text": "Empty."
+            },
+            {
+                "id": "d",
+                "text": "Static."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Randomness.",
+        "explanation": "The next state is not uniquely determined by the current state and action."
+    },
+    {
+        "id": "fai_ch4_29",
+        "text": "In BFS, what data structure is used for the frontier?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stack (LIFO)"
+            },
+            {
+                "id": "b",
+                "text": "Queue (FIFO)"
+            },
+            {
+                "id": "c",
+                "text": "Array"
+            },
+            {
+                "id": "d",
+                "text": "Graph"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "First in first out.",
+        "explanation": "Queue ensures we visit all nodes at level d before moving to d+1."
+    },
+    {
+        "id": "fai_ch4_30",
+        "text": "What is 'Beam Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An laser search."
+            },
+            {
+                "id": "b",
+                "text": "A heuristic search that only keeps a fixed number (k) of best candidates in the frontier to save memory."
+            },
+            {
+                "id": "c",
+                "text": "Infinite search."
+            },
+            {
+                "id": "d",
+                "text": "Searching in space."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bounded BFS.",
+        "explanation": "It's memory-efficient but not complete or optimal."
+    }
+]

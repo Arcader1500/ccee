@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch5_1",
+        "text": "What is 'Ensemble Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Combining multiple models to improve predictive performance."
+            },
+            {
+                "id": "b",
+                "text": "Learning together with other people."
+            },
+            {
+                "id": "c",
+                "text": "A type of dataset."
+            },
+            {
+                "id": "d",
+                "text": "A single accurate model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Wisdom of crowds.",
+        "explanation": "The combined model is usually more robust and accurate than individual components."
+    },
+    {
+        "id": "pml_ch5_2",
+        "text": "What is 'Bagging' (Bootstrap Aggregating)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building multiple independent models in parallel and averaging results."
+            },
+            {
+                "id": "b",
+                "text": "Sequential learning."
+            },
+            {
+                "id": "c",
+                "text": "Using a physical bag."
+            },
+            {
+                "id": "d",
+                "text": "Deleting features."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Parallel ensembles.",
+        "explanation": "Reduces variance (overfitting); Random Forest is the most famous example."
+    },
+    {
+        "id": "pml_ch5_3",
+        "text": "What is 'Boosting'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building models sequentially where each model tries to correct errors of the previous one."
+            },
+            {
+                "id": "b",
+                "text": "Building models in parallel."
+            },
+            {
+                "id": "c",
+                "text": "Increasing speed."
+            },
+            {
+                "id": "d",
+                "text": "Boosting volume."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sequential improvement.",
+        "explanation": "Focuses on reducing bias; examples include AdaBoost and Gradient Boosting."
+    },
+    {
+        "id": "pml_ch5_4",
+        "text": "What is 'Random Forest'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An ensemble of decision trees trained with bagging."
+            },
+            {
+                "id": "b",
+                "text": "A list of random numbers."
+            },
+            {
+                "id": "c",
+                "text": "One very large tree."
+            },
+            {
+                "id": "d",
+                "text": "Nature simulation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Collection of trees.",
+        "explanation": "Each tree sees a random subset of data and features, leading to diversity and robustness."
+    },
+    {
+        "id": "pml_ch5_5",
+        "text": "In Random Forest, what is 'Out-of-Bag' (OOB) error?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Validation error calculated using samples NOT seen by a particular tree during training."
+            },
+            {
+                "id": "b",
+                "text": "Error in the physical bag."
+            },
+            {
+                "id": "c",
+                "text": "Model crash error."
+            },
+            {
+                "id": "d",
+                "text": "Labels that are missing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Built-in validation.",
+        "explanation": "Allows evaluation without a separate validation set."
+    },
+    {
+        "id": "pml_ch5_6",
+        "text": "What is 'AdaBoost' (Adaptive Boosting)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Boosting algorithm that gives more weight to misclassified examples in each iteration."
+            },
+            {
+                "id": "b",
+                "text": "A brand of soda."
+            },
+            {
+                "id": "c",
+                "text": "Fast trees."
+            },
+            {
+                "id": "d",
+                "text": "Parallel ensemble."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Focus on hard cases.",
+        "explanation": "Subsequent learners focus on the 'hard' points that previous learners got wrong."
+    },
+    {
+        "id": "pml_ch5_7",
+        "text": "What is 'Gradient Boosting' (GBM)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Boosting algorithm that uses gradient descent to minimize loss when adding new models."
+            },
+            {
+                "id": "b",
+                "text": "Boosting based on colors."
+            },
+            {
+                "id": "c",
+                "text": "Sorting gradients."
+            },
+            {
+                "id": "d",
+                "text": "Parallel training."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Minimizing residual error.",
+        "explanation": "Each new model attempts to predict the residual errors of the current ensemble."
+    },
+    {
+        "id": "pml_ch5_8",
+        "text": "What is 'XGBoost'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Extreme Gradient Boosting; highly efficient and scalable implementation of GBM."
+            },
+            {
+                "id": "b",
+                "text": "Extended Google Boost."
+            },
+            {
+                "id": "c",
+                "text": "A graphics card."
+            },
+            {
+                "id": "d",
+                "text": "A type of car."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Winner in Kaggle.",
+        "explanation": "Includes regularization and parallel processing features not in standard GBM."
+    },
+    {
+        "id": "pml_ch5_9",
+        "text": "What is 'Stacking' (Stacked Generalization)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using another ML model (Meta-learner) to combine predictions of several base models."
+            },
+            {
+                "id": "b",
+                "text": "Putting papers in a stack."
+            },
+            {
+                "id": "c",
+                "text": "Running the same model 10 times."
+            },
+            {
+                "id": "d",
+                "text": "Deleting the model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hierarchical ensemble.",
+        "explanation": "Learns which models are reliable and how to best weight their outputs."
+    },
+    {
+        "id": "pml_ch5_10",
+        "text": "What is a 'Weak Learner'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A model that performs slightly better than random guessing."
+            },
+            {
+                "id": "b",
+                "text": "An inaccurate model that is wrong."
+            },
+            {
+                "id": "c",
+                "text": "A model that doesn't use data."
+            },
+            {
+                "id": "d",
+                "text": "A slow model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Base for boosting.",
+        "explanation": "Boosting combines many weak learners (like shallow trees) into a strong learner."
+    },
+    {
+        "id": "pml_ch5_11",
+        "text": "Which ensemble method primarily reduces 'Variance'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bagging (Random Forest)."
+            },
+            {
+                "id": "b",
+                "text": "Boosting (XGBoost)."
+            },
+            {
+                "id": "c",
+                "text": "Standard regression."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Reducing overfitting.",
+        "explanation": "Averaging decorrelated models smooths out individual errors."
+    },
+    {
+        "id": "pml_ch5_12",
+        "text": "Which ensemble method primarily reduces 'Bias'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Boosting."
+            },
+            {
+                "id": "b",
+                "text": "Bagging."
+            },
+            {
+                "id": "c",
+                "text": "K-Means."
+            },
+            {
+                "id": "d",
+                "text": "Data scaling."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Reducing underfitting.",
+        "explanation": "Combining simple models sequentially allows them to capture complex patterns."
+    },
+    {
+        "id": "pml_ch5_13",
+        "text": "In Random Forest, 'randomness' comes from?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bootstrap sampling of data AND random selection of feature subsets."
+            },
+            {
+                "id": "b",
+                "text": "Random labels."
+            },
+            {
+                "id": "c",
+                "text": "User typing."
+            },
+            {
+                "id": "d",
+                "text": "Computer clock."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Data + Feature randomness.",
+        "explanation": "This 'double' randomness is what makes Random Forest so powerful."
+    },
+    {
+        "id": "pml_ch5_14",
+        "text": "What is 'Bootstrapping'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sampling with replacement from the original dataset."
+            },
+            {
+                "id": "b",
+                "text": "Turning on the computer."
+            },
+            {
+                "id": "c",
+                "text": "Buying new boots."
+            },
+            {
+                "id": "d",
+                "text": "Deleting 20% data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sample generation.",
+        "explanation": "Enables training different models on slightly different datasets."
+    },
+    {
+        "id": "pml_ch5_15",
+        "text": "What is 'LightGBM'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A fast gradient boosting framework from Microsoft that is memory efficient."
+            },
+            {
+                "id": "b",
+                "text": "A small flashlight."
+            },
+            {
+                "id": "c",
+                "text": "A type of LED."
+            },
+            {
+                "id": "d",
+                "text": "An old version of XGBoost."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Fast GBDT.",
+        "explanation": "Uses histogram-based techniques for much faster training."
+    },
+    {
+        "id": "pml_ch5_16",
+        "text": "What is 'CatBoost' optimized for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Handling Categorical features automatically."
+            },
+            {
+                "id": "b",
+                "text": "Classifying cats."
+            },
+            {
+                "id": "c",
+                "text": "Boosting for slow laptops."
+            },
+            {
+                "id": "d",
+                "text": "Speed only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Categorical boosting.",
+        "explanation": "Developed by Yandex, handles categorical data without manual encoding."
+    },
+    {
+        "id": "pml_ch5_17",
+        "text": "In a 'Voting' ensemble, 'Hard Voting' means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Picking the class label with the highest frequency (Majority)."
+            },
+            {
+                "id": "b",
+                "text": "Averaging the probabilities."
+            },
+            {
+                "id": "c",
+                "text": "Voting for hard labels only."
+            },
+            {
+                "id": "d",
+                "text": "Manual voting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mode of predictions.",
+        "explanation": "Simple majority rule."
+    },
+    {
+        "id": "pml_ch5_18",
+        "text": "In a 'Voting' ensemble, 'Soft Voting' means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Averaging the predicted probabilities from each model."
+            },
+            {
+                "id": "b",
+                "text": "A quiet vote."
+            },
+            {
+                "id": "c",
+                "text": "Taking the most common label."
+            },
+            {
+                "id": "d",
+                "text": "Binary vote."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Probability average.",
+        "explanation": "Often performs better than hard voting as it considers model confidence."
+    },
+    {
+        "id": "pml_ch5_19",
+        "text": "Why use 'Early Stopping' in Boosting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To stop training when validation performance starts dipping (to avoid overfitting)."
+            },
+            {
+                "id": "b",
+                "text": "To save electricity."
+            },
+            {
+                "id": "c",
+                "text": "Because computer is hot."
+            },
+            {
+                "id": "d",
+                "text": "Model is finished."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Optimization cutoff.",
+        "explanation": "Prevents the model from becoming excessively complex and specialized to noise."
+    },
+    {
+        "id": "pml_ch5_20",
+        "text": "What is 'Subsampling' in GBM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using a random fraction of data for each iteration."
+            },
+            {
+                "id": "b",
+                "text": "Deleting columns."
+            },
+            {
+                "id": "c",
+                "text": "Sampling from the internet."
+            },
+            {
+                "id": "d",
+                "text": "One sample only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Stochastic Gradient Boosting.",
+        "explanation": "Introduces randomness which reduces variance and makes training faster."
+    },
+    {
+        "id": "pml_ch5_21",
+        "text": "What happens to Random Forest accuracy as you add more trees?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It generally stabilizes (doesn't overfit)."
+            },
+            {
+                "id": "b",
+                "text": "It keeps increasing forever."
+            },
+            {
+                "id": "c",
+                "text": "It decreases after 10 trees."
+            },
+            {
+                "id": "d",
+                "text": "It becomes zero."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Stability.",
+        "explanation": "Random Forests are robust to overfitting as more trees are added."
+    },
+    {
+        "id": "pml_ch5_22",
+        "text": "What is a 'Blender' in ensemble jargon?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Another name for a Meta-learner in Stacking."
+            },
+            {
+                "id": "b",
+                "text": "A kitchen appliance."
+            },
+            {
+                "id": "c",
+                "text": "A data cleaner."
+            },
+            {
+                "id": "d",
+                "text": "Image generator."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Combines predictions.",
+        "explanation": "The model that 'blends' the results of base models."
+    },
+    {
+        "id": "pml_ch5_23",
+        "text": "Which method is better if base models are very different?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stacking."
+            },
+            {
+                "id": "b",
+                "text": "Bagging."
+            },
+            {
+                "id": "c",
+                "text": "Copying."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Complex combination.",
+        "explanation": "Stacking learns how to best weight diverse expert opinions."
+    },
+    {
+        "id": "pml_ch5_24",
+        "text": "What is 'Feature Importance' in ensemble models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Score indicating how much each feature contributed to the final predictions."
+            },
+            {
+                "id": "b",
+                "text": "Price of the feature."
+            },
+            {
+                "id": "c",
+                "text": "Data size."
+            },
+            {
+                "id": "d",
+                "text": "Weight of computer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Interpretability.",
+        "explanation": "Random Forest and XGBoost can provide an importance scale for all inputs."
+    },
+    {
+        "id": "pml_ch5_25",
+        "text": "Is Random Forest better than a Single Decision Tree?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, almost always; it's more stable and accurate."
+            },
+            {
+                "id": "b",
+                "text": "No, trees are better."
+            },
+            {
+                "id": "c",
+                "text": "Only for small data."
+            },
+            {
+                "id": "d",
+                "text": "They are the same."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Improvement.",
+        "explanation": "Avoids the high variance problem of deep single trees."
+    },
+    {
+        "id": "pml_ch5_26",
+        "text": "Major drawback of Boosting compared to Bagging?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Training is slower because it is sequential (cannot be easily parallelized)."
+            },
+            {
+                "id": "b",
+                "text": "It is less accurate."
+            },
+            {
+                "id": "c",
+                "text": "Uses less memory."
+            },
+            {
+                "id": "d",
+                "text": "No drawback."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Compute efficiency.",
+        "explanation": "Model N must wait for Model N-1 to finish and calculate errors."
+    },
+    {
+        "id": "pml_ch5_27",
+        "text": "Total samples in a bootstrap training set?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Same as original dataset size (N)."
+            },
+            {
+                "id": "b",
+                "text": "Double."
+            },
+            {
+                "id": "c",
+                "text": "Half."
+            },
+            {
+                "id": "d",
+                "text": "Random."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Resampling size.",
+        "explanation": "Uses N draws with replacement; on average ~63% of original points appear."
+    },
+    {
+        "id": "pml_ch5_28",
+        "text": "In XGBoost, what does 'Shrinkage' (Learning Rate) do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scales the contribution of each tree to make room for future trees to improve."
+            },
+            {
+                "id": "b",
+                "text": "Makes the file smaller."
+            },
+            {
+                "id": "c",
+                "text": "Deletes data."
+            },
+            {
+                "id": "d",
+                "text": "Increases bias."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Step size tuning.",
+        "explanation": "Lower learning rates usually require more trees but lead to better generalization."
+    },
+    {
+        "id": "pml_ch5_29",
+        "text": "What is 'Base Learner' type usually used in ensembles?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Decision Trees."
+            },
+            {
+                "id": "b",
+                "text": "SVMs only."
+            },
+            {
+                "id": "c",
+                "text": "Linear Regression."
+            },
+            {
+                "id": "d",
+                "text": "Hand-written code."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard choice.",
+        "explanation": "Trees are fast, non-parametric, and highly flexible."
+    },
+    {
+        "id": "pml_ch5_30",
+        "text": "What helps Decorrelate trees in Random Forest?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Only selecting a random subset of features at each split."
+            },
+            {
+                "id": "b",
+                "text": "Training them in different rooms."
+            },
+            {
+                "id": "c",
+                "text": "Sorting the data."
+            },
+            {
+                "id": "d",
+                "text": "Deleting rows."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feature bagging.",
+        "explanation": "Ensures that even if one feature is very strong, some trees will learn from others."
+    }
+]

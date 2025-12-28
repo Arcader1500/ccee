@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch1_1",
+        "text": "What is 'Natural Language Processing' (NLP)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Branch of AI that helps computers understand, interpret and manipulate human language."
+            },
+            {
+                "id": "b",
+                "text": "A way to talk to machines using binary."
+            },
+            {
+                "id": "c",
+                "text": "Writing code in English."
+            },
+            {
+                "id": "d",
+                "text": "A type of printer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Interaction between computers and humans.",
+        "explanation": "NLP bridges the gap between human communication and computer understanding."
+    },
+    {
+        "id": "nlp_cv_ch1_2",
+        "text": "What is 'Tokenization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Process of segmenting text into individual words or characters (tokens)."
+            },
+            {
+                "id": "b",
+                "text": "Converting text to binary."
+            },
+            {
+                "id": "c",
+                "text": "Encrypting text."
+            },
+            {
+                "id": "d",
+                "text": "Deleting stop words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Splitting text.",
+        "explanation": "It's the first step in most NLP pipelines to break down raw text into manageable units."
+    },
+    {
+        "id": "nlp_cv_ch1_3",
+        "text": "What is the difference between Stemming and Lemmatization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stemming is faster but less accurate; Lemmatization uses dictionary-based approach."
+            },
+            {
+                "id": "b",
+                "text": "Lemmatization is for robots; Stemming is for humans."
+            },
+            {
+                "id": "c",
+                "text": "There is no difference."
+            },
+            {
+                "id": "d",
+                "text": "Stemming is only for English."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Reducing to root form.",
+        "explanation": "Stemming chops off suffixes (e.g., 'studies' -> 'studi'), while Lemmatization returns the valid root word ('studies' -> 'study')."
+    },
+    {
+        "id": "nlp_cv_ch1_4",
+        "text": "What does POS Tagging stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Part of Speech Tagging."
+            },
+            {
+                "id": "b",
+                "text": "Point of Sale Tagging."
+            },
+            {
+                "id": "c",
+                "text": "Position of Sentence."
+            },
+            {
+                "id": "d",
+                "text": "Post Office Software."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Nouns, Verbs, etc.",
+        "explanation": "The process of marking up a word in a text as corresponding to a particular part of speech."
+    },
+    {
+        "id": "nlp_cv_ch1_5",
+        "text": "What is 'Named Entity Recognition' (NER)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Identifying and categorizing key information (names, places, dates) in text."
+            },
+            {
+                "id": "b",
+                "text": "Recognizing faces."
+            },
+            {
+                "id": "c",
+                "text": "Sorting emails by subject."
+            },
+            {
+                "id": "d",
+                "text": "Checking for spelling."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Proper nouns detection.",
+        "explanation": "Extracts entities like Google (Org), London (GPE), or 2024 (Date)."
+    },
+    {
+        "id": "nlp_cv_ch1_6",
+        "text": "Which linguistic level deals with the sounds of a language?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phonology"
+            },
+            {
+                "id": "b",
+                "text": "Morphology"
+            },
+            {
+                "id": "c",
+                "text": "Syntax"
+            },
+            {
+                "id": "d",
+                "text": "Semantics"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sound system.",
+        "explanation": "Phonology studies the system of contrastive relationships among the speech sounds."
+    },
+    {
+        "id": "nlp_cv_ch1_7",
+        "text": "Which linguistic level deals with the structure of words?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phonology"
+            },
+            {
+                "id": "b",
+                "text": "Morphology"
+            },
+            {
+                "id": "c",
+                "text": "Syntax"
+            },
+            {
+                "id": "d",
+                "text": "Semantics"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Morphemes.",
+        "explanation": "Morphology looks at how words are formed from smaller meaningful units (morphemes)."
+    },
+    {
+        "id": "nlp_cv_ch1_8",
+        "text": "Which linguistic level deals with the structure of sentences?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phonology"
+            },
+            {
+                "id": "b",
+                "text": "Morphology"
+            },
+            {
+                "id": "c",
+                "text": "Syntax"
+            },
+            {
+                "id": "d",
+                "text": "Semantics"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Grammar.",
+        "explanation": "Syntax focuses on the rules for combining words into phrases and sentences."
+    },
+    {
+        "id": "nlp_cv_ch1_9",
+        "text": "Which linguistic level deals with the meaning of language?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phonology"
+            },
+            {
+                "id": "b",
+                "text": "Morphology"
+            },
+            {
+                "id": "c",
+                "text": "Syntax"
+            },
+            {
+                "id": "d",
+                "text": "Semantics"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Meaning.",
+        "explanation": "Semantics studies the meaning of words, phrases, and sentences."
+    },
+    {
+        "id": "nlp_cv_ch1_10",
+        "text": "What are 'Stop Words'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Commonly used words (like 'is', 'the', 'at') that are often removed during preprocessing."
+            },
+            {
+                "id": "b",
+                "text": "Words that stop the program."
+            },
+            {
+                "id": "c",
+                "text": "Punctuation marks."
+            },
+            {
+                "id": "d",
+                "text": "Profanity."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Frequent, low-value words.",
+        "explanation": "Removing them reduces noise and training data volume."
+    },
+    {
+        "id": "nlp_cv_ch1_11",
+        "text": "What is 'Pragmatics' in linguistics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Study of language in context."
+            },
+            {
+                "id": "b",
+                "text": "Grammar rules."
+            },
+            {
+                "id": "c",
+                "text": "Computer code."
+            },
+            {
+                "id": "d",
+                "text": "Dictionary."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Contextual meaning.",
+        "explanation": "Pragmatics looks at how context contributes to meaning (e.g., sarcasm)."
+    },
+    {
+        "id": "nlp_cv_ch1_12",
+        "text": "What is the smallest unit of meaning in a language?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phoneme"
+            },
+            {
+                "id": "b",
+                "text": "Morpheme"
+            },
+            {
+                "id": "c",
+                "text": "Word"
+            },
+            {
+                "id": "d",
+                "text": "Sentence"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Word part.",
+        "explanation": "A morpheme is the smallest meaningful unit (e.g., 'un-' or '-ed')."
+    },
+    {
+        "id": "nlp_cv_ch1_13",
+        "text": "Computational Linguistics is primarily concerned with?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building better microphones."
+            },
+            {
+                "id": "b",
+                "text": "Computational modeling of natural language."
+            },
+            {
+                "id": "c",
+                "text": "Learning new languages."
+            },
+            {
+                "id": "d",
+                "text": "Fixing typos."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Linguistics + CS.",
+        "explanation": "It combines linguistics and computer science to understand language computationally."
+    },
+    {
+        "id": "nlp_cv_ch1_14",
+        "text": "A 'Corpus' in NLP is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A biological term."
+            },
+            {
+                "id": "b",
+                "text": "A large and structured set of texts used for linguistic analysis and training."
+            },
+            {
+                "id": "c",
+                "text": "A single book."
+            },
+            {
+                "id": "d",
+                "text": "A dead language."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dataset.",
+        "explanation": "Plural is Corpora. Examples: Brown corpus, Wikipedia dump."
+    },
+    {
+        "id": "nlp_cv_ch1_15",
+        "text": "Why do we use 'Regular Expressions' (Regex) in NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "For complex pattern matching and text extraction."
+            },
+            {
+                "id": "b",
+                "text": "To make text look nice."
+            },
+            {
+                "id": "c",
+                "text": "To translate languages."
+            },
+            {
+                "id": "d",
+                "text": "To hear audio."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Pattern matching.",
+        "explanation": "Regex is perfect for finding email addresses, phone numbers, or specific token patterns."
+    },
+    {
+        "id": "nlp_cv_ch1_16",
+        "text": "What is 'Polysemy'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Words that sound the same but have different spellings."
+            },
+            {
+                "id": "b",
+                "text": "A word having multiple related meanings (e.g., 'bank' of a river vs 'bank' as an institution)."
+            },
+            {
+                "id": "c",
+                "text": "Typing errors."
+            },
+            {
+                "id": "d",
+                "text": "Many people talking."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multiple meanings.",
+        "explanation": "This ambiguity is a core challenge in NLP semantics."
+    },
+    {
+        "id": "nlp_cv_ch1_17",
+        "text": "Which of these is a popular NLP library in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NLTK"
+            },
+            {
+                "id": "b",
+                "text": "SpaCy"
+            },
+            {
+                "id": "c",
+                "text": "Hugging Face Transformers"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Python ecosystem.",
+        "explanation": "NLTK is great for education/basics; SpaCy for speed/industrial use; HF for Deep Learning."
+    },
+    {
+        "id": "nlp_cv_ch1_18",
+        "text": "What is 'Bag of Words' (BoW)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A literal bag."
+            },
+            {
+                "id": "b",
+                "text": "A simplifying representation used in NLP where text is represented as the multiset of its words, disregarding grammar and order."
+            },
+            {
+                "id": "c",
+                "text": "Dictionary."
+            },
+            {
+                "id": "d",
+                "text": "An encrypted text."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unordered words.",
+        "explanation": "BoW only tracks word frequencies."
+    },
+    {
+        "id": "nlp_cv_ch1_19",
+        "text": "What is the purpose of 'Sentence Segmentation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dividing a text corpus into its component sentences."
+            },
+            {
+                "id": "b",
+                "text": "Counting words."
+            },
+            {
+                "id": "c",
+                "text": "Summarizing text."
+            },
+            {
+                "id": "d",
+                "text": "Translating."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Splitting by period/etc.",
+        "explanation": "Identifies sentence boundaries, harder than it looks due to abbreviations like 'Mr.'."
+    },
+    {
+        "id": "nlp_cv_ch1_20",
+        "text": "Ambiguity in 'He saw the boy with the telescope' is an example of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Lexical ambiguity."
+            },
+            {
+                "id": "b",
+                "text": "Syntactic (structural) ambiguity."
+            },
+            {
+                "id": "c",
+                "text": "Speech error."
+            },
+            {
+                "id": "d",
+                "text": "Spelling mistake."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Who has the telescope?",
+        "explanation": "The sentence structure allows two meanings (He used telescope OR boy had it)."
+    },
+    {
+        "id": "nlp_cv_ch1_21",
+        "text": "The phrase 'bank' meaning 'financial institution' or 'sloping land' is an example of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Lexical ambiguity."
+            },
+            {
+                "id": "b",
+                "text": "Phonological error."
+            },
+            {
+                "id": "c",
+                "text": "Grammar error."
+            },
+            {
+                "id": "d",
+                "text": "Logic error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Word meaning.",
+        "explanation": "Lexical ambiguity occurs when a single word has multiple meanings (Homonymy/Polysemy)."
+    },
+    {
+        "id": "nlp_cv_ch1_22",
+        "text": "What is 'Word Sense Disambiguation' (WSD)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Process of identifying which sense of a word is used in a sentence."
+            },
+            {
+                "id": "b",
+                "text": "Finding typos."
+            },
+            {
+                "id": "c",
+                "text": "Counting words."
+            },
+            {
+                "id": "d",
+                "text": "Deleting words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Deciding meaning.",
+        "explanation": "WSD resolves lexical ambiguity based on context."
+    },
+    {
+        "id": "nlp_cv_ch1_23",
+        "text": "Which of these is a typical NER entity type?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PERSON"
+            },
+            {
+                "id": "b",
+                "text": "ORG (Organization)"
+            },
+            {
+                "id": "c",
+                "text": "LOC (Location)"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Entity categories.",
+        "explanation": "Standard models look for these specific categories."
+    },
+    {
+        "id": "nlp_cv_ch1_24",
+        "text": "Language models aim to predict?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Future."
+            },
+            {
+                "id": "b",
+                "text": "The next word in a sequence."
+            },
+            {
+                "id": "c",
+                "text": "Weather."
+            },
+            {
+                "id": "d",
+                "text": "Stock market."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequence prediction.",
+        "explanation": "Probability of w_n given w_1...w_{n-1}."
+    },
+    {
+        "id": "nlp_cv_ch1_25",
+        "text": "In English, POS tagging the word 'Book' in 'Please book a flight' would likely be?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Noun"
+            },
+            {
+                "id": "b",
+                "text": "Verb"
+            },
+            {
+                "id": "c",
+                "text": "Adjective"
+            },
+            {
+                "id": "d",
+                "text": "Adverb"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Action word.",
+        "explanation": "Here, 'book' is used as an action (verb)."
+    },
+    {
+        "id": "nlp_cv_ch1_26",
+        "text": "What is 'Sentiment Analysis'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Determining the emotional tone behind a piece of text (positive, negative, neutral)."
+            },
+            {
+                "id": "b",
+                "text": "Detecting sarcasm only."
+            },
+            {
+                "id": "c",
+                "text": "Writing poetry."
+            },
+            {
+                "id": "d",
+                "text": "Text summaries."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Opinion mining.",
+        "explanation": "Widely used for customer feedback and social media monitoring."
+    },
+    {
+        "id": "nlp_cv_ch1_27",
+        "text": "What is 'Anaphora Resolution'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding pronouns' antecedents (e.g., 'John lost his keys. He found them.' -> He = John)."
+            },
+            {
+                "id": "b",
+                "text": "Translating words."
+            },
+            {
+                "id": "c",
+                "text": "Fixing grammar."
+            },
+            {
+                "id": "d",
+                "text": "Summarizing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Pronoun tracking.",
+        "explanation": "Crucial for understanding narrative and long-form text."
+    },
+    {
+        "id": "nlp_cv_ch1_28",
+        "text": "What is 'Zipf's Law' in NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The frequency of any word is inversely proportional to its rank in the frequency table."
+            },
+            {
+                "id": "b",
+                "text": "Longer words are more common."
+            },
+            {
+                "id": "c",
+                "text": "All words appear equally."
+            },
+            {
+                "id": "d",
+                "text": "Language is random."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Word distributions.",
+        "explanation": "A few words ('the', 'of') appear very often, but most words are rare."
+    },
+    {
+        "id": "nlp_cv_ch1_29",
+        "text": "What is 'TF-IDF'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Term Frequency-Inverse Document Frequency."
+            },
+            {
+                "id": "b",
+                "text": "Text File - Indexed Data Format."
+            },
+            {
+                "id": "c",
+                "text": "Total Frequency."
+            },
+            {
+                "id": "d",
+                "text": "True/False Identification."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Weighting words.",
+        "explanation": "It helps determine how important a word is to a document relative to a corpus."
+    },
+    {
+        "id": "nlp_cv_ch1_30",
+        "text": "The 'ELIZA' effect refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "People attributing human emotions to programs using simple pattern matching."
+            },
+            {
+                "id": "b",
+                "text": "Fast typing."
+            },
+            {
+                "id": "c",
+                "text": "Bot detection."
+            },
+            {
+                "id": "d",
+                "text": "Speech recognition."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Anthropomorphism.",
+        "explanation": "Based on the 1960s chatbot ELIZA which pretended to be a therapist."
+    }
+]

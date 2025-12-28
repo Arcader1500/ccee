@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch5_1",
+        "text": "What is 'Computer Vision' (CV)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Giving computers the ability to see and understand digital images and videos."
+            },
+            {
+                "id": "b",
+                "text": "Improving monitor resolution."
+            },
+            {
+                "id": "c",
+                "text": "Taking photos."
+            },
+            {
+                "id": "d",
+                "text": "Repairing cameras."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Understand visual world.",
+        "explanation": "CV aims to extract high-level understanding from raw pixels."
+    },
+    {
+        "id": "nlp_cv_ch5_2",
+        "text": "A digital image is generally represented as a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "3D matrix (Tensor) of pixels (Height x Width x Channels)."
+            },
+            {
+                "id": "b",
+                "text": "A single list."
+            },
+            {
+                "id": "c",
+                "text": "A text file."
+            },
+            {
+                "id": "d",
+                "text": "Graph."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Grid of numbers.",
+        "explanation": "For RGB, there are 3 channels; for grayscale, 1."
+    },
+    {
+        "id": "nlp_cv_ch5_3",
+        "text": "What are the common color channels in a digital image?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Red, Green, Blue (RGB)."
+            },
+            {
+                "id": "b",
+                "text": "Back, Up, Down."
+            },
+            {
+                "id": "c",
+                "text": "Alpha, Beta, Gamma."
+            },
+            {
+                "id": "d",
+                "text": "Left, Right."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard light model.",
+        "explanation": "Most digital screens use additive RGB model."
+    },
+    {
+        "id": "nlp_cv_ch5_4",
+        "text": "What is 'Grayscale' conversion?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reducing 3 channels (RGB) to 1 (intensity), representing brightness only."
+            },
+            {
+                "id": "b",
+                "text": "Making an image black."
+            },
+            {
+                "id": "c",
+                "text": "Adding more colors."
+            },
+            {
+                "id": "d",
+                "text": "Deleting the image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Black and white.",
+        "explanation": "Calculated often as a weighted average of R, G, and B. (e.g. 0.299R + 0.587G + 0.114B)."
+    },
+    {
+        "id": "nlp_cv_ch5_5",
+        "text": "What is 'Edge Detection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Identifying points in an image where brightness changes sharply."
+            },
+            {
+                "id": "b",
+                "text": "Drawing a box around image."
+            },
+            {
+                "id": "c",
+                "text": "Cropping the borders."
+            },
+            {
+                "id": "d",
+                "text": "Muting audio."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Boundary detection.",
+        "explanation": "Edges often correspond to object boundaries or changes in depth."
+    },
+    {
+        "id": "nlp_cv_ch5_6",
+        "text": "Which algorithm is famous for Edge Detection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Canny Edge Detector."
+            },
+            {
+                "id": "b",
+                "text": "Bubble Sort."
+            },
+            {
+                "id": "c",
+                "text": "PageRank."
+            },
+            {
+                "id": "d",
+                "text": "TF-IDF."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Multi-stage approach.",
+        "explanation": "Canny edge detection uses noise reduction, gradient calculation, non-maximum suppression, and hysteresis thresholding."
+    },
+    {
+        "id": "nlp_cv_ch5_7",
+        "text": "What is 'Image Segmentation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dividing an image into multiple segments (sets of pixels) based on objects or features."
+            },
+            {
+                "id": "b",
+                "text": "Cutting image into pieces."
+            },
+            {
+                "id": "c",
+                "text": "Renaming images."
+            },
+            {
+                "id": "d",
+                "text": "Lowering resolution."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Pixel-level grouping.",
+        "explanation": "Goes further than classification by assigning a label to every pixel."
+    },
+    {
+        "id": "nlp_cv_ch5_8",
+        "text": "What is a 'Kernel' or 'Filter' in CV?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A small matrix used for blurring, sharpening, or edge detection via convolution."
+            },
+            {
+                "id": "b",
+                "text": "The computer CPU."
+            },
+            {
+                "id": "c",
+                "text": "A type of lens."
+            },
+            {
+                "id": "d",
+                "text": "Image metadata."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Convolving matrix.",
+        "explanation": "Sliding a kernel over an image performs operations like Gaussian Blur."
+    },
+    {
+        "id": "nlp_cv_ch5_9",
+        "text": "What is 'Image Blurring' (Smooth) used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To reduce noise and detail."
+            },
+            {
+                "id": "b",
+                "text": "To find edges."
+            },
+            {
+                "id": "c",
+                "text": "To make image larger."
+            },
+            {
+                "id": "d",
+                "text": "To change color."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Noise reduction.",
+        "explanation": "Commonly done using 'Gaussian Blur' or 'Median Blur'."
+    },
+    {
+        "id": "nlp_cv_ch5_10",
+        "text": "What is 'Binarization' (Thresholding)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Converting image to pure black (0) and white (255) based on a threshold."
+            },
+            {
+                "id": "b",
+                "text": "Saving as .bin file."
+            },
+            {
+                "id": "c",
+                "text": "Resizing."
+            },
+            {
+                "id": "d",
+                "text": "Adding noise."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "0 or 255.",
+        "explanation": "Useful for document scanning or separating foreground from background."
+    },
+    {
+        "id": "nlp_cv_ch5_11",
+        "text": "What is 'Histogram Equalization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Technique to adjust image contrast by spreading out pixel intensities."
+            },
+            {
+                "id": "b",
+                "text": "Counting colors."
+            },
+            {
+                "id": "c",
+                "text": "Drawing a graph."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Contrast enhancement.",
+        "explanation": "Improves visibility in very dark or very bright images."
+    },
+    {
+        "id": "nlp_cv_ch5_12",
+        "text": "What is 'Morphological Transformation' (Erosion/Dilation)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Operations that depend only on the relative ordering of pixel values and the shape of a structuring element."
+            },
+            {
+                "id": "b",
+                "text": "Changing image to a video."
+            },
+            {
+                "id": "c",
+                "text": "Converting to text."
+            },
+            {
+                "id": "d",
+                "text": "Color correction."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Shape processing.",
+        "explanation": "Dilation adds pixels to boundaries; Erosion removes pixels from boundaries."
+    },
+    {
+        "id": "nlp_cv_ch5_13",
+        "text": "What is 'Scaling' in CV?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Resizing an image."
+            },
+            {
+                "id": "b",
+                "text": "Measuring weight."
+            },
+            {
+                "id": "c",
+                "text": "Calculating scores."
+            },
+            {
+                "id": "d",
+                "text": "Adding brightness."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Resize.",
+        "explanation": "Changing height and width of image."
+    },
+    {
+        "id": "nlp_cv_ch5_14",
+        "text": "What is 'Image Interpolation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Estimating pixel values at non-integer coordinates when resizing or rotating."
+            },
+            {
+                "id": "b",
+                "text": "Analyzing the image."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Adding text."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Guessing missing pixels.",
+        "explanation": "Common methods: Nearest Neighbor, Bilinear, Bicubic."
+    },
+    {
+        "id": "nlp_cv_ch5_15",
+        "text": "A 'Pixel' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Smallest controllable element of an image (Picture Element)."
+            },
+            {
+                "id": "b",
+                "text": "A unit of weight."
+            },
+            {
+                "id": "c",
+                "text": "A physical sensor."
+            },
+            {
+                "id": "d",
+                "text": "The entire image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Smallest unit.",
+        "explanation": "Pixel value represents intensity (0-255 in 8-bit images)."
+    },
+    {
+        "id": "nlp_cv_ch5_16",
+        "text": "What is 'Feature Extraction' in CV?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Identifying distinguishing characteristics like corners, blobs, or edges."
+            },
+            {
+                "id": "b",
+                "text": "Deleting objects."
+            },
+            {
+                "id": "c",
+                "text": "Resizing."
+            },
+            {
+                "id": "d",
+                "text": "Saving files."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Interest points.",
+        "explanation": "Before deep learning, features were manually hand-crafted (e.g., SIFT, SURF)."
+    },
+    {
+        "id": "nlp_cv_ch5_17",
+        "text": "What is 'Interest Point Detection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding unique, robust points like corners that can be tracked across images."
+            },
+            {
+                "id": "b",
+                "text": "Clicking on image."
+            },
+            {
+                "id": "c",
+                "text": "Reading text."
+            },
+            {
+                "id": "d",
+                "text": "Image cropping."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Corner detection.",
+        "explanation": "Harris Corner Detector is a classic example."
+    },
+    {
+        "id": "nlp_cv_ch5_18",
+        "text": "What is 'Haar Cascades' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classic face detection (e.g., in early digital cameras)."
+            },
+            {
+                "id": "b",
+                "text": "Deep Learning."
+            },
+            {
+                "id": "c",
+                "text": "Video editing."
+            },
+            {
+                "id": "d",
+                "text": "Text recognition."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Viola-Jones detector.",
+        "explanation": "Uses simple rectangular features to efficiently detect facial patterns."
+    },
+    {
+        "id": "nlp_cv_ch5_19",
+        "text": "What is 'HOG' (Histogram of Oriented Gradients)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A feature descriptor used for pedetrian detection and object recognition."
+            },
+            {
+                "id": "b",
+                "text": "A type of pig."
+            },
+            {
+                "id": "c",
+                "text": "Speed of camera."
+            },
+            {
+                "id": "d",
+                "text": "Memory unit."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gradient based features.",
+        "explanation": "HOG counts occurrences of gradient orientation in localized portions of an image."
+    },
+    {
+        "id": "nlp_cv_ch5_20",
+        "text": "What describes 'Image Classification'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Determining the category or label of an entire image (e.g., 'Dog')."
+            },
+            {
+                "id": "b",
+                "text": "Finding where the dog is."
+            },
+            {
+                "id": "c",
+                "text": "Outlining the dog."
+            },
+            {
+                "id": "d",
+                "text": "Counting dogs."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Image-level label.",
+        "explanation": "The model answers 'What is in the image?'."
+    },
+    {
+        "id": "nlp_cv_ch5_21",
+        "text": "What is 'OpenCV'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Open-source Computer Vision library (C++/Python)."
+            },
+            {
+                "id": "b",
+                "text": "A video player."
+            },
+            {
+                "id": "c",
+                "text": "A brand of camera."
+            },
+            {
+                "id": "d",
+                "text": "Operating system."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Industry standard library.",
+        "explanation": "Provides hundreds of functions for real-time computer vision."
+    },
+    {
+        "id": "nlp_cv_ch5_22",
+        "text": "What 'Gaussian Noise' looks like in an image?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Random salt-and-pepper dots."
+            },
+            {
+                "id": "b",
+                "text": "Fine-grained speckles (static)."
+            },
+            {
+                "id": "c",
+                "text": "Vertical stripes."
+            },
+            {
+                "id": "d",
+                "text": "Missing color."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Film grain.",
+        "explanation": "Random fluctuations in intensity distributed normally (bell curve)."
+    },
+    {
+        "id": "nlp_cv_ch5_23",
+        "text": "What is 'Template Matching'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding sub-images that match a template by sliding it over the whole image."
+            },
+            {
+                "id": "b",
+                "text": "Writing code templates."
+            },
+            {
+                "id": "c",
+                "text": "Matching documents."
+            },
+            {
+                "id": "d",
+                "text": "Color matching."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Search by example.",
+        "explanation": "Basic way to find specific icons or shapes in an image."
+    },
+    {
+        "id": "nlp_cv_ch5_24",
+        "text": "What is the result of applying a Laplacian filter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Edge map (emphasizes sharp intensity changes)."
+            },
+            {
+                "id": "b",
+                "text": "A black image."
+            },
+            {
+                "id": "c",
+                "text": "Blurred image."
+            },
+            {
+                "id": "d",
+                "text": "Green tinted image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Second derivative.",
+        "explanation": "Laplacian is a 2nd order derivative operator used for edge detection."
+    },
+    {
+        "id": "nlp_cv_ch5_25",
+        "text": "Standard resolution for full-HD video?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1920 x 1080"
+            },
+            {
+                "id": "b",
+                "text": "1280 x 720"
+            },
+            {
+                "id": "c",
+                "text": "4096 x 2160"
+            },
+            {
+                "id": "d",
+                "text": "640 x 480"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "1080p.",
+        "explanation": "Total ~2 million pixels."
+    },
+    {
+        "id": "nlp_cv_ch5_26",
+        "text": "In OpenCV (Python), images are read as?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NumPy arrays."
+            },
+            {
+                "id": "b",
+                "text": "TXT files."
+            },
+            {
+                "id": "c",
+                "text": "Python lists."
+            },
+            {
+                "id": "d",
+                "text": "Binary strings."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Numerical processing.",
+        "explanation": "Allows fast matrix operations on pixels."
+    },
+    {
+        "id": "nlp_cv_ch5_27",
+        "text": "What is 'BGR' compared to 'RGB'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Opposite order of color channels; OpenCV uses BGR by default."
+            },
+            {
+                "id": "b",
+                "text": "Higher quality colors."
+            },
+            {
+                "id": "c",
+                "text": "Same thing."
+            },
+            {
+                "id": "d",
+                "text": "Black-Green-Red."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "OpenCV channel order.",
+        "explanation": "Common pitfall for beginners to forget to convert BGR to RGB for matplotlib."
+    },
+    {
+        "id": "nlp_cv_ch5_28",
+        "text": "The 'Aspect Ratio' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Ratio of width to height (e.g., 16:9)."
+            },
+            {
+                "id": "b",
+                "text": "Total number of pixels."
+            },
+            {
+                "id": "c",
+                "text": "Speed of image loading."
+            },
+            {
+                "id": "d",
+                "text": "Brightness level."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Shape ratio.",
+        "explanation": "Must be maintained during resizing to avoid stretching."
+    },
+    {
+        "id": "nlp_cv_ch5_29",
+        "text": "A 'Kernel' of all 1s (normalized) behaves as?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Average Blur (Mean Filter)."
+            },
+            {
+                "id": "b",
+                "text": "Edge Detector."
+            },
+            {
+                "id": "c",
+                "text": "Sharpening."
+            },
+            {
+                "id": "d",
+                "text": "Identity."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Smooth out.",
+        "explanation": "Every pixel becomes the average of its neighbors."
+    },
+    {
+        "id": "nlp_cv_ch5_30",
+        "text": "What is 'Sobel' operator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A derivative filter to find gradients in x or y direction (edges)."
+            },
+            {
+                "id": "b",
+                "text": "A color filter."
+            },
+            {
+                "id": "c",
+                "text": "A resize method."
+            },
+            {
+                "id": "d",
+                "text": "Type of sensor."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gradient filter.",
+        "explanation": "Emphasizes regions of high spatial frequency that correspond to edges."
+    }
+]

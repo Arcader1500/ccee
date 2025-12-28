@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch2_1",
+        "text": "What is 'Responsible AI'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AI that pays taxes."
+            },
+            {
+                "id": "b",
+                "text": "A framework for designing, building, and deploying AI that is ethical, transparent, and fair."
+            },
+            {
+                "id": "c",
+                "text": "AI that never fails."
+            },
+            {
+                "id": "d",
+                "text": "AI that works 24/7."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ethics and Fairness.",
+        "explanation": "Responsible AI focuses on safety, privacy, and accountability in AI development."
+    },
+    {
+        "id": "fai_ch2_2",
+        "text": "What is 'Algorithmic Bias'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Algorithm speed."
+            },
+            {
+                "id": "b",
+                "text": "Systematic and repeatable errors in a computer system that create unfair outcomes, such as privileging one group over another."
+            },
+            {
+                "id": "c",
+                "text": "Mathematical precision."
+            },
+            {
+                "id": "d",
+                "text": "A feature of sorting."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unfairness.",
+        "explanation": "Bias can enter AI through training data or flawed algorithm design."
+    },
+    {
+        "id": "fai_ch2_3",
+        "text": "Which of these is a major trend in modern AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generative AI (Large Language Models)"
+            },
+            {
+                "id": "b",
+                "text": "Edge AI"
+            },
+            {
+                "id": "c",
+                "text": "Explainable AI (XAI)"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Modern landscape.",
+        "explanation": "Modern AI involves text/image generation, deployment on devices, and making models interpretable."
+    },
+    {
+        "id": "fai_ch2_4",
+        "text": "What is 'Artificial Life' (ALife)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Living robots."
+            },
+            {
+                "id": "b",
+                "text": "Field of study that examines systems related to life, its processes, and its evolution through simulations using computer models."
+            },
+            {
+                "id": "c",
+                "text": "Cloning."
+            },
+            {
+                "id": "d",
+                "text": "VR games."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Biological simulation.",
+        "explanation": "ALife researchers study the logic of living systems by attempting to recreate them in other media."
+    },
+    {
+        "id": "fai_ch2_5",
+        "text": "What is 'Emergent Behavior'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Planned behavior."
+            },
+            {
+                "id": "b",
+                "text": "Complex patterns or behaviors that arise out of multiple simple interactions."
+            },
+            {
+                "id": "c",
+                "text": "Random errors."
+            },
+            {
+                "id": "d",
+                "text": "AI waking up."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Whole > Sum of parts.",
+        "explanation": "Examples include bird flocking or ant colony behavior modeled in AI."
+    },
+    {
+        "id": "fai_ch2_6",
+        "text": "Why is 'Explainability' important in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make it faster."
+            },
+            {
+                "id": "b",
+                "text": "To build trust and understand why a model made a specific decision (e.g., in medical or legal fields)."
+            },
+            {
+                "id": "c",
+                "text": "To save disk space."
+            },
+            {
+                "id": "d",
+                "text": "To use less power."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Trust and understanding.",
+        "explanation": "Black-box models are hard to trust in high-stakes environments."
+    },
+    {
+        "id": "fai_ch2_7",
+        "text": "What is the 'Black Box' problem in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building boxes that are black."
+            },
+            {
+                "id": "b",
+                "text": "The inability to see the internal workings or logic behind an AI's decision."
+            },
+            {
+                "id": "c",
+                "text": "Hidden files."
+            },
+            {
+                "id": "d",
+                "text": "Encrypted AI."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Opacity.",
+        "explanation": "Deep neural networks are often called black boxes because their millions of parameters are hard for humans to interpret."
+    },
+    {
+        "id": "fai_ch2_8",
+        "text": "Which principle suggests that AI should benefit all of humanity?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Beneficence"
+            },
+            {
+                "id": "b",
+                "text": "Non-maleficence"
+            },
+            {
+                "id": "c",
+                "text": "Autonomy"
+            },
+            {
+                "id": "d",
+                "text": "Justice"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Do good.",
+        "explanation": "Beneficence is the ethical obligation to maximize benefits and minimize harms."
+    },
+    {
+        "id": "fai_ch2_9",
+        "text": "In AI ethics, 'Transparency' refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clear monitors."
+            },
+            {
+                "id": "b",
+                "text": "Being open about how data is used and how algorithms work."
+            },
+            {
+                "id": "c",
+                "text": "Ghost robots."
+            },
+            {
+                "id": "d",
+                "text": "Publicly sharing all code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Openness.",
+        "explanation": "Transparency ensures stakeholders know when and how AI is being used."
+    },
+    {
+        "id": "fai_ch2_10",
+        "text": "What is 'Anthropomorphism' in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Killing AI."
+            },
+            {
+                "id": "b",
+                "text": "The attribution of human traits, emotions, or intentions to non-human entities like AI."
+            },
+            {
+                "id": "c",
+                "text": "Using AI for anthropology."
+            },
+            {
+                "id": "d",
+                "text": "Building human-like robots."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Giving AI human qualities.",
+        "explanation": "Users often think AI 'feels' or 'thinks' like them, even when it's just pattern matching."
+    },
+    {
+        "id": "fai_ch2_11",
+        "text": "The potential 'Job Displacement' due to AI is a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Technical problem."
+            },
+            {
+                "id": "b",
+                "text": "Socio-economic implication."
+            },
+            {
+                "id": "c",
+                "text": "Coding error."
+            },
+            {
+                "id": "d",
+                "text": "Myth."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Impact on society.",
+        "explanation": "AI automation may replace human tasks, requiring societal adaptation and reskilling."
+    },
+    {
+        "id": "fai_ch2_12",
+        "text": "What is 'Technological Unemployment'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Broken computers."
+            },
+            {
+                "id": "b",
+                "text": "Loss of jobs caused by technological change."
+            },
+            {
+                "id": "c",
+                "text": "Not having a smartphone."
+            },
+            {
+                "id": "d",
+                "text": "Unemployed IT workers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Replaced by machines.",
+        "explanation": "A term famously discussed by John Maynard Keynes in the 1930s."
+    },
+    {
+        "id": "fai_ch2_13",
+        "text": "Which of these is a risk of AI in warfare?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Autonomous Weapons Systems (Lethal Autonomous Weapons)."
+            },
+            {
+                "id": "b",
+                "text": "Slower decisions."
+            },
+            {
+                "id": "c",
+                "text": "Better food for soldiers."
+            },
+            {
+                "id": "d",
+                "text": "Less electricity used."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Killer robots.",
+        "explanation": "Autonomous weapons could make life-and-death decisions without human intervention, raising severe ethical concerns."
+    },
+    {
+        "id": "fai_ch2_14",
+        "text": "What is 'Data Privacy' in AI context?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deleting data."
+            },
+            {
+                "id": "b",
+                "text": "Protecting personal information used to train or processed by AI models."
+            },
+            {
+                "id": "c",
+                "text": "Selling data."
+            },
+            {
+                "id": "d",
+                "text": "Encrypting hard drives only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "User rights.",
+        "explanation": "AI requires massive data, raising risks if personal privacy isn't protected."
+    },
+    {
+        "id": "fai_ch2_15",
+        "text": "What is 'Human-in-the-loop'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A human running in circles."
+            },
+            {
+                "id": "b",
+                "text": "Integrating human intervention into an automated process."
+            },
+            {
+                "id": "c",
+                "text": "Human stuck in a room."
+            },
+            {
+                "id": "d",
+                "text": "Manual data entry."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Human oversight.",
+        "explanation": "Ensures that critical decisions made by AI are reviewed or initiated by a human."
+    },
+    {
+        "id": "fai_ch2_16",
+        "text": "What refers to the challenge of ensuring AI goals match human values?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The Alignment Problem."
+            },
+            {
+                "id": "b",
+                "text": "The Connection Problem."
+            },
+            {
+                "id": "c",
+                "text": "The Math Problem."
+            },
+            {
+                "id": "d",
+                "text": "The Code Problem."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Values matching.",
+        "explanation": "The Alignment Problem focuses on preventing AI from pursuing harmful goals while trying to achieve its objectives."
+    },
+    {
+        "id": "fai_ch2_17",
+        "text": "What is 'AIBO'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A famous early neural net."
+            },
+            {
+                "id": "b",
+                "text": "Sony's robotic dog, a pioneer in consumer social robotics."
+            },
+            {
+                "id": "c",
+                "text": "A programming language."
+            },
+            {
+                "id": "d",
+                "text": "An AI chip."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Robotic pet.",
+        "explanation": "Introduced in 1999, it showed how humans can form emotional bonds with artificial entities."
+    },
+    {
+        "id": "fai_ch2_18",
+        "text": "The 'Lovelace Objection' states that?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Computers are better than humans."
+            },
+            {
+                "id": "b",
+                "text": "Machines can only do whatever we know how to order them to do (no original thought)."
+            },
+            {
+                "id": "c",
+                "text": "Computers will eat us."
+            },
+            {
+                "id": "d",
+                "text": "Machines have souls."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No origination.",
+        "explanation": "Ada Lovelace argued that the Analytical Engine had no pretensions to originate anything."
+    },
+    {
+        "id": "fai_ch2_19",
+        "text": "What is a 'Deepfake'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A very profound lie."
+            },
+            {
+                "id": "b",
+                "text": "Synthetic media in which a person in an existing image or video is replaced with someone else's likeness."
+            },
+            {
+                "id": "c",
+                "text": "A deep sea robot."
+            },
+            {
+                "id": "d",
+                "text": "High resolution photo."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Media manipulation.",
+        "explanation": "Deepfakes pose risks of misinformation and identity theft."
+    },
+    {
+        "id": "fai_ch2_20",
+        "text": "What is 'Affective Computing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Efficient computing."
+            },
+            {
+                "id": "b",
+                "text": "Study and development of systems that can recognize, interpret, process, and simulate human affects (emotions)."
+            },
+            {
+                "id": "c",
+                "text": "Infectious code."
+            },
+            {
+                "id": "d",
+                "text": "Powerful computing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Emotional AI.",
+        "explanation": "It aims to give machines 'emotional intelligence'."
+    },
+    {
+        "id": "fai_ch2_21",
+        "text": "Which trend involves using AI to create AI models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AutoML"
+            },
+            {
+                "id": "b",
+                "text": "BigData"
+            },
+            {
+                "id": "c",
+                "text": "CloudAI"
+            },
+            {
+                "id": "d",
+                "text": "WebAI"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Automatic Machine Learning.",
+        "explanation": "AutoML automates the process of applying machine learning to real-world problems."
+    },
+    {
+        "id": "fai_ch2_22",
+        "text": "What is 'Narrow AI'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AI with thin processors."
+            },
+            {
+                "id": "b",
+                "text": "Another term for Weak AI, specialized for one task."
+            },
+            {
+                "id": "c",
+                "text": "AI with few lines of code."
+            },
+            {
+                "id": "d",
+                "text": "AI for small screens."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Opposite of General AI.",
+        "explanation": "Most current AI systems (search, translation, filters) are Narrow AI."
+    },
+    {
+        "id": "fai_ch2_23",
+        "text": "Which ethical risk involves AI systems that reinforce existing social prejudices?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Speed"
+            },
+            {
+                "id": "b",
+                "text": "Bias and Discrimination"
+            },
+            {
+                "id": "c",
+                "text": "Complexity"
+            },
+            {
+                "id": "d",
+                "text": "Reliability"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Prejudice.",
+        "explanation": "Datasets often contain historical biases that models learn and propagate."
+    },
+    {
+        "id": "fai_ch2_24",
+        "text": "What is 'Fairness' in machine learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model having a nice UI."
+            },
+            {
+                "id": "b",
+                "text": "Ensuring the model's predictions are unbiased and don't discriminate against specific groups."
+            },
+            {
+                "id": "c",
+                "text": "Model being cheap."
+            },
+            {
+                "id": "d",
+                "text": "Model finishing fast."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Equality.",
+        "explanation": "Fairness metrics help measure and mitigate disparate impacts."
+    },
+    {
+        "id": "fai_ch2_25",
+        "text": "What is 'Accountability' for AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Math calculations."
+            },
+            {
+                "id": "b",
+                "text": "Determining who is responsible for the actions and consequences of an AI system."
+            },
+            {
+                "id": "c",
+                "text": "Counting AI users."
+            },
+            {
+                "id": "d",
+                "text": "Saving money."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Who is to blame?",
+        "explanation": "Vital for legal and ethical frameworks when software makes automated decisions."
+    },
+    {
+        "id": "fai_ch2_26",
+        "text": "Artificial Life (ALife) is often studied using?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cellular Automata (e.g., Conway's Game of Life)."
+            },
+            {
+                "id": "b",
+                "text": "Photoshop."
+            },
+            {
+                "id": "c",
+                "text": "Word processors."
+            },
+            {
+                "id": "d",
+                "text": "Microscopes."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Simple rules, complex life.",
+        "explanation": "Cellular automata demonstrate how complex emergent behavior can come from simple local rules."
+    },
+    {
+        "id": "fai_ch2_27",
+        "text": "What is 'Digital Divide' related to AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Binary code (0 and 1)."
+            },
+            {
+                "id": "b",
+                "text": "The gap between those who have access to AI technology and those who do not."
+            },
+            {
+                "id": "c",
+                "text": "Mathematical division."
+            },
+            {
+                "id": "d",
+                "text": "Computer monitor pixels."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Access gap.",
+        "explanation": "Lack of access to AI can further disadvantage certain populations or nations."
+    },
+    {
+        "id": "fai_ch2_28",
+        "text": "What does GAI stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Global AI"
+            },
+            {
+                "id": "b",
+                "text": "Generative Artificial Intelligence"
+            },
+            {
+                "id": "c",
+                "text": "Great AI"
+            },
+            {
+                "id": "d",
+                "text": "General AI"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Creates content.",
+        "explanation": "Generative AI creates new content like text (ChatGPT) or images (Midjourney)."
+    },
+    {
+        "id": "fai_ch2_29",
+        "text": "In ethical AI, 'Integrity' means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Running without bugs."
+            },
+            {
+                "id": "b",
+                "text": "Reliability and honesty in how the AI is promoted and what it can actually do."
+            },
+            {
+                "id": "c",
+                "text": "Using integer numbers."
+            },
+            {
+                "id": "d",
+                "text": "Strong encryption."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Honest claims.",
+        "explanation": "Integrity involves avoiding overhyping and being honest about system limitations."
+    },
+    {
+        "id": "fai_ch2_30",
+        "text": "Who said 'AI is the new electricity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Andrew Ng"
+            },
+            {
+                "id": "b",
+                "text": "Elon Musk"
+            },
+            {
+                "id": "c",
+                "text": "Bill Gates"
+            },
+            {
+                "id": "d",
+                "text": "Steve Jobs"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Coursera founder.",
+        "explanation": "Andrew Ng used this analogy to describe AI's transformative potential across all industries."
+    }
+]

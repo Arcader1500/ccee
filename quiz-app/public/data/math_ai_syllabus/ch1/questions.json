@@ -1,0 +1,752 @@
+[
+    {
+        "id": "math_ai_ch1_1",
+        "text": "What is a 'Vector' in Linear Algebra?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A list of numbers (coordinates) representing a point or direction in space."
+            },
+            {
+                "id": "b",
+                "text": "A line segment with arrows."
+            },
+            {
+                "id": "c",
+                "text": "A scalar value."
+            },
+            {
+                "id": "d",
+                "text": "A square matrix."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Ordered list of values.",
+        "explanation": "Vectors are multi-dimensional data points, fundamental to representing data in AI."
+    },
+    {
+        "id": "math_ai_ch1_2",
+        "text": "What is the 'Dot Product' of two vectors [a1, b1] and [a2, b2]?",
+        "options": [
+            {
+                "id": "a",
+                "text": "a1*a2 + b1*b2"
+            },
+            {
+                "id": "b",
+                "text": "[a1+a2, b1+b2]"
+            },
+            {
+                "id": "c",
+                "text": "a1*b2 - a2*b1"
+            },
+            {
+                "id": "d",
+                "text": "a1/a2"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Scalar product.",
+        "explanation": "The dot product results in a single scalar value."
+    },
+    {
+        "id": "math_ai_ch1_3",
+        "text": "If the dot product of two non-zero vectors is zero, they are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Parallel."
+            },
+            {
+                "id": "b",
+                "text": "Orthogonal (Perpendicular)."
+            },
+            {
+                "id": "c",
+                "text": "Equal."
+            },
+            {
+                "id": "d",
+                "text": "Opposite."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "90 degrees.",
+        "explanation": "Orthogonal vectors have a dot product of zero."
+    },
+    {
+        "id": "math_ai_ch1_4",
+        "text": "What does the 'Norm' (L2) of a vector represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Its direction."
+            },
+            {
+                "id": "b",
+                "text": "Its magnitude or length (Euclidean distance from origin)."
+            },
+            {
+                "id": "c",
+                "text": "Its color."
+            },
+            {
+                "id": "d",
+                "text": "The number of elements."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Square root of sum of squares.",
+        "explanation": "L2 norm ||v|| is sqrt(v1^2 + v2^2 + ...)."
+    },
+    {
+        "id": "math_ai_ch1_5",
+        "text": "What is a 'Unit Vector'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A vector with all elements as 1."
+            },
+            {
+                "id": "b",
+                "text": "A vector with magnitude (length) equal to 1."
+            },
+            {
+                "id": "c",
+                "text": "A vector with only 1 element."
+            },
+            {
+                "id": "d",
+                "text": "The zero vector."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Normalized vector.",
+        "explanation": "A unit vector represents direction without magnitude."
+    },
+    {
+        "id": "math_ai_ch1_6",
+        "text": "What is 'Cosine Similarity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Distance between points."
+            },
+            {
+                "id": "b",
+                "text": "Measure of similarity between two non-zero vectors that measures the cosine of the angle between them."
+            },
+            {
+                "id": "c",
+                "text": "Difference in magnitude."
+            },
+            {
+                "id": "d",
+                "text": "Binary comparison."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dot product of unit vectors.",
+        "explanation": "Cosine similarity = (A.B) / (||A||*||B||). Often used in NLP."
+    },
+    {
+        "id": "math_ai_ch1_7",
+        "text": "What is 'Linear Independence'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vectors that point in the same direction."
+            },
+            {
+                "id": "b",
+                "text": "A set of vectors where no vector can be written as a linear combination of the others."
+            },
+            {
+                "id": "c",
+                "text": "Vectors that are non-zero."
+            },
+            {
+                "id": "d",
+                "text": "Vectors on the same line."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unique directions.",
+        "explanation": "Independent vectors 'span' a higher dimensional space."
+    },
+    {
+        "id": "math_ai_ch1_8",
+        "text": "What is the 'Basis' of a vector space?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The starting point."
+            },
+            {
+                "id": "b",
+                "text": "A linearly independent set of vectors that spans the entire space."
+            },
+            {
+                "id": "c",
+                "text": "The average vector."
+            },
+            {
+                "id": "d",
+                "text": "The largest vector."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Coordinate system components.",
+        "explanation": "Any vector in the space can be uniquely represented as a combination of basis vectors."
+    },
+    {
+        "id": "math_ai_ch1_9",
+        "text": "What is vector 'Projection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Shadow of one vector onto another."
+            },
+            {
+                "id": "b",
+                "text": "Adding two vectors."
+            },
+            {
+                "id": "c",
+                "text": "Multiplying vectors."
+            },
+            {
+                "id": "d",
+                "text": "Inverting a vector."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Decomposition.",
+        "explanation": "Component of vector A that lies along the direction of vector B."
+    },
+    {
+        "id": "math_ai_ch1_10",
+        "text": "The 'Span' of a set of vectors refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Their average."
+            },
+            {
+                "id": "b",
+                "text": "The set of all possible linear combinations of those vectors."
+            },
+            {
+                "id": "c",
+                "text": "The distance between them."
+            },
+            {
+                "id": "d",
+                "text": "Their length."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "All reachble points.",
+        "explanation": "Span(v1, v2) is the plane or line formed by any a*v1 + b*v2."
+    },
+    {
+        "id": "math_ai_ch1_11",
+        "text": "What is the L1 Norm (Manhattan Norm)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sum of absolute values of elements."
+            },
+            {
+                "id": "b",
+                "text": "Square root of sum of squares."
+            },
+            {
+                "id": "c",
+                "text": "Maximum element."
+            },
+            {
+                "id": "d",
+                "text": "Product of elements."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Taxicab norm.",
+        "explanation": "||v||_1 = |v1| + |v2| + ... Used in Lasso regularization."
+    },
+    {
+        "id": "math_ai_ch1_12",
+        "text": "What is the 'L infinity' Norm (Max Norm)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sum of elements."
+            },
+            {
+                "id": "b",
+                "text": "The absolute value of the largest element in the vector."
+            },
+            {
+                "id": "c",
+                "text": "Infinite sum."
+            },
+            {
+                "id": "d",
+                "text": "Zero."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Maximum value.",
+        "explanation": "||v||_inf = max(|v1|, |v2|, ...)."
+    },
+    {
+        "id": "math_ai_ch1_13",
+        "text": "Which property is TRUE for dot product A.B?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A.B = B.A (Commutative)"
+            },
+            {
+                "id": "b",
+                "text": "A.B = - (B.A)"
+            },
+            {
+                "id": "c",
+                "text": "A.B = A + B"
+            },
+            {
+                "id": "d",
+                "text": "Only works for 2D."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Symmetry.",
+        "explanation": "Dot product is commutative."
+    },
+    {
+        "id": "math_ai_ch1_14",
+        "text": "The 'Rank' of a set of vectors represents?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Number of vectors."
+            },
+            {
+                "id": "b",
+                "text": "Maximum number of linearly independent vectors in the set."
+            },
+            {
+                "id": "c",
+                "text": "Total sum."
+            },
+            {
+                "id": "d",
+                "text": "Magnitude."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Effective dimensionality.",
+        "explanation": "Rank determines the dimension of the space spanned by the vectors."
+    },
+    {
+        "id": "math_ai_ch1_15",
+        "text": "What are 'Orthogonal' vectors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vectors at 90 degrees to each other."
+            },
+            {
+                "id": "b",
+                "text": "Parallel vectors."
+            },
+            {
+                "id": "c",
+                "text": "Equal vectors."
+            },
+            {
+                "id": "d",
+                "text": "Negative vectors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Right angle.",
+        "explanation": "Their dot product is 0."
+    },
+    {
+        "id": "math_ai_ch1_16",
+        "text": "What is an 'Orthonormal' basis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Basis where all vectors are unit vectors and orthogonal to each other."
+            },
+            {
+                "id": "b",
+                "text": "Basis with only one vector."
+            },
+            {
+                "id": "c",
+                "text": "Basis with all integers."
+            },
+            {
+                "id": "d",
+                "text": "Random basis."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Orthogonal + Normal.",
+        "explanation": "V_i . V_j = 0 and ||V_i|| = 1. Standard (x, y, z) is orthonormal."
+    },
+    {
+        "id": "math_ai_ch1_17",
+        "text": "Multiplying a vector by a scalar 'k' does what?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rotates it."
+            },
+            {
+                "id": "b",
+                "text": "Scales its magnitude by k (stretches or shrinks)."
+            },
+            {
+                "id": "c",
+                "text": "Increases its dimension."
+            },
+            {
+                "id": "d",
+                "text": "Changes it to a matrix."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scaling.",
+        "explanation": "Scalar multiplication changes length and potentially direction (if k is negative)."
+    },
+    {
+        "id": "math_ai_ch1_18",
+        "text": "What is 'Vector Subtraction' Geometrically?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A + B."
+            },
+            {
+                "id": "b",
+                "text": "The vector pointing from B's tip to A's tip (A - B)."
+            },
+            {
+                "id": "c",
+                "text": "A dot B."
+            },
+            {
+                "id": "d",
+                "text": "A cross B."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Difference vector.",
+        "explanation": "Subtraction finds the displacement between two points/vectors."
+    },
+    {
+        "id": "math_ai_ch1_19",
+        "text": "Triangle inequality states for vectors u and v?",
+        "options": [
+            {
+                "id": "a",
+                "text": "||u + v|| <= ||u|| + ||v||"
+            },
+            {
+                "id": "b",
+                "text": "||u + v|| = ||u|| + ||v||"
+            },
+            {
+                "id": "c",
+                "text": "||u + v|| >= ||u|| + ||v||"
+            },
+            {
+                "id": "d",
+                "text": "u . v = 0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Shortest path.",
+        "explanation": "The length of the sum is at most the sum of the lengths."
+    },
+    {
+        "id": "math_ai_ch1_20",
+        "text": "What is 'Cauchy-Schwarz Inequality'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "|u . v| <= ||u|| * ||v||"
+            },
+            {
+                "id": "b",
+                "text": "|u . v| = 1"
+            },
+            {
+                "id": "c",
+                "text": "u + v = 0"
+            },
+            {
+                "id": "d",
+                "text": "u . v >= 1"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Related to cosine similarity.",
+        "explanation": "Since cos(theta) <= 1, the dot product is at most the product of the magnitudes."
+    },
+    {
+        "id": "math_ai_ch1_21",
+        "text": "Linear combinations of [1, 0] and [0, 1] can represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Only points on x-axis."
+            },
+            {
+                "id": "b",
+                "text": "Only points on y-axis."
+            },
+            {
+                "id": "c",
+                "text": "Any point in 2D space."
+            },
+            {
+                "id": "d",
+                "text": "Only [1, 1]."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Standard basis.",
+        "explanation": "These are the standard basis vectors for R^2."
+    },
+    {
+        "id": "math_ai_ch1_22",
+        "text": "If u = [1, 2] and v = [3, 4], what is u + v?",
+        "options": [
+            {
+                "id": "a",
+                "text": "[4, 6]"
+            },
+            {
+                "id": "b",
+                "text": "[3, 8]"
+            },
+            {
+                "id": "c",
+                "text": "11"
+            },
+            {
+                "id": "d",
+                "text": "[2, 2]"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Element-wise add.",
+        "explanation": "1+3=4 and 2+4=6."
+    },
+    {
+        "id": "math_ai_ch1_23",
+        "text": "If u = [3, 4], what is its L2 norm?",
+        "options": [
+            {
+                "id": "a",
+                "text": "7"
+            },
+            {
+                "id": "b",
+                "text": "5"
+            },
+            {
+                "id": "c",
+                "text": "12"
+            },
+            {
+                "id": "d",
+                "text": "25"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "3-4-5 triangle.",
+        "explanation": "sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5."
+    },
+    {
+        "id": "math_ai_ch1_24",
+        "text": "Gram-Schmidt process is used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding eigenvalues."
+            },
+            {
+                "id": "b",
+                "text": "Converting a set of vectors into an orthonormal set."
+            },
+            {
+                "id": "c",
+                "text": "Sorting vectors."
+            },
+            {
+                "id": "d",
+                "text": "Inverting a matrix."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Orthonormalization.",
+        "explanation": "It creates an orthogonal/orthonormal basis from a set of linearly independent vectors."
+    },
+    {
+        "id": "math_ai_ch1_25",
+        "text": "Linear dependence between two vectors means they are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Perpendicular."
+            },
+            {
+                "id": "b",
+                "text": "Collinear (one is a multiple of another)."
+            },
+            {
+                "id": "c",
+                "text": "Zero."
+            },
+            {
+                "id": "d",
+                "text": "Unit vectors."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Same line.",
+        "explanation": "They don't add a new dimension to the span."
+    },
+    {
+        "id": "math_ai_ch1_26",
+        "text": "What is the 'Zero Vector'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vector with all entries as 0."
+            },
+            {
+                "id": "b",
+                "text": "Vector with length 1."
+            },
+            {
+                "id": "c",
+                "text": "An empty list."
+            },
+            {
+                "id": "d",
+                "text": "A negative vector."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Origin.",
+        "explanation": "It's the additive identity in a vector space."
+    },
+    {
+        "id": "math_ai_ch1_27",
+        "text": "Dot product of [1, 2] and [3, 4]?",
+        "options": [
+            {
+                "id": "a",
+                "text": "11"
+            },
+            {
+                "id": "b",
+                "text": "14"
+            },
+            {
+                "id": "c",
+                "text": "7"
+            },
+            {
+                "id": "d",
+                "text": "10"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "1*3 + 2*4.",
+        "explanation": "3 + 8 = 11."
+    },
+    {
+        "id": "math_ai_ch1_28",
+        "text": "If cosine similarity is 1, the vectors are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pointing in same direction (angle 0)."
+            },
+            {
+                "id": "b",
+                "text": "Orthogonal."
+            },
+            {
+                "id": "c",
+                "text": "Pointing in opposite directions."
+            },
+            {
+                "id": "d",
+                "text": "Negative."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "cos(0) = 1.",
+        "explanation": "They are perfectly similar in direction."
+    },
+    {
+        "id": "math_ai_ch1_29",
+        "text": "Which norm represents the total distance traveled in a city grid?",
+        "options": [
+            {
+                "id": "a",
+                "text": "L1 (Manhattan)"
+            },
+            {
+                "id": "b",
+                "text": "L2 (Euclidean)"
+            },
+            {
+                "id": "c",
+                "text": "L inf"
+            },
+            {
+                "id": "d",
+                "text": "Rank."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sum of absolute diffs.",
+        "explanation": "Moving along horizontal and vertical streets."
+    },
+    {
+        "id": "math_ai_ch1_30",
+        "text": "Can a 2-element vector be linearly independent from a 3-element vector?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, they must be in the same vector space (same dimension)."
+            },
+            {
+                "id": "c",
+                "text": "Only if they are zero."
+            },
+            {
+                "id": "d",
+                "text": "Maybe."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dimension match.",
+        "explanation": "Operations like dot product and independence are defined within a specific R^n."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch3_1",
+        "text": "What is the main difference between Supervised and Unsupervised learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised uses labels; Unsupervised does not."
+            },
+            {
+                "id": "b",
+                "text": "Supervised is for robots; Unsupervised is for humans."
+            },
+            {
+                "id": "c",
+                "text": "No difference."
+            },
+            {
+                "id": "d",
+                "text": "Supervised is faster."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Labels.",
+        "explanation": "Supervised learning learns from input-output pairs (labeled data)."
+    },
+    {
+        "id": "fai_ch3_2",
+        "text": "Which is an example of Supervised Learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clustering customers."
+            },
+            {
+                "id": "b",
+                "text": "Spam detection (Spam vs Ham labels)."
+            },
+            {
+                "id": "c",
+                "text": "Finding patterns in DNA."
+            },
+            {
+                "id": "d",
+                "text": "Compressing images."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Given target.",
+        "explanation": "Spam detection uses a labeled dataset of previous emails."
+    },
+    {
+        "id": "fai_ch3_3",
+        "text": "Which is an example of Unsupervised Learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting house prices."
+            },
+            {
+                "id": "b",
+                "text": "K-Means Clustering."
+            },
+            {
+                "id": "c",
+                "text": "Handwritten digit recognition."
+            },
+            {
+                "id": "d",
+                "text": "Face identification."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Grouping.",
+        "explanation": "Clustering groups similar data together without pre-defined labels."
+    },
+    {
+        "id": "fai_ch3_4",
+        "text": "What is an 'Expert System'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A smart human."
+            },
+            {
+                "id": "b",
+                "text": "A computer system that emulates the decision-making ability of a human expert."
+            },
+            {
+                "id": "c",
+                "text": "A very fast calculator."
+            },
+            {
+                "id": "d",
+                "text": "An internet browser."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Simulating human experts.",
+        "explanation": "They represent the first successful application of AI to complex real-world problems."
+    },
+    {
+        "id": "fai_ch3_5",
+        "text": "What are the two main parts of an Expert System?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Monitor and Keyboard."
+            },
+            {
+                "id": "b",
+                "text": "Knowledge Base and Inference Engine."
+            },
+            {
+                "id": "c",
+                "text": "RAM and CPU."
+            },
+            {
+                "id": "d",
+                "text": "Input and Output."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rules and Logic.",
+        "explanation": "The knowledge base stores facts/rules; the inference engine applies them."
+    },
+    {
+        "id": "fai_ch3_6",
+        "text": "What is 'Knowledge Acquisition' in Expert Systems?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Downloading data."
+            },
+            {
+                "id": "b",
+                "text": "Process of extracting knowledge from a human expert and encoding it."
+            },
+            {
+                "id": "c",
+                "text": "Buying books."
+            },
+            {
+                "id": "d",
+                "text": "Surfing the web."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "From humans to machines.",
+        "explanation": "This is often the 'bottleneck' in building expert systems."
+    },
+    {
+        "id": "fai_ch3_7",
+        "text": "What is 'Forward Chaining'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Starting from known facts to reach a goal."
+            },
+            {
+                "id": "b",
+                "text": "Starting from a goal and working backwards to see if facts support it."
+            },
+            {
+                "id": "c",
+                "text": "Parallel processing."
+            },
+            {
+                "id": "d",
+                "text": "Manual entry."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Fact-driven.",
+        "explanation": "Data-driven reasoning that starts with available information and uses inference rules to extract more data."
+    },
+    {
+        "id": "fai_ch3_8",
+        "text": "What is 'Backward Chaining'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Working from data to goal."
+            },
+            {
+                "id": "b",
+                "text": "An inference method that starts with a goal and works backward to find supporting facts."
+            },
+            {
+                "id": "c",
+                "text": "Deleting facts."
+            },
+            {
+                "id": "d",
+                "text": "Crashing system."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Goal-driven.",
+        "explanation": "Used often in medical diagnosis: Start with 'Does patient have X?', then check symptoms."
+    },
+    {
+        "id": "fai_ch3_9",
+        "text": "Expert Systems are generally based on?",
+        "options": [
+            {
+                "id": "a",
+                "text": "If-Then rules."
+            },
+            {
+                "id": "b",
+                "text": "Neural networks."
+            },
+            {
+                "id": "c",
+                "text": "Probability."
+            },
+            {
+                "id": "d",
+                "text": "Images."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Rules.",
+        "explanation": "Most classical expert systems use a rule-based representation."
+    },
+    {
+        "id": "fai_ch3_10",
+        "text": "What is 'Deductive Reasoning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Guessing."
+            },
+            {
+                "id": "b",
+                "text": "Drawing specific conclusions from general premises (Top-down)."
+            },
+            {
+                "id": "c",
+                "text": "Finding patterns in data."
+            },
+            {
+                "id": "d",
+                "text": "Inductive reasoning."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Certain logic.",
+        "explanation": "If A implies B, and A is true, then B MUST be true."
+    },
+    {
+        "id": "fai_ch3_11",
+        "text": "What is 'Inductive Reasoning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Drawing general conclusions from specific observations (Bottom-up)."
+            },
+            {
+                "id": "b",
+                "text": "Logical deduction."
+            },
+            {
+                "id": "c",
+                "text": "Using rules."
+            },
+            {
+                "id": "d",
+                "text": "Expert systems."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Pattern discovery.",
+        "explanation": "Core of machine learning: observing data and creating a general model."
+    },
+    {
+        "id": "fai_ch3_12",
+        "text": "What is 'DENDRAL'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A math library."
+            },
+            {
+                "id": "b",
+                "text": "An early expert system for organic chemistry (identifying structures)."
+            },
+            {
+                "id": "c",
+                "text": "A robot."
+            },
+            {
+                "id": "d",
+                "text": "A programming language."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Chemistry expert.",
+        "explanation": "One of the first successful applications of expert knowledge."
+    },
+    {
+        "id": "fai_ch3_13",
+        "text": "What is 'MYCIN'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A computer game."
+            },
+            {
+                "id": "b",
+                "text": "An early expert system for diagnosing bacterial infections."
+            },
+            {
+                "id": "c",
+                "text": "A new medicine."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Medical expert.",
+        "explanation": "Famous for performing better than some human doctors in its narrow domain."
+    },
+    {
+        "id": "fai_ch3_14",
+        "text": "What does a Knowledge Base contain?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Only numbers."
+            },
+            {
+                "id": "b",
+                "text": "Facts and rules about the specific domain."
+            },
+            {
+                "id": "c",
+                "text": "User manual."
+            },
+            {
+                "id": "d",
+                "text": "System logs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Domain expertise.",
+        "explanation": "It's the heart of the expert system's intelligence."
+    },
+    {
+        "id": "fai_ch3_15",
+        "text": "Reinforcement Learning is based on?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Labels."
+            },
+            {
+                "id": "b",
+                "text": "Rewards and Penalties (Trial and error)."
+            },
+            {
+                "id": "c",
+                "text": "Rules only."
+            },
+            {
+                "id": "d",
+                "text": "Clustering."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Learning from interaction.",
+        "explanation": "An agent learns to behave in an environment by performing actions and seeing results."
+    },
+    {
+        "id": "fai_ch3_16",
+        "text": "What is 'Semi-supervised Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Teaching half the class."
+            },
+            {
+                "id": "b",
+                "text": "Using a small amount of labeled data with a large amount of unlabeled data."
+            },
+            {
+                "id": "c",
+                "text": "Partial rules."
+            },
+            {
+                "id": "d",
+                "text": "Manual correction."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mix of labeled/unlabeled.",
+        "explanation": "Useful because labeling data is expensive, but raw data is abundant."
+    },
+    {
+        "id": "fai_ch3_17",
+        "text": "What is 'Overfitting' in learning systems?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model is too large."
+            },
+            {
+                "id": "b",
+                "text": "Model learns the noise and details of training data too well, failing on new data."
+            },
+            {
+                "id": "c",
+                "text": "Model is perfect."
+            },
+            {
+                "id": "d",
+                "text": "Data is too small."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lack of generalization.",
+        "explanation": "Overfitted models 'memorize' instead of 'learn'."
+    },
+    {
+        "id": "fai_ch3_18",
+        "text": "In Expert Systems, who is the 'Domain Expert'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A programmer."
+            },
+            {
+                "id": "b",
+                "text": "A human who provides the expertise (e.g., Doctor, Engineer)."
+            },
+            {
+                "id": "c",
+                "text": "The computer."
+            },
+            {
+                "id": "d",
+                "text": "The CEO."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Human source of knowledge.",
+        "explanation": "The person whose knowledge is being captured."
+    },
+    {
+        "id": "fai_ch3_19",
+        "text": "What is 'Generalization' in Learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learning everything."
+            },
+            {
+                "id": "b",
+                "text": "Ability of a model to perform well on new, unseen data."
+            },
+            {
+                "id": "c",
+                "text": "Ignoring details."
+            },
+            {
+                "id": "d",
+                "text": "Simplifying code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Test performance.",
+        "explanation": "The ultimate goal of any learning system is to generalize."
+    },
+    {
+        "id": "fai_ch3_20",
+        "text": "Which learning type is primarily used for Regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised."
+            },
+            {
+                "id": "b",
+                "text": "Unsupervised."
+            },
+            {
+                "id": "c",
+                "text": "Knowledge-based."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Predicting values.",
+        "explanation": "Regression requires target 'y' values (labels) to learn the mapping function."
+    },
+    {
+        "id": "fai_ch3_21",
+        "text": "Which is an example of an Expert System shell?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Windows"
+            },
+            {
+                "id": "b",
+                "text": "CLIPS"
+            },
+            {
+                "id": "c",
+                "text": "Excel"
+            },
+            {
+                "id": "d",
+                "text": "Python"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rule-based development tool.",
+        "explanation": "CLIPS is a productive development and delivery expert system tool."
+    },
+    {
+        "id": "fai_ch3_22",
+        "text": "What is the primary drawback of rule-based systems?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Too fast."
+            },
+            {
+                "id": "b",
+                "text": "Brittle; cannot handle situations outside their explicit rules."
+            },
+            {
+                "id": "c",
+                "text": "Too cheap."
+            },
+            {
+                "id": "d",
+                "text": "Use no memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lack of flexibility.",
+        "explanation": "They fail gracefully - or not at all - when faced with unknown cases."
+    },
+    {
+        "id": "fai_ch3_23",
+        "text": "What is 'Clustering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised."
+            },
+            {
+                "id": "b",
+                "text": "Grouping similar objects together without pre-defined labels."
+            },
+            {
+                "id": "c",
+                "text": "Sorting alphabetically."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Group identity.",
+        "explanation": "Unsupervised task to find natural groupings."
+    },
+    {
+        "id": "fai_ch3_24",
+        "text": "What refers to the difficulty of explaining 'why' an expert system made a choice?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Explanation Facility."
+            },
+            {
+                "id": "b",
+                "text": "Hidden Logic."
+            },
+            {
+                "id": "c",
+                "text": "Traceability problem."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Show your work.",
+        "explanation": "A good expert system has an 'Explanation Facility' to show the trace of rules fired."
+    },
+    {
+        "id": "fai_ch3_25",
+        "text": "Expert systems are best for domains where?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data is random."
+            },
+            {
+                "id": "b",
+                "text": "Knowledge is well-defined and held by a few experts."
+            },
+            {
+                "id": "c",
+                "text": "Logic is not used."
+            },
+            {
+                "id": "d",
+                "text": "The computer is faster than human."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Niche expertise.",
+        "explanation": "Capture narrow, deep knowledge."
+    },
+    {
+        "id": "fai_ch3_26",
+        "text": "Machine Learning is a subset of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data Science."
+            },
+            {
+                "id": "b",
+                "text": "Artificial Intelligence."
+            },
+            {
+                "id": "c",
+                "text": "Computer Vision."
+            },
+            {
+                "id": "d",
+                "text": "Mathematics."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Broader field.",
+        "explanation": "ML is the specific approach of using statistics and data to give computers intelligence."
+    },
+    {
+        "id": "fai_ch3_27",
+        "text": "Deep Learning is a subset of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Expert Systems."
+            },
+            {
+                "id": "b",
+                "text": "Machine Learning."
+            },
+            {
+                "id": "c",
+                "text": "Web design."
+            },
+            {
+                "id": "d",
+                "text": "Networking."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sub-field of ML.",
+        "explanation": "DL uses neural networks with many layers."
+    },
+    {
+        "id": "fai_ch3_28",
+        "text": "What is an 'Inference Engine'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A physical engine."
+            },
+            {
+                "id": "b",
+                "text": "Component of expert system that applies logical rules to the knowledge base."
+            },
+            {
+                "id": "c",
+                "text": "A GPU."
+            },
+            {
+                "id": "d",
+                "text": "An internet search engine."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reasoning part.",
+        "explanation": "It's the 'brain' that processes the rules."
+    },
+    {
+        "id": "fai_ch3_29",
+        "text": "Can Expert Systems learn from experience automatically?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, always."
+            },
+            {
+                "id": "b",
+                "text": "No, rules must typically be manually updated by a knowledge engineer."
+            },
+            {
+                "id": "c",
+                "text": "Only if connected to internet."
+            },
+            {
+                "id": "d",
+                "text": "Yes, if they use Python."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Static rules.",
+        "explanation": "Classical expert systems do not have self-learning capabilities; that's the domain of Machine Learning."
+    },
+    {
+        "id": "fai_ch3_30",
+        "text": "Which approach is 'Model-Based'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rule-based systems."
+            },
+            {
+                "id": "b",
+                "text": "Learning-based (ML) systems."
+            },
+            {
+                "id": "c",
+                "text": "Both."
+            },
+            {
+                "id": "d",
+                "text": "Neither."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Abstracting reality.",
+        "explanation": "Both approaches build models (explicit rules or implicit statistical models) of the real world."
+    }
+]

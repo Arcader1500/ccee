@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch6_1",
+        "text": "What is 'Time Series' data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data collected at regular intervals over time (e.g., daily stock price)."
+            },
+            {
+                "id": "b",
+                "text": "A list of times only."
+            },
+            {
+                "id": "c",
+                "text": "Random data points."
+            },
+            {
+                "id": "d",
+                "text": "Data without labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Temporal sequence.",
+        "explanation": "Order matters in time series; you cannot shuffle the data."
+    },
+    {
+        "id": "pml_ch6_2",
+        "text": "What is 'Stationarity' in time series?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When statistical properties (mean, variance) do not change over time."
+            },
+            {
+                "id": "b",
+                "text": "When data is standing still."
+            },
+            {
+                "id": "c",
+                "text": "When the file stays on disk."
+            },
+            {
+                "id": "d",
+                "text": "Predicting the future."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Consistent statistics.",
+        "explanation": "Many models (like ARIMA) assume or require the data to be stationary."
+    },
+    {
+        "id": "pml_ch6_3",
+        "text": "What is 'Trend' in time series?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Long-term increase or decrease in the data."
+            },
+            {
+                "id": "b",
+                "text": "Weekly patterns."
+            },
+            {
+                "id": "c",
+                "text": "Random noise."
+            },
+            {
+                "id": "d",
+                "text": "Total count."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Overall direction.",
+        "explanation": "Captures the general movement (e.g., global temperature rising)."
+    },
+    {
+        "id": "pml_ch6_4",
+        "text": "What is 'Seasonality'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Patterns that repeat at a regular fixed period (e.g., high ice cream sales in summer)."
+            },
+            {
+                "id": "b",
+                "text": "Moving to a new city."
+            },
+            {
+                "id": "c",
+                "text": "A random event."
+            },
+            {
+                "id": "d",
+                "text": "Long term trend."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Recurring patterns.",
+        "explanation": "Repeats every day, week, month, or year."
+    },
+    {
+        "id": "pml_ch6_5",
+        "text": "What is 'Autocorrelation' (ACF)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Relationship between a variable's current value and its past values."
+            },
+            {
+                "id": "b",
+                "text": "Matching cars automatically."
+            },
+            {
+                "id": "c",
+                "text": "Correlation with another feature."
+            },
+            {
+                "id": "d",
+                "text": "Total sum."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Correlation with self.",
+        "explanation": "Measures how today's value depends on yesterday's or last year's."
+    },
+    {
+        "id": "pml_ch6_6",
+        "text": "What does a 'Moving Average' (MA) do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Smooths out short-term fluctuations to highlight longer-term trends."
+            },
+            {
+                "id": "b",
+                "text": "Calculates speed."
+            },
+            {
+                "id": "c",
+                "text": "Finds the peak."
+            },
+            {
+                "id": "d",
+                "text": "Deletes data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Smoothing tool.",
+        "explanation": "Calculates average of the last 'n' observations."
+    },
+    {
+        "id": "pml_ch6_7",
+        "text": "What is 'ARIMA'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AutoRegressive Integrated Moving Average."
+            },
+            {
+                "id": "b",
+                "text": "Audio Recorded Information Machine."
+            },
+            {
+                "id": "c",
+                "text": "Average Rate In Metric Area."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Classic time series model.",
+        "explanation": "Widely used model for forecasting stationary or differenced data."
+    },
+    {
+        "id": "pml_ch6_8",
+        "text": "In ARIMA(p, d, q), what does 'p' stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Auto-regressive part (number of lag observations)."
+            },
+            {
+                "id": "b",
+                "text": "Degree of differencing."
+            },
+            {
+                "id": "c",
+                "text": "Moving average window size."
+            },
+            {
+                "id": "d",
+                "text": "Price."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "AR part.",
+        "explanation": "Describes how much the current value depends on past values."
+    },
+    {
+        "id": "pml_ch6_9",
+        "text": "In ARIMA(p, d, q), what does 'd' stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Degree of differencing needed to make data stationary."
+            },
+            {
+                "id": "b",
+                "text": "Depth of tree."
+            },
+            {
+                "id": "c",
+                "text": "Date."
+            },
+            {
+                "id": "d",
+                "text": "Difference of means."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Stationarity adjustment.",
+        "explanation": "Number of times the raw observations are subtracted from their preceding values."
+    },
+    {
+        "id": "pml_ch6_10",
+        "text": "In ARIMA(p, d, q), what does 'q' stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Order of the moving average (error part)."
+            },
+            {
+                "id": "b",
+                "text": "Quality of data."
+            },
+            {
+                "id": "c",
+                "text": "Quantity."
+            },
+            {
+                "id": "d",
+                "text": "Queue size."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "MA part.",
+        "explanation": "Describes how much the current value depends on past forecast errors."
+    },
+    {
+        "id": "pml_ch6_11",
+        "text": "What is 'Exponential Smoothing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A rule of thumb where past observations are weighted with exponentially decreasing weights."
+            },
+            {
+                "id": "b",
+                "text": "Smoothing using a power plant."
+            },
+            {
+                "id": "c",
+                "text": "Linear average."
+            },
+            {
+                "id": "d",
+                "text": "Deleting zeros."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Recent data is more important.",
+        "explanation": "Calculates forecast based on weighted average of past data."
+    },
+    {
+        "id": "pml_ch6_12",
+        "text": "What is 'Holt-Winters' method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Triple exponential smoothing that handles Trend AND Seasonality."
+            },
+            {
+                "id": "b",
+                "text": "A cold weather algorithm."
+            },
+            {
+                "id": "c",
+                "text": "Simple average."
+            },
+            {
+                "id": "d",
+                "text": "Regression on time."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Trend + Seasonality smoothing.",
+        "explanation": "Uses level, trend, and seasonal components to forecast."
+    },
+    {
+        "id": "pml_ch6_13",
+        "text": "What is 'Lag' in time series?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A previous time step (e.g., Lag 1 is yesterday's value)."
+            },
+            {
+                "id": "b",
+                "text": "Slow computer performance."
+            },
+            {
+                "id": "c",
+                "text": "The end of the data."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Past value.",
+        "explanation": "Converting 'time' into features often involves creating lag columns."
+    },
+    {
+        "id": "pml_ch6_14",
+        "text": "What is 'Differencing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Subtracting current value from previous value to remove trend/seasonality."
+            },
+            {
+                "id": "b",
+                "text": "Comparing two datasets."
+            },
+            {
+                "id": "c",
+                "text": "Finding error."
+            },
+            {
+                "id": "d",
+                "text": "Subtraction only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Making data stationary.",
+        "explanation": "y'_t = y_t - y_{t-1}."
+    },
+    {
+        "id": "pml_ch6_15",
+        "text": "A 'White Noise' series has?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mean 0, constant variance, and NO autocorrelation."
+            },
+            {
+                "id": "b",
+                "text": "Clear trend."
+            },
+            {
+                "id": "c",
+                "text": "Repeating seasonality."
+            },
+            {
+                "id": "d",
+                "text": "All values are white."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Random signal.",
+        "explanation": "It's purely random and cannot be used for forecasting."
+    },
+    {
+        "id": "pml_ch6_16",
+        "text": "What is 'PACF' (Partial Autocorrelation Function)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Correlation between variable and its lag after removing effects of smaller lags."
+            },
+            {
+                "id": "b",
+                "text": "Part of an audio file."
+            },
+            {
+                "id": "c",
+                "text": "Random correlation."
+            },
+            {
+                "id": "d",
+                "text": "Total correlation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Direct influence of lag.",
+        "explanation": "Used to find the order 'p' for an AR model."
+    },
+    {
+        "id": "pml_ch6_17",
+        "text": "Common metric for forecasting accuracy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MAPE (Mean Absolute Percentage Error)."
+            },
+            {
+                "id": "b",
+                "text": "Accuracy score."
+            },
+            {
+                "id": "c",
+                "text": "Precision."
+            },
+            {
+                "id": "d",
+                "text": "F1-Score."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Error ratio.",
+        "explanation": "Helps understand the error relative to the magnitude of values."
+    },
+    {
+        "id": "pml_ch6_18",
+        "text": "What is 'Windowing' or 'Rolling window'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using a fixed-size moving look-back period to generate features."
+            },
+            {
+                "id": "b",
+                "text": "Cleaning glass."
+            },
+            {
+                "id": "c",
+                "text": "Visualizing data."
+            },
+            {
+                "id": "d",
+                "text": "A type of OS."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Moving calculation window.",
+        "explanation": "Used to calculate rolling means, sums, or stdevs."
+    },
+    {
+        "id": "pml_ch6_19",
+        "text": "What is 'Random Walk'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Series where the current value is the previous value plus random noise (y_t = y_{t-1} + e_t)."
+            },
+            {
+                "id": "b",
+                "text": "Walking without a goal."
+            },
+            {
+                "id": "c",
+                "text": "A stationary series."
+            },
+            {
+                "id": "d",
+                "text": "Binary data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Non-stationary trend.",
+        "explanation": "Often used to model stock prices; best forecast is today's price."
+    },
+    {
+        "id": "pml_ch6_20",
+        "text": "What is 'Multivariate' time series?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Forecasting multiple related variables at once (e.g., Temp and Humidity)."
+            },
+            {
+                "id": "b",
+                "text": "Forecasting one variable."
+            },
+            {
+                "id": "c",
+                "text": "A list of many dates."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "More than one variable.",
+        "explanation": "Handled by models like VAR (Vector AutoRegression)."
+    },
+    {
+        "id": "pml_ch6_21",
+        "text": "In time series, what is 'Decomposition'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Separating a series into Trend, Seasonality, and Residual (Noise) components."
+            },
+            {
+                "id": "b",
+                "text": "Deleting old files."
+            },
+            {
+                "id": "c",
+                "text": "Model crashing."
+            },
+            {
+                "id": "d",
+                "text": "Changing formats."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Breaking down the signal.",
+        "explanation": "Can be Additive (Y = T + S + R) or Multiplicative (Y = T * S * R)."
+    },
+    {
+        "id": "pml_ch6_22",
+        "text": "A 'Time Stamp' represents?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A specific instant in time (Date + Time)."
+            },
+            {
+                "id": "b",
+                "text": "Postage stamp."
+            },
+            {
+                "id": "c",
+                "text": "A model name."
+            },
+            {
+                "id": "d",
+                "text": "A counter."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Exact point in time.",
+        "explanation": "Standard index for time series data in pandas."
+    },
+    {
+        "id": "pml_ch6_23",
+        "text": "What is 'Resampling' in time series?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Changing the frequency of data (e.g., Daily to Monthly)."
+            },
+            {
+                "id": "b",
+                "text": "Sampling data again."
+            },
+            {
+                "id": "c",
+                "text": "Deleting 50% points."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Frequency conversion.",
+        "explanation": "Upsampling increases frequency (interpolation needed); Downsampling decreases it (aggregation needed)."
+    },
+    {
+        "id": "pml_ch6_24",
+        "text": "What does 'Look-ahead bias' mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accidentally using future information to predict the past during training."
+            },
+            {
+                "id": "b",
+                "text": "Being optimistic."
+            },
+            {
+                "id": "c",
+                "text": "Slow prediction."
+            },
+            {
+                "id": "d",
+                "text": "Good model score."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Information leakage.",
+        "explanation": "Critical mistake that lead to fake high performance."
+    },
+    {
+        "id": "pml_ch6_25",
+        "text": "What is 'Prophet'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A forecasting tool by Meta (Facebook) designed for ease of use with business data."
+            },
+            {
+                "id": "b",
+                "text": "A religious term."
+            },
+            {
+                "id": "c",
+                "text": "A Google AI."
+            },
+            {
+                "id": "d",
+                "text": "Old version of ARIMA."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Meta's forecasting library.",
+        "explanation": "Handles holidays and missing data automatically."
+    },
+    {
+        "id": "pml_ch6_26",
+        "text": "What 'Exogenous' variables means in forecasting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "External factors that influence the series (e.g., oil price affecting taxi demand)."
+            },
+            {
+                "id": "b",
+                "text": "Internal variables."
+            },
+            {
+                "id": "c",
+                "text": "Mathematical constants."
+            },
+            {
+                "id": "d",
+                "text": "Labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "External features.",
+        "explanation": "Used in ARIMAX models."
+    },
+    {
+        "id": "pml_ch6_27",
+        "text": "SARIMA is? ",
+        "options": [
+            {
+                "id": "a",
+                "text": "Seasonal ARIMA."
+            },
+            {
+                "id": "b",
+                "text": "Simple ARIMA."
+            },
+            {
+                "id": "c",
+                "text": "Super ARIMA."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "ARIMA with Seasonality.",
+        "explanation": "Extends ARIMA to handle seasonal patterns."
+    },
+    {
+        "id": "pml_ch6_28",
+        "text": "What is 'Walk-forward validation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Evaluating time series by progressively sliding the training/test split forward in time."
+            },
+            {
+                "id": "b",
+                "text": "Random cross-validation."
+            },
+            {
+                "id": "c",
+                "text": "Checking code for errors."
+            },
+            {
+                "id": "d",
+                "text": "No validation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Time-sensitive validation.",
+        "explanation": "Ensures no look-ahead bias and mimics real-world usage."
+    },
+    {
+        "id": "pml_ch6_29",
+        "text": "Autoregressive (AR) model predicts y_t from?",
+        "options": [
+            {
+                "id": "a",
+                "text": "y_{t-1}, y_{t-2}, etc."
+            },
+            {
+                "id": "b",
+                "text": "Error terms."
+            },
+            {
+                "id": "c",
+                "text": "Average value."
+            },
+            {
+                "id": "d",
+                "text": "External data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Regression on self.",
+        "explanation": "Learns from the history of the target variable itself."
+    },
+    {
+        "id": "pml_ch6_30",
+        "text": "Moving Average (MA) model predicts y_t from?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Past forecast errors."
+            },
+            {
+                "id": "b",
+                "text": "Past observations."
+            },
+            {
+                "id": "c",
+                "text": "The trend."
+            },
+            {
+                "id": "d",
+                "text": "The price."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Regression on errors.",
+        "explanation": "Uses the white noise / error terms from the past."
+    }
+]

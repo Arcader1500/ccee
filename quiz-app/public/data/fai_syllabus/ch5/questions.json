@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch5_1",
+        "text": "What is 'Propositional Logic'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Logic about opinions."
+            },
+            {
+                "id": "b",
+                "text": "Fundamental branch of logic dealing with propositions (true/false statements) and logical connectives (AND, OR, NOT)."
+            },
+            {
+                "id": "c",
+                "text": "A type of math."
+            },
+            {
+                "id": "d",
+                "text": "Coding for beginners."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Boolean variables.",
+        "explanation": "It handles simple variables that are either true or false."
+    },
+    {
+        "id": "fai_ch5_2",
+        "text": "What is 'First-Order Logic' (Predicate Logic)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calculus."
+            },
+            {
+                "id": "b",
+                "text": "More expressive logic that uses objects, relations (predicates), and quantifiers (For all, There exists)."
+            },
+            {
+                "id": "c",
+                "text": "Logic for robots."
+            },
+            {
+                "id": "d",
+                "text": "Binary logic."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Objects and relations.",
+        "explanation": "FOL allows describing complex worlds (e.g., 'All humans are mortal')."
+    },
+    {
+        "id": "fai_ch5_3",
+        "text": "In logic, what does 'Inference' mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Guessing."
+            },
+            {
+                "id": "b",
+                "text": "Deriving new knowledge (conclusions) from existing knowledge (premises)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Storing facts."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Legal deduction.",
+        "explanation": "It's the process of reasoning to find new truths."
+    },
+    {
+        "id": "fai_ch5_4",
+        "text": "What is 'Knowledge Representation' in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Writing books."
+            },
+            {
+                "id": "b",
+                "text": "The way knowledge is stored in a computer system so that it can be processed by an algorithm."
+            },
+            {
+                "id": "c",
+                "text": "Saving files."
+            },
+            {
+                "id": "d",
+                "text": "Encryption."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Data structure for knowledge.",
+        "explanation": "Common methods include rules, logic, frames, and semantic networks."
+    },
+    {
+        "id": "fai_ch5_5",
+        "text": "What is 'Resolution' in automated reasoning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Screen quality."
+            },
+            {
+                "id": "b",
+                "text": "A rule of inference that leads to a refutation theorem-proving technique."
+            },
+            {
+                "id": "c",
+                "text": "Fixing bugs."
+            },
+            {
+                "id": "d",
+                "text": "Agreement."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Proof by contradiction.",
+        "explanation": "Resolution (J. Alan Robinson) is the foundation of many automated reasoners."
+    },
+    {
+        "id": "fai_ch5_6",
+        "text": "What is 'Logic Programming'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Logical coding."
+            },
+            {
+                "id": "b",
+                "text": "Programming paradigm based on formal logic, where programs consist of a set of facts and rules (e.g., PROLOG)."
+            },
+            {
+                "id": "c",
+                "text": "Basic math."
+            },
+            {
+                "id": "d",
+                "text": "Circuit design."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "PROLOG.",
+        "explanation": "The programmer specifies 'what' should be solved, not 'how' to solve it step-by-step."
+    },
+    {
+        "id": "fai_ch5_7",
+        "text": "What is a 'Tautology'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A lie."
+            },
+            {
+                "id": "b",
+                "text": "A statement which is true under every possible interpretation of its variables (e.g., P OR NOT P)."
+            },
+            {
+                "id": "c",
+                "text": "Always false."
+            },
+            {
+                "id": "d",
+                "text": "Meaningless."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Always true.",
+        "explanation": "Tautologies are logically valid formulas."
+    },
+    {
+        "id": "fai_ch5_8",
+        "text": "What is the 'Closed World Assumption'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No visitors."
+            },
+            {
+                "id": "b",
+                "text": "Assuming that anything not known to be true is false."
+            },
+            {
+                "id": "c",
+                "text": "AI that doesn't use internet."
+            },
+            {
+                "id": "d",
+                "text": "Encrypted system."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "If not in DB, it's False.",
+        "explanation": "Common in databases and logic programming to keep systems manageable."
+    },
+    {
+        "id": "fai_ch5_9",
+        "text": "What is 'Automated Planning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Google Calendar."
+            },
+            {
+                "id": "b",
+                "text": "Field concerned with realization of strategies or action sequences to achieve goals."
+            },
+            {
+                "id": "c",
+                "text": "Management."
+            },
+            {
+                "id": "d",
+                "text": "Buying groceries."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Generating sequences of actions.",
+        "explanation": "A planner takes an initial state, a goal, and possible actions to find a path."
+    },
+    {
+        "id": "fai_ch5_10",
+        "text": "What does a 'Quantifier' do in Predicate Logic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Counts things."
+            },
+            {
+                "id": "b",
+                "text": "Specifies the extent to which a predicate applies to a range of elements."
+            },
+            {
+                "id": "c",
+                "text": "Weights variables."
+            },
+            {
+                "id": "d",
+                "text": "Groups objects."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Universal and Existential.",
+        "explanation": "Allows statements like 'For all x...' or 'There exists some x...'."
+    },
+    {
+        "id": "fai_ch5_11",
+        "text": "What is 'Modus Ponens'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A computer chip."
+            },
+            {
+                "id": "b",
+                "text": "Deductive rule: If P -> Q is true and P is true, then Q must be true."
+            },
+            {
+                "id": "c",
+                "text": "Logic error."
+            },
+            {
+                "id": "d",
+                "text": "Random guess."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Classical inference.",
+        "explanation": "One of the most used rules of logical inference."
+    },
+    {
+        "id": "fai_ch5_12",
+        "text": "What is the 'Frame Problem'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Broken monitor."
+            },
+            {
+                "id": "b",
+                "text": "Challenge of representing what remains UNCHANGED after an action occurs."
+            },
+            {
+                "id": "c",
+                "text": "Layout of code."
+            },
+            {
+                "id": "d",
+                "text": "Video encoding error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "What stays the same?",
+        "explanation": "In a complex world, describing what doesn't change is often harder than describing what does."
+    },
+    {
+        "id": "fai_ch5_13",
+        "text": "What is 'Semantic Network'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The internet."
+            },
+            {
+                "id": "b",
+                "text": "Graphical representation of knowledge with nodes (concepts) and edges (relationships)."
+            },
+            {
+                "id": "c",
+                "text": "A neural net."
+            },
+            {
+                "id": "d",
+                "text": "A dictionary."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Graph of concepts.",
+        "explanation": "Illustrates how concepts are linked (e.g., 'Bird' is-a 'Animal')."
+    },
+    {
+        "id": "fai_ch5_14",
+        "text": "What is an 'Ontology'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The study of bugs."
+            },
+            {
+                "id": "b",
+                "text": "A formal naming and definition of the categories, properties, and relations of concepts for a domain."
+            },
+            {
+                "id": "c",
+                "text": "Study of code."
+            },
+            {
+                "id": "d",
+                "text": "Hidden knowledge."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Domain conceptualization.",
+        "explanation": "Ontologies allow different systems to share information by agreeing on a common vocabulary."
+    },
+    {
+        "id": "fai_ch5_15",
+        "text": "What is 'Soundness' in a logical system?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It has audio."
+            },
+            {
+                "id": "b",
+                "text": "Everything that is provable is actually true."
+            },
+            {
+                "id": "c",
+                "text": "Everything that is true is provable."
+            },
+            {
+                "id": "d",
+                "text": "It doesn't crash."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Proven implies True.",
+        "explanation": "A sound reasoner never makes false claims."
+    },
+    {
+        "id": "fai_ch5_16",
+        "text": "What is 'Completeness' in logic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Has all files."
+            },
+            {
+                "id": "b",
+                "text": "The system can prove everything that is true."
+            },
+            {
+                "id": "c",
+                "text": "Logic is finished."
+            },
+            {
+                "id": "d",
+                "text": "Binary code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "True implies Provable.",
+        "explanation": "A complete system is powerful enough to derive all valid truths."
+    },
+    {
+        "id": "fai_ch5_17",
+        "text": "What is 'Fuzzy Logic'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Logic about animals."
+            },
+            {
+                "id": "b",
+                "text": "Logic handling degrees of truth ('partial truth') between 0 and 1, rather than binary."
+            },
+            {
+                "id": "c",
+                "text": "Unclear reasoning."
+            },
+            {
+                "id": "d",
+                "text": "Wrong logic."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Degrees of truth.",
+        "explanation": "Used in washing machines, ACs to handle concepts like 'slightly hot'."
+    },
+    {
+        "id": "fai_ch5_18",
+        "text": "What is 'STRIPS'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Comics."
+            },
+            {
+                "id": "b",
+                "text": "An early automated planning system and its language (Stanford Research Institute Problem Solver)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Fast sorting."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Classic planning lang.",
+        "explanation": "Used states (predicates), pre-conditions, and effects (add/delete lists)."
+    },
+    {
+        "id": "fai_ch5_19",
+        "text": "In STRIPS planning, what is an 'Add List'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "List of numbers."
+            },
+            {
+                "id": "b",
+                "text": "Facts that become true after an action is performed."
+            },
+            {
+                "id": "c",
+                "text": "List of variables."
+            },
+            {
+                "id": "d",
+                "text": "Deleting facts."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Post-condition (positive).",
+        "explanation": "It updates the world state by adding new truths."
+    },
+    {
+        "id": "fai_ch5_20",
+        "text": "What is 'Non-monotonic Reasoning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Monotone voice."
+            },
+            {
+                "id": "b",
+                "text": "Logic where new information can invalidate existing conclusions (e.g., 'Birds fly', then learn 'Tweety is a penguin')."
+            },
+            {
+                "id": "c",
+                "text": "Single direction logic."
+            },
+            {
+                "id": "d",
+                "text": "Binary math."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Defeasible logic.",
+        "explanation": "Closer to everyday human reasoning than classical logic."
+    },
+    {
+        "id": "fai_ch5_21",
+        "text": "What is 'Prolog' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Web development."
+            },
+            {
+                "id": "b",
+                "text": "AI development, specifically logic programming and symbolic reasoning."
+            },
+            {
+                "id": "c",
+                "text": "Graphic design."
+            },
+            {
+                "id": "d",
+                "text": "Database management only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Programming in Logic.",
+        "explanation": "Used for NLP, expert systems, and theorem proving."
+    },
+    {
+        "id": "fai_ch5_22",
+        "text": "What is 'Unification' in logic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Combining teams."
+            },
+            {
+                "id": "b",
+                "text": "Process of making two logical expressions identical by finding a substitution for variables."
+            },
+            {
+                "id": "c",
+                "text": "Logical OR."
+            },
+            {
+                "id": "d",
+                "text": "Logic AND."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Pattern matching variables.",
+        "explanation": "Crucial for Prolog and resolution-based theorem proving."
+    },
+    {
+        "id": "fai_ch5_23",
+        "text": "What is a 'Horn Clause'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Musical instrument."
+            },
+            {
+                "id": "b",
+                "text": "A logical clause with at most one positive literal."
+            },
+            {
+                "id": "c",
+                "text": "Logic error."
+            },
+            {
+                "id": "d",
+                "text": "Always true."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Prolog's basis.",
+        "explanation": "Logic programming (Prolog) is primarily restricted to Horn clauses for efficiency."
+    },
+    {
+        "id": "fai_ch5_24",
+        "text": "What is 'Spatial Reasoning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reasoning about outer space."
+            },
+            {
+                "id": "b",
+                "text": "AI's ability to reason about objects and their positions/rotations in 2D or 3D space."
+            },
+            {
+                "id": "c",
+                "text": "Finding keys."
+            },
+            {
+                "id": "d",
+                "text": "Thinking fast."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Geometry/Positioning.",
+        "explanation": "Critical for robotics and navigation."
+    },
+    {
+        "id": "fai_ch5_25",
+        "text": "What does 'Syllogism' refer to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A complex math problem."
+            },
+            {
+                "id": "b",
+                "text": "A kind of logical argument that applies deductive reasoning to arrive at a conclusion based on two premises (Aristotle)."
+            },
+            {
+                "id": "c",
+                "text": "Logical fallacy."
+            },
+            {
+                "id": "d",
+                "text": "Truth table."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "All men are mortal...",
+        "explanation": "Socrates is a man; therefore, Socrates is mortal."
+    },
+    {
+        "id": "fai_ch5_26",
+        "text": "What is 'Knowledge Graph'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A pie chart."
+            },
+            {
+                "id": "b",
+                "text": "A semantic network used by large systems (like Google) to store interconnected facts."
+            },
+            {
+                "id": "c",
+                "text": "Database logs."
+            },
+            {
+                "id": "d",
+                "text": "A neural network."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Facts and entities graph.",
+        "explanation": "Power search engines and digital assistants."
+    },
+    {
+        "id": "fai_ch5_27",
+        "text": "What is 'Decidability'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Being decisive."
+            },
+            {
+                "id": "b",
+                "text": "Whether an algorithm exists that can eventually answer any logic question correctly (True/False)."
+            },
+            {
+                "id": "c",
+                "text": "User interaction."
+            },
+            {
+                "id": "d",
+                "text": "Computer power."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Undecidable FOL.",
+        "explanation": "Propositional logic is decidable; First-Order Logic is semi-decidable."
+    },
+    {
+        "id": "fai_ch5_28",
+        "text": "What is 'Herbrand Universe'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NASA's model."
+            },
+            {
+                "id": "b",
+                "text": "Set of all ground terms that can be formed from constants and functions in a logic program."
+            },
+            {
+                "id": "c",
+                "text": "Infinite space."
+            },
+            {
+                "id": "d",
+                "text": "All possible numbers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Logical domain.",
+        "explanation": "Used in the theoretical foundations of logic programming."
+    },
+    {
+        "id": "fai_ch5_29",
+        "text": "What does `NOT` operator do in logic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "Negation; flips True to False and vice versa."
+            },
+            {
+                "id": "c",
+                "text": "Joins variables."
+            },
+            {
+                "id": "d",
+                "text": "Deletes variables."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Logical inverse.",
+        "explanation": "One of the three basic logical connectives."
+    },
+    {
+        "id": "fai_ch5_30",
+        "text": "Automated reasoning avoids 'Exponential Explosion' using?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Heuristics and pruning."
+            },
+            {
+                "id": "b",
+                "text": "Supercomputers."
+            },
+            {
+                "id": "c",
+                "text": "Random guessing."
+            },
+            {
+                "id": "d",
+                "text": "Deleting memory."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Efficient search.",
+        "explanation": "Guiding the prover towards the likely proof paths."
+    }
+]

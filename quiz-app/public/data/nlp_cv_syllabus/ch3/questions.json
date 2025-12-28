@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch3_1",
+        "text": "What are 'Word Embeddings'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dense vector representations of words where similar words have similar vectors."
+            },
+            {
+                "id": "b",
+                "text": "Putting words in a bag."
+            },
+            {
+                "id": "c",
+                "text": "Alphabetical list of words."
+            },
+            {
+                "id": "d",
+                "text": "One-hot encoding."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Meanings in vector space.",
+        "explanation": "They capture semantic relationships, unlike sparse one-hot vectors."
+    },
+    {
+        "id": "nlp_cv_ch3_2",
+        "text": "What is 'One-Hot Encoding'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A sparse vector with 1 at the word's index and 0s elsewhere."
+            },
+            {
+                "id": "b",
+                "text": "A temperature setting."
+            },
+            {
+                "id": "c",
+                "text": "A neural network layer."
+            },
+            {
+                "id": "d",
+                "text": "A zip file."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Identity vectors.",
+        "explanation": "Inefficient for large vocabularies and lacks semantic info."
+    },
+    {
+        "id": "nlp_cv_ch3_3",
+        "text": "What is 'Word2Vec'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A framework to learn word embeddings from large corpora using shallow neural networks."
+            },
+            {
+                "id": "b",
+                "text": "Converting Word docs to PDF."
+            },
+            {
+                "id": "c",
+                "text": "A type of dictionary."
+            },
+            {
+                "id": "d",
+                "text": "Speech recognition tool."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mikolov et al. (2013).",
+        "explanation": "Introduced Skip-gram and CBOW models."
+    },
+    {
+        "id": "nlp_cv_ch3_4",
+        "text": "In Word2Vec, what is the 'Skip-gram' model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting context words given a target word."
+            },
+            {
+                "id": "b",
+                "text": "Predicting target word given context words."
+            },
+            {
+                "id": "c",
+                "text": "Skipping every second word."
+            },
+            {
+                "id": "d",
+                "text": "Deleting grammar."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "One to many.",
+        "explanation": "Good with small datasets and rare words."
+    },
+    {
+        "id": "nlp_cv_ch3_5",
+        "text": "In Word2Vec, what is the 'CBOW' (Continuous Bag of Words) model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting the middle (target) word from surrounding context words."
+            },
+            {
+                "id": "b",
+                "text": "Predicting context from target."
+            },
+            {
+                "id": "c",
+                "text": "Counting words."
+            },
+            {
+                "id": "d",
+                "text": "Deleting context."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Many to one.",
+        "explanation": "Faster than skip-gram and handles frequent words better."
+    },
+    {
+        "id": "nlp_cv_ch3_6",
+        "text": "What is 'GloVe' (Global Vectors)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An embedding model based on global word-word co-occurrence statistics."
+            },
+            {
+                "id": "b",
+                "text": "A clothing item."
+            },
+            {
+                "id": "c",
+                "text": "A Google product."
+            },
+            {
+                "id": "d",
+                "text": "GPS for text."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Stanford Research.",
+        "explanation": "Combines global matrix factorization and local context windows."
+    },
+    {
+        "id": "nlp_cv_ch3_7",
+        "text": "What is a major problem with standard RNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vanishing/Exploding gradients."
+            },
+            {
+                "id": "b",
+                "text": "Too many layers."
+            },
+            {
+                "id": "c",
+                "text": "Require only discrete data."
+            },
+            {
+                "id": "d",
+                "text": "No memory."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Long sequence issue.",
+        "explanation": "Makes it hard for RNNs to learn long-range dependencies."
+    },
+    {
+        "id": "nlp_cv_ch3_8",
+        "text": "How do 'LSTM' (Long Short-Term Memory) networks solve RNN issues?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using gates (input, forget, output) to control information flow."
+            },
+            {
+                "id": "b",
+                "text": "Increasing clock speed."
+            },
+            {
+                "id": "c",
+                "text": "Having infinite memory."
+            },
+            {
+                "id": "d",
+                "text": "Using only zeros."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gated architecture.",
+        "explanation": "Allows them to remember or forget information over long sequences."
+    },
+    {
+        "id": "nlp_cv_ch3_9",
+        "text": "What is 'GRU' (Gated Recurrent Unit)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A simplified version of LSTM with fewer gates."
+            },
+            {
+                "id": "b",
+                "text": "Google Robot Unit."
+            },
+            {
+                "id": "c",
+                "text": "Graphic Rendering Unit."
+            },
+            {
+                "id": "d",
+                "text": "Type of database."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "2 gates instead of 3.",
+        "explanation": "Combines forget and input gates into a single 'update gate'."
+    },
+    {
+        "id": "nlp_cv_ch3_10",
+        "text": "What is 'Seq2Seq' (Sequence-to-Sequence) model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model with an Encoder and Decoder used for tasks like Machine Translation."
+            },
+            {
+                "id": "b",
+                "text": "Sorting sequences."
+            },
+            {
+                "id": "c",
+                "text": "Binary counter."
+            },
+            {
+                "id": "d",
+                "text": "Sentence splitter."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Translation framework.",
+        "explanation": "Encoder processes input, Decoder generates output, often linked via a context vector."
+    },
+    {
+        "id": "nlp_cv_ch3_11",
+        "text": "What is the 'Attention Mechanism'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Allows the model to focus on specific parts of the input sequence when generating each output word."
+            },
+            {
+                "id": "b",
+                "text": "Stopping the model when done."
+            },
+            {
+                "id": "c",
+                "text": "A type of sound filter."
+            },
+            {
+                "id": "d",
+                "text": "User manual."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dynamic context.",
+        "explanation": "Solves the bottleneck problem of the single fixed-length context vector in Seq2Seq."
+    },
+    {
+        "id": "nlp_cv_ch3_12",
+        "text": "What is the 'Transformer' architecture unique for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It completely relies on self-attention and discards recurrence (RNNs)."
+            },
+            {
+                "id": "b",
+                "text": "It uses more recursion."
+            },
+            {
+                "id": "c",
+                "text": "It is made of metal."
+            },
+            {
+                "id": "d",
+                "text": "It only works for images."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Attention is all you need.",
+        "explanation": "Allows for massive parallelization and better long-range context handling."
+    },
+    {
+        "id": "nlp_cv_ch3_13",
+        "text": "What is 'Self-Attention'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Paying attention to oneself."
+            },
+            {
+                "id": "b",
+                "text": "Relating different positions of a single sequence to compute a representation of the sequence."
+            },
+            {
+                "id": "c",
+                "text": "A bot talking to itself."
+            },
+            {
+                "id": "d",
+                "text": "A recursive loop."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Intra-sequence links.",
+        "explanation": "Allows the model to understand 'it' in a sentence refers to 'animal' mentioned earlier in the same sentence."
+    },
+    {
+        "id": "nlp_cv_ch3_14",
+        "text": "What does 'BERT' stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bidirectional Encoder Representations from Transformers."
+            },
+            {
+                "id": "b",
+                "text": "Binary Entity Recognition Tool."
+            },
+            {
+                "id": "c",
+                "text": "Basic English Robot Translator."
+            },
+            {
+                "id": "d",
+                "text": "Big Efficient Retrieval Tech."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Google's 2018 model.",
+        "explanation": "Revolutionized NLP by pre-training on large amounts of unlabeled text in a bidirectional way."
+    },
+    {
+        "id": "nlp_cv_ch3_15",
+        "text": "BERT is pre-trained using which tasks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Masked Language Modeling (MLM) and Next Sentence Prediction (NSP)."
+            },
+            {
+                "id": "b",
+                "text": "Image tagging."
+            },
+            {
+                "id": "c",
+                "text": "Spam detection."
+            },
+            {
+                "id": "d",
+                "text": "Sorting vocab."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Self-supervised tasks.",
+        "explanation": "MLM hides words and predicts them; NSP predicts if two sentences follow each other."
+    },
+    {
+        "id": "nlp_cv_ch3_16",
+        "text": "What is 'Fine-tuning' in Deep NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Changing hardware."
+            },
+            {
+                "id": "b",
+                "text": "Taking a pre-trained model (like BERT) and training it further on a specific task (labeling data)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting weights."
+            },
+            {
+                "id": "d",
+                "text": "Fast inference."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Transfer learning.",
+        "explanation": "Allows high performance even with small task-specific datasets."
+    },
+    {
+        "id": "nlp_cv_ch3_17",
+        "text": "What is the 'Softmax' function used for in NLP models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To convert raw scores (logits) into a probability distribution over the vocabulary."
+            },
+            {
+                "id": "b",
+                "text": "To make models run soft."
+            },
+            {
+                "id": "c",
+                "text": "To compress data."
+            },
+            {
+                "id": "d",
+                "text": "To hide data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Output layer.",
+        "explanation": "Ensures output values sum to 1."
+    },
+    {
+        "id": "nlp_cv_ch3_18",
+        "text": "What is 'Greedy Decoding' in Seq2Seq models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Picking the most likely word at each step."
+            },
+            {
+                "id": "b",
+                "text": "Taking all words."
+            },
+            {
+                "id": "c",
+                "text": "Randomly picking."
+            },
+            {
+                "id": "d",
+                "text": "Skipping words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Simplest generation.",
+        "explanation": "Fast but can lead to sub-optimal sentences (local trapping)."
+    },
+    {
+        "id": "nlp_cv_ch3_19",
+        "text": "What is 'Beam Search' in the context of translation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Keeping 'k' best hypotheses at each step instead of just one."
+            },
+            {
+                "id": "b",
+                "text": "Searching in the dark."
+            },
+            {
+                "id": "c",
+                "text": "Translating by light beams."
+            },
+            {
+                "id": "d",
+                "text": "A physics search."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Bounded expansion.",
+        "explanation": "Standard for high-quality machine translation."
+    },
+    {
+        "id": "nlp_cv_ch3_20",
+        "text": "The 'Attention is all you need' paper introduced which model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transformer"
+            },
+            {
+                "id": "b",
+                "text": "AlexNet"
+            },
+            {
+                "id": "c",
+                "text": "LSTM"
+            },
+            {
+                "id": "d",
+                "text": "Word2Vec"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Vaswani et al. (2017).",
+        "explanation": "Seminal paper that started the modern LLM era."
+    },
+    {
+        "id": "nlp_cv_ch3_21",
+        "text": "What does a 'Multi-Head Attention' do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Allows the model to jointly attend to information from different representation subspaces at different positions."
+            },
+            {
+                "id": "b",
+                "text": "Multiple people reading."
+            },
+            {
+                "id": "c",
+                "text": "Splitting the text into heads."
+            },
+            {
+                "id": "d",
+                "text": "Deleting layers."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Parallel attention paths.",
+        "explanation": "Allows focusing on different aspects of meaning simultaneously."
+    },
+    {
+        "id": "nlp_cv_ch3_22",
+        "text": "What is 'Position Encoding' in Transformers?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Information added to embeddings to tell the model the global position of a word (since there is no recurrence)."
+            },
+            {
+                "id": "b",
+                "text": "GPS for words."
+            },
+            {
+                "id": "c",
+                "text": "Encoding by city."
+            },
+            {
+                "id": "d",
+                "text": "A type of printer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sequence order info.",
+        "explanation": "Without this, the Transformer would treat the sentence as a 'bag of words'."
+    },
+    {
+        "id": "nlp_cv_ch3_23",
+        "text": "Which model is primarily a Decoder-only architecture?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GPT (Generative Pre-trained Transformer)."
+            },
+            {
+                "id": "b",
+                "text": "BERT."
+            },
+            {
+                "id": "c",
+                "text": "CNN."
+            },
+            {
+                "id": "d",
+                "text": "LSTM."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Causal attention.",
+        "explanation": "GPT models are designed for auto-regressive text generation."
+    },
+    {
+        "id": "nlp_cv_ch3_24",
+        "text": "What is 'BLEU Score' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Evaluating the quality of machine-translated text."
+            },
+            {
+                "id": "b",
+                "text": "Finding blue colors."
+            },
+            {
+                "id": "c",
+                "text": "Counting words."
+            },
+            {
+                "id": "d",
+                "text": "Measuring model speed."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Translation metric.",
+        "explanation": "Compares machine output to human reference translations using N-gram overlap."
+    },
+    {
+        "id": "nlp_cv_ch3_25",
+        "text": "What is the 'King - Man + Woman = Queen' example demonstrating?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vector arithmetic in word embeddings."
+            },
+            {
+                "id": "b",
+                "text": "Math error."
+            },
+            {
+                "id": "c",
+                "text": "Logic programming."
+            },
+            {
+                "id": "d",
+                "text": "Spelling."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Semantic algebra.",
+        "explanation": "Shows how embeddings capture logical relationships between concepts."
+    },
+    {
+        "id": "nlp_cv_ch3_26",
+        "text": "Standard way to handle unknown words in modern NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Subword tokenization (BPE, WordPiece)."
+            },
+            {
+                "id": "b",
+                "text": "Deleting them."
+            },
+            {
+                "id": "c",
+                "text": "Using a random vector."
+            },
+            {
+                "id": "d",
+                "text": "Stopping training."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Breaking words smaller.",
+        "explanation": "Allows representing 'unbearably' as 'un', 'bear', 'ably'."
+    },
+    {
+        "id": "nlp_cv_ch3_27",
+        "text": "What is 'Causal Masking' in GPT?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Ensures model cannot 'see' future words during training."
+            },
+            {
+                "id": "b",
+                "text": "Masking random words."
+            },
+            {
+                "id": "c",
+                "text": "Hiding the input."
+            },
+            {
+                "id": "d",
+                "text": "Deleting stop words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Look only back.",
+        "explanation": "Required for models that generate text one word at a time."
+    },
+    {
+        "id": "nlp_cv_ch3_28",
+        "text": "Why do Transformers scale better than RNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Parallelization (all words processed at once)."
+            },
+            {
+                "id": "b",
+                "text": "Less memory."
+            },
+            {
+                "id": "c",
+                "text": "Better UIs."
+            },
+            {
+                "id": "d",
+                "text": "Use less power."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Computational advantage.",
+        "explanation": "RNNs require sequential processing (word by word), which is slow on GPUs."
+    },
+    {
+        "id": "nlp_cv_ch3_29",
+        "text": "What is 'Dropout' in neural network training?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Randomly setting some hidden unit activations to zero to prevent overfitting."
+            },
+            {
+                "id": "b",
+                "text": "Stopping the program."
+            },
+            {
+                "id": "c",
+                "text": "Dropping the data."
+            },
+            {
+                "id": "d",
+                "text": "Missing class."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Regularization.",
+        "explanation": "Forces the network to be redundant and robust."
+    },
+    {
+        "id": "nlp_cv_ch3_30",
+        "text": "In transformers, 'Query', 'Key', and 'Value' are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vectors produced from input used to compute the attention weighted sum."
+            },
+            {
+                "id": "b",
+                "text": "Database terms."
+            },
+            {
+                "id": "c",
+                "text": "Passwords."
+            },
+            {
+                "id": "d",
+                "text": "Deleted data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Attention components.",
+        "explanation": "Analogy to a retrieval system: Query (what I want) matches Key (what is there) to get Value (the content)."
+    }
+]

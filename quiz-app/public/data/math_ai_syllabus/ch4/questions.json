@@ -1,0 +1,752 @@
+[
+    {
+        "id": "math_ai_ch4_1",
+        "text": "What is the goal of 'Optimization' in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To find the best parameters (weights) that minimize the error (loss) function."
+            },
+            {
+                "id": "b",
+                "text": "To find more data."
+            },
+            {
+                "id": "c",
+                "text": "To make code look better."
+            },
+            {
+                "id": "d",
+                "text": "To use more cores."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding the minimum.",
+        "explanation": "Training is essentially solving a large-scale optimization problem."
+    },
+    {
+        "id": "math_ai_ch4_2",
+        "text": "What is 'Gradient Descent'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An algorithm that takes small steps in the direction of the negative gradient until local minimum is reached."
+            },
+            {
+                "id": "b",
+                "text": "Fast calculation."
+            },
+            {
+                "id": "c",
+                "text": "A sorting algorithm."
+            },
+            {
+                "id": "d",
+                "text": "A type of database."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Step down the hill.",
+        "explanation": "It's the workhorse of nearly all modern machine learning."
+    },
+    {
+        "id": "math_ai_ch4_3",
+        "text": "What is 'Stochastic Gradient Descent' (SGD)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Updates weights based on all data at once."
+            },
+            {
+                "id": "b",
+                "text": "Updates weights using only one randomly selected example at a time."
+            },
+            {
+                "id": "c",
+                "text": "Updates weights every 10 years."
+            },
+            {
+                "id": "d",
+                "text": "Never updates weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Frequent updates.",
+        "explanation": "SGD is faster and can help escape local minima but is noisier than Batch GD."
+    },
+    {
+        "id": "math_ai_ch4_4",
+        "text": "What is 'Batch Gradient Descent'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Updates after seeing one example."
+            },
+            {
+                "id": "b",
+                "text": "Uses the whole training set to compute the gradient before each update."
+            },
+            {
+                "id": "c",
+                "text": "Processing batches of cookies."
+            },
+            {
+                "id": "d",
+                "text": "A type of memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Full data update.",
+        "explanation": "It provides a stable convergence but is very slow for large datasets."
+    },
+    {
+        "id": "math_ai_ch4_5",
+        "text": "What is 'Convex Optimization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Problems where any local minimum is guaranteed to be a global minimum."
+            },
+            {
+                "id": "b",
+                "text": "Optimization of circles."
+            },
+            {
+                "id": "c",
+                "text": "Complex problems with many valleys."
+            },
+            {
+                "id": "d",
+                "text": "Random guessing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Single global valley.",
+        "explanation": "Convex problems are easier to solve efficiently and reliably."
+    },
+    {
+        "id": "math_ai_ch4_6",
+        "text": "What is a 'Local Minimum'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The absolute lowest point in the whole function."
+            },
+            {
+                "id": "b",
+                "text": "A point that is the lowest in its immediate neighborhood, but not necessarily globally."
+            },
+            {
+                "id": "c",
+                "text": "Starting point."
+            },
+            {
+                "id": "d",
+                "text": "Random point."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Low point nearby.",
+        "explanation": "Gradient descent might get stuck here instead of finding the global minimum."
+    },
+    {
+        "id": "math_ai_ch4_7",
+        "text": "What is a 'Saddle Point'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A point where gradient is zero, but it's a minimum in one direction and maximum in another."
+            },
+            {
+                "id": "b",
+                "text": "Global maximum."
+            },
+            {
+                "id": "c",
+                "text": "Point with infinite gradient."
+            },
+            {
+                "id": "d",
+                "text": "Sharp peak."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Like a horse saddle.",
+        "explanation": "Common in high-dimensional non-convex functions (like Neural Networks)."
+    },
+    {
+        "id": "math_ai_ch4_8",
+        "text": "What does a 'Learning Rate' (eta) control?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Size of the steps taken towards the minimum during optimization."
+            },
+            {
+                "id": "b",
+                "text": "Number of layers."
+            },
+            {
+                "id": "c",
+                "text": "Amount of data to use."
+            },
+            {
+                "id": "d",
+                "text": "Precision of the computer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Step size.",
+        "explanation": "Too high: overshoot. Too low: takes forever."
+    },
+    {
+        "id": "math_ai_ch4_9",
+        "text": "What is 'Constrained Optimization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Optimizing without any rules."
+            },
+            {
+                "id": "b",
+                "text": "Finding the minimum of a function subject to certain constraints on the variables."
+            },
+            {
+                "id": "c",
+                "text": "Optimization for small screens."
+            },
+            {
+                "id": "d",
+                "text": "Fast optimization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Subject to conditions.",
+        "explanation": "Example: Maximize profit subject to budget constraints."
+    },
+    {
+        "id": "math_ai_ch4_10",
+        "text": "What are 'Lagrange Multipliers' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multiplying large numbers."
+            },
+            {
+                "id": "b",
+                "text": "Transforming constrained optimization problems into unconstrained ones."
+            },
+            {
+                "id": "c",
+                "text": "Sorting data."
+            },
+            {
+                "id": "d",
+                "text": "Adding weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Strategy for constraints.",
+        "explanation": "Used to find local maxima/minima of function subject to equality constraints."
+    },
+    {
+        "id": "math_ai_ch4_11",
+        "text": "What is the 'Objective Function'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The function that needs to be minimized or maximized."
+            },
+            {
+                "id": "b",
+                "text": "The goal of AI."
+            },
+            {
+                "id": "c",
+                "text": "The input data."
+            },
+            {
+                "id": "d",
+                "text": "A list of rules."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Goal function.",
+        "explanation": "Also called Loss, Cost, or Utility function."
+    },
+    {
+        "id": "math_ai_ch4_12",
+        "text": "What is 'Newton's Method' in optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "First-order method."
+            },
+            {
+                "id": "b",
+                "text": "Second-order method that uses Hessian (curvature) for faster convergence."
+            },
+            {
+                "id": "c",
+                "text": "A physics law."
+            },
+            {
+                "id": "d",
+                "text": "A random walk."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Uses second derivatives.",
+        "explanation": "Can be extremely fast but is computationally expensive for many variables."
+    },
+    {
+        "id": "math_ai_ch4_13",
+        "text": "What is a 'Hyperparameter' regarding optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The weights of the model."
+            },
+            {
+                "id": "b",
+                "text": "Learning rate, batch size, number of epochs."
+            },
+            {
+                "id": "c",
+                "text": "The bias terms."
+            },
+            {
+                "id": "d",
+                "text": "The input features."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Settings not learned from data.",
+        "explanation": "Parameters that are set before training begins."
+    },
+    {
+        "id": "math_ai_ch4_14",
+        "text": "What is 'Convergence'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When optimization reaches a stable state (minimum)."
+            },
+            {
+                "id": "b",
+                "text": "When the program exits."
+            },
+            {
+                "id": "c",
+                "text": "When data is loaded."
+            },
+            {
+                "id": "d",
+                "text": "When two lines cross."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Reaching the end.",
+        "explanation": "The point where further updates don't meaningfully reduce the loss."
+    },
+    {
+        "id": "math_ai_ch4_15",
+        "text": "What indicates 'Oscillation' in Gradient Descent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Loss going down steadily."
+            },
+            {
+                "id": "b",
+                "text": "Loss bouncing up and down between steps (often due to high learning rate)."
+            },
+            {
+                "id": "c",
+                "text": "Loss staying constant."
+            },
+            {
+                "id": "d",
+                "text": "Loss is zero."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bouncing.",
+        "explanation": "The optimizer is overshooting the valley and landing on the opposite side."
+    },
+    {
+        "id": "math_ai_ch4_16",
+        "text": "What is 'Momentum' used for in optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To keep the optimizer moving in a consistent direction and dampen oscillations."
+            },
+            {
+                "id": "b",
+                "text": "To slow it down."
+            },
+            {
+                "id": "c",
+                "text": "To increase memory use."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Accumulated past gradients.",
+        "explanation": "Like a ball rolling down a hill, it gains 'speed' in relevant directions."
+    },
+    {
+        "id": "math_ai_ch4_17",
+        "text": "What is 'Adaptive' learning rate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Constant rate."
+            },
+            {
+                "id": "b",
+                "text": "Changing the learning rate automatically during training (e.g., Adam, RMSProp)."
+            },
+            {
+                "id": "c",
+                "text": "User manual settings."
+            },
+            {
+                "id": "d",
+                "text": "Slow rate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dynamic adjustment.",
+        "explanation": "Reduces LR for frequent features and increases it for rare ones."
+    },
+    {
+        "id": "math_ai_ch4_18",
+        "text": "What is 'Vanishing Gradient' in deep networks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Explosion of values."
+            },
+            {
+                "id": "b",
+                "text": "When gradients become extremely small, effectively stopping learning in early layers."
+            },
+            {
+                "id": "c",
+                "text": "Gradient moving to zero."
+            },
+            {
+                "id": "d",
+                "text": "Correct behavior."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fading signal.",
+        "explanation": "Occurs when many small numbers are multiplied together (chain rule)."
+    },
+    {
+        "id": "math_ai_ch4_19",
+        "text": "If a function's Hessian is 'Positive Definite' everywhere, it is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Convex."
+            },
+            {
+                "id": "b",
+                "text": "Concave."
+            },
+            {
+                "id": "c",
+                "text": "Linear."
+            },
+            {
+                "id": "d",
+                "text": "Negative."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Upward curvature.",
+        "explanation": "Second derivative is positive in all directions, creating a bowl shape."
+    },
+    {
+        "id": "math_ai_ch4_20",
+        "text": "What is the 'Primal' and 'Dual' problem in optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Two different ways to view and solve the same optimization problem."
+            },
+            {
+                "id": "b",
+                "text": "Two different problems."
+            },
+            {
+                "id": "c",
+                "text": "One is right one is wrong."
+            },
+            {
+                "id": "d",
+                "text": "Before and After."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Duality.",
+        "explanation": "Sometimes the 'dual' problem is easier to solve (e.g., in SVMs)."
+    },
+    {
+        "id": "math_ai_ch4_21",
+        "text": "What does 'Exploding Gradient' mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradients become excessively large, producing huge weight updates and NaNs."
+            },
+            {
+                "id": "b",
+                "text": "Good performance."
+            },
+            {
+                "id": "c",
+                "text": "Slow training."
+            },
+            {
+                "id": "d",
+                "text": "Zero weights."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Blow up.",
+        "explanation": "Fixed using gradient clipping or normalization."
+    },
+    {
+        "id": "math_ai_ch4_22",
+        "text": "What is 'Global convergence'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "World peace."
+            },
+            {
+                "id": "b",
+                "text": "Guarantee that the algorithm will converge to a stationary point regardless of where it starts."
+            },
+            {
+                "id": "c",
+                "text": "Fast convergence."
+            },
+            {
+                "id": "d",
+                "text": "Convergence in 1 step."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Initialization robustness.",
+        "explanation": "A desirable property for robust optimization algorithms."
+    },
+    {
+        "id": "math_ai_ch4_23",
+        "text": "What is 'Linear Programming'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Optimization of linear objective functions subject to linear constraints."
+            },
+            {
+                "id": "b",
+                "text": "Writing code in lines."
+            },
+            {
+                "id": "c",
+                "text": "Simple coding."
+            },
+            {
+                "id": "d",
+                "text": "Regression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Simplex method.",
+        "explanation": "Wide application in logistics and economics."
+    },
+    {
+        "id": "math_ai_ch4_24",
+        "text": "In Gradient Descent, weight update rule is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "W = W - lr * grad"
+            },
+            {
+                "id": "b",
+                "text": "W = W + lr * grad"
+            },
+            {
+                "id": "c",
+                "text": "W = grad / lr"
+            },
+            {
+                "id": "d",
+                "text": "W = 0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Moving against gradient.",
+        "explanation": "Substract gradient to decrease the value along the steepest direction."
+    },
+    {
+        "id": "math_ai_ch4_25",
+        "text": "Global Minimum is unique in a convex function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes (strictly convex case)."
+            },
+            {
+                "id": "b",
+                "text": "No, never."
+            },
+            {
+                "id": "c",
+                "text": "Sometimes."
+            },
+            {
+                "id": "d",
+                "text": "Only for quadratic."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Single bottom.",
+        "explanation": "Strict convexity ensures there are no flat-bottomed regions."
+    },
+    {
+        "id": "math_ai_ch4_26",
+        "text": "What 'non-convex' means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Many local minima and peaks."
+            },
+            {
+                "id": "b",
+                "text": "Smooth bowl."
+            },
+            {
+                "id": "c",
+                "text": "A straight line."
+            },
+            {
+                "id": "d",
+                "text": "Standard ML."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Most deep learning problems.",
+        "explanation": "Neural network landscapes are highly non-convex."
+    },
+    {
+        "id": "math_ai_ch4_27",
+        "text": "Which works better on very large datasets: Batch or Stochastic GD?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Batch"
+            },
+            {
+                "id": "b",
+                "text": "Stochastic / Mini-Batch"
+            },
+            {
+                "id": "c",
+                "text": "Both same."
+            },
+            {
+                "id": "d",
+                "text": "Neither."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Memory efficiency.",
+        "explanation": "Batch GD cannot fit entire huge datasets in RAM/GPU memory."
+    },
+    {
+        "id": "math_ai_ch4_28",
+        "text": "Gradient Descent is a 'first-order' method because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It uses first-order derivatives (gradients)."
+            },
+            {
+                "id": "b",
+                "text": "It's the first one taught."
+            },
+            {
+                "id": "c",
+                "text": "It's best."
+            },
+            {
+                "id": "d",
+                "text": "It's simple."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gradients only.",
+        "explanation": "It doesn't use second-order information (Hessian)."
+    },
+    {
+        "id": "math_ai_ch4_29",
+        "text": "Curse of Dimensionality in optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Problems become easier as dimension increases."
+            },
+            {
+                "id": "b",
+                "text": "Volume of search space grows exponentially with dimension, making global search harder."
+            },
+            {
+                "id": "c",
+                "text": "Number of weights."
+            },
+            {
+                "id": "d",
+                "text": "Large files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Exponential space.",
+        "explanation": "Volume increases so fast that data becomes sparse and search is difficult."
+    },
+    {
+        "id": "math_ai_ch4_30",
+        "text": "Local Maxima are found by following?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The gradient (Gradient Ascent)."
+            },
+            {
+                "id": "b",
+                "text": "Negative gradient."
+            },
+            {
+                "id": "c",
+                "text": "Random direction."
+            },
+            {
+                "id": "d",
+                "text": "0."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Climb up.",
+        "explanation": "Gradient ascent moves towards the direction of increase."
+    }
+]

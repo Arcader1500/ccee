@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch4_1",
+        "text": "What is 'Support Vector Machine' (SVM)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classifier that finds the hyperplane which maximizes the margin between classes."
+            },
+            {
+                "id": "b",
+                "text": "Model for sorting lists."
+            },
+            {
+                "id": "c",
+                "text": "Type of computer hardware."
+            },
+            {
+                "id": "d",
+                "text": "Regression only model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Max margin hyperplane.",
+        "explanation": "SVM works by finding the widest 'street' between two groups of data."
+    },
+    {
+        "id": "pml_ch4_2",
+        "text": "In SVM, what are 'Support Vectors'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The data points closest to the hyperplane."
+            },
+            {
+                "id": "b",
+                "text": "The labels."
+            },
+            {
+                "id": "c",
+                "text": "Incorrect predictions."
+            },
+            {
+                "id": "d",
+                "text": "The origin (0,0)."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Points on the edge.",
+        "explanation": "These points 'support' the hyperplane; if you move them, the boundary moves."
+    },
+    {
+        "id": "pml_ch4_3",
+        "text": "What is the 'Kernel Trick' in SVM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transforming data into higher dimensions to make it linearly separable without actually doing the transform."
+            },
+            {
+                "id": "b",
+                "text": "A way to delete data."
+            },
+            {
+                "id": "c",
+                "text": "A password."
+            },
+            {
+                "id": "d",
+                "text": "A sorting algorithm."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Non-linear separation.",
+        "explanation": "Allows SVM to calculate complex boundaries using kernel functions (RBF, Polynomial)."
+    },
+    {
+        "id": "pml_ch4_4",
+        "text": "How does K-Nearest Neighbors (KNN) classify a point?",
+        "options": [
+            {
+                "id": "a",
+                "text": "By taking a majority vote of its 'K' closest neighbors."
+            },
+            {
+                "id": "b",
+                "text": "By calculating a mean."
+            },
+            {
+                "id": "c",
+                "text": "By using a decision tree."
+            },
+            {
+                "id": "d",
+                "text": "Randomly."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Neighborhood vote.",
+        "explanation": "It's a lazy learner; it doesn't build a model, just stores the data."
+    },
+    {
+        "id": "pml_ch4_5",
+        "text": "KNN is called a 'Lazy Learner' because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It has no training phase; it does all computation during prediction."
+            },
+            {
+                "id": "b",
+                "text": "It is slow to code."
+            },
+            {
+                "id": "c",
+                "text": "It is inaccurate."
+            },
+            {
+                "id": "d",
+                "text": "It uses less power."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Instance-based learning.",
+        "explanation": "The 'training' is just storing the dataset."
+    },
+    {
+        "id": "pml_ch4_6",
+        "text": "What is a 'Decision Tree'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A tree-like model where internal nodes represent tests on features and leaves represent class labels."
+            },
+            {
+                "id": "b",
+                "text": "A natural forest."
+            },
+            {
+                "id": "c",
+                "text": "A list of rules."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Flowchart-like structure.",
+        "explanation": "Highly interpretable model used for both classification and regression."
+    },
+    {
+        "id": "pml_ch4_7",
+        "text": "In a Decision Tree, what is 'Entropy'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Measure of impurity or randomness in the data at a node."
+            },
+            {
+                "id": "b",
+                "text": "Calculating speed."
+            },
+            {
+                "id": "c",
+                "text": "Data size."
+            },
+            {
+                "id": "d",
+                "text": "Model weight."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Disorder measurement.",
+        "explanation": "If a node has 50% cat and 50% dog, entropy is high."
+    },
+    {
+        "id": "pml_ch4_8",
+        "text": "What does 'Information Gain' measure in Decision Trees?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reduction in entropy after a dataset is split on a feature."
+            },
+            {
+                "id": "b",
+                "text": "Total data size."
+            },
+            {
+                "id": "c",
+                "text": "Accuracy."
+            },
+            {
+                "id": "d",
+                "text": "Number of leaves."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Value of a split.",
+        "explanation": "Trees choose features that provide the highest Information Gain."
+    },
+    {
+        "id": "pml_ch4_9",
+        "text": "What is 'Gini Impurity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A measure of how often a randomly chosen element from the set would be incorrectly labeled."
+            },
+            {
+                "id": "b",
+                "text": "A type of gin."
+            },
+            {
+                "id": "c",
+                "text": "A sorting error."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Impurity metric.",
+        "explanation": "Used by CART algorithm for splitting decision trees; ranges from 0 to 0.5."
+    },
+    {
+        "id": "pml_ch4_10",
+        "text": "What is 'Pruning' in Decision Trees?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Removing parts of the tree that provide little power to prevent overfitting."
+            },
+            {
+                "id": "b",
+                "text": "Cutting the tree down."
+            },
+            {
+                "id": "c",
+                "text": "Adding more nodes."
+            },
+            {
+                "id": "d",
+                "text": "Saving labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Simplifying the tree.",
+        "explanation": "Reduces tree size and improves its ability to generalize."
+    },
+    {
+        "id": "pml_ch4_11",
+        "text": "How does 'Naive Bayes' work?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Uses Bayes Theorem with an assumption of independence between every pair of features."
+            },
+            {
+                "id": "b",
+                "text": "Uses neural network."
+            },
+            {
+                "id": "c",
+                "text": "Using distance."
+            },
+            {
+                "id": "d",
+                "text": "Voting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Probabilistic classifier.",
+        "explanation": "Excellent for text classification and high-dimensional features."
+    },
+    {
+        "id": "pml_ch4_12",
+        "text": "Why is it called 'Naive' Bayes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Because it simplifies the problem by assuming features don't interact (independence)."
+            },
+            {
+                "id": "b",
+                "text": "Written by a naive person."
+            },
+            {
+                "id": "c",
+                "text": "Simple code."
+            },
+            {
+                "id": "d",
+                "text": "Ancient."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Independence assumption.",
+        "explanation": "In real life, features are often related, but the assumption makes the math easier."
+    },
+    {
+        "id": "pml_ch4_13",
+        "text": "What is a 'Logistic Regression'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classification algorithm that predicts the probability of an input belonging to a class."
+            },
+            {
+                "id": "b",
+                "text": "Regression for numbers."
+            },
+            {
+                "id": "c",
+                "text": "Sorting data."
+            },
+            {
+                "id": "d",
+                "text": "Type of tree."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sigmoid output.",
+        "explanation": "Despite the name 'Regression', it is primarily used for classification."
+    },
+    {
+        "id": "pml_ch4_14",
+        "text": "What function maps input to probability in Logistic Regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sigmoid (Logistic) Function."
+            },
+            {
+                "id": "b",
+                "text": "Step Function."
+            },
+            {
+                "id": "c",
+                "text": "Sine function."
+            },
+            {
+                "id": "d",
+                "text": "Log."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Squashes values between 0 and 1.",
+        "explanation": "y = 1 / (1 + e^-z)."
+    },
+    {
+        "id": "pml_ch4_15",
+        "text": "What is 'Confusion Matrix'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Table used to evaluate classification performance showing TN, TP, FN, FP."
+            },
+            {
+                "id": "b",
+                "text": "A complex spreadsheet."
+            },
+            {
+                "id": "c",
+                "text": "A math error."
+            },
+            {
+                "id": "d",
+                "text": "A blurred image."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "TP/TN/FP/FN grid.",
+        "explanation": "Helpful to see what types of errors (false positives vs false negatives) the model is making."
+    },
+    {
+        "id": "pml_ch4_16",
+        "text": "In a Confusion Matrix, what is 'TP'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True Positive (correctly predicted positive)."
+            },
+            {
+                "id": "b",
+                "text": "Top Priority."
+            },
+            {
+                "id": "c",
+                "text": "Total Points."
+            },
+            {
+                "id": "d",
+                "text": "Type Parameter."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Correct hit.",
+        "explanation": "The model said yes, and it was actually yes."
+    },
+    {
+        "id": "pml_ch4_17",
+        "text": "What is a 'False Positive' (Type I error)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model predicted positive, but it was actually negative ('False Alarm')."
+            },
+            {
+                "id": "b",
+                "text": "Correct negative."
+            },
+            {
+                "id": "c",
+                "text": "Missing a label."
+            },
+            {
+                "id": "d",
+                "text": "Zero error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Wrong alarm.",
+        "explanation": "Example: Saying a non-spam email is spam."
+    },
+    {
+        "id": "pml_ch4_18",
+        "text": "What is a 'False Negative' (Type II error)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model predicted negative, but it was actually positive ('Miss')."
+            },
+            {
+                "id": "b",
+                "text": "Correct positive."
+            },
+            {
+                "id": "c",
+                "text": "Adding data."
+            },
+            {
+                "id": "d",
+                "text": "Rounding error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Missing a real case.",
+        "explanation": "Example: Failing to detect a disease in a sick patient."
+    },
+    {
+        "id": "pml_ch4_19",
+        "text": "What is 'Accuracy' score?",
+        "options": [
+            {
+                "id": "a",
+                "text": "(TP + TN) / Total."
+            },
+            {
+                "id": "b",
+                "text": "TP / (TP + FP)."
+            },
+            {
+                "id": "c",
+                "text": "TN / Total."
+            },
+            {
+                "id": "d",
+                "text": "FN / TP."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Total correct ratio.",
+        "explanation": "Unreliable when data is imbalanced (e.g., 99% of emails are non-spam)."
+    },
+    {
+        "id": "pml_ch4_20",
+        "text": "When is 'Precision' more important than 'Recall'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When the cost of a False Positive is high (e.g., spam filtering)."
+            },
+            {
+                "id": "b",
+                "text": "Never."
+            },
+            {
+                "id": "c",
+                "text": "In medical disease detection."
+            },
+            {
+                "id": "d",
+                "text": "When data is small."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Avoid False Alarms.",
+        "explanation": "You don't want to mark a good email as spam."
+    },
+    {
+        "id": "pml_ch4_21",
+        "text": "When is 'Recall' more important than 'Precision'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When the cost of a False Negative is high (e.g., cancer detection)."
+            },
+            {
+                "id": "b",
+                "text": "Always."
+            },
+            {
+                "id": "c",
+                "text": "When we want to be safe."
+            },
+            {
+                "id": "d",
+                "text": "Only for regression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Avoid missing cases.",
+        "explanation": "It's better to verify a healthy person again than to let a sick person go untreated."
+    },
+    {
+        "id": "pml_ch4_22",
+        "text": "What does a 'Root' node in a Decision Tree represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The very first split founded on the most important feature."
+            },
+            {
+                "id": "b",
+                "text": "The end of the tree."
+            },
+            {
+                "id": "c",
+                "text": "A math error."
+            },
+            {
+                "id": "d",
+                "text": "A list of labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Starts the tree.",
+        "explanation": "Contains the entire dataset before any splits."
+    },
+    {
+        "id": "pml_ch4_23",
+        "text": "What does a 'Leaf' node represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A final class label (result)."
+            },
+            {
+                "id": "b",
+                "text": "The start split."
+            },
+            {
+                "id": "c",
+                "text": "Input data."
+            },
+            {
+                "id": "d",
+                "text": "A weight."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Terminal node.",
+        "explanation": "Final decision is made here."
+    },
+    {
+        "id": "pml_ch4_24",
+        "text": "Maximum value of Entropy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1 (for binary classification, 50/50 split)."
+            },
+            {
+                "id": "b",
+                "text": "0"
+            },
+            {
+                "id": "c",
+                "text": "100"
+            },
+            {
+                "id": "d",
+                "text": "Infinite."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Perfect disorder.",
+        "explanation": "If all classes are equally likely, entropy is at its peak."
+    },
+    {
+        "id": "pml_ch4_25",
+        "text": "What is the 'Slack Variable' in SVM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Allows SVM to ignore some misclassifications for a cleaner boundary (Soft Margin)."
+            },
+            {
+                "id": "b",
+                "text": "A variable in a chat app."
+            },
+            {
+                "id": "c",
+                "text": "The weight matrix."
+            },
+            {
+                "id": "d",
+                "text": "Zero."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Handle outliers.",
+        "explanation": "Gives robustness to noisy data that prevents a hard margin split."
+    },
+    {
+        "id": "pml_ch4_26",
+        "text": "Normalizing KNN features is important because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Euclidean distance is dominated by features with larger scales."
+            },
+            {
+                "id": "b",
+                "text": "It uses more memory."
+            },
+            {
+                "id": "c",
+                "text": "Model runs faster."
+            },
+            {
+                "id": "d",
+                "text": "It handles text better."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Distance calculation bias.",
+        "explanation": "Distance between (1,1) and (2,2) is small, but if one feature is in millions, it wins."
+    },
+    {
+        "id": "pml_ch4_27",
+        "text": "Typical choice for K in KNN?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Odd number (to avoid ties)."
+            },
+            {
+                "id": "b",
+                "text": "Always 2."
+            },
+            {
+                "id": "c",
+                "text": "Equal to number of rows."
+            },
+            {
+                "id": "d",
+                "text": "Zero."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Majority vote resolution.",
+        "explanation": "Usually found using cross-validation; small K is sensitive to noise."
+    },
+    {
+        "id": "pml_ch4_28",
+        "text": "Decision trees perform automatic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Feature Selection."
+            },
+            {
+                "id": "b",
+                "text": "Data collection."
+            },
+            {
+                "id": "c",
+                "text": "Hyperparameter tuning."
+            },
+            {
+                "id": "d",
+                "text": "Scaling."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Node selection.",
+        "explanation": "They only use the features that actually help split the data."
+    },
+    {
+        "id": "pml_ch4_29",
+        "text": "In Logistic Regression, output of 0.7 means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "70% probability the sample belongs to Class 1."
+            },
+            {
+                "id": "b",
+                "text": "The value is 0.7."
+            },
+            {
+                "id": "c",
+                "text": "Error is 30%."
+            },
+            {
+                "id": "d",
+                "text": "Confidence is 7."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Probability interpretation.",
+        "explanation": "Threshold (usually 0.5) is applied to get a binary label."
+    },
+    {
+        "id": "pml_ch4_20",
+        "text": "SVM is primarily for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Binary Classification (though can be extended)."
+            },
+            {
+                "id": "b",
+                "text": "Clustering."
+            },
+            {
+                "id": "c",
+                "text": "Sorting."
+            },
+            {
+                "id": "d",
+                "text": "Finding averages."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Two-group separator.",
+        "explanation": "Can handle multiple classes using One-vs-One or One-vs-Rest strategies."
+    }
+]

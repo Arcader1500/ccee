@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch1_1",
+        "text": "What is the primary difference between Supervised and Unsupervised learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised uses labeled data; Unsupervised uses unlabeled data."
+            },
+            {
+                "id": "b",
+                "text": "Unsupervised is faster."
+            },
+            {
+                "id": "c",
+                "text": "Supervised is only for regression."
+            },
+            {
+                "id": "d",
+                "text": "No difference."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Presence of target labels.",
+        "explanation": "Supervised learning maps inputs to known outputs, while Unsupervised finds patterns in raw data."
+    },
+    {
+        "id": "pml_ch1_2",
+        "text": "What is 'Feature Engineering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The process of selecting, manipulating, and transforming raw data into features that act as better inputs for ML models."
+            },
+            {
+                "id": "b",
+                "text": "Building the computer hardware."
+            },
+            {
+                "id": "c",
+                "text": "Managing a team of engineers."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Data preparation.",
+        "explanation": "Good feature engineering is often the key to high model performance."
+    },
+    {
+        "id": "pml_ch1_3",
+        "text": "What is 'Scaling' in data preprocessing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transforming features to a similar range (e.g., 0 to 1) so no single feature dominates calculations."
+            },
+            {
+                "id": "b",
+                "text": "Making images larger."
+            },
+            {
+                "id": "c",
+                "text": "Removing outliers."
+            },
+            {
+                "id": "d",
+                "text": "Adding more rows."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standardization / Normalization.",
+        "explanation": "Algorithms like KNN and SVM are sensitive to the magnitude of features."
+    },
+    {
+        "id": "pml_ch1_4",
+        "text": "What does PCA stand for in ML?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Principal Component Analysis."
+            },
+            {
+                "id": "b",
+                "text": "Primary Color Adjustment."
+            },
+            {
+                "id": "c",
+                "text": "Private Cloud Access."
+            },
+            {
+                "id": "d",
+                "text": "Personal Code Assistant."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dimensionality reduction.",
+        "explanation": "PCA reduces the number of variables by creating new, uncorrelated components."
+    },
+    {
+        "id": "pml_ch1_5",
+        "text": "What is 't-SNE' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Visualizing high-dimensional data in 2D or 3D space."
+            },
+            {
+                "id": "b",
+                "text": "Building regression models."
+            },
+            {
+                "id": "c",
+                "text": "Sorting emails."
+            },
+            {
+                "id": "d",
+                "text": "Data compression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Visualization tool.",
+        "explanation": "Non-linear dimensionality reduction technique particularly well-suited for embedding high-dim data for visualization."
+    },
+    {
+        "id": "pml_ch1_6",
+        "text": "Which of these is a 'Regression' task?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting the stock price for tomorrow."
+            },
+            {
+                "id": "b",
+                "text": "Identifying an email as spam or not."
+            },
+            {
+                "id": "c",
+                "text": "Grouping similar news articles."
+            },
+            {
+                "id": "d",
+                "text": "Recognizing faces."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Predicting a continuous value.",
+        "explanation": "Regression predicts a real number, while classification predicts a category."
+    },
+    {
+        "id": "pml_ch1_7",
+        "text": "Which of these is a 'Classification' task?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting if a patient has a disease based on symptoms."
+            },
+            {
+                "id": "b",
+                "text": "Estimating house prices."
+            },
+            {
+                "id": "c",
+                "text": "Calculating customer lifetime value."
+            },
+            {
+                "id": "d",
+                "text": "Finding patterns in DNA."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Predicting a discrete label.",
+        "explanation": "Assigning an input to one of the predefined classes."
+    },
+    {
+        "id": "pml_ch1_8",
+        "text": "What is 'Standardization' (Z-score normalization)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transforming data to have a mean of 0 and standard deviation of 1."
+            },
+            {
+                "id": "b",
+                "text": "Setting all values to 1 or 0."
+            },
+            {
+                "id": "c",
+                "text": "Removing all negatives."
+            },
+            {
+                "id": "d",
+                "text": "Adding new features."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mean centering.",
+        "explanation": "Formula: (x - mean) / std_dev."
+    },
+    {
+        "id": "pml_ch1_9",
+        "text": "What happens if you don't use 'Dimensionality Reduction' on 1000s of features?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Curse of Dimensionality (model becomes overfitted or computationally expensive)."
+            },
+            {
+                "id": "b",
+                "text": "Model becomes too fast."
+            },
+            {
+                "id": "c",
+                "text": "Data becomes too small."
+            },
+            {
+                "id": "d",
+                "text": "No effect."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Too many variables.",
+        "explanation": "High-dimensional space makes samples very sparse and distance metrics lose meaning."
+    },
+    {
+        "id": "pml_ch1_10",
+        "text": "What is 'Data Imputation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Filling in missing values in a dataset."
+            },
+            {
+                "id": "b",
+                "text": "Deleting wrong values."
+            },
+            {
+                "id": "c",
+                "text": "Exporting data."
+            },
+            {
+                "id": "d",
+                "text": "Sorting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Handling NaNs.",
+        "explanation": "Can use mean, median, mode, or more complex methods like KNN imputation."
+    },
+    {
+        "id": "pml_ch1_11",
+        "text": "One-Hot encoding is typically used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Categorical variables."
+            },
+            {
+                "id": "b",
+                "text": "Continuous numbers."
+            },
+            {
+                "id": "c",
+                "text": "Images."
+            },
+            {
+                "id": "d",
+                "text": "Audio files."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Converting text labels to binary vectors.",
+        "explanation": "Avoids imposing an artificial order on nominal categories (like Colors)."
+    },
+    {
+        "id": "pml_ch1_12",
+        "text": "What is 'Label Encoding'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Assigning a unique integer to each category (e.g., Red=1, Green=2)."
+            },
+            {
+                "id": "b",
+                "text": "Writing labels on a box."
+            },
+            {
+                "id": "c",
+                "text": "Deleting labels."
+            },
+            {
+                "id": "d",
+                "text": "Encrypting labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Integers for categories.",
+        "explanation": "Good for ordinal data where the order matters (e.g., Small=1, Medium=2, Large=3)."
+    },
+    {
+        "id": "pml_ch1_13",
+        "text": "What is 'Min-Max Scaling'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scaling data to a fixed range, usually 0 to 1."
+            },
+            {
+                "id": "b",
+                "text": "Finding the smallest and largest values."
+            },
+            {
+                "id": "c",
+                "text": "Deleting extremes."
+            },
+            {
+                "id": "d",
+                "text": "Squaring all values."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Normalizing.",
+        "explanation": "Formula: (x - min) / (max - min)."
+    },
+    {
+        "id": "pml_ch1_14",
+        "text": "Which of these is 'Unsupervised Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Customer Segmentation using Clustering."
+            },
+            {
+                "id": "b",
+                "text": "Handwritten digit recognition."
+            },
+            {
+                "id": "c",
+                "text": "House price prediction."
+            },
+            {
+                "id": "d",
+                "text": "Spam filtering."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Grouping without labels.",
+        "explanation": "Clustering finds natural groupings in data without human-provided labels."
+    },
+    {
+        "id": "pml_ch1_15",
+        "text": "What is a 'Outlier'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A data point that differs significantly from other observations."
+            },
+            {
+                "id": "b",
+                "text": "A point that is 0."
+            },
+            {
+                "id": "c",
+                "text": "Correct data."
+            },
+            {
+                "id": "d",
+                "text": "A missing value."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Extreme value.",
+        "explanation": "Outliers can skew ML models and are often handled during preprocessing."
+    },
+    {
+        "id": "pml_ch1_16",
+        "text": "The goal of PCA is to maximize?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Variance."
+            },
+            {
+                "id": "b",
+                "text": "Loss."
+            },
+            {
+                "id": "c",
+                "text": "Speed."
+            },
+            {
+                "id": "d",
+                "text": "Data size."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Preserving information.",
+        "explanation": "PCA finds components that capture the most variance (information) in the data."
+    },
+    {
+        "id": "pml_ch1_17",
+        "text": "Which learning type uses 'Feedback' (Rewards and Penalties)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reinforcement Learning."
+            },
+            {
+                "id": "b",
+                "text": "Supervised Learning."
+            },
+            {
+                "id": "c",
+                "text": "Classification."
+            },
+            {
+                "id": "d",
+                "text": "Preprocessing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Learning from interaction.",
+        "explanation": "An agent learns by trial and error in an environment."
+    },
+    {
+        "id": "pml_ch1_18",
+        "text": "What is 'Garbage In, Garbage Out' (GIGO)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Principle that poor quality input data leads to poor quality model output."
+            },
+            {
+                "id": "b",
+                "text": "Deleting trash files."
+            },
+            {
+                "id": "c",
+                "text": "Recycling computers."
+            },
+            {
+                "id": "d",
+                "text": "Cleaning the office."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Importance of data quality.",
+        "explanation": "No matter how good the algorithm, bad data results in a bad model."
+    },
+    {
+        "id": "pml_ch1_19",
+        "text": "What is 'Exploratory Data Analysis' (EDA)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Summarizing and visualizing data to understand it before modeling."
+            },
+            {
+                "id": "b",
+                "text": "Building a model."
+            },
+            {
+                "id": "c",
+                "text": "Collecting data."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Understanding the data.",
+        "explanation": "Helps find patterns, outliers, and relationships."
+    },
+    {
+        "id": "pml_ch1_20",
+        "text": "The 'Elbow Method' is used to find?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The optimal number of clusters (K)."
+            },
+            {
+                "id": "b",
+                "text": "The best weights."
+            },
+            {
+                "id": "c",
+                "text": "Missing values."
+            },
+            {
+                "id": "d",
+                "text": "Errors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "K-Means parameter tuning.",
+        "explanation": "Identifies the point where adding more clusters gives diminishing returns."
+    },
+    {
+        "id": "pml_ch1_21",
+        "text": "In PCA, what is an 'Eigenvector' related to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The direction of the principal component."
+            },
+            {
+                "id": "b",
+                "text": "The magnitude of the variance."
+            },
+            {
+                "id": "c",
+                "text": "The number of rows."
+            },
+            {
+                "id": "d",
+                "text": "The error rate."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Direction.",
+        "explanation": "Eigenvectors define the axes of the new component space."
+    },
+    {
+        "id": "pml_ch1_22",
+        "text": "In PCA, what is an 'Eigenvalue' related to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Amount of variance captured by the corresponding eigenvector."
+            },
+            {
+                "id": "b",
+                "text": "Number of columns."
+            },
+            {
+                "id": "c",
+                "text": "Speed of computation."
+            },
+            {
+                "id": "d",
+                "text": "Memory use."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Strength of component.",
+        "explanation": "Higher eigenvalues mean that component explains more variance."
+    },
+    {
+        "id": "pml_ch1_23",
+        "text": "What is the primary library for ML in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scikit-Learn."
+            },
+            {
+                "id": "b",
+                "text": "Requests."
+            },
+            {
+                "id": "c",
+                "text": "Django."
+            },
+            {
+                "id": "d",
+                "text": "OpenCV."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "The 'sklearn' tool.",
+        "explanation": "Industry standard for classical ML algorithms and preprocessing."
+    },
+    {
+        "id": "pml_ch1_24",
+        "text": "Which of these is a dimensionality reduction technique?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PCA"
+            },
+            {
+                "id": "b",
+                "text": "LDA (Linear Discriminant Analysis)"
+            },
+            {
+                "id": "c",
+                "text": "SVD (Singular Value Decomposition)"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Many methods.",
+        "explanation": "All these techniques help reduce the number of features."
+    },
+    {
+        "id": "pml_ch1_25",
+        "text": "What is 'Leakage' in ML?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When information from outside the training dataset is used to create the model."
+            },
+            {
+                "id": "b",
+                "text": "Losing data."
+            },
+            {
+                "id": "c",
+                "text": "Water in server."
+            },
+            {
+                "id": "d",
+                "text": "Public data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Information bleed.",
+        "explanation": "Data leakage leads to unrealistically high performance during testing."
+    },
+    {
+        "id": "pml_ch1_26",
+        "text": "Difference between training and test sets?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Train builds model; Test evaluates it on unseen data."
+            },
+            {
+                "id": "b",
+                "text": "Train is the first half; Test is last half."
+            },
+            {
+                "id": "c",
+                "text": "No difference."
+            },
+            {
+                "id": "d",
+                "text": "Train is for labels; Test is for features."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Evaluation strategy.",
+        "explanation": "Must keep them separate to measure generalization."
+    },
+    {
+        "id": "pml_ch1_27",
+        "text": "Scaling is very important for which algorithm?",
+        "options": [
+            {
+                "id": "a",
+                "text": "K-Nearest Neighbors (KNN)."
+            },
+            {
+                "id": "b",
+                "text": "Decision Trees."
+            },
+            {
+                "id": "c",
+                "text": "Weighted random."
+            },
+            {
+                "id": "d",
+                "text": "Manual rules."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Distance based.",
+        "explanation": "Algorithms calculating distances are heavily affected by feature magnitude."
+    },
+    {
+        "id": "pml_ch1_28",
+        "text": "What is 'Feature Selection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Choosing the most relevant features and discarding redundant ones."
+            },
+            {
+                "id": "b",
+                "text": "Downloading features."
+            },
+            {
+                "id": "c",
+                "text": "Calculating features."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Keeping only useful cols.",
+        "explanation": "Simplifies models and improves performance."
+    },
+    {
+        "id": "pml_ch1_29",
+        "text": "What is a 'Nominal' variable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Categorical without implied order (e.g., Hair color)."
+            },
+            {
+                "id": "b",
+                "text": "Continuous number."
+            },
+            {
+                "id": "c",
+                "text": "Integer only."
+            },
+            {
+                "id": "d",
+                "text": "Sorted list."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Name only.",
+        "explanation": "Should be One-Hot encoded."
+    },
+    {
+        "id": "pml_ch1_30",
+        "text": "What is an 'Ordinal' variable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Categorical with a clear order (e.g., High, Medium, Low)."
+            },
+            {
+                "id": "b",
+                "text": "A number between 0 and 1."
+            },
+            {
+                "id": "c",
+                "text": "Random labels."
+            },
+            {
+                "id": "d",
+                "text": "Unordered data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Order matters.",
+        "explanation": "Can be Label Encoded to preserve hierarchy."
+    }
+]

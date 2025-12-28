@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch4_1",
+        "text": "What does 'Automatic Speech Recognition' (ASR) do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Converts spoken language into text."
+            },
+            {
+                "id": "b",
+                "text": "Plays music."
+            },
+            {
+                "id": "c",
+                "text": "Records audio only."
+            },
+            {
+                "id": "d",
+                "text": "Translates text to voice."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Speech-to-text.",
+        "explanation": "Fundamental technology for digital assistants like Siri or Alexa."
+    },
+    {
+        "id": "nlp_cv_ch4_2",
+        "text": "What does 'Text to Speech' (TTS) do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Converts written text into synthesized speech."
+            },
+            {
+                "id": "b",
+                "text": "Types out audio."
+            },
+            {
+                "id": "c",
+                "text": "Reads minds."
+            },
+            {
+                "id": "d",
+                "text": "Corrects typos."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Speech synthesis.",
+        "explanation": "Allows computers to 'speak' to users."
+    },
+    {
+        "id": "nlp_cv_ch4_3",
+        "text": "What is 'Phonetics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The study of the physical sounds of human speech."
+            },
+            {
+                "id": "b",
+                "text": "Study of word origins."
+            },
+            {
+                "id": "c",
+                "text": "Study of grammar."
+            },
+            {
+                "id": "d",
+                "text": "Coding for audio."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Physical sounds.",
+        "explanation": "Focuses on how sounds are produced, transmitted, and perceived."
+    },
+    {
+        "id": "nlp_cv_ch4_4",
+        "text": "A 'Phoneme' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The smallest unit of sound in a language that can distinguish one word from another."
+            },
+            {
+                "id": "b",
+                "text": "A type of microphone."
+            },
+            {
+                "id": "c",
+                "text": "A word count."
+            },
+            {
+                "id": "d",
+                "text": "A unit of volume."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sound unit.",
+        "explanation": "Example: /p/ and /b/ in 'pin' and 'bin'."
+    },
+    {
+        "id": "nlp_cv_ch4_5",
+        "text": "What is a 'Spectrogram' in audio processing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A visual representation of the spectrum of frequencies of a signal as it varies with time."
+            },
+            {
+                "id": "b",
+                "text": "The glass in a microphone."
+            },
+            {
+                "id": "c",
+                "text": "A list of audio files."
+            },
+            {
+                "id": "d",
+                "text": "Type of headset."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Time-Frequency plot.",
+        "explanation": "Allows 'seeing' the audio content across different frequencies."
+    },
+    {
+        "id": "nlp_cv_ch4_6",
+        "text": "What is 'MFCC'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mel-Frequency Cepstral Coefficients."
+            },
+            {
+                "id": "b",
+                "text": "Main Frequency Computer Code."
+            },
+            {
+                "id": "c",
+                "text": "Microphone Fiber Core Cable."
+            },
+            {
+                "id": "d",
+                "text": "Multichannel File Compression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Audio features.",
+        "explanation": "Standard features used in HMM-based and Deep Learning speech recognition."
+    },
+    {
+        "id": "nlp_cv_ch4_7",
+        "text": "Why do we use 'Sampling Rate' in digital audio?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Number of samples of audio carried per second (e.g., 44.1 kHz)."
+            },
+            {
+                "id": "b",
+                "text": "To taste the audio."
+            },
+            {
+                "id": "c",
+                "text": "To reduce volume."
+            },
+            {
+                "id": "d",
+                "text": "To change pitch."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Digital conversion.",
+        "explanation": "Determines the maximum frequency that can be captured (Nyquist theorem)."
+    },
+    {
+        "id": "nlp_cv_ch4_8",
+        "text": "What is 'Speaker Identification'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Determining WHO is speaking."
+            },
+            {
+                "id": "b",
+                "text": "Determining WHAT is being said."
+            },
+            {
+                "id": "c",
+                "text": "Fixing a speaker."
+            },
+            {
+                "id": "d",
+                "text": "Muting a speaker."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Voice biometrics.",
+        "explanation": "Recognizing the individual voice print."
+    },
+    {
+        "id": "nlp_cv_ch4_9",
+        "text": "What is 'Wake-word Detection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Listening for specific words like 'Hey Siri' or 'Alexa' to activate a device."
+            },
+            {
+                "id": "b",
+                "text": "Detecting if words are awake."
+            },
+            {
+                "id": "c",
+                "text": "Dictionary check."
+            },
+            {
+                "id": "d",
+                "text": "Alarm clock."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Trigger word.",
+        "explanation": "Low-power, local processing that triggers full ASR."
+    },
+    {
+        "id": "nlp_cv_ch4_10",
+        "text": "What is 'Prosody' in speech?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The rhythm, stress, and intonation of speech."
+            },
+            {
+                "id": "b",
+                "text": "Writing code for sound."
+            },
+            {
+                "id": "c",
+                "text": "Reading fast."
+            },
+            {
+                "id": "d",
+                "text": "The dictionary."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Melody of speech.",
+        "explanation": "Conveys emotion and sentence structure (e.g., question vs statement)."
+    },
+    {
+        "id": "nlp_cv_ch4_11",
+        "text": "Automatic Speech Recognition (ASR) systems usually combine?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Acoustic model and Language model."
+            },
+            {
+                "id": "b",
+                "text": "Word and Excel."
+            },
+            {
+                "id": "c",
+                "text": "Binary and Hex."
+            },
+            {
+                "id": "d",
+                "text": "Image and text."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sounds + Grammar.",
+        "explanation": "Acoustic model handles sounds; Language model handles the probability of word sequences."
+    },
+    {
+        "id": "nlp_cv_ch4_12",
+        "text": "What is 'Hidden Markov Model' (HMM) role in traditional ASR?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model the transitions between speech states/phonemes."
+            },
+            {
+                "id": "b",
+                "text": "Compress audio."
+            },
+            {
+                "id": "c",
+                "text": "Play audio."
+            },
+            {
+                "id": "d",
+                "text": "Delete noise."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "State transitions.",
+        "explanation": "Classical ASR models phonemes as states in an HMM."
+    },
+    {
+        "id": "nlp_cv_ch4_13",
+        "text": "What does a 'Vocoder' do in TTS?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Synthesizes the actual audio waveform from linguistic features or spectrograms."
+            },
+            {
+                "id": "b",
+                "text": "Records voice."
+            },
+            {
+                "id": "c",
+                "text": "Translates text."
+            },
+            {
+                "id": "d",
+                "text": "Mutes audio."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Waveform generation.",
+        "explanation": "The final stage where the 'robotic' or 'human' sound is produced (e.g., WaveNet)."
+    },
+    {
+        "id": "nlp_cv_ch4_14",
+        "text": "What is 'Diarization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Process of partitioning an audio stream into segments according to speaker identity ('Who spoke when')."
+            },
+            {
+                "id": "b",
+                "text": "Keeping a diary."
+            },
+            {
+                "id": "c",
+                "text": "Deleting audio."
+            },
+            {
+                "id": "d",
+                "text": "Increasing speed."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Speaker separation.",
+        "explanation": "Essential for transcribing meetings with multiple participants."
+    },
+    {
+        "id": "nlp_cv_ch4_15",
+        "text": "What is 'Noise Suppression'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Removing background noise to improve clarity and ASR accuracy."
+            },
+            {
+                "id": "b",
+                "text": "Talking louder."
+            },
+            {
+                "id": "c",
+                "text": "Muting the microphone."
+            },
+            {
+                "id": "d",
+                "text": "Shouting 'Quiet'."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Clean audio.",
+        "explanation": "Preprocessing step to isolate speech from environment."
+    },
+    {
+        "id": "nlp_cv_ch4_16",
+        "text": "In modern ASR, 'End-to-End' (E2E) models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Replace the complex pipeline (HMM, GMM, LM) with a single deep neural network."
+            },
+            {
+                "id": "b",
+                "text": "Use two computers."
+            },
+            {
+                "id": "c",
+                "text": "Are very slow."
+            },
+            {
+                "id": "d",
+                "text": "Don't use data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Direct mapping.",
+        "explanation": "Examples include CTC (Connectionist Temporal Classification) and Listen-Attend-Spell."
+    },
+    {
+        "id": "nlp_cv_ch4_17",
+        "text": "What is the 'Cocktail Party Effect' in speech?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Drinking while speaking."
+            },
+            {
+                "id": "b",
+                "text": "The ability to focus auditory attention on a single talker among a mixture of conversations and background noises."
+            },
+            {
+                "id": "c",
+                "text": "Being loud at parties."
+            },
+            {
+                "id": "d",
+                "text": "Forgetting what was said."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Selective hearing.",
+        "explanation": "A major challenge for AI systems to replicate human performance in noisy environments."
+    },
+    {
+        "id": "nlp_cv_ch4_18",
+        "text": "What does a 'Mel Spectrogram' use instead of linear frequency?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mel Scale, which approximates human hearing of pitch transitions."
+            },
+            {
+                "id": "b",
+                "text": "A binary scale."
+            },
+            {
+                "id": "c",
+                "text": "Log scale."
+            },
+            {
+                "id": "d",
+                "text": "Pixel scale."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Psychoacoustic model.",
+        "explanation": "Humans are better at distinguishing small changes in low frequencies than high frequencies."
+    },
+    {
+        "id": "nlp_cv_ch4_19",
+        "text": "The 'Nyquist-Shannon' theorem states we must sample at?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Twice the highest frequency of interest."
+            },
+            {
+                "id": "b",
+                "text": "Same as the frequency."
+            },
+            {
+                "id": "c",
+                "text": "10 times the frequency."
+            },
+            {
+                "id": "d",
+                "text": "Infinite rate."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Double the signal.",
+        "explanation": "To capture 20kHz audio (human limit), we need at least 40kHz sampling."
+    },
+    {
+        "id": "nlp_cv_ch4_20",
+        "text": "Standard audio file format for AI training?",
+        "options": [
+            {
+                "id": "a",
+                "text": "WAV (uncompressed)."
+            },
+            {
+                "id": "b",
+                "text": "PDF."
+            },
+            {
+                "id": "c",
+                "text": "JPEG."
+            },
+            {
+                "id": "d",
+                "text": "TXT."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Lossless/Raw.",
+        "explanation": "WAV files preserve the raw waveform data needed for analysis."
+    },
+    {
+        "id": "nlp_cv_ch4_21",
+        "text": "What is 'Glottal signal'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The raw vibration produced by the vocal cords before being filtered by the vocal tract."
+            },
+            {
+                "id": "b",
+                "text": "A type of signal error."
+            },
+            {
+                "id": "c",
+                "text": "Electronic beep."
+            },
+            {
+                "id": "d",
+                "text": "Whistle."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Source of voice.",
+        "explanation": "Fundamental to speech production models."
+    },
+    {
+        "id": "nlp_cv_ch4_22",
+        "text": "Speech synthesis 'Unit Selection' involves?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stitching together pieces of recorded human speech."
+            },
+            {
+                "id": "b",
+                "text": "Generating completely new sounds."
+            },
+            {
+                "id": "c",
+                "text": "Using robot voices only."
+            },
+            {
+                "id": "d",
+                "text": "Typing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Concatenative TTS.",
+        "explanation": "Older but produces very natural segments if the database is large."
+    },
+    {
+        "id": "nlp_cv_ch4_23",
+        "text": "What is 'Word Error Rate' (WER)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Standard metric for ASR (Sum of substitutions, deletions, insertions) / (Total words)."
+            },
+            {
+                "id": "b",
+                "text": "Speed of talking."
+            },
+            {
+                "id": "c",
+                "text": "Number of words typed."
+            },
+            {
+                "id": "d",
+                "text": "Spelling check."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Accuracy for ASR.",
+        "explanation": "Lower WER means better performance."
+    },
+    {
+        "id": "nlp_cv_ch4_24",
+        "text": "A 'Dipthong' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A sound formed by the combination of two vowels in a single syllable (e.g., 'oy' in boy)."
+            },
+            {
+                "id": "b",
+                "text": "A type of headset."
+            },
+            {
+                "id": "c",
+                "text": "A binary format."
+            },
+            {
+                "id": "d",
+                "text": "Speech error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Double vowel sound.",
+        "explanation": "Requires complex modeling in ASR/TTS."
+    },
+    {
+        "id": "nlp_cv_ch4_25",
+        "text": "What is 'Vocal Tract' in speech modeling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A filter that shapes the sound (mouth, throat, nose)."
+            },
+            {
+                "id": "b",
+                "text": "The lungs."
+            },
+            {
+                "id": "c",
+                "text": "A set of cables."
+            },
+            {
+                "id": "d",
+                "text": "Volume control."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Shaping the sound.",
+        "explanation": "The 'Source-Filter' model describes speech as Glottal vibration (source) through Vocal Tract (filter)."
+    },
+    {
+        "id": "nlp_cv_ch4_26",
+        "text": "Modern ASR often uses which NN architecture for the acoustic model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transformer / Conformer."
+            },
+            {
+                "id": "b",
+                "text": "VGG16."
+            },
+            {
+                "id": "c",
+                "text": "K-Means."
+            },
+            {
+                "id": "d",
+                "text": "Decision Tree."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Latest tech.",
+        "explanation": "Conformer combines CNNs (local context) and Transformers (global context) for speech."
+    },
+    {
+        "id": "nlp_cv_ch4_27",
+        "text": "What is 'Pitch' in audio?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Perceptual property related to frequency."
+            },
+            {
+                "id": "b",
+                "text": "Volume of sound."
+            },
+            {
+                "id": "c",
+                "text": "Quality of sound."
+            },
+            {
+                "id": "d",
+                "text": "A ball game."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "High or Low sound.",
+        "explanation": "High frequency corresponds to high pitch."
+    },
+    {
+        "id": "nlp_cv_ch4_28",
+        "text": "What is 'Acoustic Echo Cancellation' (AEC)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stopping the sound from the device's own speakers being picked up by its microphone."
+            },
+            {
+                "id": "b",
+                "text": "Removing noise."
+            },
+            {
+                "id": "c",
+                "text": "Adding echo."
+            },
+            {
+                "id": "d",
+                "text": "Muting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feedback prevention.",
+        "explanation": "Essential for speakerphones and video calls."
+    },
+    {
+        "id": "nlp_cv_ch4_29",
+        "text": "What is 'Phonology' compared to Phonetics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Phonetics is physical; Phonology is the abstract system of sounds in a specific language."
+            },
+            {
+                "id": "b",
+                "text": "Same thing."
+            },
+            {
+                "id": "c",
+                "text": "Phonology is faster."
+            },
+            {
+                "id": "d",
+                "text": "Phonetics is for robots."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "System vs Physicality.",
+        "explanation": "Phonology deals with functional units within a language ruleset."
+    },
+    {
+        "id": "nlp_cv_ch4_30",
+        "text": "Which company developed 'WaveNet'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DeepMind (Google)."
+            },
+            {
+                "id": "b",
+                "text": "Microsoft."
+            },
+            {
+                "id": "c",
+                "text": "Meta."
+            },
+            {
+                "id": "d",
+                "text": "IBM."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Neural vocoder.",
+        "explanation": "WaveNet significantly improved the realism of TTS systems."
+    }
+]

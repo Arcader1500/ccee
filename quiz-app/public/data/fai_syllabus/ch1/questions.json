@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch1_1",
+        "text": "Who is often considered the 'Father of Artificial Intelligence'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Alan Turing"
+            },
+            {
+                "id": "b",
+                "text": "John McCarthy"
+            },
+            {
+                "id": "c",
+                "text": "Isaac Asimov"
+            },
+            {
+                "id": "d",
+                "text": "Elon Musk"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Coined the term AI.",
+        "explanation": "John McCarthy coined the term 'Artificial Intelligence' in 1956 and was a key pioneer."
+    },
+    {
+        "id": "fai_ch1_2",
+        "text": "What is the 'Turing Test' designed to measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A machine's ability to calculate fast."
+            },
+            {
+                "id": "b",
+                "text": "A machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human."
+            },
+            {
+                "id": "c",
+                "text": "A machine's physical strength."
+            },
+            {
+                "id": "d",
+                "text": "A machine's memory capacity."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Can it fool a human?",
+        "explanation": "Proposed by Alan Turing, it tests if a human evaluator can distinguish between a human and a machine in a conversation."
+    },
+    {
+        "id": "fai_ch1_3",
+        "text": "What is a Turing Machine?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A powerful supercomputer."
+            },
+            {
+                "id": "b",
+                "text": "A mathematical model of computation that defines an abstract machine."
+            },
+            {
+                "id": "c",
+                "text": "A machine that builds robots."
+            },
+            {
+                "id": "d",
+                "text": "A time machine."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Abstract model.",
+        "explanation": "A Turing machine is a theoretical model that manipulates symbols on a strip of tape according to a table of rules."
+    },
+    {
+        "id": "fai_ch1_4",
+        "text": "In the context of the Turing Test, what is the role of the 'imitation game'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To play chess."
+            },
+            {
+                "id": "b",
+                "text": "To see if an interrogator can tell which of two participants is a machine."
+            },
+            {
+                "id": "c",
+                "text": "To copy human movements."
+            },
+            {
+                "id": "d",
+                "text": "To simulate a flight."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Imitating humans.",
+        "explanation": "The imitation game is the original name Turing gave to his proposed test for machine intelligence."
+    },
+    {
+        "id": "fai_ch1_5",
+        "text": "Which of these is a key component of AI Evolution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Symbolic AI (GOFAI)"
+            },
+            {
+                "id": "b",
+                "text": "Machine Learning"
+            },
+            {
+                "id": "c",
+                "text": "Deep Learning"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Multiple stages.",
+        "explanation": "AI evolution moved from rule-based symbolic logic to statistical machine learning and then to neural-network-driven deep learning."
+    },
+    {
+        "id": "fai_ch1_6",
+        "text": "What does a Turing-complete system mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It has passed the Turing test."
+            },
+            {
+                "id": "b",
+                "text": "It can perform any calculation that can be done by a Turing machine."
+            },
+            {
+                "id": "c",
+                "text": "It is built by Alan Turing."
+            },
+            {
+                "id": "d",
+                "text": "It has infinite RAM."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Computational power.",
+        "explanation": "Turing completeness means a system of data-manipulation rules can be used to simulate any Turing machine."
+    },
+    {
+        "id": "fai_ch1_7",
+        "text": "What is 'Weak AI'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AI that is bad at math."
+            },
+            {
+                "id": "b",
+                "text": "AI designed and trained for a particular task (Narrow AI)."
+            },
+            {
+                "id": "c",
+                "text": "AI that has feelings."
+            },
+            {
+                "id": "d",
+                "text": "AI that runs on old hardware."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Task specific.",
+        "explanation": "Weak or Narrow AI is specialized in one area (e.g., Alexa, Chess bots), unlike General AI."
+    },
+    {
+        "id": "fai_ch1_8",
+        "text": "What is 'Strong AI'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AI that can lift weights."
+            },
+            {
+                "id": "b",
+                "text": "AI with generalized human cognitive abilities."
+            },
+            {
+                "id": "c",
+                "text": "AI that never crashes."
+            },
+            {
+                "id": "d",
+                "text": "AI that uses lots of electricity."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Human-level GAI.",
+        "explanation": "Strong AI (Artificial General Intelligence) refers to a machine that could successfully perform any intellectual task that a human being can."
+    },
+    {
+        "id": "fai_ch1_9",
+        "text": "The 'Dartmouth Workshop' of 1956 is significant because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The internet was invented there."
+            },
+            {
+                "id": "b",
+                "text": "It is considered the founding event of Artificial Intelligence as a field."
+            },
+            {
+                "id": "c",
+                "text": "Turing passed his test there."
+            },
+            {
+                "id": "d",
+                "text": "The first robot was built there."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Founding event.",
+        "explanation": "Organized by McCarthy, Minsky, et al., it was where the field of AI was officially born."
+    },
+    {
+        "id": "fai_ch1_10",
+        "text": "In Turing's view, can machines think?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, never."
+            },
+            {
+                "id": "b",
+                "text": "He argued the question 'Can machines think?' is too meaningless to deserve discussion, proposing the imitation game instead."
+            },
+            {
+                "id": "c",
+                "text": "Yes, they already do."
+            },
+            {
+                "id": "d",
+                "text": "Only if they have souls."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Computing Machinery and Intelligence.",
+        "explanation": "Turing believed 'thinking' was ill-defined and focused on functional behavior."
+    },
+    {
+        "id": "fai_ch1_11",
+        "text": "What is 'Symbolic AI'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AI that uses icons."
+            },
+            {
+                "id": "b",
+                "text": "AI based on high-level human-readable representations of problems, logic and search."
+            },
+            {
+                "id": "c",
+                "text": "Neural networks."
+            },
+            {
+                "id": "d",
+                "text": "AI that recognizes traffic signs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rule-based.",
+        "explanation": "Symbolic AI (Good Old Fashioned AI) uses formal logic and rules to represent knowledge."
+    },
+    {
+        "id": "fai_ch1_12",
+        "text": "What is 'Connectionism'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Networking computers."
+            },
+            {
+                "id": "b",
+                "text": "An approach to AI that models mental or behavioral phenomena as the emergent processes of interconnected networks of simple units."
+            },
+            {
+                "id": "c",
+                "text": "Making friends in AI field."
+            },
+            {
+                "id": "d",
+                "text": "Social media AI."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Neural nets foundation.",
+        "explanation": "Connectionism led to the development of artificial neural networks."
+    },
+    {
+        "id": "fai_ch1_13",
+        "text": "What does 'Thinking Humanly' mean in AI structure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Modeling the mind as a computer program."
+            },
+            {
+                "id": "b",
+                "text": "Acting like a person."
+            },
+            {
+                "id": "c",
+                "text": "Being polite."
+            },
+            {
+                "id": "d",
+                "text": "Passing the bar exam."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Cognitive Science.",
+        "explanation": "It's the cognitive modeling approach, trying to understand how the human brain works at a computational level."
+    },
+    {
+        "id": "fai_ch1_14",
+        "text": "What does 'Acting Rationally' mean in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Doing the right thing given what is known."
+            },
+            {
+                "id": "b",
+                "text": "Thinking fast."
+            },
+            {
+                "id": "c",
+                "text": "Always winning."
+            },
+            {
+                "id": "d",
+                "text": "Acting like an emotionless robot."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Rational Agent.",
+        "explanation": "The rational agent approach focuses on achieving the best outcome (or best expected outcome)."
+    },
+    {
+        "id": "fai_ch1_15",
+        "text": "What is an 'Agent' in AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A spy."
+            },
+            {
+                "id": "b",
+                "text": "Anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors."
+            },
+            {
+                "id": "c",
+                "text": "A computer monitor."
+            },
+            {
+                "id": "d",
+                "text": "A customer service rep."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Perception and Action.",
+        "explanation": "Agents interact with the world via sensors and actuators."
+    },
+    {
+        "id": "fai_ch1_16",
+        "text": "Who wrote 'Computing Machinery and Intelligence' in 1950?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Alan Turing"
+            },
+            {
+                "id": "b",
+                "text": "John von Neumann"
+            },
+            {
+                "id": "c",
+                "text": "Ada Lovelace"
+            },
+            {
+                "id": "d",
+                "text": "Stephen Hawking"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Enigma codebreaker.",
+        "explanation": "This seminal paper introduced the Turing test."
+    },
+    {
+        "id": "fai_ch1_17",
+        "text": "Which AI winter occurred first?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mid-1970s"
+            },
+            {
+                "id": "b",
+                "text": "Late-1980s"
+            },
+            {
+                "id": "c",
+                "text": "2012"
+            },
+            {
+                "id": "d",
+                "text": "1950"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Lighthill report.",
+        "explanation": "The first AI winter followed the Lighthill report in 1973 which criticized the lack of progress."
+    },
+    {
+        "id": "fai_ch1_18",
+        "text": "What is 'Heuristic Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A random search."
+            },
+            {
+                "id": "b",
+                "text": "A search technique that uses a 'rule of thumb' or guidance to find a solution faster."
+            },
+            {
+                "id": "c",
+                "text": "Searching for gold."
+            },
+            {
+                "id": "d",
+                "text": "Testing all possible paths."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Informed search.",
+        "explanation": "Heuristics help prune the search space and prioritize promising paths."
+    },
+    {
+        "id": "fai_ch1_19",
+        "text": "What is 'State Space'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NASA's headquarters."
+            },
+            {
+                "id": "b",
+                "text": "The set of all possible configurations or 'states' a problem can be in."
+            },
+            {
+                "id": "c",
+                "text": "Empty room."
+            },
+            {
+                "id": "d",
+                "text": "The memory in a computer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "All possibilities.",
+        "explanation": "State space representation is used for modeling problem-solving in AI."
+    },
+    {
+        "id": "fai_ch1_20",
+        "text": "The term 'Singularity' in AI refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A single processor."
+            },
+            {
+                "id": "b",
+                "text": "The point where machine intelligence surpasses human intelligence."
+            },
+            {
+                "id": "c",
+                "text": "A math error."
+            },
+            {
+                "id": "d",
+                "text": "A black hole in space."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Greater-than-human intelligence.",
+        "explanation": "Proposed by Vernor Vinge and popularized by Ray Kurzweil, it's a hypothetical future point."
+    },
+    {
+        "id": "fai_ch1_21",
+        "text": "What is the 'Halting Problem'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stopping a bus."
+            },
+            {
+                "id": "b",
+                "text": "The problem of determining whether a program will eventually stop or run forever."
+            },
+            {
+                "id": "c",
+                "text": "A computer crash."
+            },
+            {
+                "id": "d",
+                "text": "A syntax error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Turing proved it undecidable.",
+        "explanation": "Turing proved in 1936 that no general algorithm exists to solve this for all possible program-input pairs."
+    },
+    {
+        "id": "fai_ch1_22",
+        "text": "Which field contributed most to the 'Logic' part of AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Philosophy"
+            },
+            {
+                "id": "b",
+                "text": "Mathematics"
+            },
+            {
+                "id": "c",
+                "text": "Psychology"
+            },
+            {
+                "id": "d",
+                "text": "Linguistics"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Boolean Algebra.",
+        "explanation": "Mathematical logic provided the formalization for knowledge representation and reasoning."
+    },
+    {
+        "id": "fai_ch1_23",
+        "text": "What is 'Expert Systems'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Computers for experts."
+            },
+            {
+                "id": "b",
+                "text": "AI programs that simulate the judgment and behavior of a human expert in a particular field."
+            },
+            {
+                "id": "c",
+                "text": "Social networking for doctors."
+            },
+            {
+                "id": "d",
+                "text": "Highly paid programmers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Knowledge-based.",
+        "explanation": "They use a knowledge base and an inference engine to solve problems (e.g., MYCIN)."
+    },
+    {
+        "id": "fai_ch1_24",
+        "text": "What is 'Breadth-First Search' (BFS)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching deep first."
+            },
+            {
+                "id": "b",
+                "text": "Searching level by level in a tree or graph."
+            },
+            {
+                "id": "c",
+                "text": "Searching randomly."
+            },
+            {
+                "id": "d",
+                "text": "Looking for bread."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Horizontal search.",
+        "explanation": "BFS explores all neighbors at the current depth before moving to the next level."
+    },
+    {
+        "id": "fai_ch1_25",
+        "text": "What is 'ELIZA'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An early chat bot that simulated a psychotherapist."
+            },
+            {
+                "id": "b",
+                "text": "A robot maid."
+            },
+            {
+                "id": "c",
+                "text": "The first smart home system."
+            },
+            {
+                "id": "d",
+                "text": "A programming language."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Joseph Weizenbaum.",
+        "explanation": "Created in the 1960s, it famously demonstrated how easily humans can be fooled by simple pattern matching."
+    },
+    {
+        "id": "fai_ch1_26",
+        "text": "Which approach is most popular in modern AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hard-coded rules."
+            },
+            {
+                "id": "b",
+                "text": "Data-driven statistical learning."
+            },
+            {
+                "id": "c",
+                "text": "Manual data entry."
+            },
+            {
+                "id": "d",
+                "text": "If-else statements."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Machine Learning.",
+        "explanation": "Modern AI relies heavily on large datasets and deep learning models."
+    },
+    {
+        "id": "fai_ch1_27",
+        "text": "What is 'Rationality' according to Russell and Norvig?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Being right all the time."
+            },
+            {
+                "id": "b",
+                "text": "Maximizing expected performance."
+            },
+            {
+                "id": "c",
+                "text": "Thinking logically."
+            },
+            {
+                "id": "d",
+                "text": "Being human."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Doing the best possible.",
+        "explanation": "Rationality means choosing actions that are expected to maximize a performance measure."
+    },
+    {
+        "id": "fai_ch1_28",
+        "text": "What is the 'Chinese Room' argument?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building a room in China."
+            },
+            {
+                "id": "b",
+                "text": "A thought experiment challenging the idea that a machine passing the Turing Test actually understands anything."
+            },
+            {
+                "id": "c",
+                "text": "A new AI chip."
+            },
+            {
+                "id": "d",
+                "text": "A translation software."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "John Searle.",
+        "explanation": "Searle argued that syntactic manipulation (following rules) doesn't equal semantic understanding."
+    },
+    {
+        "id": "fai_ch1_29",
+        "text": "What is 'Knowledge Engineering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building schools."
+            },
+            {
+                "id": "b",
+                "text": "Process of integrating human knowledge into an AI system."
+            },
+            {
+                "id": "c",
+                "text": "Reading books."
+            },
+            {
+                "id": "d",
+                "text": "Fixing computers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Knowledge Acquisition.",
+        "explanation": "It involves formalizing the knowledge of experts so a computer can process it."
+    },
+    {
+        "id": "fai_ch1_30",
+        "text": "Who is credited with the definition 'AI is the science and engineering of making intelligent machines'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "John McCarthy"
+            },
+            {
+                "id": "b",
+                "text": "Marvin Minsky"
+            },
+            {
+                "id": "c",
+                "text": "Alan Turing"
+            },
+            {
+                "id": "d",
+                "text": "Herb Simon"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "LISP creator.",
+        "explanation": "John McCarthy gave this definition in his 2004 paper 'What is Artificial Intelligence?'."
+    }
+]

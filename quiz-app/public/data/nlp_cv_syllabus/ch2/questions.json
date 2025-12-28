@@ -1,0 +1,752 @@
+[
+    {
+        "id": "nlp_cv_ch2_1",
+        "text": "What is 'Syntactic Parsing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Analyzing words for meaning."
+            },
+            {
+                "id": "b",
+                "text": "Analyzing a string of symbols (words) to determine its grammatical structure (tree)."
+            },
+            {
+                "id": "c",
+                "text": "Translating words."
+            },
+            {
+                "id": "d",
+                "text": "Converting to binary."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parse tree.",
+        "explanation": "It builds a structure (usually a tree) showing how words relate grammatically."
+    },
+    {
+        "id": "nlp_cv_ch2_2",
+        "text": "What is an 'N-Gram'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A weight measurement."
+            },
+            {
+                "id": "b",
+                "text": "A contiguous sequence of n items (words, characters) from a given sample of text."
+            },
+            {
+                "id": "c",
+                "text": "An ancient language."
+            },
+            {
+                "id": "d",
+                "text": "Encoded file."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequence of items.",
+        "explanation": "N=1 is unigram, N=2 is bigram, N=3 is trigram."
+    },
+    {
+        "id": "nlp_cv_ch2_3",
+        "text": "A 'Markov Model' assumes that?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Everything is connected."
+            },
+            {
+                "id": "b",
+                "text": "The next state depends only on the current state (memoryless)."
+            },
+            {
+                "id": "c",
+                "text": "History matters more than present."
+            },
+            {
+                "id": "d",
+                "text": "States are random."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Markov property.",
+        "explanation": "Used in N-gram language models and Hidden Markov Models (HMM)."
+    },
+    {
+        "id": "nlp_cv_ch2_4",
+        "text": "What is 'Semantic Parsing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Analyzing the grammatical structure."
+            },
+            {
+                "id": "b",
+                "text": "Converting natural language into a formal representation of its meaning (e.g., SQL query)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting stop words."
+            },
+            {
+                "id": "d",
+                "text": "Stemming."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mapping to meaning.",
+        "explanation": "It helps machines 'understand' the intent/instruction."
+    },
+    {
+        "id": "nlp_cv_ch2_5",
+        "text": "What is 'Information Extraction' (IE)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Automatically extracting structured information from unstructured text."
+            },
+            {
+                "id": "b",
+                "text": "Downloading files."
+            },
+            {
+                "id": "c",
+                "text": "Printing reports."
+            },
+            {
+                "id": "d",
+                "text": "Searching Google."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding facts.",
+        "explanation": "Includes tasks like entity extraction and relationship extraction."
+    },
+    {
+        "id": "nlp_cv_ch2_6",
+        "text": "In a Bigram model, what is P('dog' | 'The')?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Count('The dog') / Count('The')"
+            },
+            {
+                "id": "b",
+                "text": "Count('The') / Count('dog')"
+            },
+            {
+                "id": "c",
+                "text": "1 / total words."
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Conditional probability.",
+        "explanation": "Calculated by frequency of the pair divided by frequency of the first word."
+    },
+    {
+        "id": "nlp_cv_ch2_7",
+        "text": "What is 'Smoothing' in N-gram models?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Making text pretty."
+            },
+            {
+                "id": "b",
+                "text": "Techniques to handle zero probabilities for unseen N-grams (e.g., Laplace smoothing)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting rare words."
+            },
+            {
+                "id": "d",
+                "text": "A type of filter."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Avoid zero probability.",
+        "explanation": "Ensures that model doesn't fail just because it hasn't seen a specific combination before."
+    },
+    {
+        "id": "nlp_cv_ch2_8",
+        "text": "What is 'Hidden Markov Model' (HMM) often used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Speech recognition and POS tagging."
+            },
+            {
+                "id": "b",
+                "text": "Image generation."
+            },
+            {
+                "id": "c",
+                "text": "Sorting lists."
+            },
+            {
+                "id": "d",
+                "text": "Deleting cache."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sequence labeling.",
+        "explanation": "HMMs model sequences of observed data with hidden underlying states."
+    },
+    {
+        "id": "nlp_cv_ch2_9",
+        "text": "What is 'Dependency Parsing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Listing libraries."
+            },
+            {
+                "id": "b",
+                "text": "Parsing that focuses on binary relations between words (heads and dependents)."
+            },
+            {
+                "id": "c",
+                "text": "Counting nouns."
+            },
+            {
+                "id": "d",
+                "text": "Searching web."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Word-to-word links.",
+        "explanation": "Shows how words depend on each other (e.g., which adjective modifies which noun)."
+    },
+    {
+        "id": "nlp_cv_ch2_10",
+        "text": "What describes 'Context-Free Grammar' (CFG)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Grammar with no rules."
+            },
+            {
+                "id": "b",
+                "text": "Formal grammar where rules allow replacing single variables regardless of surrounding context."
+            },
+            {
+                "id": "c",
+                "text": "Random words."
+            },
+            {
+                "id": "d",
+                "text": "English only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "S -> NP VP.",
+        "explanation": "Basis for many classical natural language parsers."
+    },
+    {
+        "id": "nlp_cv_ch2_11",
+        "text": "In HMM, the 'Viterbi Algorithm' is used to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Find the most likely sequence of hidden states."
+            },
+            {
+                "id": "b",
+                "text": "Train the model weights."
+            },
+            {
+                "id": "c",
+                "text": "Delete data."
+            },
+            {
+                "id": "d",
+                "text": "Sort words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Decoding.",
+        "explanation": "Finds the 'best path' through the states given observations."
+    },
+    {
+        "id": "nlp_cv_ch2_12",
+        "text": "What is 'Text Classification'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Assigning predefined categories (labels) to text documents."
+            },
+            {
+                "id": "b",
+                "text": "Writing essays."
+            },
+            {
+                "id": "c",
+                "text": "Counting characters."
+            },
+            {
+                "id": "d",
+                "text": "Finding typos."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Labeling text.",
+        "explanation": "Examples: Spam detection, Sentiment analysis, Topic tagging."
+    },
+    {
+        "id": "nlp_cv_ch2_13",
+        "text": "How does 'Naive Bayes' classifier work for text?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Uses Bayes theorem assuming strong independence between words (features)."
+            },
+            {
+                "id": "b",
+                "text": "Uses neural nets."
+            },
+            {
+                "id": "c",
+                "text": "Randomly picks labels."
+            },
+            {
+                "id": "d",
+                "text": "Matches exact strings."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Independent probabilities.",
+        "explanation": "Baseline for text classification, often surprisingly effective."
+    },
+    {
+        "id": "nlp_cv_ch2_14",
+        "text": "What is 'SVM' (Support Vector Machine) in text classification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A linear classifier that finds the hyperplane maximizing the margin between classes."
+            },
+            {
+                "id": "b",
+                "text": "Simple Voting Machine."
+            },
+            {
+                "id": "c",
+                "text": "Typing tool."
+            },
+            {
+                "id": "d",
+                "text": "Database engine."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Maximum margin.",
+        "explanation": "Very powerful for high-dimensional text data before Deep Learning."
+    },
+    {
+        "id": "nlp_cv_ch2_15",
+        "text": "What is 'Centroid-based classification'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calculating the center of each class and assigning new text to the nearest center."
+            },
+            {
+                "id": "b",
+                "text": "Using rules."
+            },
+            {
+                "id": "c",
+                "text": "Sorting alphabetically."
+            },
+            {
+                "id": "d",
+                "text": "Counting words."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mean vector.",
+        "explanation": "Simple logic: if a document is close to the average 'Sports' document, it is 'Sports'."
+    },
+    {
+        "id": "nlp_cv_ch2_16",
+        "text": "What is 'Information Retrieval' (IR)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching for information in a document collection (e.g., Google Search)."
+            },
+            {
+                "id": "b",
+                "text": "Printing files."
+            },
+            {
+                "id": "c",
+                "text": "Writing code."
+            },
+            {
+                "id": "d",
+                "text": "Deleting spam."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Search engines.",
+        "explanation": "NLP is often used to enhance IR systems."
+    },
+    {
+        "id": "nlp_cv_ch2_17",
+        "text": "What is 'Precision' in classification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TP / (TP + FP) -- Accuracy of positive predictions."
+            },
+            {
+                "id": "b",
+                "text": "TP / (TP + FN) -- Coverage of positives."
+            },
+            {
+                "id": "c",
+                "text": "Total correct."
+            },
+            {
+                "id": "d",
+                "text": "Speed."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Quality of positive labels.",
+        "explanation": "Percentage of items identified as positive that are actually positive."
+    },
+    {
+        "id": "nlp_cv_ch2_18",
+        "text": "What is 'Recall' in classification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TP / (TP + FN) -- Ability to find all relevant cases."
+            },
+            {
+                "id": "b",
+                "text": "TP / (TP + FP)."
+            },
+            {
+                "id": "c",
+                "text": "Memory capacity."
+            },
+            {
+                "id": "d",
+                "text": "Total errors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding all positives.",
+        "explanation": "Proportion of actual positives that were correctly identified."
+    },
+    {
+        "id": "nlp_cv_ch2_19",
+        "text": "What is the 'F1-Score'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Harmonic mean of Precision and Recall."
+            },
+            {
+                "id": "b",
+                "text": "Average of all scores."
+            },
+            {
+                "id": "c",
+                "text": "First place score."
+            },
+            {
+                "id": "d",
+                "text": "Error count."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Balanced metric.",
+        "explanation": "Useful when classes are imbalanced; combines precision and recall into one number."
+    },
+    {
+        "id": "nlp_cv_ch2_20",
+        "text": "The problem of 'Sparse data' in N-grams means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Too many words."
+            },
+            {
+                "id": "b",
+                "text": "Many possible N-grams never appear in the training data, leading to zero probabilities."
+            },
+            {
+                "id": "c",
+                "text": "Data is dirty."
+            },
+            {
+                "id": "d",
+                "text": "Files are small."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unseen words problem.",
+        "explanation": "Solved by smoothing or back-off models."
+    },
+    {
+        "id": "nlp_cv_ch2_21",
+        "text": "What is 'Relationship Extraction'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding links between mentioned entities (e.g., 'Paris' is 'capital of' 'France')."
+            },
+            {
+                "id": "b",
+                "text": "Extracting text."
+            },
+            {
+                "id": "c",
+                "text": "Deleting names."
+            },
+            {
+                "id": "d",
+                "text": "Finding cousins."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Entity-to-entity.",
+        "explanation": "Goes beyond NER to build a knowledge graph."
+    },
+    {
+        "id": "nlp_cv_ch2_22",
+        "text": "What is 'Constituency Parsing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Grouping words into nested constituents (phrases) like NP, VP."
+            },
+            {
+                "id": "b",
+                "text": "Parsing for meaning."
+            },
+            {
+                "id": "c",
+                "text": "Counting votes."
+            },
+            {
+                "id": "d",
+                "text": "Linking words directly."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Phrase structure.",
+        "explanation": "Based on formal grammars like CFG."
+    },
+    {
+        "id": "nlp_cv_ch2_23",
+        "text": "What is 'Topic Modeling'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Unsupervised technique to discover abstract 'topics' in a collection of documents (e.g., LDA)."
+            },
+            {
+                "id": "b",
+                "text": "Naming document titles."
+            },
+            {
+                "id": "c",
+                "text": "Searching by keyword."
+            },
+            {
+                "id": "d",
+                "text": "Summarizing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding hidden themes.",
+        "explanation": "Groups documents by the probability of words appearing together."
+    },
+    {
+        "id": "nlp_cv_ch2_24",
+        "text": "The 'Bag of Words' model loses what information?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Word frequency."
+            },
+            {
+                "id": "b",
+                "text": "Word order and grammar."
+            },
+            {
+                "id": "c",
+                "text": "Word total count."
+            },
+            {
+                "id": "d",
+                "text": "Vocabulary."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scrambled words.",
+        "explanation": "Treats 'The dog bit the man' and 'The man bit the dog' identically."
+    },
+    {
+        "id": "nlp_cv_ch2_25",
+        "text": "A Trigram model predicts the next word based on?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Previous 3 words."
+            },
+            {
+                "id": "b",
+                "text": "Previous 2 words."
+            },
+            {
+                "id": "c",
+                "text": "All words in sentence."
+            },
+            {
+                "id": "d",
+                "text": "The whole corpus."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Total size N=3.",
+        "explanation": "Trigram [w1, w2, w3] uses P(w3 | w1, w2)."
+    },
+    {
+        "id": "nlp_cv_ch2_26",
+        "text": "In HMM, 'Emission Probability' is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "P(word | state) -- Probability of seeing a word given a hidden state."
+            },
+            {
+                "id": "b",
+                "text": "P(state | state)."
+            },
+            {
+                "id": "c",
+                "text": "P(word | word)."
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Observable out of hidden.",
+        "explanation": "Determines which word is likely produced by a tag like 'VERB'."
+    },
+    {
+        "id": "nlp_cv_ch2_27",
+        "text": "What is 'Lemmatization' often better than 'Stemming'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It ensures the result is a real word."
+            },
+            {
+                "id": "b",
+                "text": "It is faster."
+            },
+            {
+                "id": "c",
+                "text": "It uses less RAM."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Accuracy vs Speed.",
+        "explanation": "Stemming might result in 'nonsense' strings (stems), but lemmata are valid dictionary entries."
+    },
+    {
+        "id": "nlp_cv_ch2_28",
+        "text": "Ambiguity in 'Time flies like an arrow' is primarily?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Structural and Lexical (Time can be verb or noun)."
+            },
+            {
+                "id": "b",
+                "text": "Just spelling."
+            },
+            {
+                "id": "c",
+                "text": "Phonology error."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Multiple parse trees.",
+        "explanation": "Can be interpreted as a fact about time, or a command to time 'flies' that look like an arrow."
+    },
+    {
+        "id": "nlp_cv_ch2_29",
+        "text": "What is 'K-Nearest Neighbors' (KNN) in IR?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finding the most similar documents to a query based on a distance metric."
+            },
+            {
+                "id": "b",
+                "text": "Searching nearby rooms."
+            },
+            {
+                "id": "c",
+                "text": "Finding neighbors in a city."
+            },
+            {
+                "id": "d",
+                "text": "A type of sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Closeness in vector space.",
+        "explanation": "Uses cosine similarity to find the 'top-k' results."
+    },
+    {
+        "id": "nlp_cv_ch2_30",
+        "text": "Performance of a POS Tagger is usually evaluated using?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accuracy (percentage correctly tagged)."
+            },
+            {
+                "id": "b",
+                "text": "Total words count."
+            },
+            {
+                "id": "c",
+                "text": "Speed of typing."
+            },
+            {
+                "id": "d",
+                "text": "Length of sentences."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Correct labels / Total.",
+        "explanation": "Standard metric for sequence labeling tasks where classes are mostly balanced."
+    }
+]

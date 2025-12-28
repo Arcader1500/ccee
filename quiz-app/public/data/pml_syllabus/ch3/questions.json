@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch3_1",
+        "text": "What is 'Linear Regression'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model that assumes a linear relationship between input (X) and output (Y) variables."
+            },
+            {
+                "id": "b",
+                "text": "Sorting numbers."
+            },
+            {
+                "id": "c",
+                "text": "Drawing a curve."
+            },
+            {
+                "id": "d",
+                "text": "Finding the average."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "y = mx + c.",
+        "explanation": "Simplest regression model used for predictive modeling."
+    },
+    {
+        "id": "pml_ch3_2",
+        "text": "In Y = mX + c, what does 'm' represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Slope (weight/coefficient)."
+            },
+            {
+                "id": "b",
+                "text": "Intercept."
+            },
+            {
+                "id": "c",
+                "text": "Error."
+            },
+            {
+                "id": "d",
+                "text": "Input value."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Rate of change.",
+        "explanation": "Tells us how much Y changes for a unit increase in X."
+    },
+    {
+        "id": "pml_ch3_3",
+        "text": "In Y = mX + c, what does 'c' represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Y-intercept (bias)."
+            },
+            {
+                "id": "b",
+                "text": "Slope."
+            },
+            {
+                "id": "c",
+                "text": "The input."
+            },
+            {
+                "id": "d",
+                "text": "The result."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Value when x=0.",
+        "explanation": "The value of Y when X is zero."
+    },
+    {
+        "id": "pml_ch3_4",
+        "text": "What is 'Ordinary Least Squares' (OLS)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A method for estimating the parameters by minimizing the sum of rounded squares of differences."
+            },
+            {
+                "id": "b",
+                "text": "A grocery shop."
+            },
+            {
+                "id": "c",
+                "text": "A type of tree."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Minimizing Residuals.",
+        "explanation": "Finds the line that minimizes the total distance (squared) from all data points."
+    },
+    {
+        "id": "pml_ch3_5",
+        "text": "What is 'Polynomial Regression'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Regression that models non-linear relationships by including powers of the independent variables (e.g., x^2, x^3)."
+            },
+            {
+                "id": "b",
+                "text": "Regression with many people."
+            },
+            {
+                "id": "c",
+                "text": "Calculating averages."
+            },
+            {
+                "id": "d",
+                "text": "Linear model only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Modeling curves.",
+        "explanation": "Useful for capturing curved trends in data."
+    },
+    {
+        "id": "pml_ch3_6",
+        "text": "What is 'Overfitting' in regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When the model is too complex and follows the noise in training data instead of the trend."
+            },
+            {
+                "id": "b",
+                "text": "When model is too simple."
+            },
+            {
+                "id": "c",
+                "text": "When model is perfect."
+            },
+            {
+                "id": "d",
+                "text": "When data is small."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "High variance.",
+        "explanation": "The model has high accuracy on training set but fails on test set."
+    },
+    {
+        "id": "pml_ch3_7",
+        "text": "What is 'Underfitting'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When the model is too simple to capture the underlying trend (e.g., using line for a curve)."
+            },
+            {
+                "id": "b",
+                "text": "Too many features."
+            },
+            {
+                "id": "c",
+                "text": "High accuracy."
+            },
+            {
+                "id": "d",
+                "text": "Using too much power."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "High bias.",
+        "explanation": "Poor performance on both training and test data."
+    },
+    {
+        "id": "pml_ch3_8",
+        "text": "What is 'Regularization' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To prevent overfitting by adding a penalty term to the loss function."
+            },
+            {
+                "id": "b",
+                "text": "To speed up training."
+            },
+            {
+                "id": "c",
+                "text": "To make model larger."
+            },
+            {
+                "id": "d",
+                "text": "To load more data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "L1 / L2 penalties.",
+        "explanation": "Discourages the model from choosing large weights."
+    },
+    {
+        "id": "pml_ch3_9",
+        "text": "What is 'Lasso Regression' (L1)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Regularization that adds 'absolute value of weights' as penalty."
+            },
+            {
+                "id": "b",
+                "text": "Regularization with squares."
+            },
+            {
+                "id": "c",
+                "text": "No penalty."
+            },
+            {
+                "id": "d",
+                "text": "Binary regression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sparcity.",
+        "explanation": "Can shrink some weights to exactly ZERO, effectively doing feature selection."
+    },
+    {
+        "id": "pml_ch3_10",
+        "text": "What is 'Ridge Regression' (L2)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Regularization that adds 'squared magnitude of weights' as penalty."
+            },
+            {
+                "id": "b",
+                "text": "Deleting weights."
+            },
+            {
+                "id": "c",
+                "text": "Regularization with ABS."
+            },
+            {
+                "id": "d",
+                "text": "Linear only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Shrinkage.",
+        "explanation": "Shrinks weights towards zero but rarely makes them exactly zero."
+    },
+    {
+        "id": "pml_ch3_11",
+        "text": "What is 'Elastic Net'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Combining L1 (Lasso) and L2 (Ridge) penalties."
+            },
+            {
+                "id": "b",
+                "text": "A network cable."
+            },
+            {
+                "id": "c",
+                "text": "Fast regression."
+            },
+            {
+                "id": "d",
+                "text": "No regularization."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Best of both worlds.",
+        "explanation": "Uses a weighted sum of both penalties."
+    },
+    {
+        "id": "pml_ch3_12",
+        "text": "What is 'MAE' (Mean Absolute Error)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Average of absolute differences between predicted and actual values."
+            },
+            {
+                "id": "b",
+                "text": "Average of squares."
+            },
+            {
+                "id": "c",
+                "text": "Largest error."
+            },
+            {
+                "id": "d",
+                "text": "Count of errors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Robust error metric.",
+        "explanation": "It's in the same unit as the output and less sensitive to outliers than MSE."
+    },
+    {
+        "id": "pml_ch3_13",
+        "text": "What is 'MSE' (Mean Squared Error)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Average of squared differences between predicted and actual values."
+            },
+            {
+                "id": "b",
+                "text": "Square root of error."
+            },
+            {
+                "id": "c",
+                "text": "Median error."
+            },
+            {
+                "id": "d",
+                "text": "Total error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sensitive to outliers.",
+        "explanation": "Penalizes large errors heavily due to squaring."
+    },
+    {
+        "id": "pml_ch3_14",
+        "text": "What is 'RMSE' (Root Mean Squared Error)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Square root of MSE."
+            },
+            {
+                "id": "b",
+                "text": "Sum of errors."
+            },
+            {
+                "id": "c",
+                "text": "Total error rate."
+            },
+            {
+                "id": "d",
+                "text": "Zero error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Common metric.",
+        "explanation": "Standard deviation of residuals; has the same units as the dependent variable."
+    },
+    {
+        "id": "pml_ch3_15",
+        "text": "What does 'R-Squared' (R2 Score) measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The proportion of variance in the dependent variable explained by the model."
+            },
+            {
+                "id": "b",
+                "text": "The speed of model."
+            },
+            {
+                "id": "c",
+                "text": "The number of rows."
+            },
+            {
+                "id": "d",
+                "text": "The error rate."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Coefficient of determination.",
+        "explanation": "Ranges from 0 to 1; higher is generally better."
+    },
+    {
+        "id": "pml_ch3_16",
+        "text": "What are 'Residuals'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Differences between actual and predicted values (y - y_pred)."
+            },
+            {
+                "id": "b",
+                "text": "Remaining data."
+            },
+            {
+                "id": "c",
+                "text": "A type of outlier."
+            },
+            {
+                "id": "d",
+                "text": "Binary labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Error per point.",
+        "explanation": "Analyzing residuals helps check if model assumptions are met."
+    },
+    {
+        "id": "pml_ch3_17",
+        "text": "What is 'Multi-collinearity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When two or more independent variables are highly correlated with each other."
+            },
+            {
+                "id": "b",
+                "text": "Having many lines."
+            },
+            {
+                "id": "c",
+                "text": "Multiple results."
+            },
+            {
+                "id": "d",
+                "text": "No correlation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Inter-feature dependency.",
+        "explanation": "Can make coefficient estimates unstable and unreliable."
+    },
+    {
+        "id": "pml_ch3_18",
+        "text": "What is the 'Bias-Variance Tradeoff'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Balancing underfitting (high bias) and overfitting (high variance)."
+            },
+            {
+                "id": "b",
+                "text": "Picking between two models."
+            },
+            {
+                "id": "c",
+                "text": "A financial deal."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Model complexity balance.",
+        "explanation": "The 'sweet spot' is where total error (Bias^2 + Variance + Noise) is minimized."
+    },
+    {
+        "id": "pml_ch3_19",
+        "text": "In multiple regression, what are 'Coefficients'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The calculated weights for each input feature."
+            },
+            {
+                "id": "b",
+                "text": "The input data."
+            },
+            {
+                "id": "c",
+                "text": "The output value."
+            },
+            {
+                "id": "d",
+                "text": "The error margin."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feature importance.",
+        "explanation": "Represent the effect of each feature on the prediction."
+    },
+    {
+        "id": "pml_ch3_20",
+        "text": "A standard assumption of Linear Regression is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Homoscedasticity (constant variance of residuals)."
+            },
+            {
+                "id": "b",
+                "text": "Errors must be zero."
+            },
+            {
+                "id": "c",
+                "text": "All inputs must be between 0 and 1."
+            },
+            {
+                "id": "d",
+                "text": "Labels must be binary."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Constant variance.",
+        "explanation": "If variance of errors changes, the model might be unreliable for certain ranges."
+    },
+    {
+        "id": "pml_ch3_21",
+        "text": "Linear regression minimizes which loss function usually?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Squared Loss (MSE)."
+            },
+            {
+                "id": "b",
+                "text": "Absolute Loss (MAE)."
+            },
+            {
+                "id": "c",
+                "text": "Binary Cross Entropy."
+            },
+            {
+                "id": "d",
+                "text": "Hinge Loss."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Least Squares.",
+        "explanation": "OLS is the standard algorithm."
+    },
+    {
+        "id": "pml_ch3_22",
+        "text": "What is 'Multiple Linear Regression'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Linear regression with more than one independent variable (feature)."
+            },
+            {
+                "id": "b",
+                "text": "Running the model twice."
+            },
+            {
+                "id": "c",
+                "text": "Predicting multiple outputs."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Many X, one Y.",
+        "explanation": "Y = b0 + b1X1 + b2X2 + ..."
+    },
+    {
+        "id": "pml_ch3_23",
+        "text": "If R2 is 0.9, it means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "90% of variance in target is explained by the model features."
+            },
+            {
+                "id": "b",
+                "text": "Model is 90% accurate in classification."
+            },
+            {
+                "id": "c",
+                "text": "Error is 90%."
+            },
+            {
+                "id": "d",
+                "text": "Speed is 90%."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Variance explained.",
+        "explanation": "Generally indicates a good fit."
+    },
+    {
+        "id": "pml_ch3_24",
+        "text": "What is 'Adjusted R-Squared'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Modified R2 that penalizes adding unnecessary predictors (features)."
+            },
+            {
+                "id": "b",
+                "text": "R2 rounded up."
+            },
+            {
+                "id": "c",
+                "text": "R2 for small data."
+            },
+            {
+                "id": "d",
+                "text": "Same as R2."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Correction for too many features.",
+        "explanation": "Regular R2 always increases with more features; Adjusted R2 only if they add value."
+    },
+    {
+        "id": "pml_ch3_25",
+        "text": "Normal probability plot of residuals is used to check?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normality of error distribution."
+            },
+            {
+                "id": "b",
+                "text": "Color of data."
+            },
+            {
+                "id": "c",
+                "text": "If data is binary."
+            },
+            {
+                "id": "d",
+                "text": "Speed of training."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gaussian residuals.",
+        "explanation": "Standard regression assumes errors are normally distributed."
+    },
+    {
+        "id": "pml_ch3_26",
+        "text": "Why use 'Log' transformation on skewed target variables?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make the distribution more normal (Gaussian)."
+            },
+            {
+                "id": "b",
+                "text": "To make numbers smaller."
+            },
+            {
+                "id": "c",
+                "text": "To remove negatives."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Handling skewness.",
+        "explanation": "Many models perform better when target is normally distributed."
+    },
+    {
+        "id": "pml_ch3_27",
+        "text": "What 'Interaction Term' means in regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A feature created by multiplying two different features together."
+            },
+            {
+                "id": "b",
+                "text": "Chatting with the model."
+            },
+            {
+                "id": "c",
+                "text": "Deleting related features."
+            },
+            {
+                "id": "d",
+                "text": "Adding weights."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feature synergy.",
+        "explanation": "Captures if the effect of one feature depends on the level of another."
+    },
+    {
+        "id": "pml_ch3_28",
+        "text": "Gradient Descent is an alternative to OLS because?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It can handle very large datasets that don't fit in memory."
+            },
+            {
+                "id": "b",
+                "text": "It is more accurate."
+            },
+            {
+                "id": "c",
+                "text": "It finds the intercept faster."
+            },
+            {
+                "id": "d",
+                "text": "It uses no math."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Scale of data.",
+        "explanation": "OLS formula (X^T X)^-1 is expensive for massive feature sets."
+    },
+    {
+        "id": "pml_ch3_29",
+        "text": "Which regularization should you prefer if you want only 5 out of 100 features?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Lasso (L1)."
+            },
+            {
+                "id": "b",
+                "text": "Ridge (L2)."
+            },
+            {
+                "id": "c",
+                "text": "No regularization."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Feature selection property.",
+        "explanation": "Lasso shrinks unimportant feature coefficients to exactly zero."
+    },
+    {
+        "id": "pml_ch3_30",
+        "text": "Standard error of the estimate measures?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The accuracy of predictions (spread of data around regression line)."
+            },
+            {
+                "id": "b",
+                "text": "The speed."
+            },
+            {
+                "id": "c",
+                "text": "Number of points."
+            },
+            {
+                "id": "d",
+                "text": "Weight value."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Prediction uncertainty.",
+        "explanation": "Typical distance that the observed values fall from the regression line."
+    }
+]

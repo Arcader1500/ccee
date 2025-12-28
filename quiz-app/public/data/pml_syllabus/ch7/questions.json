@@ -1,0 +1,752 @@
+[
+    {
+        "id": "pml_ch7_1",
+        "text": "What is a 'Recommendation System'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Subclass of information filtering system that predicts the 'preference' a user would give to an item."
+            },
+            {
+                "id": "b",
+                "text": "A list of ads."
+            },
+            {
+                "id": "c",
+                "text": "A search engine for websites."
+            },
+            {
+                "id": "d",
+                "text": "A database tool."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Personalized filtering.",
+        "explanation": "Used by Netflix, Amazon, and YouTube to suggest content."
+    },
+    {
+        "id": "pml_ch7_2",
+        "text": "What is 'Collaborative Filtering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Recommending items based on preferences of similar users ('Users who liked X also liked Y')."
+            },
+            {
+                "id": "b",
+                "text": "Recommending based on item features."
+            },
+            {
+                "id": "c",
+                "text": "Filtering spam."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "User-User / Item-Item similarity.",
+        "explanation": "Doesn't need to know anything about the items themselves, just how people interact with them."
+    },
+    {
+        "id": "pml_ch7_3",
+        "text": "What is 'Content-Based Filtering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Recommending items similar to those a user liked in the past based on item descriptors (features)."
+            },
+            {
+                "id": "b",
+                "text": "Recommending based on other users' activity."
+            },
+            {
+                "id": "c",
+                "text": "Sorting by price."
+            },
+            {
+                "id": "d",
+                "text": "Deleting content."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Matching item features.",
+        "explanation": "If you liked 'Sci-Fi' movies before, it recommends more 'Sci-Fi'."
+    },
+    {
+        "id": "pml_ch7_4",
+        "text": "What is the 'Cold Start Problem'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Difficulty in recommending for new users or new items with no prior interaction data."
+            },
+            {
+                "id": "b",
+                "text": "The computer being cold."
+            },
+            {
+                "id": "c",
+                "text": "Slow starting program."
+            },
+            {
+                "id": "d",
+                "text": "Empty database."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "New user/item issue.",
+        "explanation": "Collaborative filtering fails when there's no history to find similarities."
+    },
+    {
+        "id": "pml_ch7_5",
+        "text": "What is 'Hybrid Recommendation System'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Combines collaborative and content-based filtering to overcome their individual weaknesses."
+            },
+            {
+                "id": "b",
+                "text": "A system for hybrid cars."
+            },
+            {
+                "id": "c",
+                "text": "A system with 2 databases."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Combining approaches.",
+        "explanation": "Uses different techniques to provide more robust recommendations."
+    },
+    {
+        "id": "pml_ch7_6",
+        "text": "What is 'Anomaly Detection'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Identification of rare items, events, or observations which raise suspicions by differing significantly from the majority."
+            },
+            {
+                "id": "b",
+                "text": "Detecting typos."
+            },
+            {
+                "id": "c",
+                "text": "Finding averages."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Outlier detection.",
+        "explanation": "Used for fraud detection, fault diagnosis, and network security."
+    },
+    {
+        "id": "pml_ch7_7",
+        "text": "What is 'Isolation Forest'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Algorithm for anomaly detection that works by isolating observations (outliers are easier to isolate)."
+            },
+            {
+                "id": "b",
+                "text": "A forest with one tree."
+            },
+            {
+                "id": "c",
+                "text": "A nature preserve."
+            },
+            {
+                "id": "d",
+                "text": "A regression model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Tree-based anomaly detection.",
+        "explanation": "Anomalies are likely to have shorter paths in a random forest tree."
+    },
+    {
+        "id": "pml_ch7_8",
+        "text": "What does 'ROC' stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Receiver Operating Characteristic."
+            },
+            {
+                "id": "b",
+                "text": "Rate of Change."
+            },
+            {
+                "id": "c",
+                "text": "Randomized Object Class."
+            },
+            {
+                "id": "d",
+                "text": "Root Original Component."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Evaluating classifiers.",
+        "explanation": "A curve showing the performance of a classification model at all threshold levels."
+    },
+    {
+        "id": "pml_ch7_9",
+        "text": "What is 'AUC'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Area Under the Curve (specifically the ROC curve)."
+            },
+            {
+                "id": "b",
+                "text": "Average User Count."
+            },
+            {
+                "id": "c",
+                "text": "All Units Correct."
+            },
+            {
+                "id": "d",
+                "text": "A unit of volume."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Performance metric.",
+        "explanation": "Ranges from 0 to 1; 0.5 is random, 1.0 is perfect."
+    },
+    {
+        "id": "pml_ch7_10",
+        "text": "What does a Confusion Matrix help with in Anomaly Detection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Understanding false alarms (FP) vs missed anomalies (FN)."
+            },
+            {
+                "id": "b",
+                "text": "Counting people."
+            },
+            {
+                "id": "c",
+                "text": "Sorting data."
+            },
+            {
+                "id": "d",
+                "text": "Deleting files."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Error types.",
+        "explanation": "Usually, we care more about finding the anomaly (Recall) than having some false alarms."
+    },
+    {
+        "id": "pml_ch7_11",
+        "text": "ROC curve plots which two metrics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TPR (True Positive Rate) vs FPR (False Positive Rate)."
+            },
+            {
+                "id": "b",
+                "text": "Precision vs Recall."
+            },
+            {
+                "id": "c",
+                "text": "Accuracy vs Error."
+            },
+            {
+                "id": "d",
+                "text": "Loss vs Epochs."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hit rate vs False Alarm rate.",
+        "explanation": "TPR is also known as Recall/Sensitivity."
+    },
+    {
+        "id": "pml_ch7_12",
+        "text": "What is 'Matrix Factorization' (ALS, SVD) used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Decomposing the User-Item interaction matrix to find hidden (latent) factors."
+            },
+            {
+                "id": "b",
+                "text": "Multiplying large numbers."
+            },
+            {
+                "id": "c",
+                "text": "Compressing images."
+            },
+            {
+                "id": "d",
+                "text": "Sorting lists."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Basis for Netflix Prize winner.",
+        "explanation": "Learns dimensions like 'Action movies' or 'Funny users' automatically."
+    },
+    {
+        "id": "pml_ch7_13",
+        "text": "What 'Cosine Similarity' measures in Recommendations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The angle between two vectors (representing users or items)."
+            },
+            {
+                "id": "b",
+                "text": "The distance in meters."
+            },
+            {
+                "id": "c",
+                "text": "The speed."
+            },
+            {
+                "id": "d",
+                "text": "Color match."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Vector orientation.",
+        "explanation": "Independent of magnitude; used to see if users have 'proportional' interest."
+    },
+    {
+        "id": "pml_ch7_14",
+        "text": "What is 'One-Class SVM'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SVM variant trained only on 'normal' data to identify everything else as an anomaly."
+            },
+            {
+                "id": "b",
+                "text": "Standard binary SVM."
+            },
+            {
+                "id": "c",
+                "text": "SVM for labels of 1."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Novelty detection.",
+        "explanation": "Finds the boundary of the 'normal' distribution."
+    },
+    {
+        "id": "pml_ch7_15",
+        "text": "In Anomaly Detection, why is 'Recall' often critical?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Because missing even one fraud or fault can be extremely costly."
+            },
+            {
+                "id": "b",
+                "text": "Because it's easier to calculate."
+            },
+            {
+                "id": "c",
+                "text": "Because data is large."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Risk management.",
+        "explanation": "We want to catch as many real anomalies as possible."
+    },
+    {
+        "id": "pml_ch7_16",
+        "text": "What is 'Similarity Matrix'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A matrix showing how similar every pair of items/users is."
+            },
+            {
+                "id": "b",
+                "text": "A table of weights."
+            },
+            {
+                "id": "c",
+                "text": "An error log."
+            },
+            {
+                "id": "d",
+                "text": "Data dictionary."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Lookup for closeness.",
+        "explanation": "Pre-computed for fast recommendations."
+    },
+    {
+        "id": "pml_ch7_17",
+        "text": "What is 'Log-Loss' (Cross-Entropy)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Loss function that penalizes incorrect probability predictions."
+            },
+            {
+                "id": "b",
+                "text": "Counting logs."
+            },
+            {
+                "id": "c",
+                "text": "Simple error count."
+            },
+            {
+                "id": "d",
+                "text": "A type of regression."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Classifier loss.",
+        "explanation": "The standard loss for training logistic regression and neural networks."
+    },
+    {
+        "id": "pml_ch7_18",
+        "text": "What value of AUC represents a perfect classifier?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1.0"
+            },
+            {
+                "id": "b",
+                "text": "0.5"
+            },
+            {
+                "id": "c",
+                "text": "100"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Ideal world.",
+        "explanation": "It means the model identifies all positives and negatives correctly without overlap."
+    },
+    {
+        "id": "pml_ch7_19",
+        "text": "What 'Latent Factors' means in recommendations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hidden themes or characteristics learned by the model (e.g., 'Action', 'Drama')."
+            },
+            {
+                "id": "b",
+                "text": "Missing data."
+            },
+            {
+                "id": "c",
+                "text": "User IDs."
+            },
+            {
+                "id": "d",
+                "text": "Constants."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hidden features.",
+        "explanation": "Dimensions discovered during matrix factorization."
+    },
+    {
+        "id": "pml_ch7_20",
+        "text": "Anomaly Detection is often treated as?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Unsupervised or Semi-supervised learning (due to lack of 'anomaly' labels)."
+            },
+            {
+                "id": "b",
+                "text": "Standard regression."
+            },
+            {
+                "id": "c",
+                "text": "Sorting."
+            },
+            {
+                "id": "d",
+                "text": "Data cleaning only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dealing with rare cases.",
+        "explanation": "Since anomalies are rare, we often don't have enough to train a standard classifier."
+    },
+    {
+        "id": "pml_ch7_21",
+        "text": "Implicit Feedback in recommendations means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data from actions like clicks, views, or purchases (no direct rating)."
+            },
+            {
+                "id": "b",
+                "text": "Direct star ratings."
+            },
+            {
+                "id": "c",
+                "text": "Written reviews."
+            },
+            {
+                "id": "d",
+                "text": "Bot activity."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Learning from behavior.",
+        "explanation": "Much more abundant than 'Explicit' feedback (ratings)."
+    },
+    {
+        "id": "pml_ch7_22",
+        "text": "Explicit Feedback means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Direct user input like 5-star ratings or Like/Dislike."
+            },
+            {
+                "id": "b",
+                "text": "Analyzing clicks."
+            },
+            {
+                "id": "c",
+                "text": "Guessing."
+            },
+            {
+                "id": "d",
+                "text": "Automatic feedback."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Clear preference data.",
+        "explanation": "High quality but often sparse as users don't always rate things."
+    },
+    {
+        "id": "pml_ch7_23",
+        "text": "A 'Precision-Recall Curve' is better than ROC when?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classes are heavily imbalanced (e.g., anomalies are < 1%)."
+            },
+            {
+                "id": "b",
+                "text": "Classes are equal."
+            },
+            {
+                "id": "c",
+                "text": "Always."
+            },
+            {
+                "id": "d",
+                "text": "Never."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Imbalanced data metric.",
+        "explanation": "ROC can be overly optimistic when the majority class is huge."
+    },
+    {
+        "id": "pml_ch7_24",
+        "text": "What 'Top-N' recommendation means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generating a list of the 'N' most relevant items for a user."
+            },
+            {
+                "id": "b",
+                "text": "Finding the top N users."
+            },
+            {
+                "id": "c",
+                "text": "Sorting the whole database."
+            },
+            {
+                "id": "d",
+                "text": "Naming items by rank."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Final output list.",
+        "explanation": "The standard output for most recommendation systems."
+    },
+    {
+        "id": "pml_ch7_25",
+        "text": "Standard library for Recommendation systems in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Surprise (Scikit-Surprise) or LightFM."
+            },
+            {
+                "id": "b",
+                "text": "Pandas only."
+            },
+            {
+                "id": "c",
+                "text": "Django."
+            },
+            {
+                "id": "d",
+                "text": "Matplotlib."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Specialized libraries.",
+        "explanation": "Provides easy-to-use algorithms for CF and SVD."
+    },
+    {
+        "id": "pml_ch7_26",
+        "text": "In Anomaly detection, what 'Contamination' parameter setting does?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The expected proportion of anomalies in the dataset."
+            },
+            {
+                "id": "b",
+                "text": "Level of noise in data."
+            },
+            {
+                "id": "c",
+                "text": "Number of columns."
+            },
+            {
+                "id": "d",
+                "text": "User access level."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Anomaly ratio.",
+        "explanation": "Tells the model (like Isolation Forest) roughly how many points to label as outliers."
+    },
+    {
+        "id": "pml_ch7_27",
+        "text": "Example of 'Social Recommendation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Friends' activity influencing what you see (e.g., 'Your friend liked this')."
+            },
+            {
+                "id": "b",
+                "text": "Random sorting."
+            },
+            {
+                "id": "c",
+                "text": "News feed."
+            },
+            {
+                "id": "d",
+                "text": "Personal choice."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Network influence.",
+        "explanation": "Leverages the social graph for better discovery."
+    },
+    {
+        "id": "pml_ch7_28",
+        "text": "What is 'Latent Dirichlet Allocation' (LDA) in PML?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Common technique for Topic Modeling (Unsupervised classification)."
+            },
+            {
+                "id": "b",
+                "text": "A type of regression."
+            },
+            {
+                "id": "c",
+                "text": "Sorting files."
+            },
+            {
+                "id": "d",
+                "text": "Linear algebra only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding topics in documents.",
+        "explanation": "Groups words into topics based on their co-occurrence."
+    },
+    {
+        "id": "pml_ch7_29",
+        "text": "Cross-validation is used to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Estimate model performance on unseen data more reliably than a single split."
+            },
+            {
+                "id": "b",
+                "text": "Validate usernames."
+            },
+            {
+                "id": "c",
+                "text": "Delete data."
+            },
+            {
+                "id": "d",
+                "text": "Speed up the code."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Robust evaluation.",
+        "explanation": "Splits data into 'K' folds and rotates the test set."
+    },
+    {
+        "id": "pml_ch7_30",
+        "text": "Ultimate goal of Practical ML is to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generalize well to new, unseen real-world data."
+            },
+            {
+                "id": "b",
+                "text": "Have 100% accuracy on training data."
+            },
+            {
+                "id": "c",
+                "text": "Run as fast as possible."
+            },
+            {
+                "id": "d",
+                "text": "Use the most complex model."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Generalization.",
+        "explanation": "A model that only 'remembers' training data is useless in production."
+    }
+]

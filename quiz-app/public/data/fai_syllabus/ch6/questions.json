@@ -1,0 +1,752 @@
+[
+    {
+        "id": "fai_ch6_1",
+        "text": "What defines 'Big Data'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Files larger than 1GB."
+            },
+            {
+                "id": "b",
+                "text": "Large, complex datasets that are difficult to process using traditional data processing software."
+            },
+            {
+                "id": "c",
+                "text": "All data on a hard drive."
+            },
+            {
+                "id": "d",
+                "text": "Data in a spreadsheet."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "3 Vs (Volume, Variety, Velocity).",
+        "explanation": "Big data is characterized by Volume, Velocity, and Variety (and often Veracity and Value)."
+    },
+    {
+        "id": "fai_ch6_2",
+        "text": "What is 'Structured Data'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data in a folder."
+            },
+            {
+                "id": "b",
+                "text": "Highly organized data that fits nicely into tables/databases (e.g., SQL tables)."
+            },
+            {
+                "id": "c",
+                "text": "Videos and images."
+            },
+            {
+                "id": "d",
+                "text": "Voice notes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tabular data.",
+        "explanation": "Has a predefined schema and is easy to query."
+    },
+    {
+        "id": "fai_ch6_3",
+        "text": "What is 'Unstructured Data'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Messy spreadsheets."
+            },
+            {
+                "id": "b",
+                "text": "Data that does not have a pre-defined data model or is not organized in a pre-defined manner (e.g., text, video)."
+            },
+            {
+                "id": "c",
+                "text": "Zero-byte files."
+            },
+            {
+                "id": "d",
+                "text": "CSV files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Most real-world data.",
+        "explanation": "Includes images, emails, social media posts, and videos."
+    },
+    {
+        "id": "fai_ch6_4",
+        "text": "Why is Big Data relevant to AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No reason."
+            },
+            {
+                "id": "b",
+                "text": "AI (especially Deep Learning) requires massive amounts of data to train accurate models."
+            },
+            {
+                "id": "c",
+                "text": "To make computers heavy."
+            },
+            {
+                "id": "d",
+                "text": "To use more internet."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fuel for AI.",
+        "explanation": "Modern AI 'juice' comes from large-scale datasets."
+    },
+    {
+        "id": "fai_ch6_5",
+        "text": "What is 'Velocity' in Big Data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Size of data."
+            },
+            {
+                "id": "b",
+                "text": "Speed at which new data is generated and processed."
+            },
+            {
+                "id": "c",
+                "text": "Data accuracy."
+            },
+            {
+                "id": "d",
+                "text": "Data types."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Speed.",
+        "explanation": "Real-time streaming data (like Twitter feeds or sensor logs) has high velocity."
+    },
+    {
+        "id": "fai_ch6_6",
+        "text": "What is the difference between 'Data Analysis' and 'Data Analytics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Same thing."
+            },
+            {
+                "id": "b",
+                "text": "Analysis looks at past; Analytics uses data for prediction and future insights."
+            },
+            {
+                "id": "c",
+                "text": "Analysis is faster."
+            },
+            {
+                "id": "d",
+                "text": "Analytics uses SQL."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Past vs Future.",
+        "explanation": "Analysis is descriptive; Analytics is often predictive or prescriptive."
+    },
+    {
+        "id": "fai_ch6_7",
+        "text": "What is a 'Data Lake'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A pool of water."
+            },
+            {
+                "id": "b",
+                "text": "A centralized repository that allows you to store all your structured and unstructured data at any scale."
+            },
+            {
+                "id": "c",
+                "text": "A big CSV file."
+            },
+            {
+                "id": "d",
+                "text": "A database index."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Store raw data.",
+        "explanation": "Data lakes store raw data in its natural format until it's needed."
+    },
+    {
+        "id": "fai_ch6_8",
+        "text": "What is 'Veracity' in Big Data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Speed."
+            },
+            {
+                "id": "b",
+                "text": "Quality, accuracy, and trustworthiness of the data."
+            },
+            {
+                "id": "c",
+                "text": "Size."
+            },
+            {
+                "id": "d",
+                "text": "Type of files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Trustworthiness.",
+        "explanation": "Poor veracity leads to poor AI decisions."
+    },
+    {
+        "id": "fai_ch6_9",
+        "text": "What is 'Semi-structured Data'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Half a table."
+            },
+            {
+                "id": "b",
+                "text": "Data that doesn't have a formal schema but contains tags or markers to separate data elements (e.g., JSON, XML)."
+            },
+            {
+                "id": "c",
+                "text": "Broken files."
+            },
+            {
+                "id": "d",
+                "text": "Handwritten notes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "JSON/XML.",
+        "explanation": "It has some self-describing structure."
+    },
+    {
+        "id": "fai_ch6_10",
+        "text": "Which framework is famous for processing Big Data at scale?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Apache Hadoop/Spark."
+            },
+            {
+                "id": "b",
+                "text": "MS Word."
+            },
+            {
+                "id": "c",
+                "text": "Notepad."
+            },
+            {
+                "id": "d",
+                "text": "Windows Explorer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Distributed computing.",
+        "explanation": "Hadoop and Spark allow processing data across clusters of computers."
+    },
+    {
+        "id": "fai_ch6_11",
+        "text": "What is 'Predictive Analytics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting the weather."
+            },
+            {
+                "id": "b",
+                "text": "Using data, statistical algorithms and ML to identify the likelihood of future outcomes."
+            },
+            {
+                "id": "c",
+                "text": "Reading lottery numbers."
+            },
+            {
+                "id": "d",
+                "text": "Sorting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Forecasting.",
+        "explanation": "Predicting customer churn or stock prices are examples."
+    },
+    {
+        "id": "fai_ch6_12",
+        "text": "What is 'Prescriptive Analytics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Suggesting a course of action to achieve a goal."
+            },
+            {
+                "id": "b",
+                "text": "Describing the past."
+            },
+            {
+                "id": "c",
+                "text": "Predicting future."
+            },
+            {
+                "id": "d",
+                "text": "Doctors notes."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "What should we do?",
+        "explanation": "It goes beyond prediction to suggest specific actions (e.g., which route a van should take)."
+    },
+    {
+        "id": "fai_ch6_13",
+        "text": "Which 'V' refers to the diversity of data sources and types?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Volume"
+            },
+            {
+                "id": "b",
+                "text": "Variety"
+            },
+            {
+                "id": "c",
+                "text": "Velocity"
+            },
+            {
+                "id": "d",
+                "text": "Veracity"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Different types.",
+        "explanation": "Variety refers to text, images, video, sensor data, etc."
+    },
+    {
+        "id": "fai_ch6_14",
+        "text": "What is a 'Data Warehouse'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A building."
+            },
+            {
+                "id": "b",
+                "text": "A system used for reporting and data analysis, storing processed, structured data."
+            },
+            {
+                "id": "c",
+                "text": "Raw files."
+            },
+            {
+                "id": "d",
+                "text": "Cache memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Processed data storage.",
+        "explanation": "Unlike data lakes, warehouses contain clean, structured data for business intelligence."
+    },
+    {
+        "id": "fai_ch6_15",
+        "text": "What is 'ETL' in data processing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Eat, Talk, Learn."
+            },
+            {
+                "id": "b",
+                "text": "Extract, Transform, Load."
+            },
+            {
+                "id": "c",
+                "text": "End To Life."
+            },
+            {
+                "id": "d",
+                "text": "Every Task List."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Data pipeline phases.",
+        "explanation": "The process of moving and refining data from source to storage."
+    },
+    {
+        "id": "fai_ch6_16",
+        "text": "Social media content is mostly?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Structured Data."
+            },
+            {
+                "id": "b",
+                "text": "Unstructured Data."
+            },
+            {
+                "id": "c",
+                "text": "Empty."
+            },
+            {
+                "id": "d",
+                "text": "Binary."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Posts and Videos.",
+        "explanation": "Comments, likes, and videos are unstructured."
+    },
+    {
+        "id": "fai_ch6_17",
+        "text": "What is 'Descriptive Analytics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting future."
+            },
+            {
+                "id": "b",
+                "text": "Summarizing historical data to understand what has happened."
+            },
+            {
+                "id": "c",
+                "text": "Naming files."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hindsight.",
+        "explanation": "Example: Monthly sales reports."
+    },
+    {
+        "id": "fai_ch6_18",
+        "text": "What is 'NoSQL' primarily used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Relational tables."
+            },
+            {
+                "id": "b",
+                "text": "Handling Big Data with flexible schemas and non-tabular formats (e.g., MongoDB, Cassandra)."
+            },
+            {
+                "id": "c",
+                "text": "Writing essays."
+            },
+            {
+                "id": "d",
+                "text": "Small datasets."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Not Only SQL.",
+        "explanation": "NoSQL scales horizontally and handles variety better than traditional RDBMS."
+    },
+    {
+        "id": "fai_ch6_19",
+        "text": "What is 'Sentiment Analysis'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Analyzing feelings in text data using AI."
+            },
+            {
+                "id": "b",
+                "text": "Predicting weather."
+            },
+            {
+                "id": "c",
+                "text": "Testing software."
+            },
+            {
+                "id": "d",
+                "text": "Sorting emails by size."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Opinions mining.",
+        "explanation": "Big Data application to find if public opinion is positive or negative."
+    },
+    {
+        "id": "fai_ch6_20",
+        "text": "In Big Data, 'Value' refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cost of storage."
+            },
+            {
+                "id": "b",
+                "text": "Utility and outcome derived from processing the data."
+            },
+            {
+                "id": "c",
+                "text": "Numerical data only."
+            },
+            {
+                "id": "d",
+                "text": "Privacy."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "End goal.",
+        "explanation": "Big data is useless if it doesn't provide useful insights (value)."
+    },
+    {
+        "id": "fai_ch6_21",
+        "text": "What is 'Distributed Computing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Selling computers."
+            },
+            {
+                "id": "b",
+                "text": "System where components are located on networked computers that communicate and coordinate their actions by passing messages."
+            },
+            {
+                "id": "c",
+                "text": "Computers in different rooms."
+            },
+            {
+                "id": "d",
+                "text": "Random computing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Divide and conquer.",
+        "explanation": "Key for processing petabytes of data."
+    },
+    {
+        "id": "fai_ch6_22",
+        "text": "What is 'Data Mining'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mining for minerals."
+            },
+            {
+                "id": "b",
+                "text": "The process of discovering patterns in large data sets."
+            },
+            {
+                "id": "c",
+                "text": "Deleting old data."
+            },
+            {
+                "id": "d",
+                "text": "Finding lost files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Discovery.",
+        "explanation": "Lies at the intersection of ML, statistics, and database systems."
+    },
+    {
+        "id": "fai_ch6_23",
+        "text": "Which format is most common for data exchange in modern web/AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TXT"
+            },
+            {
+                "id": "b",
+                "text": "JSON"
+            },
+            {
+                "id": "c",
+                "text": "XLS"
+            },
+            {
+                "id": "d",
+                "text": "DOC"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "JavaScript Object Notation.",
+        "explanation": "JSON is semi-structured and widely used."
+    },
+    {
+        "id": "fai_ch6_24",
+        "text": "What is 'Scalability'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Weight of system."
+            },
+            {
+                "id": "b",
+                "text": "The capability of a system to handle a growing amount of work or data efficiently."
+            },
+            {
+                "id": "c",
+                "text": "A ruler."
+            },
+            {
+                "id": "d",
+                "text": "Resolution."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Grow with demand.",
+        "explanation": "Big Data systems must be able to scale as more data arrives."
+    },
+    {
+        "id": "fai_ch6_25",
+        "text": "What is 'Data Governance'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Government data."
+            },
+            {
+                "id": "b",
+                "text": "The overall management of availability, usability, integrity, and security of data."
+            },
+            {
+                "id": "c",
+                "text": "Politics of data."
+            },
+            {
+                "id": "d",
+                "text": "Locked data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Policy and Management.",
+        "explanation": "Ensures data is handled correctly and legally."
+    },
+    {
+        "id": "fai_ch6_26",
+        "text": "Relevance of Big Data to Big Tech (Google, Meta, etc)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Not relevant."
+            },
+            {
+                "id": "b",
+                "text": "It is their main asset for personalized ads, search results, and feed ranking."
+            },
+            {
+                "id": "c",
+                "text": "Only for storage."
+            },
+            {
+                "id": "d",
+                "text": "They don't use it."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Data as asset.",
+        "explanation": "Data is the primary driver of their business models and AI algorithms."
+    },
+    {
+        "id": "fai_ch6_27",
+        "text": "What is 'Real-time Analytics'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Analyzing data as soon as it enters the system."
+            },
+            {
+                "id": "b",
+                "text": "Analyzing data from last year."
+            },
+            {
+                "id": "c",
+                "text": "Watching a video."
+            },
+            {
+                "id": "d",
+                "text": "Recording data only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Zero latency.",
+        "explanation": "Crucial for fraud detection and stock trading."
+    },
+    {
+        "id": "fai_ch6_28",
+        "text": "What does a 'Petabyte' equal?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1000 GB"
+            },
+            {
+                "id": "b",
+                "text": "1000 TB (or 1024 TB)"
+            },
+            {
+                "id": "c",
+                "text": "1,000,000 Bytes"
+            },
+            {
+                "id": "d",
+                "text": "100 MB"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mega, Giga, Tera, ...",
+        "explanation": "Large Big Data clusters often manage petabytes of data."
+    },
+    {
+        "id": "fai_ch6_29",
+        "text": "Poor 'Veracity' leads to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Fast AI."
+            },
+            {
+                "id": "b",
+                "text": "GIGO (Garbage In, Garbage Out)."
+            },
+            {
+                "id": "c",
+                "text": "Good results."
+            },
+            {
+                "id": "d",
+                "text": "No effect."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Garbage in garbage out.",
+        "explanation": "If input data is untrustworthy, AI predictions will be unreliable."
+    },
+    {
+        "id": "fai_ch6_30",
+        "text": "Relevance of Big Data in NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No relevance."
+            },
+            {
+                "id": "b",
+                "text": "LLMs like GPT-4 are trained on massive web datasets (terabytes of text)."
+            },
+            {
+                "id": "c",
+                "text": "Only for dictionary."
+            },
+            {
+                "id": "d",
+                "text": "For small chat."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Training scale.",
+        "explanation": "Language models need vast linguistic variety found in big text corpora."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "math_ai_ch3_1",
+        "text": "What is a 'Derivative'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The rate of change of a function with respect to its variable."
+            },
+            {
+                "id": "b",
+                "text": "The area under a curve."
+            },
+            {
+                "id": "c",
+                "text": "Average of the function."
+            },
+            {
+                "id": "d",
+                "text": "Highest value."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Slope.",
+        "explanation": "It tells us how the output changes for a small change in input."
+    },
+    {
+        "id": "math_ai_ch3_2",
+        "text": "What is a 'Partial Derivative'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A derivative of a multi-variable function with respect to one variable, holding others constant."
+            },
+            {
+                "id": "b",
+                "text": "Half a derivative."
+            },
+            {
+                "id": "c",
+                "text": "Only for single variable."
+            },
+            {
+                "id": "d",
+                "text": "Derivative with respect to time."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Var by var.",
+        "explanation": "Used in multi-dimensional space, fundamental to training neural networks."
+    },
+    {
+        "id": "math_ai_ch3_3",
+        "text": "What is the 'Gradient' of a function f(x, y)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Its average."
+            },
+            {
+                "id": "b",
+                "text": "A vector of all its partial derivatives."
+            },
+            {
+                "id": "c",
+                "text": "The second derivative."
+            },
+            {
+                "id": "d",
+                "text": "A scalar value."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Vector of partials.",
+        "explanation": "Gradient points in the direction of steepest ascent."
+    },
+    {
+        "id": "math_ai_ch3_4",
+        "text": "The Directional Derivative tells us?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rate of change along a specific vector u."
+            },
+            {
+                "id": "b",
+                "text": "Slope along the x-axis only."
+            },
+            {
+                "id": "c",
+                "text": "The angle."
+            },
+            {
+                "id": "d",
+                "text": "The origin."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Rate in a direction.",
+        "explanation": "Calculated by dotting the gradient with the unit direction vector."
+    },
+    {
+        "id": "math_ai_ch3_5",
+        "text": "What is the 'Jacobian' matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matrix of all first-order partial derivatives of a vector-valued function."
+            },
+            {
+                "id": "b",
+                "text": "Matrix of second derivatives."
+            },
+            {
+                "id": "c",
+                "text": "Symmetric matrix."
+            },
+            {
+                "id": "d",
+                "text": "Diagonal matrix."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Vector output gradients.",
+        "explanation": "It describes how a multi-dimensional function transforms space locally."
+    },
+    {
+        "id": "math_ai_ch3_6",
+        "text": "What is the 'Hessian' matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matrix of second-order partial derivatives."
+            },
+            {
+                "id": "b",
+                "text": "First derivatives."
+            },
+            {
+                "id": "c",
+                "text": "Matrix of vectors."
+            },
+            {
+                "id": "d",
+                "text": "Scalar."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Second derivatives.",
+        "explanation": "Describes the local curvature of a function."
+    },
+    {
+        "id": "math_ai_ch3_7",
+        "text": "The 'Chain Rule' in calculus is used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding variables."
+            },
+            {
+                "id": "b",
+                "text": "Finding the derivative of a composite function (a function of a function)."
+            },
+            {
+                "id": "c",
+                "text": "Sorting gradients."
+            },
+            {
+                "id": "d",
+                "text": "Integrating."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "df/dx = df/du * du/dx.",
+        "explanation": "Essential for backpropagation in neural networks."
+    },
+    {
+        "id": "math_ai_ch3_8",
+        "text": "What does a zero derivative at a point usually signify?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A critical point (local minimum, maximum, or saddle point)."
+            },
+            {
+                "id": "b",
+                "text": "The function is zero."
+            },
+            {
+                "id": "c",
+                "text": "End of curve."
+            },
+            {
+                "id": "d",
+                "text": "Infinite slope."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Flat point.",
+        "explanation": "The tangent line is horizontal at this point."
+    },
+    {
+        "id": "math_ai_ch3_9",
+        "text": "What is the derivative of f(x) = x^2?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2x"
+            },
+            {
+                "id": "b",
+                "text": "x"
+            },
+            {
+                "id": "c",
+                "text": "2"
+            },
+            {
+                "id": "d",
+                "text": "x^3 / 3"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Power rule.",
+        "explanation": "Using Power Rule d/dx(x^n) = n x^(n-1)."
+    },
+    {
+        "id": "math_ai_ch3_10",
+        "text": "What is the derivative of ln(x)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1/x"
+            },
+            {
+                "id": "b",
+                "text": "e^x"
+            },
+            {
+                "id": "c",
+                "text": "x"
+            },
+            {
+                "id": "d",
+                "text": "1"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard derivative.",
+        "explanation": "The change in natural log per unit change in x is its reciprocal."
+    },
+    {
+        "id": "math_ai_ch3_11",
+        "text": "What is the 'Taylor Series' expansion used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding numbers."
+            },
+            {
+                "id": "b",
+                "text": "Approximating a function near a point using its derivatives."
+            },
+            {
+                "id": "c",
+                "text": "Calculating integrals."
+            },
+            {
+                "id": "d",
+                "text": "Sorting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Local approximation.",
+        "explanation": "Polynomial approximation of complex functions."
+    },
+    {
+        "id": "math_ai_ch3_12",
+        "text": "In deep learning, Gradient points in the direction of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Steepest descent."
+            },
+            {
+                "id": "b",
+                "text": "Steepest ascent (increase)."
+            },
+            {
+                "id": "c",
+                "text": "The minimum."
+            },
+            {
+                "id": "d",
+                "text": "The origin."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "To go down, we follow -gradient.",
+        "explanation": "The gradient always points to where the function increases fastest."
+    },
+    {
+        "id": "math_ai_ch3_13",
+        "text": "Partial derivative of f(x, y) = x^2 + y^2 with respect to x is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2x"
+            },
+            {
+                "id": "b",
+                "text": "2y"
+            },
+            {
+                "id": "c",
+                "text": "2x + 2y"
+            },
+            {
+                "id": "d",
+                "text": "x^2"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Treat y as constant.",
+        "explanation": "y^2 becomes 0 when differentiating with respct to x."
+    },
+    {
+        "id": "math_ai_ch3_14",
+        "text": "Slope of a flat line is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "Infinite."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "No change.",
+        "explanation": "If output doesn't change, the derivative is zero."
+    },
+    {
+        "id": "math_ai_ch3_15",
+        "text": "What is the derivative of sin(x)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "cos(x)"
+            },
+            {
+                "id": "b",
+                "text": "-cos(x)"
+            },
+            {
+                "id": "c",
+                "text": "sin(x)"
+            },
+            {
+                "id": "d",
+                "text": "tan(x)"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Trig derivative.",
+        "explanation": "Fundamental result of calculus."
+    },
+    {
+        "id": "math_ai_ch3_16",
+        "text": "What is the derivative of e^x?",
+        "options": [
+            {
+                "id": "a",
+                "text": "e^x"
+            },
+            {
+                "id": "b",
+                "text": "xe^(x-1)"
+            },
+            {
+                "id": "c",
+                "text": "1/x"
+            },
+            {
+                "id": "d",
+                "text": "e"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "It is its own derivative.",
+        "explanation": "The exponential function is unique because its rate of change is equal to its value."
+    },
+    {
+        "id": "math_ai_ch3_17",
+        "text": "What is 'Curvature' related to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "First derivative."
+            },
+            {
+                "id": "b",
+                "text": "Second derivative."
+            },
+            {
+                "id": "c",
+                "text": "Average value."
+            },
+            {
+                "id": "d",
+                "text": "The intercept."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rate of change of slope.",
+        "explanation": "Second derivative tells us if the curve is concave up or down."
+    },
+    {
+        "id": "math_ai_ch3_18",
+        "text": "What is 'Automatic Differentiation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Program using chain rule to compute derivatives efficiently (used in PyTorch/TF)."
+            },
+            {
+                "id": "b",
+                "text": "Calculating manually."
+            },
+            {
+                "id": "c",
+                "text": "Using a calculator."
+            },
+            {
+                "id": "d",
+                "text": "Infinite derivatives."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Computational calculus.",
+        "explanation": "It decomposes complex programs into elemental operations with known derivatives."
+    },
+    {
+        "id": "math_ai_ch3_19",
+        "text": "Value of derivative at a global minimum is always?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "Undefined."
+            },
+            {
+                "id": "d",
+                "text": "Infinite."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Flat bottom.",
+        "explanation": "For any smooth extremum, the gradient must be zero."
+    },
+    {
+        "id": "math_ai_ch3_20",
+        "text": "Difference between scalar derivative and gradient?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradient is for multiple variables."
+            },
+            {
+                "id": "b",
+                "text": "One is faster."
+            },
+            {
+                "id": "c",
+                "text": "No difference."
+            },
+            {
+                "id": "d",
+                "text": "One is for integers only."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dimension difference.",
+        "explanation": "Gradient is the multi-dimensional generalization of the derivative."
+    },
+    {
+        "id": "math_ai_ch3_21",
+        "text": "Chain rule for h(x) = f(g(x)) is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "f'(g(x)) * g'(x)"
+            },
+            {
+                "id": "b",
+                "text": "f'(x) + g'(x)"
+            },
+            {
+                "id": "c",
+                "text": "f(g'(x))"
+            },
+            {
+                "id": "d",
+                "text": "f'(g'(x))"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Outer * Inner.",
+        "explanation": "Differentiate the outer function, then the inner function."
+    },
+    {
+        "id": "math_ai_ch3_22",
+        "text": "The derivative of a constant is always?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "The constant itself."
+            },
+            {
+                "id": "d",
+                "text": "Undefined."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Constants don't change.",
+        "explanation": "Since change is zero, derivative is zero."
+    },
+    {
+        "id": "math_ai_ch3_23",
+        "text": "Optimization problems rely on calculus to find?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Peaks and valleys (extrema)."
+            },
+            {
+                "id": "b",
+                "text": "Color of data."
+            },
+            {
+                "id": "c",
+                "text": "Total count."
+            },
+            {
+                "id": "d",
+                "text": "Binary labels."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Finding best solution.",
+        "explanation": "Calculus defines the tools to navigate a function's landscape."
+    },
+    {
+        "id": "math_ai_ch3_24",
+        "text": "What is 'Linearization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Drawing a straight line."
+            },
+            {
+                "id": "b",
+                "text": "Approximating a non-linear function by its tangent line (first order Taylor)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting curves."
+            },
+            {
+                "id": "d",
+                "text": "Matrix rotation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tangent approximation.",
+        "explanation": "Simple local model of a complex function."
+    },
+    {
+        "id": "math_ai_ch3_25",
+        "text": "Jacobian matrix is symmetric?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Not necessarily."
+            },
+            {
+                "id": "b",
+                "text": "Yes, always."
+            },
+            {
+                "id": "c",
+                "text": "Only for quadratic functions."
+            },
+            {
+                "id": "d",
+                "text": "Only for vectors."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hessian is usually symmetric.",
+        "explanation": "Jacobian can be rectangular (different number of inputs and outputs)."
+    },
+    {
+        "id": "math_ai_ch3_26",
+        "text": "If second derivative > 0 at a critical point, it is a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Local minimum (convex)."
+            },
+            {
+                "id": "b",
+                "text": "Local maximum (concave)."
+            },
+            {
+                "id": "c",
+                "text": "Saddle point."
+            },
+            {
+                "id": "d",
+                "text": "Flat line."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Cup shape.",
+        "explanation": "Slope is increasing, meaning you are at the bottom of a 'cup'."
+    },
+    {
+        "id": "math_ai_ch3_27",
+        "text": "If second derivative < 0 at a critical point, it is a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Local maximum."
+            },
+            {
+                "id": "b",
+                "text": "Local minimum."
+            },
+            {
+                "id": "c",
+                "text": "Slope of 0."
+            },
+            {
+                "id": "d",
+                "text": "Zero point."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hat shape.",
+        "explanation": "Slope is decreasing, meaning you are at a peak."
+    },
+    {
+        "id": "math_ai_ch3_28",
+        "text": "Hessian matrix of a scalar function f is usually symmetric due to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clairaut's Theorem (equality of mixed partials)."
+            },
+            {
+                "id": "b",
+                "text": "Matrix multiplication."
+            },
+            {
+                "id": "c",
+                "text": "Determinants."
+            },
+            {
+                "id": "d",
+                "text": "Coincidence."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "d2f/dxdy = d2f/dydx.",
+        "explanation": "Under continuity, the order of differentiation does not matter."
+    },
+    {
+        "id": "math_ai_ch3_29",
+        "text": "What is the derivative of x^n?",
+        "options": [
+            {
+                "id": "a",
+                "text": "n * x^(n-1)"
+            },
+            {
+                "id": "b",
+                "text": "x^(n+1) / (n+1)"
+            },
+            {
+                "id": "c",
+                "text": "n * x"
+            },
+            {
+                "id": "d",
+                "text": "n"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Power rule.",
+        "explanation": "Standard rule for polynomial differentiation."
+    },
+    {
+        "id": "math_ai_ch3_30",
+        "text": "What is a 'Level Set' or 'Contour Line'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A set where the function has more than one value."
+            },
+            {
+                "id": "b",
+                "text": "A set of points where the function has the same constant value."
+            },
+            {
+                "id": "c",
+                "text": "The gradient."
+            },
+            {
+                "id": "d",
+                "text": "A flat plane."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Same height.",
+        "explanation": "Gradient is always perpendicular to the level set."
+    }
+]
