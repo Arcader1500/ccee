@@ -10,6 +10,7 @@ import { useRouter, useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import confetti from 'canvas-confetti';
 import { playCorrectSound, playWrongSound } from "@/lib/audio";
+import { saveQuizScore } from "../../actions";
 
 type Question = {
     id: string;
@@ -129,18 +130,17 @@ export default function QuizPage() {
         }
     };
 
-    const saveScore = () => {
-        const history = JSON.parse(localStorage.getItem('quiz_history') || '[]');
-        history.push({
-            date: new Date().toISOString(),
-            subjectId: subjectId,
-            chapterId: chapterId,
-            score: score,
-            total: questions.length * 10
-        });
-        localStorage.setItem('quiz_history', JSON.stringify(history));
-        alert("Score Saved!");
-        router.push('/subjects');
+    const saveScore = async () => {
+        try {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
+            await saveQuizScore(subjectId, chapterId, score, questions.length * 10);
+            alert("Score Saved!");
+            router.push('/subjects');
+        } catch (error) {
+            console.error(error);
+            alert("Failed to save score. Please try again.");
+        }
     };
 
     const formatTime = (seconds: number) => {
@@ -209,11 +209,13 @@ export default function QuizPage() {
         <div className="min-h-screen p-4 md:p-8 pt-20 max-w-4xl mx-auto">
             {/* Header */}
             <div className="flex items-center justify-between mb-8">
-                <Link href={`/subjects/${subjectId}`}>
-                    <Button variant="ghost" size="sm" className="text-slate-400">
-                        <ArrowLeft className="w-4 h-4 mr-2" /> Quit
-                    </Button>
-                </Link>
+                <div className="flex gap-4">
+                    <Link href={`/subjects/${subjectId}`}>
+                        <Button variant="ghost" size="sm" className="text-slate-400">
+                            <ArrowLeft className="w-4 h-4 mr-2" /> Quit
+                        </Button>
+                    </Link>
+                </div>
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-full font-mono text-cyan-400 border border-slate-700">
                         <Clock className="w-4 h-4" />

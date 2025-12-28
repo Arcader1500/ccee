@@ -1,46 +1,50 @@
 'use client';
 
 import { Card } from "@/components/ui/Card";
+import { Button } from "@/components/ui/Button";
 import { SUBJECTS } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { BookOpen, ChevronRight } from "lucide-react";
+import { BookOpen, ChevronRight, User } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { getQuizProgress } from "../quiz/actions";
 
 export default function SubjectsPage() {
     const [hovered, setHovered] = useState<string | null>(null);
     const [progressData, setProgressData] = useState<Record<string, number>>({});
 
-    // Load progress from LocalStorage on mount
+    // Load progress from Supabase on mount
     useEffect(() => {
-        const history = JSON.parse(localStorage.getItem('quiz_history') || '[]');
-        // Shape: { subjectId: Set(chapterIds) }
-        const completedChapters: Record<string, Set<string>> = {};
-
-        history.forEach((entry: any) => {
-            if (!completedChapters[entry.subjectId]) {
-                completedChapters[entry.subjectId] = new Set();
+        async function loadProgress() {
+            try {
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-ignore
+                const data = await getQuizProgress();
+                if (data) {
+                    setProgressData(data);
+                }
+            } catch (error) {
+                console.error("Failed to load progress:", error);
             }
-            completedChapters[entry.subjectId].add(entry.chapterId);
-        });
-
-        const calculatedProgress: Record<string, number> = {};
-        SUBJECTS.forEach(subject => {
-            const completedCount = completedChapters[subject.id]?.size || 0;
-            calculatedProgress[subject.id] = completedCount;
-        });
-
-        setProgressData(calculatedProgress);
+        }
+        loadProgress();
     }, []);
 
     return (
         <div className="min-h-screen p-8 pt-20 max-w-7xl mx-auto">
-            <header className="mb-12">
-                <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-slate-400 text-transparent bg-clip-text mb-4">
-                    Choose a Subject
-                </h1>
-                <p className="text-slate-400">Select a course to view available chapters and quizzes.</p>
+            <header className="mb-12 flex items-center justify-between">
+                <div>
+                    <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-slate-400 text-transparent bg-clip-text mb-4">
+                        Choose a Subject
+                    </h1>
+                    <p className="text-slate-400">Select a course to view available chapters and quizzes.</p>
+                </div>
+                <Link href="/account">
+                    <Button variant="outline" className="gap-2">
+                        <User className="w-4 h-4" /> My Account
+                    </Button>
+                </Link>
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
