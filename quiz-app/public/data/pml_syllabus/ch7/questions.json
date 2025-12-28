@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Subclass of information filtering system that predicts the 'preference' a user would give to an item."
+                "text": "A database tool."
             },
             {
                 "id": "b",
-                "text": "A list of ads."
-            },
-            {
-                "id": "c",
                 "text": "A search engine for websites."
             },
             {
+                "id": "c",
+                "text": "Subclass of information filtering system that predicts the 'preference' a user would give to an item."
+            },
+            {
                 "id": "d",
-                "text": "A database tool."
+                "text": "A list of ads."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Personalized filtering.",
         "explanation": "Used by Netflix, Amazon, and YouTube to suggest content."
     },
@@ -30,11 +30,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Recommending items based on preferences of similar users ('Users who liked X also liked Y')."
+                "text": "Recommending based on item features."
             },
             {
                 "id": "b",
-                "text": "Recommending based on item features."
+                "text": "Deleting data."
             },
             {
                 "id": "c",
@@ -42,10 +42,10 @@
             },
             {
                 "id": "d",
-                "text": "Deleting data."
+                "text": "Recommending items based on preferences of similar users ('Users who liked X also liked Y')."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "User-User / Item-Item similarity.",
         "explanation": "Doesn't need to know anything about the items themselves, just how people interact with them."
     },
@@ -55,22 +55,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Recommending items similar to those a user liked in the past based on item descriptors (features)."
-            },
-            {
-                "id": "b",
-                "text": "Recommending based on other users' activity."
-            },
-            {
-                "id": "c",
                 "text": "Sorting by price."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "Deleting content."
+            },
+            {
+                "id": "c",
+                "text": "Recommending based on other users' activity."
+            },
+            {
+                "id": "d",
+                "text": "Recommending items similar to those a user liked in the past based on item descriptors (features)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Matching item features.",
         "explanation": "If you liked 'Sci-Fi' movies before, it recommends more 'Sci-Fi'."
     },
@@ -80,11 +80,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Difficulty in recommending for new users or new items with no prior interaction data."
+                "text": "Empty database."
             },
             {
                 "id": "b",
-                "text": "The computer being cold."
+                "text": "Difficulty in recommending for new users or new items with no prior interaction data."
             },
             {
                 "id": "c",
@@ -92,10 +92,10 @@
             },
             {
                 "id": "d",
-                "text": "Empty database."
+                "text": "The computer being cold."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "New user/item issue.",
         "explanation": "Collaborative filtering fails when there's no history to find similarities."
     },
@@ -105,22 +105,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Combines collaborative and content-based filtering to overcome their individual weaknesses."
+                "text": "A system with 2 databases."
             },
             {
                 "id": "b",
-                "text": "A system for hybrid cars."
+                "text": "Combines collaborative and content-based filtering to overcome their individual weaknesses."
             },
             {
                 "id": "c",
-                "text": "A system with 2 databases."
+                "text": "A system for hybrid cars."
             },
             {
                 "id": "d",
                 "text": "None."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Combining approaches.",
         "explanation": "Uses different techniques to provide more robust recommendations."
     },
@@ -130,11 +130,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Identification of rare items, events, or observations which raise suspicions by differing significantly from the majority."
+                "text": "Deleting data."
             },
             {
                 "id": "b",
-                "text": "Detecting typos."
+                "text": "Identification of rare items, events, or observations which raise suspicions by differing significantly from the majority."
             },
             {
                 "id": "c",
@@ -142,10 +142,10 @@
             },
             {
                 "id": "d",
-                "text": "Deleting data."
+                "text": "Detecting typos."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Outlier detection.",
         "explanation": "Used for fraud detection, fault diagnosis, and network security."
     },
@@ -155,22 +155,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Algorithm for anomaly detection that works by isolating observations (outliers are easier to isolate)."
-            },
-            {
-                "id": "b",
-                "text": "A forest with one tree."
-            },
-            {
-                "id": "c",
                 "text": "A nature preserve."
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "Algorithm for anomaly detection that works by isolating observations (outliers are easier to isolate)."
+            },
+            {
+                "id": "c",
                 "text": "A regression model."
+            },
+            {
+                "id": "d",
+                "text": "A forest with one tree."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Tree-based anomaly detection.",
         "explanation": "Anomalies are likely to have shorter paths in a random forest tree."
     },
@@ -184,15 +184,15 @@
             },
             {
                 "id": "b",
-                "text": "Rate of Change."
-            },
-            {
-                "id": "c",
                 "text": "Randomized Object Class."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Root Original Component."
+            },
+            {
+                "id": "d",
+                "text": "Rate of Change."
             }
         ],
         "correctOptionId": "a",
@@ -209,15 +209,15 @@
             },
             {
                 "id": "b",
-                "text": "Average User Count."
-            },
-            {
-                "id": "c",
                 "text": "All Units Correct."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "A unit of volume."
+            },
+            {
+                "id": "d",
+                "text": "Average User Count."
             }
         ],
         "correctOptionId": "a",
@@ -234,11 +234,11 @@
             },
             {
                 "id": "b",
-                "text": "Counting people."
+                "text": "Sorting data."
             },
             {
                 "id": "c",
-                "text": "Sorting data."
+                "text": "Counting people."
             },
             {
                 "id": "d",
@@ -255,22 +255,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "TPR (True Positive Rate) vs FPR (False Positive Rate)."
-            },
-            {
-                "id": "b",
                 "text": "Precision vs Recall."
             },
             {
+                "id": "b",
+                "text": "Loss vs Epochs."
+            },
+            {
                 "id": "c",
-                "text": "Accuracy vs Error."
+                "text": "TPR (True Positive Rate) vs FPR (False Positive Rate)."
             },
             {
                 "id": "d",
-                "text": "Loss vs Epochs."
+                "text": "Accuracy vs Error."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Hit rate vs False Alarm rate.",
         "explanation": "TPR is also known as Recall/Sensitivity."
     },
@@ -284,7 +284,7 @@
             },
             {
                 "id": "b",
-                "text": "Multiplying large numbers."
+                "text": "Sorting lists."
             },
             {
                 "id": "c",
@@ -292,7 +292,7 @@
             },
             {
                 "id": "d",
-                "text": "Sorting lists."
+                "text": "Multiplying large numbers."
             }
         ],
         "correctOptionId": "a",
@@ -305,7 +305,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "The angle between two vectors (representing users or items)."
+                "text": "The speed."
             },
             {
                 "id": "b",
@@ -313,14 +313,14 @@
             },
             {
                 "id": "c",
-                "text": "The speed."
+                "text": "The angle between two vectors (representing users or items)."
             },
             {
                 "id": "d",
                 "text": "Color match."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Vector orientation.",
         "explanation": "Independent of magnitude; used to see if users have 'proportional' interest."
     },
@@ -330,22 +330,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "SVM variant trained only on 'normal' data to identify everything else as an anomaly."
-            },
-            {
-                "id": "b",
                 "text": "Standard binary SVM."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "SVM for labels of 1."
+            },
+            {
+                "id": "c",
+                "text": "SVM variant trained only on 'normal' data to identify everything else as an anomaly."
             },
             {
                 "id": "d",
                 "text": "None."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Novelty detection.",
         "explanation": "Finds the boundary of the 'normal' distribution."
     },
@@ -355,11 +355,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Because missing even one fraud or fault can be extremely costly."
+                "text": "No reason."
             },
             {
                 "id": "b",
-                "text": "Because it's easier to calculate."
+                "text": "Because missing even one fraud or fault can be extremely costly."
             },
             {
                 "id": "c",
@@ -367,10 +367,10 @@
             },
             {
                 "id": "d",
-                "text": "No reason."
+                "text": "Because it's easier to calculate."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Risk management.",
         "explanation": "We want to catch as many real anomalies as possible."
     },
@@ -380,7 +380,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "A matrix showing how similar every pair of items/users is."
+                "text": "An error log."
             },
             {
                 "id": "b",
@@ -388,14 +388,14 @@
             },
             {
                 "id": "c",
-                "text": "An error log."
+                "text": "A matrix showing how similar every pair of items/users is."
             },
             {
                 "id": "d",
                 "text": "Data dictionary."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Lookup for closeness.",
         "explanation": "Pre-computed for fast recommendations."
     },
@@ -405,7 +405,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Loss function that penalizes incorrect probability predictions."
+                "text": "Simple error count."
             },
             {
                 "id": "b",
@@ -413,14 +413,14 @@
             },
             {
                 "id": "c",
-                "text": "Simple error count."
+                "text": "Loss function that penalizes incorrect probability predictions."
             },
             {
                 "id": "d",
                 "text": "A type of regression."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Classifier loss.",
         "explanation": "The standard loss for training logistic regression and neural networks."
     },
@@ -430,22 +430,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "1.0"
+                "text": "100"
             },
             {
                 "id": "b",
-                "text": "0.5"
+                "text": "1.0"
             },
             {
                 "id": "c",
-                "text": "100"
+                "text": "0.5"
             },
             {
                 "id": "d",
                 "text": "0"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Ideal world.",
         "explanation": "It means the model identifies all positives and negatives correctly without overlap."
     },
@@ -455,22 +455,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Hidden themes or characteristics learned by the model (e.g., 'Action', 'Drama')."
-            },
-            {
-                "id": "b",
                 "text": "Missing data."
             },
             {
+                "id": "b",
+                "text": "Hidden themes or characteristics learned by the model (e.g., 'Action', 'Drama')."
+            },
+            {
                 "id": "c",
-                "text": "User IDs."
+                "text": "Constants."
             },
             {
                 "id": "d",
-                "text": "Constants."
+                "text": "User IDs."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Hidden features.",
         "explanation": "Dimensions discovered during matrix factorization."
     },
@@ -480,22 +480,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Unsupervised or Semi-supervised learning (due to lack of 'anomaly' labels)."
-            },
-            {
-                "id": "b",
-                "text": "Standard regression."
-            },
-            {
-                "id": "c",
                 "text": "Sorting."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "Data cleaning only."
+            },
+            {
+                "id": "c",
+                "text": "Unsupervised or Semi-supervised learning (due to lack of 'anomaly' labels)."
+            },
+            {
+                "id": "d",
+                "text": "Standard regression."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Dealing with rare cases.",
         "explanation": "Since anomalies are rare, we often don't have enough to train a standard classifier."
     },
@@ -505,22 +505,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Data from actions like clicks, views, or purchases (no direct rating)."
-            },
-            {
-                "id": "b",
                 "text": "Direct star ratings."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Written reviews."
+            },
+            {
+                "id": "c",
+                "text": "Data from actions like clicks, views, or purchases (no direct rating)."
             },
             {
                 "id": "d",
                 "text": "Bot activity."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Learning from behavior.",
         "explanation": "Much more abundant than 'Explicit' feedback (ratings)."
     },
@@ -530,22 +530,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Direct user input like 5-star ratings or Like/Dislike."
-            },
-            {
-                "id": "b",
                 "text": "Analyzing clicks."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Guessing."
+            },
+            {
+                "id": "c",
+                "text": "Direct user input like 5-star ratings or Like/Dislike."
             },
             {
                 "id": "d",
                 "text": "Automatic feedback."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Clear preference data.",
         "explanation": "High quality but often sparse as users don't always rate things."
     },
@@ -555,7 +555,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Classes are heavily imbalanced (e.g., anomalies are < 1%)."
+                "text": "Always."
             },
             {
                 "id": "b",
@@ -563,14 +563,14 @@
             },
             {
                 "id": "c",
-                "text": "Always."
+                "text": "Never."
             },
             {
                 "id": "d",
-                "text": "Never."
+                "text": "Classes are heavily imbalanced (e.g., anomalies are < 1%)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Imbalanced data metric.",
         "explanation": "ROC can be overly optimistic when the majority class is huge."
     },
@@ -580,22 +580,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Generating a list of the 'N' most relevant items for a user."
+                "text": "Sorting the whole database."
             },
             {
                 "id": "b",
-                "text": "Finding the top N users."
+                "text": "Generating a list of the 'N' most relevant items for a user."
             },
             {
                 "id": "c",
-                "text": "Sorting the whole database."
+                "text": "Finding the top N users."
             },
             {
                 "id": "d",
                 "text": "Naming items by rank."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Final output list.",
         "explanation": "The standard output for most recommendation systems."
     },
@@ -605,22 +605,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Surprise (Scikit-Surprise) or LightFM."
+                "text": "Matplotlib."
             },
             {
                 "id": "b",
-                "text": "Pandas only."
-            },
-            {
-                "id": "c",
                 "text": "Django."
             },
             {
+                "id": "c",
+                "text": "Surprise (Scikit-Surprise) or LightFM."
+            },
+            {
                 "id": "d",
-                "text": "Matplotlib."
+                "text": "Pandas only."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Specialized libraries.",
         "explanation": "Provides easy-to-use algorithms for CF and SVD."
     },
@@ -630,22 +630,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The expected proportion of anomalies in the dataset."
+                "text": "User access level."
             },
             {
                 "id": "b",
-                "text": "Level of noise in data."
-            },
-            {
-                "id": "c",
                 "text": "Number of columns."
             },
             {
+                "id": "c",
+                "text": "The expected proportion of anomalies in the dataset."
+            },
+            {
                 "id": "d",
-                "text": "User access level."
+                "text": "Level of noise in data."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Anomaly ratio.",
         "explanation": "Tells the model (like Isolation Forest) roughly how many points to label as outliers."
     },
@@ -655,22 +655,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Friends' activity influencing what you see (e.g., 'Your friend liked this')."
+                "text": "News feed."
             },
             {
                 "id": "b",
-                "text": "Random sorting."
+                "text": "Friends' activity influencing what you see (e.g., 'Your friend liked this')."
             },
             {
                 "id": "c",
-                "text": "News feed."
+                "text": "Random sorting."
             },
             {
                 "id": "d",
                 "text": "Personal choice."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Network influence.",
         "explanation": "Leverages the social graph for better discovery."
     },
@@ -680,22 +680,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Common technique for Topic Modeling (Unsupervised classification)."
+                "text": "Linear algebra only."
             },
             {
                 "id": "b",
-                "text": "A type of regression."
-            },
-            {
-                "id": "c",
                 "text": "Sorting files."
             },
             {
+                "id": "c",
+                "text": "A type of regression."
+            },
+            {
                 "id": "d",
-                "text": "Linear algebra only."
+                "text": "Common technique for Topic Modeling (Unsupervised classification)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Finding topics in documents.",
         "explanation": "Groups words into topics based on their co-occurrence."
     },
@@ -709,15 +709,15 @@
             },
             {
                 "id": "b",
-                "text": "Validate usernames."
-            },
-            {
-                "id": "c",
                 "text": "Delete data."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Speed up the code."
+            },
+            {
+                "id": "d",
+                "text": "Validate usernames."
             }
         ],
         "correctOptionId": "a",
@@ -730,7 +730,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Generalize well to new, unseen real-world data."
+                "text": "Run as fast as possible."
             },
             {
                 "id": "b",
@@ -738,14 +738,14 @@
             },
             {
                 "id": "c",
-                "text": "Run as fast as possible."
+                "text": "Generalize well to new, unseen real-world data."
             },
             {
                 "id": "d",
                 "text": "Use the most complex model."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Generalization.",
         "explanation": "A model that only 'remembers' training data is useless in production."
     }

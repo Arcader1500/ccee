@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Data collected at regular intervals over time (e.g., daily stock price)."
-            },
-            {
-                "id": "b",
                 "text": "A list of times only."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Random data points."
+            },
+            {
+                "id": "c",
+                "text": "Data collected at regular intervals over time (e.g., daily stock price)."
             },
             {
                 "id": "d",
                 "text": "Data without labels."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Temporal sequence.",
         "explanation": "Order matters in time series; you cannot shuffle the data."
     },
@@ -30,7 +30,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "When statistical properties (mean, variance) do not change over time."
+                "text": "When the file stays on disk."
             },
             {
                 "id": "b",
@@ -38,14 +38,14 @@
             },
             {
                 "id": "c",
-                "text": "When the file stays on disk."
+                "text": "When statistical properties (mean, variance) do not change over time."
             },
             {
                 "id": "d",
                 "text": "Predicting the future."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Consistent statistics.",
         "explanation": "Many models (like ARIMA) assume or require the data to be stationary."
     },
@@ -55,22 +55,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Long-term increase or decrease in the data."
-            },
-            {
-                "id": "b",
-                "text": "Weekly patterns."
-            },
-            {
-                "id": "c",
                 "text": "Random noise."
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "Long-term increase or decrease in the data."
+            },
+            {
+                "id": "c",
                 "text": "Total count."
+            },
+            {
+                "id": "d",
+                "text": "Weekly patterns."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Overall direction.",
         "explanation": "Captures the general movement (e.g., global temperature rising)."
     },
@@ -80,22 +80,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Patterns that repeat at a regular fixed period (e.g., high ice cream sales in summer)."
-            },
-            {
-                "id": "b",
                 "text": "Moving to a new city."
             },
             {
+                "id": "b",
+                "text": "Patterns that repeat at a regular fixed period (e.g., high ice cream sales in summer)."
+            },
+            {
                 "id": "c",
-                "text": "A random event."
+                "text": "Long term trend."
             },
             {
                 "id": "d",
-                "text": "Long term trend."
+                "text": "A random event."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Recurring patterns.",
         "explanation": "Repeats every day, week, month, or year."
     },
@@ -105,22 +105,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Relationship between a variable's current value and its past values."
+                "text": "Total sum."
             },
             {
                 "id": "b",
-                "text": "Matching cars automatically."
+                "text": "Relationship between a variable's current value and its past values."
             },
             {
                 "id": "c",
-                "text": "Correlation with another feature."
+                "text": "Matching cars automatically."
             },
             {
                 "id": "d",
-                "text": "Total sum."
+                "text": "Correlation with another feature."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Correlation with self.",
         "explanation": "Measures how today's value depends on yesterday's or last year's."
     },
@@ -130,7 +130,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Smooths out short-term fluctuations to highlight longer-term trends."
+                "text": "Deletes data."
             },
             {
                 "id": "b",
@@ -138,14 +138,14 @@
             },
             {
                 "id": "c",
-                "text": "Finds the peak."
+                "text": "Smooths out short-term fluctuations to highlight longer-term trends."
             },
             {
                 "id": "d",
-                "text": "Deletes data."
+                "text": "Finds the peak."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Smoothing tool.",
         "explanation": "Calculates average of the last 'n' observations."
     },
@@ -155,22 +155,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "AutoRegressive Integrated Moving Average."
-            },
-            {
-                "id": "b",
                 "text": "Audio Recorded Information Machine."
             },
             {
+                "id": "b",
+                "text": "None."
+            },
+            {
                 "id": "c",
-                "text": "Average Rate In Metric Area."
+                "text": "AutoRegressive Integrated Moving Average."
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "Average Rate In Metric Area."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Classic time series model.",
         "explanation": "Widely used model for forecasting stationary or differenced data."
     },
@@ -180,22 +180,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Auto-regressive part (number of lag observations)."
+                "text": "Moving average window size."
             },
             {
                 "id": "b",
-                "text": "Degree of differencing."
+                "text": "Auto-regressive part (number of lag observations)."
             },
             {
                 "id": "c",
-                "text": "Moving average window size."
+                "text": "Degree of differencing."
             },
             {
                 "id": "d",
                 "text": "Price."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "AR part.",
         "explanation": "Describes how much the current value depends on past values."
     },
@@ -205,11 +205,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Degree of differencing needed to make data stationary."
+                "text": "Depth of tree."
             },
             {
                 "id": "b",
-                "text": "Depth of tree."
+                "text": "Degree of differencing needed to make data stationary."
             },
             {
                 "id": "c",
@@ -220,7 +220,7 @@
                 "text": "Difference of means."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Stationarity adjustment.",
         "explanation": "Number of times the raw observations are subtracted from their preceding values."
     },
@@ -230,7 +230,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Order of the moving average (error part)."
+                "text": "Quantity."
             },
             {
                 "id": "b",
@@ -238,14 +238,14 @@
             },
             {
                 "id": "c",
-                "text": "Quantity."
+                "text": "Order of the moving average (error part)."
             },
             {
                 "id": "d",
                 "text": "Queue size."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "MA part.",
         "explanation": "Describes how much the current value depends on past forecast errors."
     },
@@ -263,11 +263,11 @@
             },
             {
                 "id": "c",
-                "text": "Linear average."
+                "text": "Deleting zeros."
             },
             {
                 "id": "d",
-                "text": "Deleting zeros."
+                "text": "Linear average."
             }
         ],
         "correctOptionId": "a",
@@ -280,11 +280,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Triple exponential smoothing that handles Trend AND Seasonality."
+                "text": "A cold weather algorithm."
             },
             {
                 "id": "b",
-                "text": "A cold weather algorithm."
+                "text": "Regression on time."
             },
             {
                 "id": "c",
@@ -292,10 +292,10 @@
             },
             {
                 "id": "d",
-                "text": "Regression on time."
+                "text": "Triple exponential smoothing that handles Trend AND Seasonality."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Trend + Seasonality smoothing.",
         "explanation": "Uses level, trend, and seasonal components to forecast."
     },
@@ -305,11 +305,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "A previous time step (e.g., Lag 1 is yesterday's value)."
+                "text": "Slow computer performance."
             },
             {
                 "id": "b",
-                "text": "Slow computer performance."
+                "text": "A previous time step (e.g., Lag 1 is yesterday's value)."
             },
             {
                 "id": "c",
@@ -320,7 +320,7 @@
                 "text": "None."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Past value.",
         "explanation": "Converting 'time' into features often involves creating lag columns."
     },
@@ -330,7 +330,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Subtracting current value from previous value to remove trend/seasonality."
+                "text": "Finding error."
             },
             {
                 "id": "b",
@@ -338,14 +338,14 @@
             },
             {
                 "id": "c",
-                "text": "Finding error."
+                "text": "Subtracting current value from previous value to remove trend/seasonality."
             },
             {
                 "id": "d",
                 "text": "Subtraction only."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Making data stationary.",
         "explanation": "y'_t = y_t - y_{t-1}."
     },
@@ -355,22 +355,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Mean 0, constant variance, and NO autocorrelation."
+                "text": "All values are white."
             },
             {
                 "id": "b",
-                "text": "Clear trend."
-            },
-            {
-                "id": "c",
                 "text": "Repeating seasonality."
             },
             {
+                "id": "c",
+                "text": "Clear trend."
+            },
+            {
                 "id": "d",
-                "text": "All values are white."
+                "text": "Mean 0, constant variance, and NO autocorrelation."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Random signal.",
         "explanation": "It's purely random and cannot be used for forecasting."
     },
@@ -380,22 +380,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Correlation between variable and its lag after removing effects of smaller lags."
+                "text": "Random correlation."
             },
             {
                 "id": "b",
-                "text": "Part of an audio file."
+                "text": "Correlation between variable and its lag after removing effects of smaller lags."
             },
             {
                 "id": "c",
-                "text": "Random correlation."
+                "text": "Part of an audio file."
             },
             {
                 "id": "d",
                 "text": "Total correlation."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Direct influence of lag.",
         "explanation": "Used to find the order 'p' for an AR model."
     },
@@ -409,7 +409,7 @@
             },
             {
                 "id": "b",
-                "text": "Accuracy score."
+                "text": "F1-Score."
             },
             {
                 "id": "c",
@@ -417,7 +417,7 @@
             },
             {
                 "id": "d",
-                "text": "F1-Score."
+                "text": "Accuracy score."
             }
         ],
         "correctOptionId": "a",
@@ -430,22 +430,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using a fixed-size moving look-back period to generate features."
-            },
-            {
-                "id": "b",
                 "text": "Cleaning glass."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Visualizing data."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "A type of OS."
+            },
+            {
+                "id": "d",
+                "text": "Using a fixed-size moving look-back period to generate features."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Moving calculation window.",
         "explanation": "Used to calculate rolling means, sums, or stdevs."
     },
@@ -455,11 +455,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Series where the current value is the previous value plus random noise (y_t = y_{t-1} + e_t)."
+                "text": "Walking without a goal."
             },
             {
                 "id": "b",
-                "text": "Walking without a goal."
+                "text": "Binary data."
             },
             {
                 "id": "c",
@@ -467,10 +467,10 @@
             },
             {
                 "id": "d",
-                "text": "Binary data."
+                "text": "Series where the current value is the previous value plus random noise (y_t = y_{t-1} + e_t)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Non-stationary trend.",
         "explanation": "Often used to model stock prices; best forecast is today's price."
     },
@@ -480,7 +480,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Forecasting multiple related variables at once (e.g., Temp and Humidity)."
+                "text": "A list of many dates."
             },
             {
                 "id": "b",
@@ -488,14 +488,14 @@
             },
             {
                 "id": "c",
-                "text": "A list of many dates."
+                "text": "Forecasting multiple related variables at once (e.g., Temp and Humidity)."
             },
             {
                 "id": "d",
                 "text": "None."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "More than one variable.",
         "explanation": "Handled by models like VAR (Vector AutoRegression)."
     },
@@ -505,7 +505,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Separating a series into Trend, Seasonality, and Residual (Noise) components."
+                "text": "Model crashing."
             },
             {
                 "id": "b",
@@ -513,14 +513,14 @@
             },
             {
                 "id": "c",
-                "text": "Model crashing."
+                "text": "Separating a series into Trend, Seasonality, and Residual (Noise) components."
             },
             {
                 "id": "d",
                 "text": "Changing formats."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Breaking down the signal.",
         "explanation": "Can be Additive (Y = T + S + R) or Multiplicative (Y = T * S * R)."
     },
@@ -530,22 +530,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A specific instant in time (Date + Time)."
-            },
-            {
-                "id": "b",
-                "text": "Postage stamp."
-            },
-            {
-                "id": "c",
                 "text": "A model name."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "A counter."
+            },
+            {
+                "id": "c",
+                "text": "Postage stamp."
+            },
+            {
+                "id": "d",
+                "text": "A specific instant in time (Date + Time)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Exact point in time.",
         "explanation": "Standard index for time series data in pandas."
     },
@@ -559,15 +559,15 @@
             },
             {
                 "id": "b",
-                "text": "Sampling data again."
-            },
-            {
-                "id": "c",
                 "text": "Deleting 50% points."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Sorting."
+            },
+            {
+                "id": "d",
+                "text": "Sampling data again."
             }
         ],
         "correctOptionId": "a",
@@ -584,7 +584,7 @@
             },
             {
                 "id": "b",
-                "text": "Being optimistic."
+                "text": "Good model score."
             },
             {
                 "id": "c",
@@ -592,7 +592,7 @@
             },
             {
                 "id": "d",
-                "text": "Good model score."
+                "text": "Being optimistic."
             }
         ],
         "correctOptionId": "a",
@@ -605,22 +605,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A forecasting tool by Meta (Facebook) designed for ease of use with business data."
+                "text": "Old version of ARIMA."
             },
             {
                 "id": "b",
-                "text": "A religious term."
-            },
-            {
-                "id": "c",
                 "text": "A Google AI."
             },
             {
+                "id": "c",
+                "text": "A forecasting tool by Meta (Facebook) designed for ease of use with business data."
+            },
+            {
                 "id": "d",
-                "text": "Old version of ARIMA."
+                "text": "A religious term."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Meta's forecasting library.",
         "explanation": "Handles holidays and missing data automatically."
     },
@@ -630,11 +630,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "External factors that influence the series (e.g., oil price affecting taxi demand)."
+                "text": "Labels."
             },
             {
                 "id": "b",
-                "text": "Internal variables."
+                "text": "External factors that influence the series (e.g., oil price affecting taxi demand)."
             },
             {
                 "id": "c",
@@ -642,10 +642,10 @@
             },
             {
                 "id": "d",
-                "text": "Labels."
+                "text": "Internal variables."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "External features.",
         "explanation": "Used in ARIMAX models."
     },
@@ -655,22 +655,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Seasonal ARIMA."
-            },
-            {
-                "id": "b",
                 "text": "Simple ARIMA."
             },
             {
+                "id": "b",
+                "text": "Seasonal ARIMA."
+            },
+            {
                 "id": "c",
-                "text": "Super ARIMA."
+                "text": "None."
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "Super ARIMA."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "ARIMA with Seasonality.",
         "explanation": "Extends ARIMA to handle seasonal patterns."
     },
@@ -680,22 +680,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Evaluating time series by progressively sliding the training/test split forward in time."
-            },
-            {
-                "id": "b",
                 "text": "Random cross-validation."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Checking code for errors."
+            },
+            {
+                "id": "c",
+                "text": "Evaluating time series by progressively sliding the training/test split forward in time."
             },
             {
                 "id": "d",
                 "text": "No validation."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Time-sensitive validation.",
         "explanation": "Ensures no look-ahead bias and mimics real-world usage."
     },
@@ -705,7 +705,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "y_{t-1}, y_{t-2}, etc."
+                "text": "External data."
             },
             {
                 "id": "b",
@@ -717,10 +717,10 @@
             },
             {
                 "id": "d",
-                "text": "External data."
+                "text": "y_{t-1}, y_{t-2}, etc."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Regression on self.",
         "explanation": "Learns from the history of the target variable itself."
     },
@@ -730,22 +730,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Past forecast errors."
-            },
-            {
-                "id": "b",
-                "text": "Past observations."
-            },
-            {
-                "id": "c",
                 "text": "The trend."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "The price."
+            },
+            {
+                "id": "c",
+                "text": "Past forecast errors."
+            },
+            {
+                "id": "d",
+                "text": "Past observations."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Regression on errors.",
         "explanation": "Uses the white noise / error terms from the past."
     }

@@ -13,11 +13,11 @@
             },
             {
                 "id": "c",
-                "text": "A type of dataset."
+                "text": "A single accurate model."
             },
             {
                 "id": "d",
-                "text": "A single accurate model."
+                "text": "A type of dataset."
             }
         ],
         "correctOptionId": "a",
@@ -38,11 +38,11 @@
             },
             {
                 "id": "c",
-                "text": "Using a physical bag."
+                "text": "Deleting features."
             },
             {
                 "id": "d",
-                "text": "Deleting features."
+                "text": "Using a physical bag."
             }
         ],
         "correctOptionId": "a",
@@ -59,15 +59,15 @@
             },
             {
                 "id": "b",
-                "text": "Building models in parallel."
+                "text": "Boosting volume."
             },
             {
                 "id": "c",
-                "text": "Increasing speed."
+                "text": "Building models in parallel."
             },
             {
                 "id": "d",
-                "text": "Boosting volume."
+                "text": "Increasing speed."
             }
         ],
         "correctOptionId": "a",
@@ -80,11 +80,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "An ensemble of decision trees trained with bagging."
+                "text": "A list of random numbers."
             },
             {
                 "id": "b",
-                "text": "A list of random numbers."
+                "text": "Nature simulation."
             },
             {
                 "id": "c",
@@ -92,10 +92,10 @@
             },
             {
                 "id": "d",
-                "text": "Nature simulation."
+                "text": "An ensemble of decision trees trained with bagging."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Collection of trees.",
         "explanation": "Each tree sees a random subset of data and features, leading to diversity and robustness."
     },
@@ -105,7 +105,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Validation error calculated using samples NOT seen by a particular tree during training."
+                "text": "Model crash error."
             },
             {
                 "id": "b",
@@ -113,14 +113,14 @@
             },
             {
                 "id": "c",
-                "text": "Model crash error."
+                "text": "Validation error calculated using samples NOT seen by a particular tree during training."
             },
             {
                 "id": "d",
                 "text": "Labels that are missing."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Built-in validation.",
         "explanation": "Allows evaluation without a separate validation set."
     },
@@ -134,15 +134,15 @@
             },
             {
                 "id": "b",
-                "text": "A brand of soda."
+                "text": "Parallel ensemble."
             },
             {
                 "id": "c",
-                "text": "Fast trees."
+                "text": "A brand of soda."
             },
             {
                 "id": "d",
-                "text": "Parallel ensemble."
+                "text": "Fast trees."
             }
         ],
         "correctOptionId": "a",
@@ -155,11 +155,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Boosting algorithm that uses gradient descent to minimize loss when adding new models."
+                "text": "Boosting based on colors."
             },
             {
                 "id": "b",
-                "text": "Boosting based on colors."
+                "text": "Boosting algorithm that uses gradient descent to minimize loss when adding new models."
             },
             {
                 "id": "c",
@@ -170,7 +170,7 @@
                 "text": "Parallel training."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Minimizing residual error.",
         "explanation": "Each new model attempts to predict the residual errors of the current ensemble."
     },
@@ -180,11 +180,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Extreme Gradient Boosting; highly efficient and scalable implementation of GBM."
+                "text": "Extended Google Boost."
             },
             {
                 "id": "b",
-                "text": "Extended Google Boost."
+                "text": "A type of car."
             },
             {
                 "id": "c",
@@ -192,10 +192,10 @@
             },
             {
                 "id": "d",
-                "text": "A type of car."
+                "text": "Extreme Gradient Boosting; highly efficient and scalable implementation of GBM."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Winner in Kaggle.",
         "explanation": "Includes regularization and parallel processing features not in standard GBM."
     },
@@ -205,11 +205,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using another ML model (Meta-learner) to combine predictions of several base models."
+                "text": "Putting papers in a stack."
             },
             {
                 "id": "b",
-                "text": "Putting papers in a stack."
+                "text": "Using another ML model (Meta-learner) to combine predictions of several base models."
             },
             {
                 "id": "c",
@@ -220,7 +220,7 @@
                 "text": "Deleting the model."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Hierarchical ensemble.",
         "explanation": "Learns which models are reliable and how to best weight their outputs."
     },
@@ -238,11 +238,11 @@
             },
             {
                 "id": "c",
-                "text": "A model that doesn't use data."
+                "text": "A slow model."
             },
             {
                 "id": "d",
-                "text": "A slow model."
+                "text": "A model that doesn't use data."
             }
         ],
         "correctOptionId": "a",
@@ -259,11 +259,11 @@
             },
             {
                 "id": "b",
-                "text": "Boosting (XGBoost)."
+                "text": "Standard regression."
             },
             {
                 "id": "c",
-                "text": "Standard regression."
+                "text": "Boosting (XGBoost)."
             },
             {
                 "id": "d",
@@ -280,7 +280,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Boosting."
+                "text": "K-Means."
             },
             {
                 "id": "b",
@@ -288,14 +288,14 @@
             },
             {
                 "id": "c",
-                "text": "K-Means."
+                "text": "Boosting."
             },
             {
                 "id": "d",
                 "text": "Data scaling."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Reducing underfitting.",
         "explanation": "Combining simple models sequentially allows them to capture complex patterns."
     },
@@ -305,22 +305,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Bootstrap sampling of data AND random selection of feature subsets."
+                "text": "Computer clock."
             },
             {
                 "id": "b",
-                "text": "Random labels."
+                "text": "Bootstrap sampling of data AND random selection of feature subsets."
             },
             {
                 "id": "c",
-                "text": "User typing."
+                "text": "Random labels."
             },
             {
                 "id": "d",
-                "text": "Computer clock."
+                "text": "User typing."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Data + Feature randomness.",
         "explanation": "This 'double' randomness is what makes Random Forest so powerful."
     },
@@ -330,22 +330,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Sampling with replacement from the original dataset."
-            },
-            {
-                "id": "b",
-                "text": "Turning on the computer."
-            },
-            {
-                "id": "c",
                 "text": "Buying new boots."
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "Sampling with replacement from the original dataset."
+            },
+            {
+                "id": "c",
                 "text": "Deleting 20% data."
+            },
+            {
+                "id": "d",
+                "text": "Turning on the computer."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Sample generation.",
         "explanation": "Enables training different models on slightly different datasets."
     },
@@ -355,22 +355,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A fast gradient boosting framework from Microsoft that is memory efficient."
-            },
-            {
-                "id": "b",
-                "text": "A small flashlight."
-            },
-            {
-                "id": "c",
                 "text": "A type of LED."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "An old version of XGBoost."
+            },
+            {
+                "id": "c",
+                "text": "A fast gradient boosting framework from Microsoft that is memory efficient."
+            },
+            {
+                "id": "d",
+                "text": "A small flashlight."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Fast GBDT.",
         "explanation": "Uses histogram-based techniques for much faster training."
     },
@@ -409,7 +409,7 @@
             },
             {
                 "id": "b",
-                "text": "Averaging the probabilities."
+                "text": "Manual voting."
             },
             {
                 "id": "c",
@@ -417,7 +417,7 @@
             },
             {
                 "id": "d",
-                "text": "Manual voting."
+                "text": "Averaging the probabilities."
             }
         ],
         "correctOptionId": "a",
@@ -430,7 +430,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Averaging the predicted probabilities from each model."
+                "text": "Taking the most common label."
             },
             {
                 "id": "b",
@@ -438,14 +438,14 @@
             },
             {
                 "id": "c",
-                "text": "Taking the most common label."
+                "text": "Binary vote."
             },
             {
                 "id": "d",
-                "text": "Binary vote."
+                "text": "Averaging the predicted probabilities from each model."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Probability average.",
         "explanation": "Often performs better than hard voting as it considers model confidence."
     },
@@ -455,7 +455,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "To stop training when validation performance starts dipping (to avoid overfitting)."
+                "text": "Model is finished."
             },
             {
                 "id": "b",
@@ -463,14 +463,14 @@
             },
             {
                 "id": "c",
-                "text": "Because computer is hot."
+                "text": "To stop training when validation performance starts dipping (to avoid overfitting)."
             },
             {
                 "id": "d",
-                "text": "Model is finished."
+                "text": "Because computer is hot."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Optimization cutoff.",
         "explanation": "Prevents the model from becoming excessively complex and specialized to noise."
     },
@@ -484,11 +484,11 @@
             },
             {
                 "id": "b",
-                "text": "Deleting columns."
+                "text": "Sampling from the internet."
             },
             {
                 "id": "c",
-                "text": "Sampling from the internet."
+                "text": "Deleting columns."
             },
             {
                 "id": "d",
@@ -505,7 +505,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "It generally stabilizes (doesn't overfit)."
+                "text": "It becomes zero."
             },
             {
                 "id": "b",
@@ -517,10 +517,10 @@
             },
             {
                 "id": "d",
-                "text": "It becomes zero."
+                "text": "It generally stabilizes (doesn't overfit)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Stability.",
         "explanation": "Random Forests are robust to overfitting as more trees are added."
     },
@@ -534,15 +534,15 @@
             },
             {
                 "id": "b",
-                "text": "A kitchen appliance."
-            },
-            {
-                "id": "c",
                 "text": "A data cleaner."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Image generator."
+            },
+            {
+                "id": "d",
+                "text": "A kitchen appliance."
             }
         ],
         "correctOptionId": "a",
@@ -555,7 +555,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Stacking."
+                "text": "Sorting."
             },
             {
                 "id": "b",
@@ -563,14 +563,14 @@
             },
             {
                 "id": "c",
-                "text": "Copying."
+                "text": "Stacking."
             },
             {
                 "id": "d",
-                "text": "Sorting."
+                "text": "Copying."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Complex combination.",
         "explanation": "Stacking learns how to best weight diverse expert opinions."
     },
@@ -580,7 +580,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Score indicating how much each feature contributed to the final predictions."
+                "text": "Weight of computer."
             },
             {
                 "id": "b",
@@ -588,14 +588,14 @@
             },
             {
                 "id": "c",
-                "text": "Data size."
+                "text": "Score indicating how much each feature contributed to the final predictions."
             },
             {
                 "id": "d",
-                "text": "Weight of computer."
+                "text": "Data size."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Interpretability.",
         "explanation": "Random Forest and XGBoost can provide an importance scale for all inputs."
     },
@@ -605,7 +605,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Yes, almost always; it's more stable and accurate."
+                "text": "They are the same."
             },
             {
                 "id": "b",
@@ -613,14 +613,14 @@
             },
             {
                 "id": "c",
-                "text": "Only for small data."
+                "text": "Yes, almost always; it's more stable and accurate."
             },
             {
                 "id": "d",
-                "text": "They are the same."
+                "text": "Only for small data."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Improvement.",
         "explanation": "Avoids the high variance problem of deep single trees."
     },
@@ -634,15 +634,15 @@
             },
             {
                 "id": "b",
-                "text": "It is less accurate."
-            },
-            {
-                "id": "c",
                 "text": "Uses less memory."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "No drawback."
+            },
+            {
+                "id": "d",
+                "text": "It is less accurate."
             }
         ],
         "correctOptionId": "a",
@@ -663,11 +663,11 @@
             },
             {
                 "id": "c",
-                "text": "Half."
+                "text": "Random."
             },
             {
                 "id": "d",
-                "text": "Random."
+                "text": "Half."
             }
         ],
         "correctOptionId": "a",
@@ -684,11 +684,11 @@
             },
             {
                 "id": "b",
-                "text": "Makes the file smaller."
+                "text": "Deletes data."
             },
             {
                 "id": "c",
-                "text": "Deletes data."
+                "text": "Makes the file smaller."
             },
             {
                 "id": "d",
@@ -709,11 +709,11 @@
             },
             {
                 "id": "b",
-                "text": "SVMs only."
+                "text": "Linear Regression."
             },
             {
                 "id": "c",
-                "text": "Linear Regression."
+                "text": "SVMs only."
             },
             {
                 "id": "d",
@@ -734,15 +734,15 @@
             },
             {
                 "id": "b",
-                "text": "Training them in different rooms."
+                "text": "Deleting rows."
             },
             {
                 "id": "c",
-                "text": "Sorting the data."
+                "text": "Training them in different rooms."
             },
             {
                 "id": "d",
-                "text": "Deleting rows."
+                "text": "Sorting the data."
             }
         ],
         "correctOptionId": "a",

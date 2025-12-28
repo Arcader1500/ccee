@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Classifier that finds the hyperplane which maximizes the margin between classes."
+                "text": "Regression only model."
             },
             {
                 "id": "b",
-                "text": "Model for sorting lists."
+                "text": "Classifier that finds the hyperplane which maximizes the margin between classes."
             },
             {
                 "id": "c",
-                "text": "Type of computer hardware."
+                "text": "Model for sorting lists."
             },
             {
                 "id": "d",
-                "text": "Regression only model."
+                "text": "Type of computer hardware."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Max margin hyperplane.",
         "explanation": "SVM works by finding the widest 'street' between two groups of data."
     },
@@ -38,11 +38,11 @@
             },
             {
                 "id": "c",
-                "text": "Incorrect predictions."
+                "text": "The origin (0,0)."
             },
             {
                 "id": "d",
-                "text": "The origin (0,0)."
+                "text": "Incorrect predictions."
             }
         ],
         "correctOptionId": "a",
@@ -55,22 +55,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Transforming data into higher dimensions to make it linearly separable without actually doing the transform."
-            },
-            {
-                "id": "b",
                 "text": "A way to delete data."
             },
             {
+                "id": "b",
+                "text": "A sorting algorithm."
+            },
+            {
                 "id": "c",
-                "text": "A password."
+                "text": "Transforming data into higher dimensions to make it linearly separable without actually doing the transform."
             },
             {
                 "id": "d",
-                "text": "A sorting algorithm."
+                "text": "A password."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Non-linear separation.",
         "explanation": "Allows SVM to calculate complex boundaries using kernel functions (RBF, Polynomial)."
     },
@@ -80,22 +80,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "By taking a majority vote of its 'K' closest neighbors."
+                "text": "Randomly."
             },
             {
                 "id": "b",
-                "text": "By calculating a mean."
-            },
-            {
-                "id": "c",
                 "text": "By using a decision tree."
             },
             {
+                "id": "c",
+                "text": "By calculating a mean."
+            },
+            {
                 "id": "d",
-                "text": "Randomly."
+                "text": "By taking a majority vote of its 'K' closest neighbors."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Neighborhood vote.",
         "explanation": "It's a lazy learner; it doesn't build a model, just stores the data."
     },
@@ -105,11 +105,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "It has no training phase; it does all computation during prediction."
+                "text": "It is slow to code."
             },
             {
                 "id": "b",
-                "text": "It is slow to code."
+                "text": "It uses less power."
             },
             {
                 "id": "c",
@@ -117,10 +117,10 @@
             },
             {
                 "id": "d",
-                "text": "It uses less power."
+                "text": "It has no training phase; it does all computation during prediction."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Instance-based learning.",
         "explanation": "The 'training' is just storing the dataset."
     },
@@ -130,22 +130,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A tree-like model where internal nodes represent tests on features and leaves represent class labels."
-            },
-            {
-                "id": "b",
                 "text": "A natural forest."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "A list of rules."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "A database."
+            },
+            {
+                "id": "d",
+                "text": "A tree-like model where internal nodes represent tests on features and leaves represent class labels."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Flowchart-like structure.",
         "explanation": "Highly interpretable model used for both classification and regression."
     },
@@ -155,22 +155,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Measure of impurity or randomness in the data at a node."
+                "text": "Model weight."
             },
             {
                 "id": "b",
-                "text": "Calculating speed."
+                "text": "Measure of impurity or randomness in the data at a node."
             },
             {
                 "id": "c",
-                "text": "Data size."
+                "text": "Calculating speed."
             },
             {
                 "id": "d",
-                "text": "Model weight."
+                "text": "Data size."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Disorder measurement.",
         "explanation": "If a node has 50% cat and 50% dog, entropy is high."
     },
@@ -180,22 +180,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Reduction in entropy after a dataset is split on a feature."
-            },
-            {
-                "id": "b",
                 "text": "Total data size."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Accuracy."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Number of leaves."
+            },
+            {
+                "id": "d",
+                "text": "Reduction in entropy after a dataset is split on a feature."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Value of a split.",
         "explanation": "Trees choose features that provide the highest Information Gain."
     },
@@ -230,22 +230,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Removing parts of the tree that provide little power to prevent overfitting."
-            },
-            {
-                "id": "b",
                 "text": "Cutting the tree down."
             },
             {
+                "id": "b",
+                "text": "Saving labels."
+            },
+            {
                 "id": "c",
-                "text": "Adding more nodes."
+                "text": "Removing parts of the tree that provide little power to prevent overfitting."
             },
             {
                 "id": "d",
-                "text": "Saving labels."
+                "text": "Adding more nodes."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Simplifying the tree.",
         "explanation": "Reduces tree size and improves its ability to generalize."
     },
@@ -255,22 +255,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Uses Bayes Theorem with an assumption of independence between every pair of features."
+                "text": "Voting."
             },
             {
                 "id": "b",
-                "text": "Uses neural network."
-            },
-            {
-                "id": "c",
                 "text": "Using distance."
             },
             {
+                "id": "c",
+                "text": "Uses neural network."
+            },
+            {
                 "id": "d",
-                "text": "Voting."
+                "text": "Uses Bayes Theorem with an assumption of independence between every pair of features."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Probabilistic classifier.",
         "explanation": "Excellent for text classification and high-dimensional features."
     },
@@ -280,22 +280,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Because it simplifies the problem by assuming features don't interact (independence)."
-            },
-            {
-                "id": "b",
                 "text": "Written by a naive person."
             },
             {
+                "id": "b",
+                "text": "Ancient."
+            },
+            {
                 "id": "c",
-                "text": "Simple code."
+                "text": "Because it simplifies the problem by assuming features don't interact (independence)."
             },
             {
                 "id": "d",
-                "text": "Ancient."
+                "text": "Simple code."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Independence assumption.",
         "explanation": "In real life, features are often related, but the assumption makes the math easier."
     },
@@ -305,22 +305,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Classification algorithm that predicts the probability of an input belonging to a class."
-            },
-            {
-                "id": "b",
                 "text": "Regression for numbers."
             },
             {
+                "id": "b",
+                "text": "Type of tree."
+            },
+            {
                 "id": "c",
-                "text": "Sorting data."
+                "text": "Classification algorithm that predicts the probability of an input belonging to a class."
             },
             {
                 "id": "d",
-                "text": "Type of tree."
+                "text": "Sorting data."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Sigmoid output.",
         "explanation": "Despite the name 'Regression', it is primarily used for classification."
     },
@@ -330,7 +330,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Sigmoid (Logistic) Function."
+                "text": "Log."
             },
             {
                 "id": "b",
@@ -338,14 +338,14 @@
             },
             {
                 "id": "c",
-                "text": "Sine function."
+                "text": "Sigmoid (Logistic) Function."
             },
             {
                 "id": "d",
-                "text": "Log."
+                "text": "Sine function."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Squashes values between 0 and 1.",
         "explanation": "y = 1 / (1 + e^-z)."
     },
@@ -355,7 +355,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Table used to evaluate classification performance showing TN, TP, FN, FP."
+                "text": "A blurred image."
             },
             {
                 "id": "b",
@@ -367,10 +367,10 @@
             },
             {
                 "id": "d",
-                "text": "A blurred image."
+                "text": "Table used to evaluate classification performance showing TN, TP, FN, FP."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "TP/TN/FP/FN grid.",
         "explanation": "Helpful to see what types of errors (false positives vs false negatives) the model is making."
     },
@@ -384,11 +384,11 @@
             },
             {
                 "id": "b",
-                "text": "Top Priority."
+                "text": "Total Points."
             },
             {
                 "id": "c",
-                "text": "Total Points."
+                "text": "Top Priority."
             },
             {
                 "id": "d",
@@ -405,7 +405,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Model predicted positive, but it was actually negative ('False Alarm')."
+                "text": "Missing a label."
             },
             {
                 "id": "b",
@@ -413,14 +413,14 @@
             },
             {
                 "id": "c",
-                "text": "Missing a label."
+                "text": "Model predicted positive, but it was actually negative ('False Alarm')."
             },
             {
                 "id": "d",
                 "text": "Zero error."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Wrong alarm.",
         "explanation": "Example: Saying a non-spam email is spam."
     },
@@ -430,22 +430,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Model predicted negative, but it was actually positive ('Miss')."
+                "text": "Adding data."
             },
             {
                 "id": "b",
-                "text": "Correct positive."
+                "text": "Model predicted negative, but it was actually positive ('Miss')."
             },
             {
                 "id": "c",
-                "text": "Adding data."
+                "text": "Correct positive."
             },
             {
                 "id": "d",
                 "text": "Rounding error."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Missing a real case.",
         "explanation": "Example: Failing to detect a disease in a sick patient."
     },
@@ -455,22 +455,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "(TP + TN) / Total."
-            },
-            {
-                "id": "b",
                 "text": "TP / (TP + FP)."
             },
             {
+                "id": "b",
+                "text": "(TP + TN) / Total."
+            },
+            {
                 "id": "c",
-                "text": "TN / Total."
+                "text": "FN / TP."
             },
             {
                 "id": "d",
-                "text": "FN / TP."
+                "text": "TN / Total."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Total correct ratio.",
         "explanation": "Unreliable when data is imbalanced (e.g., 99% of emails are non-spam)."
     },
@@ -480,7 +480,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "When the cost of a False Positive is high (e.g., spam filtering)."
+                "text": "When data is small."
             },
             {
                 "id": "b",
@@ -492,10 +492,10 @@
             },
             {
                 "id": "d",
-                "text": "When data is small."
+                "text": "When the cost of a False Positive is high (e.g., spam filtering)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Avoid False Alarms.",
         "explanation": "You don't want to mark a good email as spam."
     },
@@ -505,22 +505,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "When the cost of a False Negative is high (e.g., cancer detection)."
-            },
-            {
-                "id": "b",
-                "text": "Always."
-            },
-            {
-                "id": "c",
                 "text": "When we want to be safe."
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "When the cost of a False Negative is high (e.g., cancer detection)."
+            },
+            {
+                "id": "c",
                 "text": "Only for regression."
+            },
+            {
+                "id": "d",
+                "text": "Always."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Avoid missing cases.",
         "explanation": "It's better to verify a healthy person again than to let a sick person go untreated."
     },
@@ -530,11 +530,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "The very first split founded on the most important feature."
+                "text": "A list of labels."
             },
             {
                 "id": "b",
-                "text": "The end of the tree."
+                "text": "The very first split founded on the most important feature."
             },
             {
                 "id": "c",
@@ -542,10 +542,10 @@
             },
             {
                 "id": "d",
-                "text": "A list of labels."
+                "text": "The end of the tree."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Starts the tree.",
         "explanation": "Contains the entire dataset before any splits."
     },
@@ -580,22 +580,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "1 (for binary classification, 50/50 split)."
-            },
-            {
-                "id": "b",
                 "text": "0"
             },
             {
+                "id": "b",
+                "text": "1 (for binary classification, 50/50 split)."
+            },
+            {
                 "id": "c",
-                "text": "100"
+                "text": "Infinite."
             },
             {
                 "id": "d",
-                "text": "Infinite."
+                "text": "100"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Perfect disorder.",
         "explanation": "If all classes are equally likely, entropy is at its peak."
     },
@@ -630,22 +630,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Euclidean distance is dominated by features with larger scales."
-            },
-            {
-                "id": "b",
                 "text": "It uses more memory."
             },
             {
+                "id": "b",
+                "text": "It handles text better."
+            },
+            {
                 "id": "c",
-                "text": "Model runs faster."
+                "text": "Euclidean distance is dominated by features with larger scales."
             },
             {
                 "id": "d",
-                "text": "It handles text better."
+                "text": "Model runs faster."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Distance calculation bias.",
         "explanation": "Distance between (1,1) and (2,2) is small, but if one feature is in millions, it wins."
     },
@@ -655,11 +655,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Odd number (to avoid ties)."
+                "text": "Zero."
             },
             {
                 "id": "b",
-                "text": "Always 2."
+                "text": "Odd number (to avoid ties)."
             },
             {
                 "id": "c",
@@ -667,10 +667,10 @@
             },
             {
                 "id": "d",
-                "text": "Zero."
+                "text": "Always 2."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Majority vote resolution.",
         "explanation": "Usually found using cross-validation; small K is sensitive to noise."
     },
@@ -680,22 +680,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Feature Selection."
+                "text": "Scaling."
             },
             {
                 "id": "b",
-                "text": "Data collection."
-            },
-            {
-                "id": "c",
                 "text": "Hyperparameter tuning."
             },
             {
+                "id": "c",
+                "text": "Feature Selection."
+            },
+            {
                 "id": "d",
-                "text": "Scaling."
+                "text": "Data collection."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Node selection.",
         "explanation": "They only use the features that actually help split the data."
     },
@@ -709,7 +709,7 @@
             },
             {
                 "id": "b",
-                "text": "The value is 0.7."
+                "text": "Confidence is 7."
             },
             {
                 "id": "c",
@@ -717,7 +717,7 @@
             },
             {
                 "id": "d",
-                "text": "Confidence is 7."
+                "text": "The value is 0.7."
             }
         ],
         "correctOptionId": "a",
@@ -730,11 +730,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Binary Classification (though can be extended)."
+                "text": "Clustering."
             },
             {
                 "id": "b",
-                "text": "Clustering."
+                "text": "Finding averages."
             },
             {
                 "id": "c",
@@ -742,10 +742,10 @@
             },
             {
                 "id": "d",
-                "text": "Finding averages."
+                "text": "Binary Classification (though can be extended)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Two-group separator.",
         "explanation": "Can handle multiple classes using One-vs-One or One-vs-Rest strategies."
     }

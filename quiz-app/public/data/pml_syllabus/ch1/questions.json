@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Supervised uses labeled data; Unsupervised uses unlabeled data."
+                "text": "Unsupervised learning is faster and requires less computational power"
             },
             {
                 "id": "b",
-                "text": "Unsupervised is faster."
+                "text": "Supervised learning uses labeled data while Unsupervised uses unlabeled data"
             },
             {
                 "id": "c",
-                "text": "Supervised is only for regression."
+                "text": "Supervised learning is exclusively designed for regression tasks"
             },
             {
                 "id": "d",
-                "text": "No difference."
+                "text": "Both approaches use the same training methodology"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Presence of target labels.",
         "explanation": "Supervised learning maps inputs to known outputs, while Unsupervised finds patterns in raw data."
     },
@@ -30,22 +30,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The process of selecting, manipulating, and transforming raw data into features that act as better inputs for ML models."
+                "text": "Managing and organizing engineering teams in software projects"
             },
             {
                 "id": "b",
-                "text": "Building the computer hardware."
+                "text": "Building and configuring computer hardware for ML applications"
             },
             {
                 "id": "c",
-                "text": "Managing a team of engineers."
+                "text": "Selecting, manipulating, and transforming raw data into better features for ML models"
             },
             {
                 "id": "d",
-                "text": "Deleting data."
+                "text": "Removing unnecessary data points from the dataset"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Data preparation.",
         "explanation": "Good feature engineering is often the key to high model performance."
     },
@@ -55,22 +55,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Transforming features to a similar range (e.g., 0 to 1) so no single feature dominates calculations."
+                "text": "Increasing the resolution of images in the dataset"
             },
             {
                 "id": "b",
-                "text": "Making images larger."
+                "text": "Removing outliers that fall outside acceptable ranges"
             },
             {
                 "id": "c",
-                "text": "Removing outliers."
+                "text": "Adding more samples to increase dataset size"
             },
             {
                 "id": "d",
-                "text": "Adding more rows."
+                "text": "Transforming features to similar ranges so no single feature dominates"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Standardization / Normalization.",
         "explanation": "Algorithms like KNN and SVM are sensitive to the magnitude of features."
     },
@@ -80,22 +80,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Principal Component Analysis."
+                "text": "Primary Color Adjustment"
             },
             {
                 "id": "b",
-                "text": "Primary Color Adjustment."
+                "text": "Personal Code Assistant"
             },
             {
                 "id": "c",
-                "text": "Private Cloud Access."
+                "text": "Principal Component Analysis"
             },
             {
                 "id": "d",
-                "text": "Personal Code Assistant."
+                "text": "Private Cloud Access"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Dimensionality reduction.",
         "explanation": "PCA reduces the number of variables by creating new, uncorrelated components."
     },
@@ -105,22 +105,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Visualizing high-dimensional data in 2D or 3D space."
+                "text": "Building and training regression models"
             },
             {
                 "id": "b",
-                "text": "Building regression models."
+                "text": "Visualizing high-dimensional data in 2D or 3D space"
             },
             {
                 "id": "c",
-                "text": "Sorting emails."
+                "text": "Compressing data for efficient storage"
             },
             {
                 "id": "d",
-                "text": "Data compression."
+                "text": "Classifying and filtering email messages"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Visualization tool.",
         "explanation": "Non-linear dimensionality reduction technique particularly well-suited for embedding high-dim data for visualization."
     },
@@ -130,22 +130,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Predicting the stock price for tomorrow."
+                "text": "Grouping similar news articles together"
             },
             {
                 "id": "b",
-                "text": "Identifying an email as spam or not."
+                "text": "Identifying whether an email is spam or not"
             },
             {
                 "id": "c",
-                "text": "Grouping similar news articles."
+                "text": "Predicting tomorrow's stock price"
             },
             {
                 "id": "d",
-                "text": "Recognizing faces."
+                "text": "Recognizing faces in photographs"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Predicting a continuous value.",
         "explanation": "Regression predicts a real number, while classification predicts a category."
     },
@@ -155,22 +155,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Predicting if a patient has a disease based on symptoms."
+                "text": "Calculating the lifetime value of a customer"
             },
             {
                 "id": "b",
-                "text": "Estimating house prices."
+                "text": "Estimating house prices based on features"
             },
             {
                 "id": "c",
-                "text": "Calculating customer lifetime value."
+                "text": "Finding hidden patterns in DNA sequences"
             },
             {
                 "id": "d",
-                "text": "Finding patterns in DNA."
+                "text": "Predicting if a patient has a disease based on symptoms"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Predicting a discrete label.",
         "explanation": "Assigning an input to one of the predefined classes."
     },
@@ -180,22 +180,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Transforming data to have a mean of 0 and standard deviation of 1."
+                "text": "Converting all values to binary (0 or 1)"
             },
             {
                 "id": "b",
-                "text": "Setting all values to 1 or 0."
+                "text": "Transforming data to have mean of 0 and standard deviation of 1"
             },
             {
                 "id": "c",
-                "text": "Removing all negatives."
+                "text": "Creating new features from existing ones"
             },
             {
                 "id": "d",
-                "text": "Adding new features."
+                "text": "Removing all negative values from the dataset"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Mean centering.",
         "explanation": "Formula: (x - mean) / std_dev."
     },
@@ -205,22 +205,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Curse of Dimensionality (model becomes overfitted or computationally expensive)."
+                "text": "The model trains significantly faster"
             },
             {
                 "id": "b",
-                "text": "Model becomes too fast."
+                "text": "The dataset becomes too small to use"
             },
             {
                 "id": "c",
-                "text": "Data becomes too small."
+                "text": "There is no noticeable effect on performance"
             },
             {
                 "id": "d",
-                "text": "No effect."
+                "text": "Curse of Dimensionality - model becomes overfitted or computationally expensive"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Too many variables.",
         "explanation": "High-dimensional space makes samples very sparse and distance metrics lose meaning."
     },
@@ -230,22 +230,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Filling in missing values in a dataset."
+                "text": "Exporting data to external systems"
             },
             {
                 "id": "b",
-                "text": "Deleting wrong values."
+                "text": "Sorting data in ascending or descending order"
             },
             {
                 "id": "c",
-                "text": "Exporting data."
+                "text": "Deleting rows with incorrect values"
             },
             {
                 "id": "d",
-                "text": "Sorting data."
+                "text": "Filling in missing values in a dataset"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Handling NaNs.",
         "explanation": "Can use mean, median, mode, or more complex methods like KNN imputation."
     },
@@ -255,22 +255,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Categorical variables."
+                "text": "Continuous numerical variables"
             },
             {
                 "id": "b",
-                "text": "Continuous numbers."
+                "text": "Image and video data"
             },
             {
                 "id": "c",
-                "text": "Images."
+                "text": "Categorical variables"
             },
             {
                 "id": "d",
-                "text": "Audio files."
+                "text": "Audio file processing"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Converting text labels to binary vectors.",
         "explanation": "Avoids imposing an artificial order on nominal categories (like Colors)."
     },
@@ -280,22 +280,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Assigning a unique integer to each category (e.g., Red=1, Green=2)."
+                "text": "Writing descriptive labels on data containers"
             },
             {
                 "id": "b",
-                "text": "Writing labels on a box."
+                "text": "Encrypting labels for security purposes"
             },
             {
                 "id": "c",
-                "text": "Deleting labels."
+                "text": "Removing all labels from the dataset"
             },
             {
                 "id": "d",
-                "text": "Encrypting labels."
+                "text": "Assigning a unique integer to each category (e.g., Red=1, Green=2)"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Integers for categories.",
         "explanation": "Good for ordinal data where the order matters (e.g., Small=1, Medium=2, Large=3)."
     },
@@ -305,22 +305,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Scaling data to a fixed range, usually 0 to 1."
+                "text": "Identifying the smallest and largest values only"
             },
             {
                 "id": "b",
-                "text": "Finding the smallest and largest values."
+                "text": "Scaling data to a fixed range, usually 0 to 1"
             },
             {
                 "id": "c",
-                "text": "Deleting extremes."
+                "text": "Squaring all values in the dataset"
             },
             {
                 "id": "d",
-                "text": "Squaring all values."
+                "text": "Removing extreme values from the dataset"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Normalizing.",
         "explanation": "Formula: (x - min) / (max - min)."
     },
@@ -330,44 +330,44 @@
         "options": [
             {
                 "id": "a",
-                "text": "Customer Segmentation using Clustering."
+                "text": "Handwritten digit recognition using labeled images"
             },
             {
                 "id": "b",
-                "text": "Handwritten digit recognition."
+                "text": "Predicting house prices from historical data"
             },
             {
                 "id": "c",
-                "text": "House price prediction."
+                "text": "Customer Segmentation using Clustering"
             },
             {
                 "id": "d",
-                "text": "Spam filtering."
+                "text": "Filtering spam emails based on training examples"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Grouping without labels.",
         "explanation": "Clustering finds natural groupings in data without human-provided labels."
     },
     {
         "id": "pml_ch1_15",
-        "text": "What is a 'Outlier'?",
+        "text": "What is an 'Outlier'?",
         "options": [
             {
                 "id": "a",
-                "text": "A data point that differs significantly from other observations."
+                "text": "A data point that differs significantly from other observations"
             },
             {
                 "id": "b",
-                "text": "A point that is 0."
+                "text": "A data point with a value of exactly zero"
             },
             {
                 "id": "c",
-                "text": "Correct data."
+                "text": "Any missing value in the dataset"
             },
             {
                 "id": "d",
-                "text": "A missing value."
+                "text": "A correctly measured and validated data point"
             }
         ],
         "correctOptionId": "a",
@@ -380,22 +380,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Variance."
+                "text": "Training speed and efficiency"
             },
             {
                 "id": "b",
-                "text": "Loss."
+                "text": "The total size of the dataset"
             },
             {
                 "id": "c",
-                "text": "Speed."
+                "text": "Variance captured by components"
             },
             {
                 "id": "d",
-                "text": "Data size."
+                "text": "The loss function value"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Preserving information.",
         "explanation": "PCA finds components that capture the most variance (information) in the data."
     },
@@ -405,22 +405,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Reinforcement Learning."
+                "text": "Supervised Learning with labeled examples"
             },
             {
                 "id": "b",
-                "text": "Supervised Learning."
+                "text": "Reinforcement Learning through trial and error"
             },
             {
                 "id": "c",
-                "text": "Classification."
+                "text": "Classification with categorical outputs"
             },
             {
                 "id": "d",
-                "text": "Preprocessing."
+                "text": "Data preprocessing and feature engineering"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Learning from interaction.",
         "explanation": "An agent learns by trial and error in an environment."
     },
@@ -430,22 +430,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Principle that poor quality input data leads to poor quality model output."
+                "text": "A file management system for deleting temporary files"
             },
             {
                 "id": "b",
-                "text": "Deleting trash files."
+                "text": "Principle that poor quality input data leads to poor quality model output"
             },
             {
                 "id": "c",
-                "text": "Recycling computers."
+                "text": "A recycling program for old computer hardware"
             },
             {
                 "id": "d",
-                "text": "Cleaning the office."
+                "text": "A method for cleaning office workspaces"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Importance of data quality.",
         "explanation": "No matter how good the algorithm, bad data results in a bad model."
     },
@@ -455,22 +455,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Summarizing and visualizing data to understand it before modeling."
+                "text": "Collecting new data from various sources"
             },
             {
                 "id": "b",
-                "text": "Building a model."
+                "text": "Building and training the final model"
             },
             {
                 "id": "c",
-                "text": "Collecting data."
+                "text": "Permanently deleting unnecessary data"
             },
             {
                 "id": "d",
-                "text": "Deleting data."
+                "text": "Summarizing and visualizing data to understand it before modeling"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Understanding the data.",
         "explanation": "Helps find patterns, outliers, and relationships."
     },
@@ -480,19 +480,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "The optimal number of clusters (K)."
+                "text": "The optimal number of clusters (K)"
             },
             {
                 "id": "b",
-                "text": "The best weights."
+                "text": "The best model weights and parameters"
             },
             {
                 "id": "c",
-                "text": "Missing values."
+                "text": "Missing values in the dataset"
             },
             {
                 "id": "d",
-                "text": "Errors."
+                "text": "The total error rate of predictions"
             }
         ],
         "correctOptionId": "a",
@@ -505,22 +505,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The direction of the principal component."
+                "text": "The total number of rows in the dataset"
             },
             {
                 "id": "b",
-                "text": "The magnitude of the variance."
+                "text": "The direction of the principal component"
             },
             {
                 "id": "c",
-                "text": "The number of rows."
+                "text": "The magnitude of variance explained"
             },
             {
                 "id": "d",
-                "text": "The error rate."
+                "text": "The overall error rate of the model"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Direction.",
         "explanation": "Eigenvectors define the axes of the new component space."
     },
@@ -530,22 +530,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Amount of variance captured by the corresponding eigenvector."
+                "text": "The total number of columns in the dataset"
             },
             {
                 "id": "b",
-                "text": "Number of columns."
+                "text": "The computational speed of the algorithm"
             },
             {
                 "id": "c",
-                "text": "Speed of computation."
+                "text": "Amount of variance captured by the corresponding eigenvector"
             },
             {
                 "id": "d",
-                "text": "Memory use."
+                "text": "The memory usage during processing"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Strength of component.",
         "explanation": "Higher eigenvalues mean that component explains more variance."
     },
@@ -555,22 +555,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Scikit-Learn."
+                "text": "Requests for HTTP communication"
             },
             {
                 "id": "b",
-                "text": "Requests."
+                "text": "Django for web development"
             },
             {
                 "id": "c",
-                "text": "Django."
+                "text": "Scikit-Learn for machine learning"
             },
             {
                 "id": "d",
-                "text": "OpenCV."
+                "text": "OpenCV for computer vision"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "The 'sklearn' tool.",
         "explanation": "Industry standard for classical ML algorithms and preprocessing."
     },
@@ -580,19 +580,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "PCA"
+                "text": "Only PCA (Principal Component Analysis)"
             },
             {
                 "id": "b",
-                "text": "LDA (Linear Discriminant Analysis)"
+                "text": "Only LDA (Linear Discriminant Analysis)"
             },
             {
                 "id": "c",
-                "text": "SVD (Singular Value Decomposition)"
+                "text": "Only SVD (Singular Value Decomposition)"
             },
             {
                 "id": "d",
-                "text": "All of the above"
+                "text": "All of the above techniques"
             }
         ],
         "correctOptionId": "d",
@@ -605,22 +605,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "When information from outside the training dataset is used to create the model."
+                "text": "Losing data due to storage failures"
             },
             {
                 "id": "b",
-                "text": "Losing data."
+                "text": "Water damage to server hardware"
             },
             {
                 "id": "c",
-                "text": "Water in server."
+                "text": "When information from outside the training dataset is used to create the model"
             },
             {
                 "id": "d",
-                "text": "Public data."
+                "text": "Using publicly available datasets"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Information bleed.",
         "explanation": "Data leakage leads to unrealistically high performance during testing."
     },
@@ -630,22 +630,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Train builds model; Test evaluates it on unseen data."
+                "text": "Training is always the first half, test is the last half"
             },
             {
                 "id": "b",
-                "text": "Train is the first half; Test is last half."
+                "text": "Training contains features while test contains only labels"
             },
             {
                 "id": "c",
-                "text": "No difference."
+                "text": "There is no meaningful difference between them"
             },
             {
                 "id": "d",
-                "text": "Train is for labels; Test is for features."
+                "text": "Training builds the model, test evaluates it on unseen data"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Evaluation strategy.",
         "explanation": "Must keep them separate to measure generalization."
     },
@@ -655,22 +655,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "K-Nearest Neighbors (KNN)."
+                "text": "Decision Trees and Random Forests"
             },
             {
                 "id": "b",
-                "text": "Decision Trees."
+                "text": "K-Nearest Neighbors (KNN)"
             },
             {
                 "id": "c",
-                "text": "Weighted random."
+                "text": "Weighted random selection"
             },
             {
                 "id": "d",
-                "text": "Manual rules."
+                "text": "Manual rule-based systems"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Distance based.",
         "explanation": "Algorithms calculating distances are heavily affected by feature magnitude."
     },
@@ -680,22 +680,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Choosing the most relevant features and discarding redundant ones."
+                "text": "Downloading features from external sources"
             },
             {
                 "id": "b",
-                "text": "Downloading features."
+                "text": "Calculating new features from existing ones"
             },
             {
                 "id": "c",
-                "text": "Calculating features."
+                "text": "Choosing the most relevant features and discarding redundant ones"
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "Selecting none of the available features"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Keeping only useful cols.",
         "explanation": "Simplifies models and improves performance."
     },
@@ -705,22 +705,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Categorical without implied order (e.g., Hair color)."
+                "text": "A continuous numerical measurement"
             },
             {
                 "id": "b",
-                "text": "Continuous number."
+                "text": "An integer-only data type"
             },
             {
                 "id": "c",
-                "text": "Integer only."
+                "text": "A sorted list of values"
             },
             {
                 "id": "d",
-                "text": "Sorted list."
+                "text": "Categorical without implied order (e.g., Hair color)"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Name only.",
         "explanation": "Should be One-Hot encoded."
     },
@@ -730,22 +730,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Categorical with a clear order (e.g., High, Medium, Low)."
+                "text": "A number strictly between 0 and 1"
             },
             {
                 "id": "b",
-                "text": "A number between 0 and 1."
+                "text": "Categorical with a clear order (e.g., High, Medium, Low)"
             },
             {
                 "id": "c",
-                "text": "Random labels."
+                "text": "A collection of random labels"
             },
             {
                 "id": "d",
-                "text": "Unordered data."
+                "text": "Completely unordered data"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Order matters.",
         "explanation": "Can be Label Encoded to preserve hierarchy."
     }

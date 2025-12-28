@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Model that assumes a linear relationship between input (X) and output (Y) variables."
-            },
-            {
-                "id": "b",
-                "text": "Sorting numbers."
-            },
-            {
-                "id": "c",
                 "text": "Drawing a curve."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "Finding the average."
+            },
+            {
+                "id": "c",
+                "text": "Sorting numbers."
+            },
+            {
+                "id": "d",
+                "text": "Model that assumes a linear relationship between input (X) and output (Y) variables."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "y = mx + c.",
         "explanation": "Simplest regression model used for predictive modeling."
     },
@@ -30,22 +30,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Slope (weight/coefficient)."
-            },
-            {
-                "id": "b",
                 "text": "Intercept."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Error."
+            },
+            {
+                "id": "c",
+                "text": "Slope (weight/coefficient)."
             },
             {
                 "id": "d",
                 "text": "Input value."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Rate of change.",
         "explanation": "Tells us how much Y changes for a unit increase in X."
     },
@@ -55,11 +55,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Y-intercept (bias)."
+                "text": "The result."
             },
             {
                 "id": "b",
-                "text": "Slope."
+                "text": "Y-intercept (bias)."
             },
             {
                 "id": "c",
@@ -67,10 +67,10 @@
             },
             {
                 "id": "d",
-                "text": "The result."
+                "text": "Slope."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Value when x=0.",
         "explanation": "The value of Y when X is zero."
     },
@@ -80,7 +80,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "A method for estimating the parameters by minimizing the sum of rounded squares of differences."
+                "text": "None."
             },
             {
                 "id": "b",
@@ -92,10 +92,10 @@
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "A method for estimating the parameters by minimizing the sum of rounded squares of differences."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Minimizing Residuals.",
         "explanation": "Finds the line that minimizes the total distance (squared) from all data points."
     },
@@ -105,22 +105,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Regression that models non-linear relationships by including powers of the independent variables (e.g., x^2, x^3)."
+                "text": "Linear model only."
             },
             {
                 "id": "b",
-                "text": "Regression with many people."
+                "text": "Regression that models non-linear relationships by including powers of the independent variables (e.g., x^2, x^3)."
             },
             {
                 "id": "c",
-                "text": "Calculating averages."
+                "text": "Regression with many people."
             },
             {
                 "id": "d",
-                "text": "Linear model only."
+                "text": "Calculating averages."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Modeling curves.",
         "explanation": "Useful for capturing curved trends in data."
     },
@@ -130,7 +130,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "When the model is too complex and follows the noise in training data instead of the trend."
+                "text": "When data is small."
             },
             {
                 "id": "b",
@@ -142,10 +142,10 @@
             },
             {
                 "id": "d",
-                "text": "When data is small."
+                "text": "When the model is too complex and follows the noise in training data instead of the trend."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "High variance.",
         "explanation": "The model has high accuracy on training set but fails on test set."
     },
@@ -155,11 +155,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "When the model is too simple to capture the underlying trend (e.g., using line for a curve)."
+                "text": "Too many features."
             },
             {
                 "id": "b",
-                "text": "Too many features."
+                "text": "When the model is too simple to capture the underlying trend (e.g., using line for a curve)."
             },
             {
                 "id": "c",
@@ -170,7 +170,7 @@
                 "text": "Using too much power."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "High bias.",
         "explanation": "Poor performance on both training and test data."
     },
@@ -184,11 +184,11 @@
             },
             {
                 "id": "b",
-                "text": "To speed up training."
+                "text": "To make model larger."
             },
             {
                 "id": "c",
-                "text": "To make model larger."
+                "text": "To speed up training."
             },
             {
                 "id": "d",
@@ -205,22 +205,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Regularization that adds 'absolute value of weights' as penalty."
-            },
-            {
-                "id": "b",
                 "text": "Regularization with squares."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "No penalty."
+            },
+            {
+                "id": "c",
+                "text": "Regularization that adds 'absolute value of weights' as penalty."
             },
             {
                 "id": "d",
                 "text": "Binary regression."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Sparcity.",
         "explanation": "Can shrink some weights to exactly ZERO, effectively doing feature selection."
     },
@@ -230,22 +230,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Regularization that adds 'squared magnitude of weights' as penalty."
-            },
-            {
-                "id": "b",
-                "text": "Deleting weights."
-            },
-            {
-                "id": "c",
                 "text": "Regularization with ABS."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "Linear only."
+            },
+            {
+                "id": "c",
+                "text": "Deleting weights."
+            },
+            {
+                "id": "d",
+                "text": "Regularization that adds 'squared magnitude of weights' as penalty."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Shrinkage.",
         "explanation": "Shrinks weights towards zero but rarely makes them exactly zero."
     },
@@ -255,11 +255,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Combining L1 (Lasso) and L2 (Ridge) penalties."
+                "text": "A network cable."
             },
             {
                 "id": "b",
-                "text": "A network cable."
+                "text": "Combining L1 (Lasso) and L2 (Ridge) penalties."
             },
             {
                 "id": "c",
@@ -270,7 +270,7 @@
                 "text": "No regularization."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Best of both worlds.",
         "explanation": "Uses a weighted sum of both penalties."
     },
@@ -280,11 +280,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Average of absolute differences between predicted and actual values."
+                "text": "Count of errors."
             },
             {
                 "id": "b",
-                "text": "Average of squares."
+                "text": "Average of absolute differences between predicted and actual values."
             },
             {
                 "id": "c",
@@ -292,10 +292,10 @@
             },
             {
                 "id": "d",
-                "text": "Count of errors."
+                "text": "Average of squares."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Robust error metric.",
         "explanation": "It's in the same unit as the output and less sensitive to outliers than MSE."
     },
@@ -305,22 +305,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Average of squared differences between predicted and actual values."
+                "text": "Total error."
             },
             {
                 "id": "b",
-                "text": "Square root of error."
+                "text": "Average of squared differences between predicted and actual values."
             },
             {
                 "id": "c",
-                "text": "Median error."
+                "text": "Square root of error."
             },
             {
                 "id": "d",
-                "text": "Total error."
+                "text": "Median error."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Sensitive to outliers.",
         "explanation": "Penalizes large errors heavily due to squaring."
     },
@@ -330,22 +330,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Square root of MSE."
-            },
-            {
-                "id": "b",
                 "text": "Sum of errors."
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Total error rate."
+            },
+            {
+                "id": "c",
+                "text": "Square root of MSE."
             },
             {
                 "id": "d",
                 "text": "Zero error."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Common metric.",
         "explanation": "Standard deviation of residuals; has the same units as the dependent variable."
     },
@@ -363,11 +363,11 @@
             },
             {
                 "id": "c",
-                "text": "The number of rows."
+                "text": "The error rate."
             },
             {
                 "id": "d",
-                "text": "The error rate."
+                "text": "The number of rows."
             }
         ],
         "correctOptionId": "a",
@@ -384,7 +384,7 @@
             },
             {
                 "id": "b",
-                "text": "Remaining data."
+                "text": "Binary labels."
             },
             {
                 "id": "c",
@@ -392,7 +392,7 @@
             },
             {
                 "id": "d",
-                "text": "Binary labels."
+                "text": "Remaining data."
             }
         ],
         "correctOptionId": "a",
@@ -405,22 +405,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "When two or more independent variables are highly correlated with each other."
+                "text": "No correlation."
             },
             {
                 "id": "b",
-                "text": "Having many lines."
-            },
-            {
-                "id": "c",
                 "text": "Multiple results."
             },
             {
+                "id": "c",
+                "text": "When two or more independent variables are highly correlated with each other."
+            },
+            {
                 "id": "d",
-                "text": "No correlation."
+                "text": "Having many lines."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Inter-feature dependency.",
         "explanation": "Can make coefficient estimates unstable and unreliable."
     },
@@ -430,7 +430,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Balancing underfitting (high bias) and overfitting (high variance)."
+                "text": "None."
             },
             {
                 "id": "b",
@@ -438,14 +438,14 @@
             },
             {
                 "id": "c",
-                "text": "A financial deal."
+                "text": "Balancing underfitting (high bias) and overfitting (high variance)."
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "A financial deal."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Model complexity balance.",
         "explanation": "The 'sweet spot' is where total error (Bias^2 + Variance + Noise) is minimized."
     },
@@ -480,11 +480,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "Homoscedasticity (constant variance of residuals)."
+                "text": "Labels must be binary."
             },
             {
                 "id": "b",
-                "text": "Errors must be zero."
+                "text": "Homoscedasticity (constant variance of residuals)."
             },
             {
                 "id": "c",
@@ -492,10 +492,10 @@
             },
             {
                 "id": "d",
-                "text": "Labels must be binary."
+                "text": "Errors must be zero."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Constant variance.",
         "explanation": "If variance of errors changes, the model might be unreliable for certain ranges."
     },
@@ -505,7 +505,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Squared Loss (MSE)."
+                "text": "Hinge Loss."
             },
             {
                 "id": "b",
@@ -513,14 +513,14 @@
             },
             {
                 "id": "c",
-                "text": "Binary Cross Entropy."
+                "text": "Squared Loss (MSE)."
             },
             {
                 "id": "d",
-                "text": "Hinge Loss."
+                "text": "Binary Cross Entropy."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Least Squares.",
         "explanation": "OLS is the standard algorithm."
     },
@@ -534,15 +534,15 @@
             },
             {
                 "id": "b",
-                "text": "Running the model twice."
-            },
-            {
-                "id": "c",
                 "text": "Predicting multiple outputs."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "None."
+            },
+            {
+                "id": "d",
+                "text": "Running the model twice."
             }
         ],
         "correctOptionId": "a",
@@ -555,22 +555,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "90% of variance in target is explained by the model features."
+                "text": "Speed is 90%."
             },
             {
                 "id": "b",
-                "text": "Model is 90% accurate in classification."
+                "text": "90% of variance in target is explained by the model features."
             },
             {
                 "id": "c",
-                "text": "Error is 90%."
+                "text": "Model is 90% accurate in classification."
             },
             {
                 "id": "d",
-                "text": "Speed is 90%."
+                "text": "Error is 90%."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Variance explained.",
         "explanation": "Generally indicates a good fit."
     },
@@ -584,15 +584,15 @@
             },
             {
                 "id": "b",
-                "text": "R2 rounded up."
-            },
-            {
-                "id": "c",
                 "text": "R2 for small data."
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Same as R2."
+            },
+            {
+                "id": "d",
+                "text": "R2 rounded up."
             }
         ],
         "correctOptionId": "a",
@@ -605,22 +605,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Normality of error distribution."
-            },
-            {
-                "id": "b",
                 "text": "Color of data."
             },
             {
+                "id": "b",
+                "text": "Normality of error distribution."
+            },
+            {
                 "id": "c",
-                "text": "If data is binary."
+                "text": "Speed of training."
             },
             {
                 "id": "d",
-                "text": "Speed of training."
+                "text": "If data is binary."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Gaussian residuals.",
         "explanation": "Standard regression assumes errors are normally distributed."
     },
@@ -630,11 +630,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "To make the distribution more normal (Gaussian)."
+                "text": "No reason."
             },
             {
                 "id": "b",
-                "text": "To make numbers smaller."
+                "text": "To make the distribution more normal (Gaussian)."
             },
             {
                 "id": "c",
@@ -642,10 +642,10 @@
             },
             {
                 "id": "d",
-                "text": "No reason."
+                "text": "To make numbers smaller."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Handling skewness.",
         "explanation": "Many models perform better when target is normally distributed."
     },
@@ -655,7 +655,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "A feature created by multiplying two different features together."
+                "text": "Adding weights."
             },
             {
                 "id": "b",
@@ -667,10 +667,10 @@
             },
             {
                 "id": "d",
-                "text": "Adding weights."
+                "text": "A feature created by multiplying two different features together."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Feature synergy.",
         "explanation": "Captures if the effect of one feature depends on the level of another."
     },
@@ -680,11 +680,11 @@
         "options": [
             {
                 "id": "a",
-                "text": "It can handle very large datasets that don't fit in memory."
+                "text": "It is more accurate."
             },
             {
                 "id": "b",
-                "text": "It is more accurate."
+                "text": "It uses no math."
             },
             {
                 "id": "c",
@@ -692,10 +692,10 @@
             },
             {
                 "id": "d",
-                "text": "It uses no math."
+                "text": "It can handle very large datasets that don't fit in memory."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Scale of data.",
         "explanation": "OLS formula (X^T X)^-1 is expensive for massive feature sets."
     },
@@ -705,22 +705,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Lasso (L1)."
-            },
-            {
-                "id": "b",
-                "text": "Ridge (L2)."
-            },
-            {
-                "id": "c",
                 "text": "No regularization."
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "Sorting."
+            },
+            {
+                "id": "c",
+                "text": "Lasso (L1)."
+            },
+            {
+                "id": "d",
+                "text": "Ridge (L2)."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Feature selection property.",
         "explanation": "Lasso shrinks unimportant feature coefficients to exactly zero."
     },
@@ -730,7 +730,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "The accuracy of predictions (spread of data around regression line)."
+                "text": "Number of points."
             },
             {
                 "id": "b",
@@ -738,14 +738,14 @@
             },
             {
                 "id": "c",
-                "text": "Number of points."
+                "text": "The accuracy of predictions (spread of data around regression line)."
             },
             {
                 "id": "d",
                 "text": "Weight value."
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Prediction uncertainty.",
         "explanation": "Typical distance that the observed values fall from the regression line."
     }

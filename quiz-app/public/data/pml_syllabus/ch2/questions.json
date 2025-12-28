@@ -5,22 +5,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Task of grouping a set of objects such that objects in the same group are more similar to each other than to those in other groups."
+                "text": "Predicting continuous numerical values"
             },
             {
                 "id": "b",
-                "text": "Predicting numbers."
+                "text": "Assigning predefined labels to data points"
             },
             {
                 "id": "c",
-                "text": "Labeling data."
+                "text": "Grouping objects so those in the same group are more similar than those in other groups"
             },
             {
                 "id": "d",
-                "text": "Sorting data."
+                "text": "Sorting data in chronological order"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Unsupervised task.",
         "explanation": "No labels are provided; the algorithm finds natural patterns."
     },
@@ -30,22 +30,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "It iteratively moves centroids to the center of clusters and reassigns points."
+                "text": "It builds a hierarchical tree structure"
             },
             {
                 "id": "b",
-                "text": "It builds a tree."
+                "text": "It uses a voting system from nearest neighbors"
             },
             {
                 "id": "c",
-                "text": "It uses a voting system."
+                "text": "It iteratively moves centroids to cluster centers and reassigns points"
             },
             {
                 "id": "d",
-                "text": "It calculates gradients."
+                "text": "It calculates gradients for optimization"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Centroid-based.",
         "explanation": "Highly efficient but requires pre-specifying 'K'."
     },
@@ -55,22 +55,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Number of clusters desired."
+                "text": "Number of features in the dataset"
             },
             {
                 "id": "b",
-                "text": "Number of columns."
+                "text": "A constant value always set to 10"
             },
             {
                 "id": "c",
-                "text": "A constant value of 10."
+                "text": "Total number of data points"
             },
             {
                 "id": "d",
-                "text": "Total number of data points."
+                "text": "Number of clusters desired"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Hyperparameter.",
         "explanation": "Determines how many groups the data will be split into."
     },
@@ -80,22 +80,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A method that seeks to build a hierarchy of clusters (often shown as a Dendrogram)."
+                "text": "A clustering method designed for management hierarchies"
             },
             {
                 "id": "b",
-                "text": "Clustering for bosses."
+                "text": "An optimized version of K-Means for speed"
             },
             {
                 "id": "c",
-                "text": "Faster K-Means."
+                "text": "A method that builds a hierarchy of clusters shown as a Dendrogram"
             },
             {
                 "id": "d",
-                "text": "A flat clustering."
+                "text": "A flat clustering with no structure"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Tree-like structure.",
         "explanation": "Can be Agglomerative (bottom-up) or Divisive (top-down)."
     },
@@ -105,19 +105,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "A tree diagram representing the arrangement of clusters produced by hierarchical clustering."
+                "text": "A tree diagram representing hierarchical clustering arrangement"
             },
             {
                 "id": "b",
-                "text": "A type of graph for regression."
+                "text": "A type of scatter plot for regression"
             },
             {
                 "id": "c",
-                "text": "A pie chart."
+                "text": "A circular pie chart visualization"
             },
             {
                 "id": "d",
-                "text": "A unit of memory."
+                "text": "A unit of computer memory"
             }
         ],
         "correctOptionId": "a",
@@ -130,22 +130,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Density-Based Spatial Clustering of Applications with Noise."
+                "text": "Deep Binary Scanning Algorithm"
             },
             {
                 "id": "b",
-                "text": "Deep Binary Scan."
+                "text": "Database Scanning for Clusters"
             },
             {
                 "id": "c",
-                "text": "Database Scan."
+                "text": "Density-Based Spatial Clustering of Applications with Noise"
             },
             {
                 "id": "d",
-                "text": "Distance Based Scan."
+                "text": "Distance-Based Scanning Method"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Density-based.",
         "explanation": "Finds arbitrarily shaped clusters and identifies noise (outliers)."
     },
@@ -155,19 +155,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Doesn't require pre-specifying the number of clusters."
+                "text": "Doesn't require pre-specifying number of clusters"
             },
             {
                 "id": "b",
-                "text": "Can find non-spherical clusters."
+                "text": "Can find non-spherical clusters"
             },
             {
                 "id": "c",
-                "text": "Identifies outliers automatically."
+                "text": "Identifies outliers automatically"
             },
             {
                 "id": "d",
-                "text": "All of the above."
+                "text": "All of the above"
             }
         ],
         "correctOptionId": "d",
@@ -180,22 +180,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Maximum distance between two samples for one to be considered in neighborhood of another."
+                "text": "The total number of clusters to create"
             },
             {
                 "id": "b",
-                "text": "Number of clusters."
+                "text": "Maximum distance between samples for neighborhood consideration"
             },
             {
                 "id": "c",
-                "text": "Starting point."
+                "text": "The initial starting point for clustering"
             },
             {
                 "id": "d",
-                "text": "Error rate."
+                "text": "The acceptable error rate threshold"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Radius of neighborhood.",
         "explanation": "Controls the 'reach' of the density search."
     },
@@ -205,19 +205,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Sum of squared distances between each point and its centroid."
+                "text": "Sum of squared distances between each point and its centroid"
             },
             {
                 "id": "b",
-                "text": "Total variance."
+                "text": "Total variance across all features"
             },
             {
                 "id": "c",
-                "text": "Mean of clusters."
+                "text": "Mean value of all clusters"
             },
             {
                 "id": "d",
-                "text": "Accuracy score."
+                "text": "Classification accuracy score"
             }
         ],
         "correctOptionId": "a",
@@ -230,22 +230,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Measure of how similar an object is to its own cluster compared to other clusters."
+                "text": "Count of empty clusters in the result"
             },
             {
                 "id": "b",
-                "text": "Count of empty clusters."
+                "text": "Measure of how similar an object is to its own cluster vs other clusters"
             },
             {
                 "id": "c",
-                "text": "Speed of code."
+                "text": "Execution speed of the clustering algorithm"
             },
             {
                 "id": "d",
-                "text": "The depth of a tree."
+                "text": "The maximum depth of a decision tree"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Distance between clusters.",
         "explanation": "Ranges from -1 (wrong) to +1 (perfectly matched)."
     },
@@ -255,22 +255,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Bottom-up approach where each point starts as a cluster and merges."
+                "text": "Top-down approach starting with one cluster"
             },
             {
                 "id": "b",
-                "text": "Top-down approach."
+                "text": "Random assignment of cluster labels"
             },
             {
                 "id": "c",
-                "text": "Random clustering."
+                "text": "Bottom-up approach where each point starts as a cluster and merges"
             },
             {
                 "id": "d",
-                "text": "Using centroids only."
+                "text": "Using only centroids for clustering"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Merging clusters.",
         "explanation": "Most common type of hierarchical clustering."
     },
@@ -280,22 +280,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The rule used to calculate distance between two clusters (e.g., ward, single, complete)."
+                "text": "Connecting computers in a network"
             },
             {
                 "id": "b",
-                "text": "Joining computers."
+                "text": "The rule to calculate distance between clusters (e.g., ward, single, complete)"
             },
             {
                 "id": "c",
-                "text": "Loading data."
+                "text": "Loading data from external sources"
             },
             {
                 "id": "d",
-                "text": "Deleting clusters."
+                "text": "Removing clusters from the result"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "How to measure cluster distance.",
         "explanation": "'Single' uses the closest points; 'Complete' uses the furthest."
     },
@@ -305,19 +305,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Outliers."
+                "text": "Outliers in the data"
             },
             {
                 "id": "b",
-                "text": "Initial choice of centroids."
+                "text": "Initial choice of centroids"
             },
             {
                 "id": "c",
-                "text": "Scaling of features."
+                "text": "Scaling of features"
             },
             {
                 "id": "d",
-                "text": "All of the above."
+                "text": "All of the above"
             }
         ],
         "correctOptionId": "d",
@@ -330,22 +330,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The center of a cluster (average of all points in it)."
+                "text": "A type of autonomous robot"
             },
             {
                 "id": "b",
-                "text": "A type of robot."
+                "text": "The first data point in the dataset"
             },
             {
                 "id": "c",
-                "text": "The first data point."
+                "text": "The center of a cluster (average of all points in it)"
             },
             {
                 "id": "d",
-                "text": "A rejected point."
+                "text": "A rejected or outlier point"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Geographic center.",
         "explanation": "Represents the cluster prototype."
     },
@@ -355,22 +355,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Elbow."
+                "text": "Knee point"
             },
             {
                 "id": "b",
-                "text": "Knee."
+                "text": "Elbow point"
             },
             {
                 "id": "c",
-                "text": "Spine."
+                "text": "Spine location"
             },
             {
                 "id": "d",
-                "text": "Edge."
+                "text": "Edge threshold"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Optimization graph.",
         "explanation": "Indicates the point of diminishing return for K."
     },
@@ -380,22 +380,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A sliding-window balanced algorithm that attempts to find dense areas of data points."
+                "text": "Shifting all data values to zero"
             },
             {
                 "id": "b",
-                "text": "Shifting all data to 0."
+                "text": "A type of linear regression"
             },
             {
                 "id": "c",
-                "text": "A type of regression."
+                "text": "A sliding-window algorithm that finds dense areas of data points"
             },
             {
                 "id": "d",
-                "text": "None."
+                "text": "None of the clustering methods"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Centroid shifting.",
         "explanation": "It iterates to find the mode of a density distribution."
     },
@@ -405,22 +405,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A point with at least 'min_samples' in its neighborhood."
+                "text": "The geographic center of the world"
             },
             {
                 "id": "b",
-                "text": "The center of the world."
+                "text": "The very first point in the dataset"
             },
             {
                 "id": "c",
-                "text": "The first point."
+                "text": "A point with at least 'min_samples' in its neighborhood"
             },
             {
                 "id": "d",
-                "text": "An outlier."
+                "text": "An outlier or noise point"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Dense point.",
         "explanation": "Starts a new cluster or expands one."
     },
@@ -430,22 +430,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A point that is neither a core point nor reachable from any core point."
+                "text": "A point that generates excessive sound"
             },
             {
                 "id": "b",
-                "text": "A point that talks too much."
+                "text": "A point with value exactly zero"
             },
             {
                 "id": "c",
-                "text": "A zero point."
+                "text": "The center point of a cluster"
             },
             {
                 "id": "d",
-                "text": "Center of cluster."
+                "text": "A point neither core nor reachable from any core point"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Outlier.",
         "explanation": "These are the 'noise' that the algorithm ignores."
     },
@@ -455,22 +455,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "The ACTUAL data point that is closest to all other points in a cluster."
+                "text": "The calculated average point of a cluster"
             },
             {
                 "id": "b",
-                "text": "The average point."
+                "text": "A randomly selected point"
             },
             {
                 "id": "c",
-                "text": "A random point."
+                "text": "The ACTUAL data point closest to all other points in a cluster"
             },
             {
                 "id": "d",
-                "text": "A type of medicine."
+                "text": "A type of medical treatment"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Real point vs Mean.",
         "explanation": "More robust to outliers than K-Means."
     },
@@ -480,19 +480,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Euclidean Distance."
+                "text": "Euclidean Distance"
             },
             {
                 "id": "b",
-                "text": "Manhattan Distance."
+                "text": "Manhattan Distance"
             },
             {
                 "id": "c",
-                "text": "Hamming Distance."
+                "text": "Hamming Distance"
             },
             {
                 "id": "d",
-                "text": "Cosine Similarity."
+                "text": "Cosine Similarity"
             }
         ],
         "correctOptionId": "a",
@@ -505,22 +505,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "No, because 'mean' of categories is not defined."
+                "text": "Yes, it works with all data types"
             },
             {
                 "id": "b",
-                "text": "Yes, always."
+                "text": "Only with binary categorical data"
             },
             {
                 "id": "c",
-                "text": "Only for binary."
+                "text": "Maybe, depending on the implementation"
             },
             {
                 "id": "d",
-                "text": "Maybe."
+                "text": "No, because 'mean' of categories is not defined"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "d",
         "hint": "Mathematical limitation.",
         "explanation": "Requires encoding or specialized variants like K-Modes."
     },
@@ -530,22 +530,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using eigenvalues of similarity matrix to perform dimensionality reduction before clustering."
+                "text": "Clustering designed for paranormal detection"
             },
             {
                 "id": "b",
-                "text": "Clustering for ghosts."
+                "text": "Clustering based on light wave frequencies"
             },
             {
                 "id": "c",
-                "text": "Clustering light waves."
+                "text": "Using eigenvalues of similarity matrix for dimensionality reduction before clustering"
             },
             {
                 "id": "d",
-                "text": "Searching web."
+                "text": "Web search and indexing algorithm"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Graph-based clustering.",
         "explanation": "Useful for identifying clusters based on connectivity rather than just distance."
     },
@@ -555,22 +555,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Distance between points becomes almost uniform, making clusters hard to find."
+                "text": "Excessive memory usage during processing"
             },
             {
                 "id": "b",
-                "text": "Too much memory use."
+                "text": "Distance between points becomes almost uniform, making clusters hard to find"
             },
             {
                 "id": "c",
-                "text": "Model crashes."
+                "text": "Model crashes due to complexity"
             },
             {
                 "id": "d",
-                "text": "Sorting error."
+                "text": "Sorting errors in high dimensions"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Sparse data issue.",
         "explanation": "As dimensionality increases, the concept of 'closest' neighbor fades."
     },
@@ -580,22 +580,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "It uses probabilities (Soft assignment) instead of hard labels."
+                "text": "It executes significantly faster"
             },
             {
                 "id": "b",
-                "text": "It is faster."
+                "text": "It uses discrete assignments only"
             },
             {
                 "id": "c",
-                "text": "It is discrete."
+                "text": "It uses probabilities (Soft assignment) instead of hard labels"
             },
             {
                 "id": "d",
-                "text": "It uses trees."
+                "text": "It uses tree-based structures"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Probability based.",
         "explanation": "GMM assumes points come from multiple normal distributions overlapping."
     },
@@ -605,22 +605,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Top-down approach where all points start in one cluster and split."
+                "text": "Bottom-up merging approach"
             },
             {
                 "id": "b",
-                "text": "Bottom-up approach."
+                "text": "Mathematical division operation"
             },
             {
                 "id": "c",
-                "text": "Division of numbers."
+                "text": "Top-down approach where all points start in one cluster and split"
             },
             {
                 "id": "d",
-                "text": "Deleting data."
+                "text": "Deleting data systematically"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Splitting hierarchy.",
         "explanation": "Starts with everyone in a single large group."
     },
@@ -630,22 +630,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "A memory-efficient clustering algorithm for very large datasets."
+                "text": "A type of decision tree"
             },
             {
                 "id": "b",
-                "text": "A type of tree."
+                "text": "A memory-efficient clustering algorithm for very large datasets"
             },
             {
                 "id": "c",
-                "text": "A sorting method."
+                "text": "A sorting methodology"
             },
             {
                 "id": "d",
-                "text": "A database tool."
+                "text": "A database management tool"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Large scale clustering.",
         "explanation": "Designed to handle massive data by building a tree summarize."
     },
@@ -655,19 +655,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Linear with number of points O(n)."
+                "text": "Linear with number of points O(n)"
             },
             {
                 "id": "b",
-                "text": "Exponential O(e^n)."
+                "text": "Exponential O(e^n)"
             },
             {
                 "id": "c",
-                "text": "Logarithmic O(log n)."
+                "text": "Logarithmic O(log n)"
             },
             {
                 "id": "d",
-                "text": "Infinite."
+                "text": "Infinite complexity"
             }
         ],
         "correctOptionId": "a",
@@ -680,22 +680,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "Clusters that don't have a hierarchical relationship (like K-Means)."
+                "text": "Clusters with zero depth"
             },
             {
                 "id": "b",
-                "text": "Zero depth."
+                "text": "Empty clustering result"
             },
             {
                 "id": "c",
-                "text": "Empty clustering."
+                "text": "Clusters without hierarchical relationship (like K-Means)"
             },
             {
                 "id": "d",
-                "text": "Flat file."
+                "text": "Flat file storage format"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Direct partitioning.",
         "explanation": "The output is just a list of cluster labels."
     },
@@ -705,22 +705,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "How close the points in a cluster are to the centroid."
+                "text": "Total number of data points"
             },
             {
                 "id": "b",
-                "text": "Total number of points."
+                "text": "How close the points in a cluster are to the centroid"
             },
             {
                 "id": "c",
-                "text": "File size."
+                "text": "The file size of the dataset"
             },
             {
                 "id": "d",
-                "text": "Speed."
+                "text": "Processing speed of the algorithm"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "b",
         "hint": "Density.",
         "explanation": "High compactness usually means a 'better' cluster."
     },
@@ -730,22 +730,22 @@
         "options": [
             {
                 "id": "a",
-                "text": "How well distinct clusters are separated from each other."
+                "text": "Splitting files into parts"
             },
             {
                 "id": "b",
-                "text": "Splitting a file."
+                "text": "Removing data from the dataset"
             },
             {
                 "id": "c",
-                "text": "Removing data."
+                "text": "How well distinct clusters are separated from each other"
             },
             {
                 "id": "d",
-                "text": "Deleting code."
+                "text": "Deleting source code"
             }
         ],
-        "correctOptionId": "a",
+        "correctOptionId": "c",
         "hint": "Inter-cluster distance.",
         "explanation": "High separation ensures clusters are distinct and not overlapping too much."
     }
