@@ -10,7 +10,9 @@ import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { login, signup } from "../auth/actions";
 
-export default function LoginPage() {
+import { Suspense } from "react";
+
+function LoginForm() {
     const searchParams = useSearchParams();
     const message = searchParams.get('message');
     const [isLogin, setIsLogin] = useState(true);
@@ -122,5 +124,13 @@ export default function LoginPage() {
                 </Card>
             </motion.div>
         </div>
+    );
+}
+
+export default function LoginPage() {
+    return (
+        <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-slate-400">Loading...</div>}>
+            <LoginForm />
+        </Suspense>
     );
 }
