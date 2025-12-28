@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import confetti from 'canvas-confetti';
+import { playCorrectSound, playWrongSound } from "@/lib/audio";
 
 type Question = {
     id: string;
@@ -82,6 +83,16 @@ export default function QuizPage() {
         return () => clearInterval(timer);
     }, [gameFinished, loading, error]);
 
+
+    // Mobile Detection
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 768);
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
     const handleOptionSelect = (optionId: string) => {
         if (isAnswerChecked) return;
         setSelectedOption(optionId);
@@ -90,12 +101,9 @@ export default function QuizPage() {
         const currentQuestion = questions[currentQIndex];
         if (optionId === currentQuestion.correctOptionId) {
             setScore(s => s + 10);
-            confetti({
-                particleCount: 50,
-                spread: 60,
-                origin: { y: 0.7 },
-                colors: ['#8b5cf6', '#38bdf8']
-            });
+            playCorrectSound();
+        } else {
+            playWrongSound();
         }
     };
 
@@ -113,7 +121,11 @@ export default function QuizPage() {
     const finishGame = () => {
         setGameFinished(true);
         if (score > 10) {
-            confetti({ particleCount: 150, spread: 100 });
+            confetti({
+                particleCount: isMobile ? 50 : 150,
+                spread: isMobile ? 60 : 100,
+                disableForReducedMotion: true
+            });
         }
     };
 
@@ -235,7 +247,7 @@ export default function QuizPage() {
                         <div className="absolute top-0 right-0 p-4 opacity-10">
                             <HelpCircle className="w-32 h-32" />
                         </div>
-                        <h2 className="text-2xl md:text-3xl font-bold mb-8 relative z-10 leading-relaxed">
+                        <h2 className="text-lg md:text-3xl font-bold mb-6 relative z-10 leading-snug md:leading-relaxed text-slate-100">
                             {currentQIndex + 1}. {currentQuestion.text}
                         </h2>
 
@@ -286,7 +298,7 @@ export default function QuizPage() {
                                         <div
                                             onClick={() => handleOptionSelect(option.id)}
                                             className={cn(
-                                                "p-5 rounded-2xl border-2 transition-all duration-300 flex items-center justify-between group h-full relative overflow-hidden",
+                                                "p-5 rounded-2xl border-2 transition-all duration-300 flex items-center justify-between group h-full relative overflow-hidden touch-manipulation active:scale-[0.98]",
                                                 variantClass,
                                                 isAnswerChecked && !isSelected ? "opacity-50 grayscale-[0.5] pointer-events-none" : ""
                                             )}
@@ -334,6 +346,6 @@ export default function QuizPage() {
                     </div>
                 </motion.div>
             </AnimatePresence>
-        </div>
+        </div >
     );
 }

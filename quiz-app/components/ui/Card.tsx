@@ -18,7 +18,8 @@ export const Card = React.forwardRef<HTMLDivElement, CombinedCardProps>(
         const variants = {
             default: "bg-card text-card-foreground border-border shadow-sm",
             glass: "glass-card hover:shadow-2xl hover:shadow-primary/5",
-            interactive: "glass hover:border-primary/50 hover:shadow-[0_0_30px_-5px_var(--primary)]/20 cursor-pointer group"
+            // Use group-hover logic only on devices that support hover
+            interactive: "glass cursor-pointer group hover:border-primary/50 hover:shadow-[0_0_30px_-5px_var(--primary)]/20 transition-all duration-300 active:scale-95 touch-manipulation"
         };
 
         return (
