@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch7_1",
+        "text": "What does GAN stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generative Adversarial Network"
+            },
+            {
+                "id": "b",
+                "text": "General AI Network"
+            },
+            {
+                "id": "c",
+                "text": "Graphic Auto Network"
+            },
+            {
+                "id": "d",
+                "text": "Google AI Net"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Adversary.",
+        "explanation": "GANs consist of two networks contesting with each other."
+    },
+    {
+        "id": "dnn_ch7_2",
+        "text": "What are the two main components of a GAN?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Encoder and Decoder."
+            },
+            {
+                "id": "b",
+                "text": "Generator and Discriminator."
+            },
+            {
+                "id": "c",
+                "text": "Actor and Critic."
+            },
+            {
+                "id": "d",
+                "text": "Input and Output."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Creator and Judge.",
+        "explanation": "The Generator creates fakes, the Discriminator tries to spot them."
+    },
+    {
+        "id": "dnn_ch7_3",
+        "text": "What is the goal of the Generator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To classify images."
+            },
+            {
+                "id": "b",
+                "text": "To fool the discriminator by generating realistic data."
+            },
+            {
+                "id": "c",
+                "text": "To destroy data."
+            },
+            {
+                "id": "d",
+                "text": "To compress data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Counterfeiter.",
+        "explanation": "It tries to produce data that looks real enough to pass the discriminator's test."
+    },
+    {
+        "id": "dnn_ch7_4",
+        "text": "What is an Autoencoder?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A self-driving car."
+            },
+            {
+                "id": "b",
+                "text": "A neural network trained to reconstruct its input (Identity learning)."
+            },
+            {
+                "id": "c",
+                "text": "A password generator."
+            },
+            {
+                "id": "d",
+                "text": "A classifier."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Input = Output.",
+        "explanation": "Autoencoders learn compressed representations by reconstructing the input."
+    },
+    {
+        "id": "dnn_ch7_5",
+        "text": "What is the central part of an Autoencoder called?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The bottleneck (Latent Space)."
+            },
+            {
+                "id": "b",
+                "text": "The handle."
+            },
+            {
+                "id": "c",
+                "text": "The filter."
+            },
+            {
+                "id": "d",
+                "text": "The key."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Compressed.",
+        "explanation": "The bottleneck forces the network to learn a compressed representation (latent code)."
+    },
+    {
+        "id": "dnn_ch7_6",
+        "text": "What are Variational Autoencoders (VAE)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Standard AE."
+            },
+            {
+                "id": "b",
+                "text": "Autoencoders that learn a probability distribution of the latent space (generative)."
+            },
+            {
+                "id": "c",
+                "text": "Variable AEs."
+            },
+            {
+                "id": "d",
+                "text": "Video AEs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Generative.",
+        "explanation": "VAEs allow generating new data by sampling from the learned latent distribution."
+    },
+    {
+        "id": "dnn_ch7_7",
+        "text": "In a GAN, if the Discriminator is perfect, what happens?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generator learns perfectly."
+            },
+            {
+                "id": "b",
+                "text": "Generator stops learning (vanishing gradient for generator)."
+            },
+            {
+                "id": "c",
+                "text": "Both win."
+            },
+            {
+                "id": "d",
+                "text": "Nothing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No signal.",
+        "explanation": "If the discriminator is too good, it rejects everything with 100% confidence, leaving no gradient signal for the generator."
+    },
+    {
+        "id": "dnn_ch7_8",
+        "text": "Autoencoders are typically used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised learning."
+            },
+            {
+                "id": "b",
+                "text": "Unsupervised learning (Dimensionality reduction, Denoising)."
+            },
+            {
+                "id": "c",
+                "text": "Reinforcement learning."
+            },
+            {
+                "id": "d",
+                "text": "Web scraping."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unsupervised.",
+        "explanation": "They don't need labels, just raw data."
+    },
+    {
+        "id": "dnn_ch7_9",
+        "text": "What is 'Mode Collapse' in GANs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "System crash."
+            },
+            {
+                "id": "b",
+                "text": "Generator produces only a limited variety of samples (e.g., only one digit)."
+            },
+            {
+                "id": "c",
+                "text": "Discriminator fails."
+            },
+            {
+                "id": "d",
+                "text": "Data corruption."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Same output.",
+        "explanation": "The generator finds one output that fools the discriminator and keeps producing meaning it lacks diversity."
+    },
+    {
+        "id": "dnn_ch7_10",
+        "text": "Denoising Autoencoders are trained by?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using clean input."
+            },
+            {
+                "id": "b",
+                "text": "Adding noise to input and asking network to recover original clean input."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Using audio."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Remove noise.",
+        "explanation": "This forces the AE to learn robust features."
+    },
+    {
+        "id": "dnn_ch7_11",
+        "text": "What is the 'Nash Equilibrium' in GANs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Starting point."
+            },
+            {
+                "id": "b",
+                "text": "Ideally, Generator produces perfect fakes and Discriminator guesses 50/50."
+            },
+            {
+                "id": "c",
+                "text": "Discriminator wins."
+            },
+            {
+                "id": "d",
+                "text": "Generator wins."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Balance.",
+        "explanation": "At equilibrium, the generator captures the data distribution, and discriminator cannot distinguish real from fake."
+    },
+    {
+        "id": "dnn_ch7_12",
+        "text": "Whale Identification case study typically uses?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Audio analysis."
+            },
+            {
+                "id": "b",
+                "text": "Image classification on tail flukes (Siamese Networks/CNNs)."
+            },
+            {
+                "id": "c",
+                "text": "GPS."
+            },
+            {
+                "id": "d",
+                "text": "Sonar."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tails.",
+        "explanation": "Kaggle Whale competitions often involve identifying whales by unique patterns on their tails."
+    },
+    {
+        "id": "dnn_ch7_13",
+        "text": "Iris dataset is a classic example for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deep Learning."
+            },
+            {
+                "id": "b",
+                "text": "Simple classification/clustering (small dataset)."
+            },
+            {
+                "id": "c",
+                "text": "Big Data."
+            },
+            {
+                "id": "d",
+                "text": "GANs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Flowers.",
+        "explanation": "It's a very small dataset usually used for basic ML testing, not deep learning."
+    },
+    {
+        "id": "dnn_ch7_14",
+        "text": "Devnagari Character Recognition usually involves?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CNNs on image data of characters."
+            },
+            {
+                "id": "b",
+                "text": "RNNs on audio."
+            },
+            {
+                "id": "c",
+                "text": "Linear regression."
+            },
+            {
+                "id": "d",
+                "text": "Excel."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Handwritten script.",
+        "explanation": "Similar to MNIST, but for Hindi script, solved optimally with CNNs."
+    },
+    {
+        "id": "dnn_ch7_15",
+        "text": "CycleGAN is used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cycling."
+            },
+            {
+                "id": "b",
+                "text": "Unpaired image-to-image translation (e.g., Horse to Zebra without paired examples)."
+            },
+            {
+                "id": "c",
+                "text": "Video games."
+            },
+            {
+                "id": "d",
+                "text": "Text to speech."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unpaired translation.",
+        "explanation": "It allows translating domains without having matching pairs (like summer to winter photos)."
+    },
+    {
+        "id": "dnn_ch7_16",
+        "text": "What loss function does a standard GAN use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MSE."
+            },
+            {
+                "id": "b",
+                "text": "Minimax loss (Adversarial loss)."
+            },
+            {
+                "id": "c",
+                "text": "MAE."
+            },
+            {
+                "id": "d",
+                "text": "Contrastive loss."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Game theory.",
+        "explanation": "Min G Max D V(D, G)."
+    },
+    {
+        "id": "dnn_ch7_17",
+        "text": "Deepfakes are typically created using?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Photoshop."
+            },
+            {
+                "id": "b",
+                "text": "GANs / Autoencoders."
+            },
+            {
+                "id": "c",
+                "text": "MS Paint."
+            },
+            {
+                "id": "d",
+                "text": "Cameras."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Generative.",
+        "explanation": "They use generative networks to swap faces."
+    },
+    {
+        "id": "dnn_ch7_18",
+        "text": "Flood prediction is a time-series problem often solved with?",
+        "options": [
+            {
+                "id": "a",
+                "text": "LSTMs / GRUs."
+            },
+            {
+                "id": "b",
+                "text": "GANs."
+            },
+            {
+                "id": "c",
+                "text": "K-Means."
+            },
+            {
+                "id": "d",
+                "text": "PCA."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Time sequence.",
+        "explanation": "Predicting future water levels based on past data fits RNN/LSTM models."
+    },
+    {
+        "id": "dnn_ch7_19",
+        "text": "Healthcare AI applications (like X-ray analysis) heavily use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CNNs."
+            },
+            {
+                "id": "b",
+                "text": "Linear Regression."
+            },
+            {
+                "id": "c",
+                "text": "Word2Vec."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Medical Imaging.",
+        "explanation": "Medical imaging tasks are standard computer vision problems suitable for CNNs."
+    },
+    {
+        "id": "dnn_ch7_20",
+        "text": "Latent space represents?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Empty space."
+            },
+            {
+                "id": "b",
+                "text": "Compressed feature representation of data."
+            },
+            {
+                "id": "c",
+                "text": "Hard drive space."
+            },
+            {
+                "id": "d",
+                "text": "RAM."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hidden features.",
+        "explanation": "It's the space where the encoder maps the input."
+    },
+    {
+        "id": "dnn_ch7_21",
+        "text": "What is 'Reconstruction Loss' in Autoencoders?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Loss of data."
+            },
+            {
+                "id": "b",
+                "text": "Difference between Original Input and Reconstructed Output."
+            },
+            {
+                "id": "c",
+                "text": "Adversarial loss."
+            },
+            {
+                "id": "d",
+                "text": "Classification error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Input vs Output.",
+        "explanation": "The goal is to minimize this difference (e.g., using MSE)."
+    },
+    {
+        "id": "dnn_ch7_22",
+        "text": "Can GANs be used for Data Augmentation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No."
+            },
+            {
+                "id": "b",
+                "text": "Yes, by generating synthetic samples to increase training set."
+            },
+            {
+                "id": "c",
+                "text": "Only for text."
+            },
+            {
+                "id": "d",
+                "text": "Only for audio."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Synthetic data.",
+        "explanation": "GANs can create realistic new samples to supplement small datasets."
+    },
+    {
+        "id": "dnn_ch7_23",
+        "text": "What is 'Conditional GAN' (cGAN)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Depends on weather."
+            },
+            {
+                "id": "b",
+                "text": "GAN where generator is conditioned on class labels (e.g., generate a 'Cat')."
+            },
+            {
+                "id": "c",
+                "text": "Standard GAN."
+            },
+            {
+                "id": "d",
+                "text": "Broken GAN."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Control output.",
+        "explanation": "It allows controlling the class of the generated image."
+    },
+    {
+        "id": "dnn_ch7_24",
+        "text": "Why is training GANs effectively difficult?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They are simple."
+            },
+            {
+                "id": "b",
+                "text": "Instability, non-convergence, mode collapse."
+            },
+            {
+                "id": "c",
+                "text": "Too fast."
+            },
+            {
+                "id": "d",
+                "text": "Requires CPU."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unstable.",
+        "explanation": "Balancing two networks against each other is mathematically unstable."
+    },
+    {
+        "id": "dnn_ch7_25",
+        "text": "Anomaly Detection with Autoencoders involves?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classification."
+            },
+            {
+                "id": "b",
+                "text": "Training on normal data; anomalies will have high reconstruction error."
+            },
+            {
+                "id": "c",
+                "text": "Clustering."
+            },
+            {
+                "id": "d",
+                "text": "Regression."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "High error for strange inputs.",
+        "explanation": "The AE learns efficient compression for normal data but fails to reconstruct anomalies."
+    },
+    {
+        "id": "dnn_ch7_26",
+        "text": "Which network type can colorize black and white photos?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Linear regression."
+            },
+            {
+                "id": "b",
+                "text": "Autoencoders / GANs (Pix2Pix)."
+            },
+            {
+                "id": "c",
+                "text": "Decision Tree."
+            },
+            {
+                "id": "d",
+                "text": "K-Means."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Image translation.",
+        "explanation": "This is an image-to-image translation task."
+    },
+    {
+        "id": "dnn_ch7_27",
+        "text": "The Encoder in an AE acts similar to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data augmentation."
+            },
+            {
+                "id": "b",
+                "text": "Compression / PCA."
+            },
+            {
+                "id": "c",
+                "text": "Generator."
+            },
+            {
+                "id": "d",
+                "text": "Discriminator."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Compression.",
+        "explanation": "It compresses high-dimensional input to low-dimensional latent code."
+    },
+    {
+        "id": "dnn_ch7_28",
+        "text": "Case Study: What is typically predicted in basic housing datasets?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Color of house."
+            },
+            {
+                "id": "b",
+                "text": "Price (Regression)."
+            },
+            {
+                "id": "c",
+                "text": "Address."
+            },
+            {
+                "id": "d",
+                "text": "Owner name."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Value.",
+        "explanation": "Boston Housing etc. are classic regression problems."
+    },
+    {
+        "id": "dnn_ch7_29",
+        "text": "What is 'Super Resolution'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Being resolute."
+            },
+            {
+                "id": "b",
+                "text": "Upscaling low-res images to high-res using DL (SRGAN)."
+            },
+            {
+                "id": "c",
+                "text": "Zooming."
+            },
+            {
+                "id": "d",
+                "text": "Cropping."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Enhance.",
+        "explanation": "Generative models can hallucinate details to upscale images."
+    },
+    {
+        "id": "dnn_ch7_30",
+        "text": "Discriminator in GAN is basically a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Binary Classifier (Real vs Fake)."
+            },
+            {
+                "id": "b",
+                "text": "Regressor."
+            },
+            {
+                "id": "c",
+                "text": "Autoencoder."
+            },
+            {
+                "id": "d",
+                "text": "Generator."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "True or False.",
+        "explanation": "It classifies inputs as either coming from the dataset (1) or the generator (0)."
+    }
+]

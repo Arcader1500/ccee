@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch1_1",
+        "text": "What is the basic unit of a neural network?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pixel"
+            },
+            {
+                "id": "b",
+                "text": "Neuron (Perceptron)"
+            },
+            {
+                "id": "c",
+                "text": "Kernel"
+            },
+            {
+                "id": "d",
+                "text": "Tensor"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Brain cell.",
+        "explanation": "A neuron (or perceptron) is the fundamental building block of specific types of artificial neural networks."
+    },
+    {
+        "id": "dnn_ch1_2",
+        "text": "What is an Activation Function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Starts the computer."
+            },
+            {
+                "id": "b",
+                "text": "A function that decides whether a neuron should be activated or not."
+            },
+            {
+                "id": "c",
+                "text": "Calculates error."
+            },
+            {
+                "id": "d",
+                "text": "Initializes weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fire or not.",
+        "explanation": "Activation functions introduce non-linearity and decide the output of a neuron."
+    },
+    {
+        "id": "dnn_ch1_3",
+        "text": "Which activation function outputs values between 0 and 1?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU"
+            },
+            {
+                "id": "b",
+                "text": "Tanh"
+            },
+            {
+                "id": "c",
+                "text": "Sigmoid"
+            },
+            {
+                "id": "d",
+                "text": "Linear"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "S-shaped curve.",
+        "explanation": "The Sigmoid function squashes values to be between 0 and 1."
+    },
+    {
+        "id": "dnn_ch1_4",
+        "text": "What is ReLU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Real Linear Unit"
+            },
+            {
+                "id": "b",
+                "text": "Rectified Linear Unit"
+            },
+            {
+                "id": "c",
+                "text": "Recursive Linear Unit"
+            },
+            {
+                "id": "d",
+                "text": "Random Elu"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Most popular.",
+        "explanation": "ReLU (Rectified Linear Unit) is f(x) = max(0, x)."
+    },
+    {
+        "id": "dnn_ch1_5",
+        "text": "What is the purpose of the Cost Function (Loss Function)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To charge money."
+            },
+            {
+                "id": "b",
+                "text": "To measure how far the estimated value is from the true value."
+            },
+            {
+                "id": "c",
+                "text": "To calculate speed."
+            },
+            {
+                "id": "d",
+                "text": "To save memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Measure of error.",
+        "explanation": "The cost function quantifies the error between predicted outputs and actual targets."
+    },
+    {
+        "id": "dnn_ch1_6",
+        "text": "What is Gradient Descent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Walking down a hill."
+            },
+            {
+                "id": "b",
+                "text": "An optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent."
+            },
+            {
+                "id": "c",
+                "text": "A sorting algorithm."
+            },
+            {
+                "id": "d",
+                "text": "A visualization technique."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Minimize cost.",
+        "explanation": "Gradient Descent is mostly used to update the weights of the neural network to minimize the cost function."
+    },
+    {
+        "id": "dnn_ch1_7",
+        "text": "What describes 'Backpropagation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Moving forward."
+            },
+            {
+                "id": "b",
+                "text": "Algorithm for computing the gradient of the cost function with respect to the weights."
+            },
+            {
+                "id": "c",
+                "text": "Deleting weights."
+            },
+            {
+                "id": "d",
+                "text": "Randomizing weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Propagate error back.",
+        "explanation": "Backpropagation is the essence of neural net training. It effectively distributes the error back through the network layers."
+    },
+    {
+        "id": "dnn_ch1_8",
+        "text": "What is the range of Tanh activation function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0 to 1"
+            },
+            {
+                "id": "b",
+                "text": "-1 to 1"
+            },
+            {
+                "id": "c",
+                "text": "0 to infinity"
+            },
+            {
+                "id": "d",
+                "text": "-infinity to infinity"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zero centered.",
+        "explanation": "Tanh squashes a real-valued number to the range [-1, 1]."
+    },
+    {
+        "id": "dnn_ch1_9",
+        "text": "In a single layer perceptron, what does the bias term do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "Allows shifting the activation function to the left or right."
+            },
+            {
+                "id": "c",
+                "text": "Multiplies the input."
+            },
+            {
+                "id": "d",
+                "text": "Always zero."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Shift.",
+        "explanation": "Bias acts like the intercept in a linear equation, shifting the activation function."
+    },
+    {
+        "id": "dnn_ch1_10",
+        "text": "What happens if learning rate is too high?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Convergence is faster."
+            },
+            {
+                "id": "b",
+                "text": "It may overshoot the minimum and fail to converge."
+            },
+            {
+                "id": "c",
+                "text": "It stops immediately."
+            },
+            {
+                "id": "d",
+                "text": "Accuracy increases."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Overshoot.",
+        "explanation": "A large learning rate can cause the model to diverge or oscillate around the minimum."
+    },
+    {
+        "id": "dnn_ch1_11",
+        "text": "What is an Epoch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A long time."
+            },
+            {
+                "id": "b",
+                "text": "One complete pass of the training dataset through the algorithm."
+            },
+            {
+                "id": "c",
+                "text": "One batch."
+            },
+            {
+                "id": "d",
+                "text": "One second."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Full pass.",
+        "explanation": "An epoch is one full cycle through the entire training dataset."
+    },
+    {
+        "id": "dnn_ch1_12",
+        "text": "Why do we need non-linear activation functions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "We don't."
+            },
+            {
+                "id": "b",
+                "text": "To learn complex patterns; otherwise, the whole network is just a linear regression."
+            },
+            {
+                "id": "c",
+                "text": "To make it slower."
+            },
+            {
+                "id": "d",
+                "text": "To use GPUs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stacking linear is linear.",
+        "explanation": "Without non-linearity, a multi-layer neural network is mathematically equivalent to a single linear layer."
+    },
+    {
+        "id": "dnn_ch1_13",
+        "text": "What is the 'Dying ReLU' problem?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU is deprecated."
+            },
+            {
+                "id": "b",
+                "text": "Neurons output 0 for all inputs and stop learning."
+            },
+            {
+                "id": "c",
+                "text": "ReLU values get too large."
+            },
+            {
+                "id": "d",
+                "text": "ReLU is slow."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stuck at zero.",
+        "explanation": "If weights push ReLU input to negative, gradient becomes 0 and the neuron never updates again."
+    },
+    {
+        "id": "dnn_ch1_14",
+        "text": "Which cost function is commonly used for binary classification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MSE (Mean Squared Error)"
+            },
+            {
+                "id": "b",
+                "text": "Binary Cross-Entropy (Log Loss)"
+            },
+            {
+                "id": "c",
+                "text": "MAE"
+            },
+            {
+                "id": "d",
+                "text": "Hinge Loss"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Log loss.",
+        "explanation": "Binary Cross-Entropy is the standard loss function for binary classification problems."
+    },
+    {
+        "id": "dnn_ch1_15",
+        "text": "What is forward propagation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calculating gradients."
+            },
+            {
+                "id": "b",
+                "text": "Passing input through the network to generate output."
+            },
+            {
+                "id": "c",
+                "text": "Updating weights."
+            },
+            {
+                "id": "d",
+                "text": "Shuffling data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Input to Output.",
+        "explanation": "Forward propagation is the calculation and storage of intermediate variables (including outputs) for a neural network from the input layer to the output layer."
+    },
+    {
+        "id": "dnn_ch1_16",
+        "text": "What initializes the weights in a neural network?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Always zero."
+            },
+            {
+                "id": "b",
+                "text": "Always one."
+            },
+            {
+                "id": "c",
+                "text": "Random small numbers."
+            },
+            {
+                "id": "d",
+                "text": "The input data."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Break symmetry.",
+        "explanation": "Weights are initialized randomly to break symmetry; if all were 0, all neurons would learn the same thing."
+    },
+    {
+        "id": "dnn_ch1_17",
+        "text": "What is the derivative of the Sigmoid function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "sigmoid(x) * (1 - sigmoid(x))"
+            },
+            {
+                "id": "c",
+                "text": "x"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "y times (1-y).",
+        "explanation": "The derivative of f(x) = sigmoid(x) is f(x)(1 - f(x))."
+    },
+    {
+        "id": "dnn_ch1_18",
+        "text": "Global Minimum vs Local Minimum?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They are the same."
+            },
+            {
+                "id": "b",
+                "text": "Gradient descent might get stuck in a local minimum instead of finding the best global minimum."
+            },
+            {
+                "id": "c",
+                "text": "Global is worse."
+            },
+            {
+                "id": "d",
+                "text": "Local is always better."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Getting stuck in a valley.",
+        "explanation": "Non-convex cost functions have multiple valleys; we want the deepest one (global), but simplistic algorithms might settle in a shallow one (local)."
+    },
+    {
+        "id": "dnn_ch1_19",
+        "text": "What is a 'Hyperparameter' in this context?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Weights."
+            },
+            {
+                "id": "b",
+                "text": "Biases."
+            },
+            {
+                "id": "c",
+                "text": "Learning Rate, Number of layers."
+            },
+            {
+                "id": "d",
+                "text": "Input features."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Settings.",
+        "explanation": "Hyperparameters are set before training (e.g., learning rate, architecture), unlike parameters (weights) which are learned."
+    },
+    {
+        "id": "dnn_ch1_20",
+        "text": "What is Softmax used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Input layer."
+            },
+            {
+                "id": "b",
+                "text": "Output layer of multi-class classification to represent probabilities."
+            },
+            {
+                "id": "c",
+                "text": "Hidden layers usually."
+            },
+            {
+                "id": "d",
+                "text": "Regression."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Probabilities sum to 1.",
+        "explanation": "Softmax converts a vector of numbers into a vector of probabilities that sum to 1, useful for multi-class classification."
+    },
+    {
+        "id": "dnn_ch1_21",
+        "text": "What is Stochastic Gradient Descent (SGD)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Updates weights after seeing all data."
+            },
+            {
+                "id": "b",
+                "text": "Updates weights after each single training example."
+            },
+            {
+                "id": "c",
+                "text": "Never updates weights."
+            },
+            {
+                "id": "d",
+                "text": "Random weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stochastic means random sample.",
+        "explanation": "SGD updates the model's parameters using the gradient calculated from a single training example."
+    },
+    {
+        "id": "dnn_ch1_22",
+        "text": "How many output neurons do you need for binary classification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "2"
+            },
+            {
+                "id": "c",
+                "text": "10"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "0 or 1.",
+        "explanation": "One output neuron (with sigmoid) is sufficient to represent probability P(y=1)."
+    },
+    {
+        "id": "dnn_ch1_23",
+        "text": "What does a negative weight mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The input reduces the neuron's activation."
+            },
+            {
+                "id": "b",
+                "text": "The input increases activation."
+            },
+            {
+                "id": "c",
+                "text": "Error."
+            },
+            {
+                "id": "d",
+                "text": "Input is ignored."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Inhibitory.",
+        "explanation": "A negative weight means there is a negative correlation/inhibitory relationship between input and output."
+    },
+    {
+        "id": "dnn_ch1_24",
+        "text": "What is Leaky ReLU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A broken function."
+            },
+            {
+                "id": "b",
+                "text": "A variant of ReLU that allows a small gradient when the unit is not active (x < 0)."
+            },
+            {
+                "id": "c",
+                "text": "Same as Sigmoid."
+            },
+            {
+                "id": "d",
+                "text": "Step function."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Leaks for negative values.",
+        "explanation": "Leaky ReLU has a small slope for negative values to solve the Dying ReLU problem."
+    },
+    {
+        "id": "dnn_ch1_25",
+        "text": "Why do we use Min-Batch Gradient Descent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's slower."
+            },
+            {
+                "id": "b",
+                "text": "Balance between robustness of Batch and speed of SGD."
+            },
+            {
+                "id": "c",
+                "text": "To use less RAM only."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Best of both worlds.",
+        "explanation": "It provides a more stable convergence than SGD and is more efficient than Batch GD."
+    },
+    {
+        "id": "dnn_ch1_26",
+        "text": "What is the chain rule in calculus useful for here?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "It is the mathematical foundation of Backpropagation."
+            },
+            {
+                "id": "c",
+                "text": "Forward pass."
+            },
+            {
+                "id": "d",
+                "text": "Initialization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Derivatives of composite functions.",
+        "explanation": "Backpropagation uses the chain rule to compute gradients of the cost function with respect to weights."
+    },
+    {
+        "id": "dnn_ch1_27",
+        "text": "If input features are on very different scales, what should you do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "Normalize/Scale them."
+            },
+            {
+                "id": "c",
+                "text": "Delete large features."
+            },
+            {
+                "id": "d",
+                "text": "Use random weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Normalization.",
+        "explanation": "Feature scaling speeds up gradient descent and prevents weights from skewed updates."
+    },
+    {
+        "id": "dnn_ch1_28",
+        "text": "What defines the architecture of a neural network?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The color."
+            },
+            {
+                "id": "b",
+                "text": "Number of layers and number of neurons in each layer."
+            },
+            {
+                "id": "c",
+                "text": "The data."
+            },
+            {
+                "id": "d",
+                "text": "The learning rate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Shape.",
+        "explanation": "Ideally 'architecture' refers to the arrangement of neurons and connections."
+    },
+    {
+        "id": "dnn_ch1_29",
+        "text": "Can a single neuron solve XOR problem?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, because XOR is not linearly separable."
+            },
+            {
+                "id": "c",
+                "text": "Maybe."
+            },
+            {
+                "id": "d",
+                "text": "Only with ReLU."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Minsky and Papert.",
+        "explanation": "A single linear perceptron cannot solve non-linearly separable problems like XOR."
+    },
+    {
+        "id": "dnn_ch1_30",
+        "text": "What is a 'Hidden Layer'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A layer you can't see."
+            },
+            {
+                "id": "b",
+                "text": "Layers between input and output layers."
+            },
+            {
+                "id": "c",
+                "text": "The last layer."
+            },
+            {
+                "id": "d",
+                "text": "Encrypted layer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "In between.",
+        "explanation": "Hidden layers perform intermediate computations and feature extraction."
+    }
+]

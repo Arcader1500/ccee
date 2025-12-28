@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch6_1",
+        "text": "What is Monte Carlo Simulation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A card game."
+            },
+            {
+                "id": "b",
+                "text": "A technique used to understand the impact of risk and uncertainty by running multiple simulations with random variables."
+            },
+            {
+                "id": "c",
+                "text": "A formula."
+            },
+            {
+                "id": "d",
+                "text": "A visualization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Random sampling.",
+        "explanation": "Monte Carlo simulations perform risk analysis by building models of possible results by substituting a range of values (probability distribution) for any factor that has inherent uncertainty."
+    },
+    {
+        "id": "da_ch6_2",
+        "text": "What is the goal of Optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make things slower."
+            },
+            {
+                "id": "b",
+                "text": "To find the best solution (min or max) from all feasible solutions."
+            },
+            {
+                "id": "c",
+                "text": "To guess."
+            },
+            {
+                "id": "d",
+                "text": "To sort data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Best outcome.",
+        "explanation": "Optimization involves finding the inputs to a function that result in the maximum or minimum output."
+    },
+    {
+        "id": "da_ch6_3",
+        "text": "What characterizes Linear Programming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Curved lines."
+            },
+            {
+                "id": "b",
+                "text": "Objective function and constraints are linear."
+            },
+            {
+                "id": "c",
+                "text": "Randomness."
+            },
+            {
+                "id": "d",
+                "text": "Text processing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Straight lines.",
+        "explanation": "In linear programming, the relationships between variables are linear (straight lines/planes)."
+    },
+    {
+        "id": "da_ch6_4",
+        "text": "What is a Confusion Matrix?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A puzzle."
+            },
+            {
+                "id": "b",
+                "text": "A table used to evaluate the performance of a classification model (TP, TN, FP, FN)."
+            },
+            {
+                "id": "c",
+                "text": "A regression plot."
+            },
+            {
+                "id": "d",
+                "text": "A data type."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "True Positives etc.",
+        "explanation": "A confusion matrix summarizes prediction results on a classification problem."
+    },
+    {
+        "id": "da_ch6_5",
+        "text": "What is 'Recall' (Sensitivity)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TP / (TP + FN)"
+            },
+            {
+                "id": "b",
+                "text": "TP / (TP + FP)"
+            },
+            {
+                "id": "c",
+                "text": "TN / (TN + FP)"
+            },
+            {
+                "id": "d",
+                "text": "Accuracy."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "True Positive Rate.",
+        "explanation": "Recall measures the proportion of actual positives that was identified correctly."
+    },
+    {
+        "id": "da_ch6_6",
+        "text": "What is 'Precision'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TP / (TP + FN)"
+            },
+            {
+                "id": "b",
+                "text": "TP / (TP + FP)"
+            },
+            {
+                "id": "c",
+                "text": "Total correct."
+            },
+            {
+                "id": "d",
+                "text": "TN / Total."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Positive Predictive Value.",
+        "explanation": "Precision attempts to answer: What proportion of positive identifications was actually correct?"
+    },
+    {
+        "id": "da_ch6_7",
+        "text": "What is Cross-Validation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Crossing out data."
+            },
+            {
+                "id": "b",
+                "text": "Partitioning data into complementary subsets to validate the model and estimate its performance."
+            },
+            {
+                "id": "c",
+                "text": "Manual checking."
+            },
+            {
+                "id": "d",
+                "text": "Using two computers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "K-Fold.",
+        "explanation": "Cross-validation assesses how the results of a statistical analysis will generalize to an independent data set."
+    },
+    {
+        "id": "da_ch6_8",
+        "text": "What is K-Fold Cross Validation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "K-Means."
+            },
+            {
+                "id": "b",
+                "text": "Splitting data into k groups, training on k-1 and testing on the remaining one, repeated k times."
+            },
+            {
+                "id": "c",
+                "text": "Folding paper."
+            },
+            {
+                "id": "d",
+                "text": "Using K models."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rotate test set.",
+        "explanation": "K-Fold ensures every observation has a chance of appearing in training and test set."
+    },
+    {
+        "id": "da_ch6_9",
+        "text": "What is the ROC Curve?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Receiver Operating Characteristic curve."
+            },
+            {
+                "id": "b",
+                "text": "Rate of Change curve."
+            },
+            {
+                "id": "c",
+                "text": "Random Operation Code."
+            },
+            {
+                "id": "d",
+                "text": "Regression Output Curve."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "TPR vs FPR.",
+        "explanation": "ROC curve plots the True Positive Rate against the False Positive Rate at various threshold settings."
+    },
+    {
+        "id": "da_ch6_10",
+        "text": "What does AUC (Area Under Curve) represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The size of the plot."
+            },
+            {
+                "id": "b",
+                "text": "Measure of separability; higher is better (max 1.0)."
+            },
+            {
+                "id": "c",
+                "text": "The error rate."
+            },
+            {
+                "id": "d",
+                "text": "The correlation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Performance metric.",
+        "explanation": "AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes."
+    },
+    {
+        "id": "da_ch6_11",
+        "text": "What is 'Risk Analysis'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Ignoring risks."
+            },
+            {
+                "id": "b",
+                "text": "Process of identifying and analyzing potential issues that could negatively impact key business initiatives."
+            },
+            {
+                "id": "c",
+                "text": "Insurance."
+            },
+            {
+                "id": "d",
+                "text": "Safety drill."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Analyzing potential failure.",
+        "explanation": "Risk analysis helps organizations avoid or mitigate risks."
+    },
+    {
+        "id": "da_ch6_12",
+        "text": "What is Nonlinear Optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Optimization without lines."
+            },
+            {
+                "id": "b",
+                "text": "Optimization where the objective function or constraints are nonlinear."
+            },
+            {
+                "id": "c",
+                "text": "Simplest form."
+            },
+            {
+                "id": "d",
+                "text": "Impossible."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Curves.",
+        "explanation": "It deals with problems where the function to be maximized/minimized or constraints are non-linear."
+    },
+    {
+        "id": "da_ch6_13",
+        "text": "Which metric combines Precision and Recall?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accuracy"
+            },
+            {
+                "id": "b",
+                "text": "F1-Score"
+            },
+            {
+                "id": "c",
+                "text": "R-Squared"
+            },
+            {
+                "id": "d",
+                "text": "Specificity"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Harmonic mean.",
+        "explanation": "The F1-score is the harmonic mean of precision and recall."
+    },
+    {
+        "id": "da_ch6_14",
+        "text": "What is 'Simplex Method' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Solving Linear Programming problems."
+            },
+            {
+                "id": "b",
+                "text": "Solving Neural Networks."
+            },
+            {
+                "id": "c",
+                "text": "Drawing graphs."
+            },
+            {
+                "id": "d",
+                "text": "Sorting lists."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "LP solver.",
+        "explanation": "The Simplex algorithm is a popular method for linear programming."
+    },
+    {
+        "id": "da_ch6_15",
+        "text": "What is accurate but not precise?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hitting the bullseye every time."
+            },
+            {
+                "id": "b",
+                "text": "Hitting near the bullseye on average, but shots are scattered."
+            },
+            {
+                "id": "c",
+                "text": "Hitting a tight cluster far from the bullseye."
+            },
+            {
+                "id": "d",
+                "text": "Missing everything."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Correct on average, high variance.",
+        "explanation": "Accuracy refers to closeness to true value; precision refers to closeness of measurements to each other."
+    },
+    {
+        "id": "da_ch6_16",
+        "text": "What is precise but not accurate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scatter all over."
+            },
+            {
+                "id": "b",
+                "text": "Hitting a tight cluster far from the bullseye."
+            },
+            {
+                "id": "c",
+                "text": "Hitting bullseye."
+            },
+            {
+                "id": "d",
+                "text": "Random."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Consistent error.",
+        "explanation": "High precision means low variance (tight cluster), but low accuracy means high bias (far from target)."
+    },
+    {
+        "id": "da_ch6_17",
+        "text": "In a Balanced dataset, which metric is usually fine?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accuracy"
+            },
+            {
+                "id": "b",
+                "text": "It's never fine."
+            },
+            {
+                "id": "c",
+                "text": "F1-Score only."
+            },
+            {
+                "id": "d",
+                "text": "Log Loss."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Equal classes.",
+        "explanation": "If classes are balanced (e.g., 50/50), accuracy is a reasonable metric."
+    },
+    {
+        "id": "da_ch6_18",
+        "text": "What is 'Grid Search'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searching on a map."
+            },
+            {
+                "id": "b",
+                "text": "Exhaustively searching through a manually specified subset of the hyperparameter space."
+            },
+            {
+                "id": "c",
+                "text": "Random search."
+            },
+            {
+                "id": "d",
+                "text": "Google search."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Brute force tuning.",
+        "explanation": "Grid search tries every combination of provided hyperparameters to find the best model."
+    },
+    {
+        "id": "da_ch6_19",
+        "text": "What is 'Regularization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Making things regular."
+            },
+            {
+                "id": "b",
+                "text": "Technique to prevent overfitting by adding a penalty term to the loss function."
+            },
+            {
+                "id": "c",
+                "text": "Use normal distribution."
+            },
+            {
+                "id": "d",
+                "text": "Cleaning data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Penalize complexity.",
+        "explanation": "Regularization (L1, L2) discourages learning a more complex or flexible model, reducing overfitting."
+    },
+    {
+        "id": "da_ch6_20",
+        "text": "What is 'Specificity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True Negative Rate (TN / (TN + FP))."
+            },
+            {
+                "id": "b",
+                "text": "Sensitivity."
+            },
+            {
+                "id": "c",
+                "text": "Precision."
+            },
+            {
+                "id": "d",
+                "text": "Recall."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "True Negative Rate.",
+        "explanation": "Specificity measures the proportion of actual negatives that are correctly identified."
+    },
+    {
+        "id": "da_ch6_21",
+        "text": "What is 'Bias-Variance Tradeoff'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A business deal."
+            },
+            {
+                "id": "b",
+                "text": "The problem of minimizing two sources of error that prevent supervised learning algorithms from generalizing."
+            },
+            {
+                "id": "c",
+                "text": "Trading data."
+            },
+            {
+                "id": "d",
+                "text": "No tradeoff exists."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stability vs Flexibility.",
+        "explanation": "Ideally we want low bias and low variance, but usually decreasing bias increases variance and vice-versa."
+    },
+    {
+        "id": "da_ch6_22",
+        "text": "What are Hyperparameters?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learned parameters."
+            },
+            {
+                "id": "b",
+                "text": "Parameters set before learning process begins (e.g., K in KNN, Learning Rate)."
+            },
+            {
+                "id": "c",
+                "text": "The output weights."
+            },
+            {
+                "id": "d",
+                "text": "The data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Configuration settings.",
+        "explanation": "Hyperparameters (like tree depth) are external configuration variables that are not estimated from data."
+    },
+    {
+        "id": "da_ch6_23",
+        "text": "What is 'Ensemble Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learning music."
+            },
+            {
+                "id": "b",
+                "text": "Using multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms."
+            },
+            {
+                "id": "c",
+                "text": "Single model."
+            },
+            {
+                "id": "d",
+                "text": "Unsupervised."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Teamwork.",
+        "explanation": "Ensemble methods (like Random Forest, Boosting) combine multiple models."
+    },
+    {
+        "id": "da_ch6_24",
+        "text": "What is 'Leave-One-Out Cross Validation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "K-Fold where K = N (number of data points)."
+            },
+            {
+                "id": "b",
+                "text": "Leaving the room."
+            },
+            {
+                "id": "c",
+                "text": "Ignore one variable."
+            },
+            {
+                "id": "d",
+                "text": "Split 50/50."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Extreme K-Fold.",
+        "explanation": "LOOCV is K-Fold cross validation taken to the extreme where K equals the number of data points."
+    },
+    {
+        "id": "da_ch6_25",
+        "text": "Which optimization technique finds the global minimum usually?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradient Descent (convex)."
+            },
+            {
+                "id": "b",
+                "text": "Hill Climbing."
+            },
+            {
+                "id": "c",
+                "text": "Random."
+            },
+            {
+                "id": "d",
+                "text": "Guessing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Descent.",
+        "explanation": "Gradient Descent is an iterative optimization algorithm for finding the local minimum of a differentiable function. For convex problems, it finds global min."
+    },
+    {
+        "id": "da_ch6_26",
+        "text": "What is Sensitivity analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Testing feelings."
+            },
+            {
+                "id": "b",
+                "text": "Study of how the uncertainty in the output of a model can be apportioned to different sources of uncertainty in its inputs."
+            },
+            {
+                "id": "c",
+                "text": "Recall."
+            },
+            {
+                "id": "d",
+                "text": "Precision."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "How sensitive is output to input.",
+        "explanation": "It checks how a model's output changes when inputs change."
+    },
+    {
+        "id": "da_ch6_27",
+        "text": "What does a Decision Tree represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A set of rules."
+            },
+            {
+                "id": "b",
+                "text": "A linear function."
+            },
+            {
+                "id": "c",
+                "text": "A circle."
+            },
+            {
+                "id": "d",
+                "text": "A black box."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "If-then.",
+        "explanation": "A decision tree can be easily interpreted as a set of logical if-then rules."
+    },
+    {
+        "id": "da_ch6_28",
+        "text": "Which classification error is potentially more dangerous in medical diagnosis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Type I (False Positive - Healthy person diagnosed sick)."
+            },
+            {
+                "id": "b",
+                "text": "Type II (False Negative - Sick person diagnosed healthy)."
+            },
+            {
+                "id": "c",
+                "text": "Both equal."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Missing a disease.",
+        "explanation": "False Negative is usually worse because a sick person goes untreated."
+    },
+    {
+        "id": "da_ch6_29",
+        "text": "What is the objective function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The function we want to minimize or maximize."
+            },
+            {
+                "id": "b",
+                "text": "The constraints."
+            },
+            {
+                "id": "c",
+                "text": "The variables."
+            },
+            {
+                "id": "d",
+                "text": "The dataset."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Goal function.",
+        "explanation": "In optimization, the objective function defines the metric we are trying to optimize (e.g., minimize cost, maximize profit)."
+    },
+    {
+        "id": "da_ch6_30",
+        "text": "What is 'Holdout' data used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Training."
+            },
+            {
+                "id": "b",
+                "text": "Final evaluation of the model performance."
+            },
+            {
+                "id": "c",
+                "text": "Cleaning."
+            },
+            {
+                "id": "d",
+                "text": "Exploration."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Testing.",
+        "explanation": "Holdout data (Test set) is never seen by the model during training, providing an unbiased evaluation."
+    }
+]

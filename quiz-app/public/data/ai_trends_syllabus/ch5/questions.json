@@ -1,0 +1,752 @@
+[
+    {
+        "id": "ai_ch5_1",
+        "text": "What is Cloud Computing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Computing in the sky."
+            },
+            {
+                "id": "b",
+                "text": "On-demand delivery of IT resources over the Internet with pay-as-you-go pricing."
+            },
+            {
+                "id": "c",
+                "text": "Weather forecasting."
+            },
+            {
+                "id": "d",
+                "text": "Using wireless mouse."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "On-demand resources.",
+        "explanation": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power."
+    },
+    {
+        "id": "ai_ch5_2",
+        "text": "Which of the following is NOT a major cloud provider?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AWS"
+            },
+            {
+                "id": "b",
+                "text": "Azure"
+            },
+            {
+                "id": "c",
+                "text": "GCP"
+            },
+            {
+                "id": "d",
+                "text": "Firefox"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Firefox is a browser.",
+        "explanation": "AWS (Amazon), Azure (Microsoft), and GCP (Google) are major cloud providers. Firefox is a web browser."
+    },
+    {
+        "id": "ai_ch5_3",
+        "text": "What does IaaS stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Internet as a Server"
+            },
+            {
+                "id": "b",
+                "text": "Infrastructure as a Service"
+            },
+            {
+                "id": "c",
+                "text": "Information as a Service"
+            },
+            {
+                "id": "d",
+                "text": "Identity as a Service"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Basic infrastructure.",
+        "explanation": "IaaS provides virtualized computing resources over the internet (e.g., EC2)."
+    },
+    {
+        "id": "ai_ch5_4",
+        "text": "What does PaaS stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Platform as a Service"
+            },
+            {
+                "id": "b",
+                "text": "Product as a Service"
+            },
+            {
+                "id": "c",
+                "text": "Payment as a Service"
+            },
+            {
+                "id": "d",
+                "text": "Process as a Service"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Targeting developers.",
+        "explanation": "PaaS provides a platform allowing customers to develop, run, and manage applications without the complexity of building infrastructure (e.g., Heroku, Google App Engine)."
+    },
+    {
+        "id": "ai_ch5_5",
+        "text": "What does SaaS stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "System as a Service"
+            },
+            {
+                "id": "b",
+                "text": "Software as a Service"
+            },
+            {
+                "id": "c",
+                "text": "Storage as a Service"
+            },
+            {
+                "id": "d",
+                "text": "Security as a Service"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "End-user apps.",
+        "explanation": "SaaS allows users to connect to and use cloud-based apps over the Internet (e.g., Gmail, Office 365)."
+    },
+    {
+        "id": "ai_ch5_6",
+        "text": "What is 'Elasticity' in cloud computing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rubber servers."
+            },
+            {
+                "id": "b",
+                "text": "The ability to automatically scale resources up or down based on demand."
+            },
+            {
+                "id": "c",
+                "text": "Flexible cables."
+            },
+            {
+                "id": "d",
+                "text": "Cost saving."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scaling.",
+        "explanation": "Elasticity refers to the ability of a system to adapt to workload changes by provisioning and de-provisioning resources in an autonomic manner."
+    },
+    {
+        "id": "ai_ch5_7",
+        "text": "Which AWS service is used for virtual servers (compute)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "S3"
+            },
+            {
+                "id": "b",
+                "text": "EC2"
+            },
+            {
+                "id": "c",
+                "text": "RDS"
+            },
+            {
+                "id": "d",
+                "text": "Lambda"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Elastic Compute Cloud.",
+        "explanation": "Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity."
+    },
+    {
+        "id": "ai_ch5_8",
+        "text": "What is a 'Region' in cloud terminology?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A small room."
+            },
+            {
+                "id": "b",
+                "text": "A geographic area hosting multiple data centers (Availability Zones)."
+            },
+            {
+                "id": "c",
+                "text": "A country."
+            },
+            {
+                "id": "d",
+                "text": "A timezone."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Geographic location.",
+        "explanation": "A Region is a physical location around the world where cloud providers cluster data centers."
+    },
+    {
+        "id": "ai_ch5_9",
+        "text": "What is 'Serverless' computing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No servers exist."
+            },
+            {
+                "id": "b",
+                "text": "Developers build and run applications without thinking about servers."
+            },
+            {
+                "id": "c",
+                "text": "Running code on client side."
+            },
+            {
+                "id": "d",
+                "text": "Offline computing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lambda / Functions.",
+        "explanation": "Serverless allows you to build and run applications and services without creating specific server instances (e.g., AWS Lambda)."
+    },
+    {
+        "id": "ai_ch5_10",
+        "text": "Which GCP service is equivalent to AWS S3 (Storage)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Google Drive"
+            },
+            {
+                "id": "b",
+                "text": "Cloud Storage"
+            },
+            {
+                "id": "c",
+                "text": "BigTable"
+            },
+            {
+                "id": "d",
+                "text": "Cloud SQL"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cloud storage.",
+        "explanation": "Google Cloud Storage is the object storage service on GCP, similar to Amazon S3."
+    },
+    {
+        "id": "ai_ch5_11",
+        "text": "What is Auto-Scaling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Measuring weight automatically."
+            },
+            {
+                "id": "b",
+                "text": "Automatically adjusting the number of computing resources based on load."
+            },
+            {
+                "id": "c",
+                "text": "Resizing windows."
+            },
+            {
+                "id": "d",
+                "text": "Zooming in."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Adjusting capacity.",
+        "explanation": "Auto-scaling is a method used in cloud computing that dynamically creates or deletes instances based on traffic."
+    },
+    {
+        "id": "ai_ch5_12",
+        "text": "What is the primary benefit of Public Cloud?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Maximum security."
+            },
+            {
+                "id": "b",
+                "text": "Lower costs, no maintenance, infinite scalability."
+            },
+            {
+                "id": "c",
+                "text": "Complete control."
+            },
+            {
+                "id": "d",
+                "text": "Offline access."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cost and scale.",
+        "explanation": "Public clouds offer high scalability, cost-effectiveness (pay-as-you-go), and no hardware maintenance."
+    },
+    {
+        "id": "ai_ch5_13",
+        "text": "What is 'Hybrid Cloud'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A mix of rain and sun."
+            },
+            {
+                "id": "b",
+                "text": "A computing environment that combines a public cloud and a private cloud/on-premise."
+            },
+            {
+                "id": "c",
+                "text": "Using two laptops."
+            },
+            {
+                "id": "d",
+                "text": "Using Windows and Linux."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Public + Private.",
+        "explanation": "Hybrid cloud connects a private cloud (or on-prem data center) with a public cloud."
+    },
+    {
+        "id": "ai_ch5_14",
+        "text": "Which model does Google Docs fall under?",
+        "options": [
+            {
+                "id": "a",
+                "text": "IaaS"
+            },
+            {
+                "id": "b",
+                "text": "PaaS"
+            },
+            {
+                "id": "c",
+                "text": "SaaS"
+            },
+            {
+                "id": "d",
+                "text": "DaaS"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Ready to use software.",
+        "explanation": "Google Docs is a Software as a Service (SaaS) application."
+    },
+    {
+        "id": "ai_ch5_15",
+        "text": "What is an Availability Zone (AZ)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A time zone."
+            },
+            {
+                "id": "b",
+                "text": "Isolated locations (data centers) within a Cloud Region."
+            },
+            {
+                "id": "c",
+                "text": "A free wifi zone."
+            },
+            {
+                "id": "d",
+                "text": "A backup folder."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inside a region.",
+        "explanation": "AZs are distinct data centers within a region engineered to be isolated from failures in other AZs."
+    },
+    {
+        "id": "ai_ch5_16",
+        "text": "What is the 'Shared Responsibility Model'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sharing passwords."
+            },
+            {
+                "id": "b",
+                "text": "Security framework where provider handles 'Security OF the cloud' and customer handles 'Security IN the cloud'."
+            },
+            {
+                "id": "c",
+                "text": "Sharing costs."
+            },
+            {
+                "id": "d",
+                "text": "Open source."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Provider vs Customer.",
+        "explanation": "The provider secures the infrastructure (hardware, network), while the customer secures their data, OS, and apps."
+    },
+    {
+        "id": "ai_ch5_17",
+        "text": "What is Spot Instance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A specific location."
+            },
+            {
+                "id": "b",
+                "text": "Unused cloud compute capacity available at steep discounts."
+            },
+            {
+                "id": "c",
+                "text": "A reserved server."
+            },
+            {
+                "id": "d",
+                "text": "A broken server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cheap but interruptible.",
+        "explanation": "Spot instances let you take advantage of unused capacity at a significant discount, but can be interrupted."
+    },
+    {
+        "id": "ai_ch5_18",
+        "text": "Which service is an example of Database as a Service (DBaaS)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Amazon RDS"
+            },
+            {
+                "id": "b",
+                "text": "Amazon EC2"
+            },
+            {
+                "id": "c",
+                "text": "AWS Lambda"
+            },
+            {
+                "id": "d",
+                "text": "VPC"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Relational Database Service.",
+        "explanation": "Amazon RDS manages relational databases like SQL, PostgreSQL, etc., in the cloud."
+    },
+    {
+        "id": "ai_ch5_19",
+        "text": "What implies that you pay only for what you use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Flat rate."
+            },
+            {
+                "id": "b",
+                "text": "Pay-as-you-go."
+            },
+            {
+                "id": "c",
+                "text": "Subscription."
+            },
+            {
+                "id": "d",
+                "text": "Freemium."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Utility billing.",
+        "explanation": "Pay-as-you-go pricing model allows you to pay only for the individual services you need, for as long as you use them."
+    },
+    {
+        "id": "ai_ch5_20",
+        "text": "What is a major advantage of Using Cloud for AI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It looks cool."
+            },
+            {
+                "id": "b",
+                "text": "Access to powerful GPUs/TPUs and pre-trained models without buying hardware."
+            },
+            {
+                "id": "c",
+                "text": "Guaranteed 100% accuracy."
+            },
+            {
+                "id": "d",
+                "text": "Simpler math."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hardware access.",
+        "explanation": "Cloud providers offer specialized hardware (GPUs, TPUs) and managed AI services that verify hard/expensive to maintain on-prem."
+    },
+    {
+        "id": "ai_ch5_21",
+        "text": "What is 'Latency' in cloud terms?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cost."
+            },
+            {
+                "id": "b",
+                "text": "Delay in network communication."
+            },
+            {
+                "id": "c",
+                "text": "Storage size."
+            },
+            {
+                "id": "d",
+                "text": "Uptime."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Network delay.",
+        "explanation": "Latency is the time it takes for data to travel from source to destination."
+    },
+    {
+        "id": "ai_ch5_22",
+        "text": "What is 'Vendor Lock-in'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Locking the server room."
+            },
+            {
+                "id": "b",
+                "text": "Difficulty in moving from one cloud provider to another."
+            },
+            {
+                "id": "c",
+                "text": "Signing a contract."
+            },
+            {
+                "id": "d",
+                "text": "Secure boot."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stuck with one.",
+        "explanation": "Vendor lock-in is the dependency on a specific cloud provider's technology, making migration difficult."
+    },
+    {
+        "id": "ai_ch5_23",
+        "text": "What is a 'Virtual Private Cloud' (VPC)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A private computer."
+            },
+            {
+                "id": "b",
+                "text": "A logically isolated section of the cloud where you launch resources."
+            },
+            {
+                "id": "c",
+                "text": "A VPN."
+            },
+            {
+                "id": "d",
+                "text": "Dark web."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Isolated network.",
+        "explanation": "VPC lets you provision a logically isolated section of the cloud to launch resources in a virtual network you define."
+    },
+    {
+        "id": "ai_ch5_24",
+        "text": "Which cloud service usually involves managing the OS?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SaaS"
+            },
+            {
+                "id": "b",
+                "text": "PaaS"
+            },
+            {
+                "id": "c",
+                "text": "IaaS"
+            },
+            {
+                "id": "d",
+                "text": "FaaS"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Infrastructure.",
+        "explanation": "In IaaS (like EC2), you manage the operating system, while in PaaS and SaaS, the provider manages it."
+    },
+    {
+        "id": "ai_ch5_25",
+        "text": "What is 'Object Storage'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Database tables."
+            },
+            {
+                "id": "b",
+                "text": "Storage that manages data as objects (files with metadata), e.g., S3."
+            },
+            {
+                "id": "c",
+                "text": "Block storage."
+            },
+            {
+                "id": "d",
+                "text": "RAM."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "S3 style.",
+        "explanation": "Object storage (like S3, Cloud Storage) stores data as objects (files) in a flat namespace, ideal for unstructured data."
+    },
+    {
+        "id": "ai_ch5_26",
+        "text": "What is 'Edge Computing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Latest technology."
+            },
+            {
+                "id": "b",
+                "text": "Processing data near the source of generation rather than a centralized cloud."
+            },
+            {
+                "id": "c",
+                "text": "Cloud computing."
+            },
+            {
+                "id": "d",
+                "text": "Computing on edges."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Near the source.",
+        "explanation": "Edge computing brings computation and data storage closer to the location where it is needed (IoT devices), improving response times."
+    },
+    {
+        "id": "ai_ch5_27",
+        "text": "What is Identity and Access Management (IAM)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A login page."
+            },
+            {
+                "id": "b",
+                "text": "Framework for managing digital identities and controlling access to resources."
+            },
+            {
+                "id": "c",
+                "text": "A firewall."
+            },
+            {
+                "id": "d",
+                "text": "A key."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Who can do what.",
+        "explanation": "IAM enables you to manage access to cloud services and resources securely."
+    },
+    {
+        "id": "ai_ch5_28",
+        "text": "What is 'Multi-Cloud'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Lots of clouds in the sky."
+            },
+            {
+                "id": "b",
+                "text": "Using services from multiple cloud providers (e.g., AWS and Azure)."
+            },
+            {
+                "id": "c",
+                "text": "Multiple accounts."
+            },
+            {
+                "id": "d",
+                "text": "A big cloud."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "More than one provider.",
+        "explanation": "Multi-cloud strategy involves using two or more cloud computing services from different providers."
+    },
+    {
+        "id": "ai_ch5_29",
+        "text": "What is a 'Snapshot'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A photo."
+            },
+            {
+                "id": "b",
+                "text": "A backup copy of a disk/volume at a specific point in time."
+            },
+            {
+                "id": "c",
+                "text": "A quick look."
+            },
+            {
+                "id": "d",
+                "text": "A short video."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Backup at point in time.",
+        "explanation": "Snapshots provide a point-in-time copy of your data (usually block storage volumes)."
+    },
+    {
+        "id": "ai_ch5_30",
+        "text": "Which is a managed Kubernetes service on AWS?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ECS"
+            },
+            {
+                "id": "b",
+                "text": "EKS"
+            },
+            {
+                "id": "c",
+                "text": "EC2"
+            },
+            {
+                "id": "d",
+                "text": "EBS"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Elastic Kubernetes Service.",
+        "explanation": "EKS (Elastic Kubernetes Service) is AWS's managed Kubernetes service."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch5_1",
+        "text": "What does CNN stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Central Neural Network"
+            },
+            {
+                "id": "b",
+                "text": "Convolutional Neural Network"
+            },
+            {
+                "id": "c",
+                "text": "Computer Neural Network"
+            },
+            {
+                "id": "d",
+                "text": "Control Neural Network"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Convolve.",
+        "explanation": "CNNs are specialized for processing grid-like data such as images."
+    },
+    {
+        "id": "dnn_ch5_2",
+        "text": "What is the primary operation in a CNN?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Addition"
+            },
+            {
+                "id": "b",
+                "text": "Convolution"
+            },
+            {
+                "id": "c",
+                "text": "Division"
+            },
+            {
+                "id": "d",
+                "text": "Sorting"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sliding window.",
+        "explanation": "Convolution involves sliding a filter/kernel over the input."
+    },
+    {
+        "id": "dnn_ch5_3",
+        "text": "What is a 'Kernel' or 'Filter'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A popcorn."
+            },
+            {
+                "id": "b",
+                "text": "Small matrix of weights that slides over input to extract features."
+            },
+            {
+                "id": "c",
+                "text": "The output."
+            },
+            {
+                "id": "d",
+                "text": "The bias."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Feature detector.",
+        "explanation": "Kernels detect features like edges as they convolve across the image."
+    },
+    {
+        "id": "dnn_ch5_4",
+        "text": "What is 'Stride'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Walking speed."
+            },
+            {
+                "id": "b",
+                "text": "The number of pixels the filter moves/shifts at each step."
+            },
+            {
+                "id": "c",
+                "text": "The size of filter."
+            },
+            {
+                "id": "d",
+                "text": "The number of layers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Step size.",
+        "explanation": "Stride controls how the filter convolves around the input volume."
+    },
+    {
+        "id": "dnn_ch5_5",
+        "text": "What is 'Padding'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding layers."
+            },
+            {
+                "id": "b",
+                "text": "Adding border pixels (usually zeros) around input to preserve dimensions."
+            },
+            {
+                "id": "c",
+                "text": "Removing pixels."
+            },
+            {
+                "id": "d",
+                "text": "Compressing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Border.",
+        "explanation": "Padding ('Same' padding) ensures output size equals input size (with stride 1)."
+    },
+    {
+        "id": "dnn_ch5_6",
+        "text": "What is 'Max Pooling'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Swimming pool."
+            },
+            {
+                "id": "b",
+                "text": "Downsampling operation that takes the maximum value in a window."
+            },
+            {
+                "id": "c",
+                "text": "Taking average."
+            },
+            {
+                "id": "d",
+                "text": "Adding values."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Maximum value.",
+        "explanation": "Max pooling reduces spatial dimensions and provides translation invariance."
+    },
+    {
+        "id": "dnn_ch5_7",
+        "text": "Why do we use Pooling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To increase size."
+            },
+            {
+                "id": "b",
+                "text": "To reduce computational load and control overfitting (downsampling)."
+            },
+            {
+                "id": "c",
+                "text": "To add parameters."
+            },
+            {
+                "id": "d",
+                "text": "To color the image."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Shrink.",
+        "explanation": "Pooling progressively reduces the spatial size of the representation."
+    },
+    {
+        "id": "dnn_ch5_8",
+        "text": "What is 'Flattening'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Crushing."
+            },
+            {
+                "id": "b",
+                "text": "Converting a multi-dimensional tensor into a 1D vector."
+            },
+            {
+                "id": "c",
+                "text": "Deleting."
+            },
+            {
+                "id": "d",
+                "text": "Averaging."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Last step before dense.",
+        "explanation": "Usually done before passing the output of conv layers to a fully connected layer."
+    },
+    {
+        "id": "dnn_ch5_9",
+        "text": "In a Convolution layer, are weights shared?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, every pixel has its own weight."
+            },
+            {
+                "id": "b",
+                "text": "Yes, the same filter weights are used across the entire image (Parameter Sharing)."
+            },
+            {
+                "id": "c",
+                "text": "Only in corners."
+            },
+            {
+                "id": "d",
+                "text": "Randomly."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sharing.",
+        "explanation": "Parameter sharing significantly reduces the number of parameters compared to dense layers."
+    },
+    {
+        "id": "dnn_ch5_10",
+        "text": "What is valid padding?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No padding."
+            },
+            {
+                "id": "b",
+                "text": "Padding to keep size same."
+            },
+            {
+                "id": "c",
+                "text": "Padding with 1s."
+            },
+            {
+                "id": "d",
+                "text": "Infinite padding."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Drops edges.",
+        "explanation": "'Valid' padding means no padding is added; output dimension decreases."
+    },
+    {
+        "id": "dnn_ch5_11",
+        "text": "What is 'Transfer Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transferring data."
+            },
+            {
+                "id": "b",
+                "text": "Using a pre-trained model on a new, similar task."
+            },
+            {
+                "id": "c",
+                "text": "Learning to transfer."
+            },
+            {
+                "id": "d",
+                "text": "Downloading model."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reuse knowledge.",
+        "explanation": "It allows training deep networks with small datasets by starting with weights from a large dataset (like ImageNet)."
+    },
+    {
+        "id": "dnn_ch5_12",
+        "text": "What defines the Inception Network architecture?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's very shallow."
+            },
+            {
+                "id": "b",
+                "text": "It uses Inception modules with parallel convolutions of different sizes (1x1, 3x3, 5x5)."
+            },
+            {
+                "id": "c",
+                "text": "It only uses dense layers."
+            },
+            {
+                "id": "d",
+                "text": "It uses RNNs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "GoogLeNet.",
+        "explanation": "Inception modules allow the model to learn features at multiple scales simultaneously."
+    },
+    {
+        "id": "dnn_ch5_13",
+        "text": "What is the function of a 1x1 Convolution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It does nothing."
+            },
+            {
+                "id": "b",
+                "text": "Dimensionality reduction (reducing number of channels/depth) and adding non-linearity."
+            },
+            {
+                "id": "c",
+                "text": "Blurring."
+            },
+            {
+                "id": "d",
+                "text": "Making image bigger."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bottleneck.",
+        "explanation": "It's often used to decrease the number of channels (feature maps) efficiently."
+    },
+    {
+        "id": "dnn_ch5_14",
+        "text": "Which application is CNN best suited for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stock prediction."
+            },
+            {
+                "id": "b",
+                "text": "Image Classification."
+            },
+            {
+                "id": "c",
+                "text": "Text summarization."
+            },
+            {
+                "id": "d",
+                "text": "Database sorting."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Visual.",
+        "explanation": "CNNs excel at capturing spatial hierarchies in images."
+    },
+    {
+        "id": "dnn_ch5_15",
+        "text": "What is specific about 'Object Detection' compared to 'Classification'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Same thing."
+            },
+            {
+                "id": "b",
+                "text": "Detection finds WHERE (bounding box) and WHAT objects are in image."
+            },
+            {
+                "id": "c",
+                "text": "Detection is faster."
+            },
+            {
+                "id": "d",
+                "text": "Detection never classifies."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Localization.",
+        "explanation": "Classification answers 'What is in the image?', Detection answers 'What and Where?'."
+    },
+    {
+        "id": "dnn_ch5_16",
+        "text": "What is 'VGGNet' known for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using large filters."
+            },
+            {
+                "id": "b",
+                "text": "Simplicity; using only 3x3 convolutions stacked on top of each other."
+            },
+            {
+                "id": "c",
+                "text": "Using Inception modules."
+            },
+            {
+                "id": "d",
+                "text": "Using only 1 layer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Small filters deep.",
+        "explanation": "VGG showed that stacking small 3x3 filters deep is better than large filters."
+    },
+    {
+        "id": "dnn_ch5_17",
+        "text": "Channels in an input image (RGB) usually are?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "2"
+            },
+            {
+                "id": "c",
+                "text": "3"
+            },
+            {
+                "id": "d",
+                "text": "4"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Red Green Blue.",
+        "explanation": "RGB images have 3 color channels."
+    },
+    {
+        "id": "dnn_ch5_18",
+        "text": "What is 'Translation Invariance'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Translating languages."
+            },
+            {
+                "id": "b",
+                "text": "Recognizing an object regardless of where it appears in the image."
+            },
+            {
+                "id": "c",
+                "text": "Fixed position."
+            },
+            {
+                "id": "d",
+                "text": "Rotating image."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Moving object.",
+        "explanation": "Pooling helps CNNs recognize a cat whether it's in the top-left or bottom-right."
+    },
+    {
+        "id": "dnn_ch5_19",
+        "text": "Output size formula for convolution (W: width, F: filter size, P: padding, S: stride)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "(W - F + 2P)/S + 1"
+            },
+            {
+                "id": "b",
+                "text": "W * F"
+            },
+            {
+                "id": "c",
+                "text": "W / S"
+            },
+            {
+                "id": "d",
+                "text": "W + P"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard formula.",
+        "explanation": "This formula calculates the dimension of the output feature map."
+    },
+    {
+        "id": "dnn_ch5_20",
+        "text": "What is 'Fine-tuning' in Transfer Learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Training from scratch."
+            },
+            {
+                "id": "b",
+                "text": "Freezing early layers and retraining later layers (or all) with a low learning rate."
+            },
+            {
+                "id": "c",
+                "text": "Tuning radio."
+            },
+            {
+                "id": "d",
+                "text": "Just predict."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Small adjustments.",
+        "explanation": "It adapts the specialized features of the pre-trained model to the new task."
+    },
+    {
+        "id": "dnn_ch5_21",
+        "text": "Common activation function in CNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU"
+            },
+            {
+                "id": "b",
+                "text": "Sigmoid"
+            },
+            {
+                "id": "c",
+                "text": "Linear"
+            },
+            {
+                "id": "d",
+                "text": "Step"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard.",
+        "explanation": "ReLU is the default choice for hidden layers in CNNs."
+    },
+    {
+        "id": "dnn_ch5_22",
+        "text": "What is a 'Feature Map'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A google map."
+            },
+            {
+                "id": "b",
+                "text": "Checking features."
+            },
+            {
+                "id": "c",
+                "text": "The output vector."
+            },
+            {
+                "id": "d",
+                "text": "The output of a filter applied to the previous layer."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Activation map.",
+        "explanation": "It represents the presence of detected features across the spatial dimensions."
+    },
+    {
+        "id": "dnn_ch5_23",
+        "text": "LeNet-5 was originally designed for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Face recognition."
+            },
+            {
+                "id": "b",
+                "text": "Handwritten digit recognition (MNIST)."
+            },
+            {
+                "id": "c",
+                "text": "Cars."
+            },
+            {
+                "id": "d",
+                "text": "Voice."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Yann LeCun.",
+        "explanation": "It's one of the earliest successful CNNs."
+    },
+    {
+        "id": "dnn_ch5_24",
+        "text": "Number of parameters in a 3x3 filter with depth 1?",
+        "options": [
+            {
+                "id": "a",
+                "text": "9"
+            },
+            {
+                "id": "b",
+                "text": "10 (9 weights + 1 bias)"
+            },
+            {
+                "id": "c",
+                "text": "3"
+            },
+            {
+                "id": "d",
+                "text": "1"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Weights + Bias.",
+        "explanation": "3*3 weights plus one bias term."
+    },
+    {
+        "id": "dnn_ch5_25",
+        "text": "What is 'Global Average Pooling'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Averaging all pixels in entire feature map to get 1 number."
+            },
+            {
+                "id": "b",
+                "text": "Averaging worldwide."
+            },
+            {
+                "id": "c",
+                "text": "Max pooling."
+            },
+            {
+                "id": "d",
+                "text": "Flattening."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "One value per channel.",
+        "explanation": "It replaces flattening by averaging each feature map to a single value, reducing parameters."
+    },
+    {
+        "id": "dnn_ch5_26",
+        "text": "AlexNet was famous for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Being small."
+            },
+            {
+                "id": "b",
+                "text": "Winning ImageNet 2012 and popularizing Deep CNNs/GPUs."
+            },
+            {
+                "id": "c",
+                "text": "Using CPU."
+            },
+            {
+                "id": "d",
+                "text": "Using Sigmoid."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Deep Learning boom.",
+        "explanation": "AlexNet's victory marked the start of the deep learning revolution in computer vision."
+    },
+    {
+        "id": "dnn_ch5_27",
+        "text": "Can CNNs be used for Text/NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, only images."
+            },
+            {
+                "id": "b",
+                "text": "Yes, 1D Convolutions are used for sequence data."
+            },
+            {
+                "id": "c",
+                "text": "Only for audio."
+            },
+            {
+                "id": "d",
+                "text": "Never."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Conv1D.",
+        "explanation": "1D CNNs can be very effective for text classification or time-series."
+    },
+    {
+        "id": "dnn_ch5_28",
+        "text": "A 3 channel image convolved with 10 filters (kernels) results in output depth of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "3"
+            },
+            {
+                "id": "b",
+                "text": "10"
+            },
+            {
+                "id": "c",
+                "text": "30"
+            },
+            {
+                "id": "d",
+                "text": "13"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Number of filters.",
+        "explanation": "The output depth (channels) equals the number of filters used."
+    },
+    {
+        "id": "dnn_ch5_29",
+        "text": "Average Pooling is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Taking the average value in the window."
+            },
+            {
+                "id": "b",
+                "text": "Taking median."
+            },
+            {
+                "id": "c",
+                "text": "Taking sum."
+            },
+            {
+                "id": "d",
+                "text": "Taking min."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Smooth.",
+        "explanation": "It averages values, smoothing out the features."
+    },
+    {
+        "id": "dnn_ch5_30",
+        "text": "Why use small filters (3x3)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Simpler math."
+            },
+            {
+                "id": "b",
+                "text": "Stacking them gives same receptive field as large filters but with fewer parameters and more non-linearity."
+            },
+            {
+                "id": "c",
+                "text": "They look cute."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Efficiency.",
+        "explanation": "Two 3x3 layers have receptive field of 5x5 but fewer parameters than one 5x5."
+    }
+]

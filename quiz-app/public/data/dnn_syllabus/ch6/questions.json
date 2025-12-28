@@ -1,0 +1,751 @@
+[
+    {
+        "id": "dnn_ch6_1",
+        "text": "What are Recurrent Neural Networks (RNN) designed for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Static images."
+            },
+            {
+                "id": "b",
+                "text": "Sequential data (time series, text, audio)."
+            },
+            {
+                "id": "c",
+                "text": "Databases."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequence.",
+        "explanation": "RNNs have connections that form directed cycles, allowing them to process sequences of data."
+    },
+    {
+        "id": "dnn_ch6_2",
+        "text": "What is the key feature of an RNN cell?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It has no weights."
+            },
+            {
+                "id": "b",
+                "text": "It maintains an internal state (hidden state) from previous time steps."
+            },
+            {
+                "id": "c",
+                "text": "It uses only ReLU."
+            },
+            {
+                "id": "d",
+                "text": "It is random."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Memory.",
+        "explanation": "The hidden state acts as the network's memory of the past."
+    },
+    {
+        "id": "dnn_ch6_3",
+        "text": "What is 'Backpropagation Through Time' (BPTT)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Time travel."
+            },
+            {
+                "id": "b",
+                "text": "Training algorithm for RNNs where the unrolled network is treated like a deep FFNN."
+            },
+            {
+                "id": "c",
+                "text": "Predicting future."
+            },
+            {
+                "id": "d",
+                "text": "Sorting time."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unrolling.",
+        "explanation": "BPTT unfolds the RNN over time steps and applies standard backpropagation."
+    },
+    {
+        "id": "dnn_ch6_4",
+        "text": "What is the major problem with standard RNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Too fast."
+            },
+            {
+                "id": "b",
+                "text": "Vanishing Gradient problem over long sequences."
+            },
+            {
+                "id": "c",
+                "text": "Too much memory."
+            },
+            {
+                "id": "d",
+                "text": "Cannot handle numbers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Short-term memory.",
+        "explanation": "Standard RNNs struggle to learn long-term dependencies due to vanishing gradients."
+    },
+    {
+        "id": "dnn_ch6_5",
+        "text": "What does LSTM stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Long Short-Term Memory"
+            },
+            {
+                "id": "b",
+                "text": "Last State Time Machine"
+            },
+            {
+                "id": "c",
+                "text": "Linear State Time Model"
+            },
+            {
+                "id": "d",
+                "text": "Low Short Time Model"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Memory type.",
+        "explanation": "LSTM helps preserve error that can be backpropagated through time and layers."
+    },
+    {
+        "id": "dnn_ch6_6",
+        "text": "What is a GRU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Ground Unit."
+            },
+            {
+                "id": "b",
+                "text": "Gated Recurrent Unit."
+            },
+            {
+                "id": "c",
+                "text": "Group Unit."
+            },
+            {
+                "id": "d",
+                "text": "General Recurrent Unit."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Simplified LSTM.",
+        "explanation": "GRU is a simplified variation of LSTM with fewer gates."
+    },
+    {
+        "id": "dnn_ch6_7",
+        "text": "Which gate is NOT present in a GRU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Update Gate"
+            },
+            {
+                "id": "b",
+                "text": "Reset Gate"
+            },
+            {
+                "id": "c",
+                "text": "Output Gate"
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "GRU has no output gate.",
+        "explanation": "GRU merges the cell state and hidden state, and lacks a separate output gate."
+    },
+    {
+        "id": "dnn_ch6_8",
+        "text": "What does the 'Forget Gate' in LSTM do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deletes the model."
+            },
+            {
+                "id": "b",
+                "text": "Decides what information from the cell state should be thrown away."
+            },
+            {
+                "id": "c",
+                "text": "Forgets the input."
+            },
+            {
+                "id": "d",
+                "text": "Resets weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Throw away.",
+        "explanation": "It outputs a number between 0 (forget) and 1 (keep) for each number in the cell state."
+    },
+    {
+        "id": "dnn_ch6_9",
+        "text": "Bidirectional RNNs allow the network to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Run twice as fast."
+            },
+            {
+                "id": "b",
+                "text": "Look at both past and future context at any point in time."
+            },
+            {
+                "id": "c",
+                "text": "Use two CPUs."
+            },
+            {
+                "id": "d",
+                "text": "Predict backwards only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Future and Past.",
+        "explanation": "Two RNNs are trained, one for forward and one for backward sequences."
+    },
+    {
+        "id": "dnn_ch6_10",
+        "text": "What is 'Sequence-to-Sequence' (Seq2Seq) used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Image classification."
+            },
+            {
+                "id": "b",
+                "text": "Machine Translation (e.g., English to French)."
+            },
+            {
+                "id": "c",
+                "text": "Sorting."
+            },
+            {
+                "id": "d",
+                "text": "Clustering."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Translation.",
+        "explanation": "Seq2Seq models map an input sequence to an output sequence of potentially different length."
+    },
+    {
+        "id": "dnn_ch6_11",
+        "text": "What is the 'Cell State' in LSTM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The battery."
+            },
+            {
+                "id": "b",
+                "text": "The long-term memory highway running through the unit."
+            },
+            {
+                "id": "c",
+                "text": "The output."
+            },
+            {
+                "id": "d",
+                "text": "The bias."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Conveyor belt.",
+        "explanation": "Information flows along the cell state with only minor linear interactions."
+    },
+    {
+        "id": "dnn_ch6_12",
+        "text": "Which works better for long sequences generally: RNN or LSTM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "RNN"
+            },
+            {
+                "id": "b",
+                "text": "LSTM"
+            },
+            {
+                "id": "c",
+                "text": "MLP"
+            },
+            {
+                "id": "d",
+                "text": "Perceptron"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Long Short-Term.",
+        "explanation": "LSTM is explicitly designed to handle long-term dependencies."
+    },
+    {
+        "id": "dnn_ch6_13",
+        "text": "What is 'Teacher Forcing'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Forcing students to learn."
+            },
+            {
+                "id": "b",
+                "text": "Feeding the actual previous ground truth to the RNN during training, instead of its own prediction."
+            },
+            {
+                "id": "c",
+                "text": "Using a big model."
+            },
+            {
+                "id": "d",
+                "text": "Regularization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Correct history.",
+        "explanation": "It helps the model learn faster by keeping it on track."
+    },
+    {
+        "id": "dnn_ch6_14",
+        "text": "Time Series Prediction is typically a?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Classification problem."
+            },
+            {
+                "id": "b",
+                "text": "Regression problem (predicting future values)."
+            },
+            {
+                "id": "c",
+                "text": "Clustering problem."
+            },
+            {
+                "id": "d",
+                "text": "Vision problem."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Future values.",
+        "explanation": "We usually predict a continuous value (like stock price)."
+    },
+    {
+        "id": "dnn_ch6_15",
+        "text": "What is an Embedding Layer?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A bed."
+            },
+            {
+                "id": "b",
+                "text": "A layer that learns a dense vector representation for discrete variables (like words)."
+            },
+            {
+                "id": "c",
+                "text": "Output layer."
+            },
+            {
+                "id": "d",
+                "text": "Input layer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Word vectors.",
+        "explanation": "Embeddings capture semantic meaning in a lower-dimensional space."
+    },
+    {
+        "id": "dnn_ch6_16",
+        "text": "Can CNNs replace RNNs for sequence tasks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, never."
+            },
+            {
+                "id": "b",
+                "text": "Yes, 1D CNNs (Temporal ConvNets) are essentially competitive and faster."
+            },
+            {
+                "id": "c",
+                "text": "Only for images."
+            },
+            {
+                "id": "d",
+                "text": "Maybe."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "TCN.",
+        "explanation": "1D CNNs can capture local patterns in sequences and are parallelizable."
+    },
+    {
+        "id": "dnn_ch6_17",
+        "text": "How many gates does a standard LSTM have?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "2"
+            },
+            {
+                "id": "c",
+                "text": "3 (Forget, Input, Output)"
+            },
+            {
+                "id": "d",
+                "text": "10"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "In, Out, Forget.",
+        "explanation": "The three gates control the flow of information."
+    },
+    {
+        "id": "dnn_ch6_18",
+        "text": "Which activation is used for the gates in LSTM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU"
+            },
+            {
+                "id": "b",
+                "text": "Sigmoid"
+            },
+            {
+                "id": "c",
+                "text": "Tanh"
+            },
+            {
+                "id": "d",
+                "text": "Linear"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "0 to 1.",
+        "explanation": "Sigmoid outputs 0 to 1, acting as a switch (open/closed)."
+    },
+    {
+        "id": "dnn_ch6_19",
+        "text": "Which activation is used for the cell updates/candidate state?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sigmoid"
+            },
+            {
+                "id": "b",
+                "text": "Tanh"
+            },
+            {
+                "id": "c",
+                "text": "ReLU"
+            },
+            {
+                "id": "d",
+                "text": "Softmax"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "-1 to 1.",
+        "explanation": "Tanh is used to regulate the values flowing through the network."
+    },
+    {
+        "id": "dnn_ch6_20",
+        "text": "What is the 'Many-to-One' architecture?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sentiment Analysis (Sequence input -> Single label)."
+            },
+            {
+                "id": "b",
+                "text": "Translation."
+            },
+            {
+                "id": "c",
+                "text": "Image Captioning."
+            },
+            {
+                "id": "d",
+                "text": "Stock prediction."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sequence to Label.",
+        "explanation": "Input is a sequence of words, output is a single sentiment score."
+    },
+    {
+        "id": "dnn_ch6_21",
+        "text": "What is 'Many-to-Many' architecture?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Machine Translation (Seq input -> Seq output)."
+            },
+            {
+                "id": "b",
+                "text": "Classification."
+            },
+            {
+                "id": "c",
+                "text": "Regression."
+            },
+            {
+                "id": "d",
+                "text": "One to One."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Seq2Seq.",
+        "explanation": "Input sequence maps to output sequence."
+    },
+    {
+        "id": "dnn_ch6_22",
+        "text": "Why is GRU faster than LSTM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It uses integers."
+            },
+            {
+                "id": "b",
+                "text": "It has fewer parameters (2 gates vs 3 gates) and matrix operations."
+            },
+            {
+                "id": "c",
+                "text": "It keeps no state."
+            },
+            {
+                "id": "d",
+                "text": "It is written in C."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Simpler.",
+        "explanation": "Less complexity means faster computation per step."
+    },
+    {
+        "id": "dnn_ch6_23",
+        "text": "What is 'Attention Mechanism'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Paying attention."
+            },
+            {
+                "id": "b",
+                "text": "Allows the model to focus on different parts of the input sequence when producing each output."
+            },
+            {
+                "id": "c",
+                "text": "A warning."
+            },
+            {
+                "id": "d",
+                "text": "An error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Focus.",
+        "explanation": "Attention solves the bottleneck of compressing everything into a fixed-size context vector."
+    },
+    {
+        "id": "dnn_ch6_24",
+        "text": "What is 'One-to-Many' architecture?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Image Captioning (Image input -> Text sequence)."
+            },
+            {
+                "id": "b",
+                "text": "Translation."
+            },
+            {
+                "id": "c",
+                "text": "Classification."
+            },
+            {
+                "id": "d",
+                "text": "Clustering."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Single input -> Sequence.",
+        "explanation": "One image generates a sequence of words."
+    },
+    {
+        "id": "dnn_ch6_25",
+        "text": "Why do we 'unroll' RNNs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To visualize and apply backpropagation (BPTT)."
+            },
+            {
+                "id": "b",
+                "text": "To flatten them."
+            },
+            {
+                "id": "c",
+                "text": "To delete them."
+            },
+            {
+                "id": "d",
+                "text": "To save space."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Time steps.",
+        "explanation": "Conceptualizing RNNs as unrolled across time steps allows applying standard chain rule."
+    },
+    {
+        "id": "dnn_ch6_26",
+        "text": "In PyTorch, `batch_first=True` means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Batch dimension is 0 (N, L, H)."
+            },
+            {
+                "id": "b",
+                "text": "Time dimension is 0 (L, N, H)."
+            },
+            {
+                "id": "c",
+                "text": "No batch."
+            },
+            {
+                "id": "d",
+                "text": "Batch is last."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Inputs shape.",
+        "explanation": "Standard RNNs in PyTorch default to `(Seq_Len, Batch, Hidden)`, `batch_first=True` changes it to `(Batch, Seq_Len, Hidden)`."
+    },
+    {
+        "id": "dnn_ch6_27",
+        "text": "Stacked RNN means?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multiple RNN layers on top of each other."
+            },
+            {
+                "id": "b",
+                "text": "RNNs in parallel."
+            },
+            {
+                "id": "c",
+                "text": "RNNs in a pile."
+            },
+            {
+                "id": "d",
+                "text": "One RNN."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Deep RNN.",
+        "explanation": "Output of one RNN layer becomes input to the next RNN layer."
+    },
+    {
+        "id": "dnn_ch6_28",
+        "text": "What is the 'hidden state' usually initialized to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Zeros."
+            },
+            {
+                "id": "b",
+                "text": "Ones."
+            },
+            {
+                "id": "c",
+                "text": "Random."
+            },
+            {
+                "id": "d",
+                "text": "Inputs."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Empty memory.",
+        "explanation": "Typically initialized to a vector of zeros."
+    },
+    {
+        "id": "dnn_ch6_29",
+        "text": "Are RNNs easy to parallelize?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, because computation for step t depends on step t-1."
+            },
+            {
+                "id": "c",
+                "text": "Sometimes."
+            },
+            {
+                "id": "d",
+                "text": "Always."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequential dependency.",
+        "explanation": "The sequential nature prevents parallel computation of time steps (unlike Transformers/CNNs)."
+    },
+    {
+        "id": "dnn_ch6_30",
+        "text": "What replaces RNNs in modern NLP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Decision Trees."
+            },
+            {
+                "id": "b",
+                "text": "Transformers (Attention Is All You Need)."
+            },
+            {
+                "id": "c",
+                "text": "Linear Regression."
+            },
+            {
+                "id": "d",
+                "text": "K-Means."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Attention."
+    }
+]

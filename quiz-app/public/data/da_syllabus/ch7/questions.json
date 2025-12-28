@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch7_1",
+        "text": "What is Factor Analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Analyzing factory output."
+            },
+            {
+                "id": "b",
+                "text": "A statistical method used to describe variability among observed variables in terms of fewer unobserved variables (factors)."
+            },
+            {
+                "id": "c",
+                "text": "Classification."
+            },
+            {
+                "id": "d",
+                "text": "Regression."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dimension reduction.",
+        "explanation": "Factor analysis reduces a large number of variables into fewer numbers of factors."
+    },
+    {
+        "id": "da_ch7_2",
+        "text": "What is Directional Data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GPS data."
+            },
+            {
+                "id": "b",
+                "text": "Data where the direction matters (e.g., wind direction, angles)."
+            },
+            {
+                "id": "c",
+                "text": "Sorted data."
+            },
+            {
+                "id": "d",
+                "text": "Positive data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Angles.",
+        "explanation": "Directional statistics deals with observations on a compact Riemannian manifold (like a circle or sphere)."
+    },
+    {
+        "id": "da_ch7_3",
+        "text": "What is KNIME?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A knife."
+            },
+            {
+                "id": "b",
+                "text": "Open source data analytics, reporting and integration platform."
+            },
+            {
+                "id": "c",
+                "text": "A coding language."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Visual workflow.",
+        "explanation": "KNIME Analytics Platform is a free, open-source software for creating data science applications and services."
+    },
+    {
+        "id": "da_ch7_4",
+        "text": "Factor Analysis is similar to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PCA (Principal Component Analysis)."
+            },
+            {
+                "id": "b",
+                "text": "Decision Trees."
+            },
+            {
+                "id": "c",
+                "text": "Linear Regression."
+            },
+            {
+                "id": "d",
+                "text": "K-Means."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Reduction.",
+        "explanation": "Both Factor Analysis and PCA are dimensionality reduction techniques."
+    },
+    {
+        "id": "da_ch7_5",
+        "text": "In KNIME, what are 'Nodes'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Servers."
+            },
+            {
+                "id": "b",
+                "text": "The basic processing units of a workflow."
+            },
+            {
+                "id": "c",
+                "text": "Users."
+            },
+            {
+                "id": "d",
+                "text": "Errors."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Processing unit.",
+        "explanation": "Nodes in KNIME perform tasks like reading data, filtering, modeling, etc."
+    },
+    {
+        "id": "da_ch7_6",
+        "text": "How is directional data different from linear data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It isn't."
+            },
+            {
+                "id": "b",
+                "text": "0 and 360 degrees are the same, whereas 0 and 360 on a line are far apart."
+            },
+            {
+                "id": "c",
+                "text": "It uses integers only."
+            },
+            {
+                "id": "d",
+                "text": "It is always negative."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Wrap around.",
+        "explanation": "Directional data wraps around (periodic), requiring special statistical treatment."
+    },
+    {
+        "id": "da_ch7_7",
+        "text": "What is the 'Von Mises distribution'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normal distribution for directional data (circle)."
+            },
+            {
+                "id": "b",
+                "text": "A skewed distribution."
+            },
+            {
+                "id": "c",
+                "text": "Poisson distribution."
+            },
+            {
+                "id": "d",
+                "text": "Uniform distribution."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Circular Normal.",
+        "explanation": "The von Mises distribution is a continuous probability distribution on the circle, analogous to the normal distribution."
+    },
+    {
+        "id": "da_ch7_8",
+        "text": "What is a 'Workflow' in KNIME?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A document."
+            },
+            {
+                "id": "b",
+                "text": "A sequence of nodes connected to process data."
+            },
+            {
+                "id": "c",
+                "text": "A user profile."
+            },
+            {
+                "id": "d",
+                "text": "A cloud service."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequence of steps.",
+        "explanation": "A workflow visually defines the data pipeline."
+    },
+    {
+        "id": "da_ch7_9",
+        "text": "What is a 'Latent Variable'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A variable that is late."
+            },
+            {
+                "id": "b",
+                "text": "An unobserved variable inferred from other variables."
+            },
+            {
+                "id": "c",
+                "text": "A precise variable."
+            },
+            {
+                "id": "d",
+                "text": "A constant."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hidden.",
+        "explanation": "Factor analysis assumes that observed variables are linear combinations of potential factors (latent variables) plus error."
+    },
+    {
+        "id": "da_ch7_10",
+        "text": "Does KNIME require coding?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, lots of C++."
+            },
+            {
+                "id": "b",
+                "text": "No, it is a low-code/no-code GUI tool."
+            },
+            {
+                "id": "c",
+                "text": "Yes, Java only."
+            },
+            {
+                "id": "d",
+                "text": "Yes, Python only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Visual.",
+        "explanation": "KNIME is designed to be a visual tool, though you can inject code snippets if needed (Python/R)."
+    },
+    {
+        "id": "da_ch7_11",
+        "text": "What is 'Rotation' in Factor Analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Spinning the computer."
+            },
+            {
+                "id": "b",
+                "text": "A step to simplify the factor structure making it easier to interpret."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Adding errors."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Interpretation.",
+        "explanation": "Rotation (like Varimax) maximizes high loadings and minimizes low loadings so factors are easier to name."
+    },
+    {
+        "id": "da_ch7_12",
+        "text": "What is the 'Mean Direction'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Arithmetic mean."
+            },
+            {
+                "id": "b",
+                "text": "The average angle of a set of directional data."
+            },
+            {
+                "id": "c",
+                "text": "North."
+            },
+            {
+                "id": "d",
+                "text": "South."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Average angle.",
+        "explanation": "Calculating mean direction involves vector summation, not just arithmetic average of degrees."
+    },
+    {
+        "id": "da_ch7_13",
+        "text": "What represents the strength of concentration in Von Mises distribution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Kappa (k)."
+            },
+            {
+                "id": "b",
+                "text": "Mean."
+            },
+            {
+                "id": "c",
+                "text": "Variance."
+            },
+            {
+                "id": "d",
+                "text": "Sigma."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Concentration parameter.",
+        "explanation": "Kappa controls the concentration; large kappa means distribution is very concentrated around the mean direction."
+    },
+    {
+        "id": "da_ch7_14",
+        "text": "Which node in KNIME is used to read CSV files?",
+        "options": [
+            {
+                "id": "a",
+                "text": "File Reader / CSV Reader."
+            },
+            {
+                "id": "b",
+                "text": "Excel Reader."
+            },
+            {
+                "id": "c",
+                "text": "Database Component."
+            },
+            {
+                "id": "d",
+                "text": "Text Input."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "CSV.",
+        "explanation": "The 'CSV Reader' node allows reading comma-separated files."
+    },
+    {
+        "id": "da_ch7_15",
+        "text": "What is 'Circular Variance'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Standard variance."
+            },
+            {
+                "id": "b",
+                "text": "A measure of dispersion for directional data."
+            },
+            {
+                "id": "c",
+                "text": "Area of a circle."
+            },
+            {
+                "id": "d",
+                "text": "Radius."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dispersion on circle.",
+        "explanation": "Circular variance ranges from 0 to 1, measuring how spread out the angles are."
+    },
+    {
+        "id": "da_ch7_16",
+        "text": "What is 'Scree Plot' used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hiking."
+            },
+            {
+                "id": "b",
+                "text": "Determining the number of factors to retain in Factor Analysis."
+            },
+            {
+                "id": "c",
+                "text": "Plotting circular data."
+            },
+            {
+                "id": "d",
+                "text": "Classification."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Elbow method.",
+        "explanation": "A scree plot shows the eigenvalues of factors; the 'elbow' indicates how many factors are significant."
+    },
+    {
+        "id": "da_ch7_17",
+        "text": "What language is KNIME written in?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Python"
+            },
+            {
+                "id": "b",
+                "text": "Java"
+            },
+            {
+                "id": "c",
+                "text": "C#"
+            },
+            {
+                "id": "d",
+                "text": "Rust"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Eclipse based.",
+        "explanation": "KNIME is built on the Eclipse platform and written in Java."
+    },
+    {
+        "id": "da_ch7_18",
+        "text": "Can KNIME integrate with Python and R?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No."
+            },
+            {
+                "id": "b",
+                "text": "Yes, via scripting nodes."
+            },
+            {
+                "id": "c",
+                "text": "Only Python."
+            },
+            {
+                "id": "d",
+                "text": "Only R."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Integration.",
+        "explanation": "KNIME provides nodes to execute Python or R scripts, integrating their capabilities."
+    },
+    {
+        "id": "da_ch7_19",
+        "text": "What is 'Factor Loading'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Weight of the luggage."
+            },
+            {
+                "id": "b",
+                "text": "Correlation coefficient between a variable and a factor."
+            },
+            {
+                "id": "c",
+                "text": "Loading time."
+            },
+            {
+                "id": "d",
+                "text": "Error term."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Correlation.",
+        "explanation": "Loadings show how much a factor explains a variable."
+    },
+    {
+        "id": "da_ch7_20",
+        "text": "A Rose Diagram is used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gardening."
+            },
+            {
+                "id": "b",
+                "text": "Visualizing directional data (like a circular histogram)."
+            },
+            {
+                "id": "c",
+                "text": "Time series."
+            },
+            {
+                "id": "d",
+                "text": "Factor analysis."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Circular histogram.",
+        "explanation": "A rose diagram plots the frequency of angles."
+    },
+    {
+        "id": "da_ch7_21",
+        "text": "What is 'Extraction' in Factor Analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Removing data."
+            },
+            {
+                "id": "b",
+                "text": "Process of determining the factors."
+            },
+            {
+                "id": "c",
+                "text": "Exporting files."
+            },
+            {
+                "id": "d",
+                "text": "Sampling."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Identifying factors.",
+        "explanation": "Extraction methods (like Principal Axis Factoring) compute the factors."
+    },
+    {
+        "id": "da_ch7_22",
+        "text": "Is 'Average' appropriate for circular data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, always."
+            },
+            {
+                "id": "b",
+                "text": "No, arithmetic mean fails (e.g. avg of 1 and 359 is 180, which is wrong)."
+            },
+            {
+                "id": "c",
+                "text": "Only for degrees, not radians."
+            },
+            {
+                "id": "d",
+                "text": "Only for radians."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "1 and 359 are close.",
+        "explanation": "Arithmetic mean gives incorrect results for circular quantities."
+    },
+    {
+        "id": "da_ch7_23",
+        "text": "In KNIME, how is data passed between nodes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Via Global Variables."
+            },
+            {
+                "id": "b",
+                "text": "Via connection ports (input/output)."
+            },
+            {
+                "id": "c",
+                "text": "Via text files."
+            },
+            {
+                "id": "d",
+                "text": "Telepathy."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ports.",
+        "explanation": "Data flows through connections between output ports and input ports."
+    },
+    {
+        "id": "da_ch7_24",
+        "text": "What does 'Confirmatory Factor Analysis' (CFA) do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Tests if data fits a hypothesized model."
+            },
+            {
+                "id": "b",
+                "text": "Explores data."
+            },
+            {
+                "id": "c",
+                "text": "Predicts future."
+            },
+            {
+                "id": "d",
+                "text": "Clusters data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Confirm hypothesis.",
+        "explanation": "CFA is used to verify the factor structure of a set of observed variables."
+    },
+    {
+        "id": "da_ch7_25",
+        "text": "Directional statistics is crucial in which field?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accounting."
+            },
+            {
+                "id": "b",
+                "text": "Meteorology (Wind) and Biology (Migration)."
+            },
+            {
+                "id": "c",
+                "text": "History."
+            },
+            {
+                "id": "d",
+                "text": "Literature."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Direction.",
+        "explanation": "It helps analyze wind direction, animal migration paths, etc."
+    },
+    {
+        "id": "da_ch7_26",
+        "text": "What is a 'Component' in KNIME?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A hardware part."
+            },
+            {
+                "id": "b",
+                "text": "Encapsulated workflow part (metanode with extras) for reuse."
+            },
+            {
+                "id": "c",
+                "text": "A bug."
+            },
+            {
+                "id": "d",
+                "text": "A server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reusable block.",
+        "explanation": "Components wrap parts of workflows for modularity and reuse."
+    },
+    {
+        "id": "da_ch7_27",
+        "text": "Eigenvalues in Factor Analysis help decide?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Color of graph."
+            },
+            {
+                "id": "b",
+                "text": "How much variance a factor explains."
+            },
+            {
+                "id": "c",
+                "text": "Name of factor."
+            },
+            {
+                "id": "d",
+                "text": "Sample size."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Variance explained.",
+        "explanation": "Factors with high eigenvalues explain more variance and are usually retained."
+    },
+    {
+        "id": "da_ch7_28",
+        "text": "What is the range of circular variables?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0 to infinity."
+            },
+            {
+                "id": "b",
+                "text": "0 to 360 degrees (or 0 to 2pi)."
+            },
+            {
+                "id": "c",
+                "text": "-1 to 1."
+            },
+            {
+                "id": "d",
+                "text": "0 to 100."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Circle.",
+        "explanation": "A circle has 360 degrees or 2pi radians."
+    },
+    {
+        "id": "da_ch7_29",
+        "text": "Can KNIME handle big data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No."
+            },
+            {
+                "id": "b",
+                "text": "Yes, with Big Data Extensions (Spark, Hive)."
+            },
+            {
+                "id": "c",
+                "text": "Only text data."
+            },
+            {
+                "id": "d",
+                "text": "Only small excel files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Spark integration.",
+        "explanation": "KNIME integrates with Apache Spark and Hadoop for big data processing."
+    },
+    {
+        "id": "da_ch7_30",
+        "text": "What is 'Orthogonal Rotation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Factors are assumed to be independent (uncorrelated)."
+            },
+            {
+                "id": "b",
+                "text": "Factors are correlated."
+            },
+            {
+                "id": "c",
+                "text": "No rotation."
+            },
+            {
+                "id": "d",
+                "text": "Random rotation."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Right angles.",
+        "explanation": "Orthogonal rotation (like Varimax) keeps factors uncorrelated."
+    }
+]

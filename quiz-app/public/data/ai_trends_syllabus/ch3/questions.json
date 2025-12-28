@@ -1,0 +1,752 @@
+[
+    {
+        "id": "ai_ch3_1",
+        "text": "What does DevOps stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Developer Operations"
+            },
+            {
+                "id": "b",
+                "text": "Development and Operations"
+            },
+            {
+                "id": "c",
+                "text": "Digital Options"
+            },
+            {
+                "id": "d",
+                "text": "Device Optimizations"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dev + Ops.",
+        "explanation": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops)."
+    },
+    {
+        "id": "ai_ch3_2",
+        "text": "Which tool is primarily used for Version Control?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Docker"
+            },
+            {
+                "id": "b",
+                "text": "Jenkins"
+            },
+            {
+                "id": "c",
+                "text": "Git"
+            },
+            {
+                "id": "d",
+                "text": "Kubernetes"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Linus Torvalds made it.",
+        "explanation": "Git is the most widely used distributed version control system."
+    },
+    {
+        "id": "ai_ch3_3",
+        "text": "What is CI in CI/CD?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Customer Intelligence"
+            },
+            {
+                "id": "b",
+                "text": "Continuous Integration"
+            },
+            {
+                "id": "c",
+                "text": "Code Inspection"
+            },
+            {
+                "id": "d",
+                "text": "Central Interface"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Constant merging.",
+        "explanation": "CI stands for Continuous Integration, the practice of automating the integration of code changes from multiple contributors into a single software project."
+    },
+    {
+        "id": "ai_ch3_4",
+        "text": "What is Jenkins used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Writing code."
+            },
+            {
+                "id": "b",
+                "text": "Building authentication."
+            },
+            {
+                "id": "c",
+                "text": "Automating parts of software development (CI/CD server)."
+            },
+            {
+                "id": "d",
+                "text": "Hosting databases."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Automation server.",
+        "explanation": "Jenkins is an open source automation server which enables developers around the world to reliably build, test, and deploy their software."
+    },
+    {
+        "id": "ai_ch3_5",
+        "text": "Which command initializes a new Git repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "git start"
+            },
+            {
+                "id": "b",
+                "text": "git new"
+            },
+            {
+                "id": "c",
+                "text": "git init"
+            },
+            {
+                "id": "d",
+                "text": "git create"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Initialize.",
+        "explanation": "`git init` creates a new empty Git repository or reinitializes an existing one."
+    },
+    {
+        "id": "ai_ch3_6",
+        "text": "What is 'CD' in CI/CD?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Compact Disc"
+            },
+            {
+                "id": "b",
+                "text": "Code Debugging"
+            },
+            {
+                "id": "c",
+                "text": "Continuous Delivery / Continuous Deployment"
+            },
+            {
+                "id": "d",
+                "text": "Customer Delivery"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Delivering value.",
+        "explanation": "CD stands for Continuous Delivery and/or Continuous Deployment."
+    },
+    {
+        "id": "ai_ch3_7",
+        "text": "What is a 'Pipeline' in Jenkins?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A plumbing tool."
+            },
+            {
+                "id": "b",
+                "text": "A suite of plugins supporting implementing and integrating continuous delivery pipelines."
+            },
+            {
+                "id": "c",
+                "text": "A connection between servers."
+            },
+            {
+                "id": "d",
+                "text": "A secure tunnel."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Code-defined workflow.",
+        "explanation": "Jenkins Pipeline is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins."
+    },
+    {
+        "id": "ai_ch3_8",
+        "text": "What command allows you to save changes to the local repository history?",
+        "options": [
+            {
+                "id": "a",
+                "text": "git add"
+            },
+            {
+                "id": "b",
+                "text": "git save"
+            },
+            {
+                "id": "c",
+                "text": "git commit"
+            },
+            {
+                "id": "d",
+                "text": "git push"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Commitment.",
+        "explanation": "`git commit` records changes to the repository."
+    },
+    {
+        "id": "ai_ch3_9",
+        "text": "What is MLOps?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Machine Learning Operations."
+            },
+            {
+                "id": "b",
+                "text": "My Local Options."
+            },
+            {
+                "id": "c",
+                "text": "Multi-Level Operations."
+            },
+            {
+                "id": "d",
+                "text": "Manual Language Ops."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "ML + Ops.",
+        "explanation": "MLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently."
+    },
+    {
+        "id": "ai_ch3_10",
+        "text": "What is the Staging Area in Git?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The server."
+            },
+            {
+                "id": "b",
+                "text": "A file that stores information about what will go into your next commit."
+            },
+            {
+                "id": "c",
+                "text": "A theater stage."
+            },
+            {
+                "id": "d",
+                "text": "The recycle bin."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Index.",
+        "explanation": "The staging area (or index) allows you to group related changes together before committing them."
+    },
+    {
+        "id": "ai_ch3_11",
+        "text": "Which platform is popular for hosting Git repositories?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Facebook"
+            },
+            {
+                "id": "b",
+                "text": "GitHub"
+            },
+            {
+                "id": "c",
+                "text": "Netflix"
+            },
+            {
+                "id": "d",
+                "text": "Twitter"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Octocat.",
+        "explanation": "GitHub is a code hosting platform for version control and collaboration."
+    },
+    {
+        "id": "ai_ch3_12",
+        "text": "What does `git clone` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Copies a file."
+            },
+            {
+                "id": "b",
+                "text": "Creates a copy of an existing repository into a new directory."
+            },
+            {
+                "id": "c",
+                "text": "Deletes a repo."
+            },
+            {
+                "id": "d",
+                "text": "Merges branches."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Clone it.",
+        "explanation": "`git clone` clones a repository into a newly created directory."
+    },
+    {
+        "id": "ai_ch3_13",
+        "text": "Which file defines the Jenkins pipeline configuration?",
+        "options": [
+            {
+                "id": "a",
+                "text": "jenkins.txt"
+            },
+            {
+                "id": "b",
+                "text": "Jenkinsfile"
+            },
+            {
+                "id": "c",
+                "text": "pipeline.json"
+            },
+            {
+                "id": "d",
+                "text": "config.xml"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Capital J.",
+        "explanation": "A `Jenkinsfile` is a text file that contains the definition of a Jenkins Pipeline and is checked into version control."
+    },
+    {
+        "id": "ai_ch3_14",
+        "text": "What is Model Drift?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Moving models to another folder."
+            },
+            {
+                "id": "b",
+                "text": "Degradation of model performance due to changes in data distribution over time."
+            },
+            {
+                "id": "c",
+                "text": "Driving a car."
+            },
+            {
+                "id": "d",
+                "text": "Speeding up training."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Data changes.",
+        "explanation": "Model drift (or concept drift) occurs when the statistical properties of the target variable, which the model is trying to predict, change over time in unforeseen ways."
+    },
+    {
+        "id": "ai_ch3_15",
+        "text": "What does `git pull` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Uploads changes to remote."
+            },
+            {
+                "id": "b",
+                "text": "Fetches from and integrates with another repository or a local branch."
+            },
+            {
+                "id": "c",
+                "text": "Deletes local changes."
+            },
+            {
+                "id": "d",
+                "text": "Starts a pull request."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fetch + Merge.",
+        "explanation": "`git pull` incorporates changes from a remote repository into the current branch."
+    },
+    {
+        "id": "ai_ch3_16",
+        "text": "What is the purpose of `.gitignore`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To list people to ignore."
+            },
+            {
+                "id": "b",
+                "text": "To specify intentionally untracked files that Git should ignore."
+            },
+            {
+                "id": "c",
+                "text": "To ignore errors."
+            },
+            {
+                "id": "d",
+                "text": "To encrypt files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ignore files.",
+        "explanation": "The `.gitignore` file specifies patterns of files (like build artifacts, logs) that Git should ignore."
+    },
+    {
+        "id": "ai_ch3_17",
+        "text": "What is 'Artifact' in CI/CD terms?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An old object."
+            },
+            {
+                "id": "b",
+                "text": "A file produced by the build process (like a JAR or WAR)."
+            },
+            {
+                "id": "c",
+                "text": "A bug."
+            },
+            {
+                "id": "d",
+                "text": "A user manual."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Build output.",
+        "explanation": "Build artifacts are the files (executables, libraries, docs) created by the build process."
+    },
+    {
+        "id": "ai_ch3_18",
+        "text": "Which command uploads local repository content to a remote repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "git upload"
+            },
+            {
+                "id": "b",
+                "text": "git send"
+            },
+            {
+                "id": "c",
+                "text": "git push"
+            },
+            {
+                "id": "d",
+                "text": "git sync"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Push it.",
+        "explanation": "`git push` updates remote refs using local refs."
+    },
+    {
+        "id": "ai_ch3_19",
+        "text": "What does 'Branching' allow in Git?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cloning the project."
+            },
+            {
+                "id": "b",
+                "text": "Diverging from the main line of development and continuing to do work without messing with that main line."
+            },
+            {
+                "id": "c",
+                "text": "Growing trees."
+            },
+            {
+                "id": "d",
+                "text": "Splitting files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parallel development.",
+        "explanation": "Branching allows you to work on different features or fixes in isolation."
+    },
+    {
+        "id": "ai_ch3_20",
+        "text": "What is a 'Merge Conflict'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "War between file types."
+            },
+            {
+                "id": "b",
+                "text": "When Git is unable to automatically resolve differences in code between two commits."
+            },
+            {
+                "id": "c",
+                "text": "A database error."
+            },
+            {
+                "id": "d",
+                "text": "A failed push."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Competing changes.",
+        "explanation": "Merge conflicts occur when competing changes are made to the same lines of a file, or one person edits a file and another deletes it."
+    },
+    {
+        "id": "ai_ch3_21",
+        "text": "What is 'Model Serving'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Serving food to models."
+            },
+            {
+                "id": "b",
+                "text": "The process of making a trained ML model available to software applications."
+            },
+            {
+                "id": "c",
+                "text": "Training a model."
+            },
+            {
+                "id": "d",
+                "text": "Evaluating a model."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inference API.",
+        "explanation": "Model serving is hosting the model so it can process requests and return predictions (inference)."
+    },
+    {
+        "id": "ai_ch3_22",
+        "text": "Which is a cloud-based CI/CD service?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Notepad++"
+            },
+            {
+                "id": "b",
+                "text": "GitHub Actions"
+            },
+            {
+                "id": "c",
+                "text": "Windows Explorer"
+            },
+            {
+                "id": "d",
+                "text": "Paint"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "GitHub's tool.",
+        "explanation": "GitHub Actions is a CI/CD platform that allows you to automate your build, test, and deployment pipeline."
+    },
+    {
+        "id": "ai_ch3_23",
+        "text": "What does `git status` show?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Network status."
+            },
+            {
+                "id": "b",
+                "text": "The state of the working directory and staging area."
+            },
+            {
+                "id": "c",
+                "text": "Server uptime."
+            },
+            {
+                "id": "d",
+                "text": "User profile."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Current state.",
+        "explanation": "`git status` displays paths that have differences between the index file and the current HEAD commit, etc."
+    },
+    {
+        "id": "ai_ch3_24",
+        "text": "Why is Automated Testing important in CI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's optional."
+            },
+            {
+                "id": "b",
+                "text": "To ensure that new changes do not break existing functionality."
+            },
+            {
+                "id": "c",
+                "text": "To enhance UI."
+            },
+            {
+                "id": "d",
+                "text": "To slow down deployment."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Prevent breaking.",
+        "explanation": "Automated tests provide immediate feedback on whether code changes work as expected."
+    },
+    {
+        "id": "ai_ch3_25",
+        "text": "What is 'Infrastructure as Code' (IaC)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building servers physically."
+            },
+            {
+                "id": "b",
+                "text": "Managing and provisioning computer data centers through machine-readable definition files."
+            },
+            {
+                "id": "c",
+                "text": "Writing documentation."
+            },
+            {
+                "id": "d",
+                "text": "Coding in binary."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Terraform / CloudFormation.",
+        "explanation": "IaC is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration."
+    },
+    {
+        "id": "ai_ch3_26",
+        "text": "What is a 'Pull Request' (PR)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Asking to pull data."
+            },
+            {
+                "id": "b",
+                "text": "A method of submitting contributions to a project."
+            },
+            {
+                "id": "c",
+                "text": "Downloading a file."
+            },
+            {
+                "id": "d",
+                "text": "Requesting a license."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Code Review mechanism.",
+        "explanation": "Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub."
+    },
+    {
+        "id": "ai_ch3_27",
+        "text": "What is the purpose of a Build Trigger?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To shoot bugs."
+            },
+            {
+                "id": "b",
+                "text": "To automatically start a build process when certain criteria are met (source code change, schedule)."
+            },
+            {
+                "id": "c",
+                "text": "To stop the build."
+            },
+            {
+                "id": "d",
+                "text": "To create a user."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Start automatically.",
+        "explanation": "Build triggers allow you to configure when a build should be automatically started (e.g., on git push)."
+    },
+    {
+        "id": "ai_ch3_28",
+        "text": "What is 'Blue-Green Deployment'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using blue and green colors."
+            },
+            {
+                "id": "b",
+                "text": "A deployment technique that reduces downtime and risk by running two identical production environments."
+            },
+            {
+                "id": "c",
+                "text": "Deploying only to water."
+            },
+            {
+                "id": "d",
+                "text": "Slow deployment."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Two environments.",
+        "explanation": "Blue-Green deployment involves running two identical environments, one live (Blue) and one idle (Green), to switch traffic instantly."
+    },
+    {
+        "id": "ai_ch3_29",
+        "text": "Which file in a repo is typically used to describe the project?",
+        "options": [
+            {
+                "id": "a",
+                "text": "INDEX.html"
+            },
+            {
+                "id": "b",
+                "text": "README.md"
+            },
+            {
+                "id": "c",
+                "text": "HELP.txt"
+            },
+            {
+                "id": "d",
+                "text": "INFO.doc"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Read Me.",
+        "explanation": "README.md is the standard file for documenting a project in its root directory."
+    },
+    {
+        "id": "ai_ch3_30",
+        "text": "What does `git checkout` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pays for the code."
+            },
+            {
+                "id": "b",
+                "text": "Switches branches or restores working tree files."
+            },
+            {
+                "id": "c",
+                "text": "Checks validity."
+            },
+            {
+                "id": "d",
+                "text": "Logs out."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Switch branch.",
+        "explanation": "`git checkout` is used to switch branches or restore working tree files."
+    }
+]

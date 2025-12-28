@@ -1,0 +1,752 @@
+[
+    {
+        "id": "ai_ch4_1",
+        "text": "What is the primary difference between a Container and a Virtual Machine (VM)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Containers are larger."
+            },
+            {
+                "id": "b",
+                "text": "VMs virtualize hardware; Containers virtualize the OS."
+            },
+            {
+                "id": "c",
+                "text": "There is no difference."
+            },
+            {
+                "id": "d",
+                "text": "VMs are for Linux only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Kernel sharing.",
+        "explanation": "Containers share the host OS kernel and are lightweight, whereas VMs include a full guest OS and virtualize hardware."
+    },
+    {
+        "id": "ai_ch4_2",
+        "text": "What is Docker?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A clothing brand."
+            },
+            {
+                "id": "b",
+                "text": "A platform for developing, shipping, and running applications in containers."
+            },
+            {
+                "id": "c",
+                "text": "A shipping company."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Whale logo.",
+        "explanation": "Docker is an open source platform that enables developers to build, deploy, run, update, and manage containers."
+    },
+    {
+        "id": "ai_ch4_3",
+        "text": "What file is used to define a Docker image?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DockerImage"
+            },
+            {
+                "id": "b",
+                "text": "Dockerfile"
+            },
+            {
+                "id": "c",
+                "text": "Container.txt"
+            },
+            {
+                "id": "d",
+                "text": "Build.xml"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "File for Docker.",
+        "explanation": "A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image."
+    },
+    {
+        "id": "ai_ch4_4",
+        "text": "What is Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A complex game."
+            },
+            {
+                "id": "b",
+                "text": "An open-source container orchestration system."
+            },
+            {
+                "id": "c",
+                "text": "A new OS."
+            },
+            {
+                "id": "d",
+                "text": "A coding language."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "K8s.",
+        "explanation": "Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications."
+    },
+    {
+        "id": "ai_ch4_5",
+        "text": "What command builds a Docker image from a Dockerfile?",
+        "options": [
+            {
+                "id": "a",
+                "text": "docker create"
+            },
+            {
+                "id": "b",
+                "text": "docker build"
+            },
+            {
+                "id": "c",
+                "text": "docker run"
+            },
+            {
+                "id": "d",
+                "text": "docker make"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Build it.",
+        "explanation": "`docker build` is the command to build an image from a Dockerfile."
+    },
+    {
+        "id": "ai_ch4_6",
+        "text": "What is a 'Pod' in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A space capsule."
+            },
+            {
+                "id": "b",
+                "text": "The smallest deployable unit in Kubernetes, grouping one or more containers."
+            },
+            {
+                "id": "c",
+                "text": "A music player."
+            },
+            {
+                "id": "d",
+                "text": "A single server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Peas in a pod.",
+        "explanation": "A Pod is the smallest execution unit in Kubernetes, representing a single instance of a running process in your cluster."
+    },
+    {
+        "id": "ai_ch4_7",
+        "text": "Which component is the 'brain' of the Kubernetes cluster?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Worker Node"
+            },
+            {
+                "id": "b",
+                "text": "Kubelet"
+            },
+            {
+                "id": "c",
+                "text": "Control Plane (Master Node)"
+            },
+            {
+                "id": "d",
+                "text": "Proxy"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Master.",
+        "explanation": "The Control Plane (Master) manages the cluster state, scheduling, and controller processes."
+    },
+    {
+        "id": "ai_ch4_8",
+        "text": "What is Docker Hub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A meeting place."
+            },
+            {
+                "id": "b",
+                "text": "A cloud-based registry service for sharing and finding Docker images."
+            },
+            {
+                "id": "c",
+                "text": "A router."
+            },
+            {
+                "id": "d",
+                "text": "A USB hub."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Image registry.",
+        "explanation": "Docker Hub is the world's largest library and community for container images."
+    },
+    {
+        "id": "ai_ch4_9",
+        "text": "What is a 'ReplicaSet' in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A backup tool."
+            },
+            {
+                "id": "b",
+                "text": "Ensures a specified number of pod replicas are running at any given time."
+            },
+            {
+                "id": "c",
+                "text": "A copy paste tool."
+            },
+            {
+                "id": "d",
+                "text": "A database replica."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Set of Replicas.",
+        "explanation": "A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time."
+    },
+    {
+        "id": "ai_ch4_10",
+        "text": "How do you view running containers in Docker?",
+        "options": [
+            {
+                "id": "a",
+                "text": "docker view"
+            },
+            {
+                "id": "b",
+                "text": "docker ps"
+            },
+            {
+                "id": "c",
+                "text": "docker list"
+            },
+            {
+                "id": "d",
+                "text": "docker show"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Process Status.",
+        "explanation": "`docker ps` lists the running containers."
+    },
+    {
+        "id": "ai_ch4_11",
+        "text": "What is a 'Service' in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Background task."
+            },
+            {
+                "id": "b",
+                "text": "An abstraction which defines a logical set of Pods and a policy by which to access them."
+            },
+            {
+                "id": "c",
+                "text": "Customer support."
+            },
+            {
+                "id": "d",
+                "text": "A paid feature."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Network access.",
+        "explanation": "A Service enables network access to a set of Pods, often providing load balancing."
+    },
+    {
+        "id": "ai_ch4_12",
+        "text": "What describes the desired state of a Kubernetes object?",
+        "options": [
+            {
+                "id": "a",
+                "text": "JSON Pointer"
+            },
+            {
+                "id": "b",
+                "text": "YAML Manifest"
+            },
+            {
+                "id": "c",
+                "text": "Java Code"
+            },
+            {
+                "id": "d",
+                "text": "HTML"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "YAML file.",
+        "explanation": "Kubernetes objects are typically defined in YAML files (manifests) describing their desired state."
+    },
+    {
+        "id": "ai_ch4_13",
+        "text": "What is `kubectl`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A kernel module."
+            },
+            {
+                "id": "b",
+                "text": "The command line tool for communicating with a Kubernetes cluster."
+            },
+            {
+                "id": "c",
+                "text": "A monitoring tool."
+            },
+            {
+                "id": "d",
+                "text": "A docker command."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Kube Control.",
+        "explanation": "`kubectl` is the command-line tool used to run commands against Kubernetes clusters."
+    },
+    {
+        "id": "ai_ch4_14",
+        "text": "What does `docker run -d` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deletes the container."
+            },
+            {
+                "id": "b",
+                "text": "Runs the container in detached mode (background)."
+            },
+            {
+                "id": "c",
+                "text": "Debugs the container."
+            },
+            {
+                "id": "d",
+                "text": "Downloads the container."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Detached.",
+        "explanation": "The `-d` flag runs the container in detached mode, meaning it runs in the background."
+    },
+    {
+        "id": "ai_ch4_15",
+        "text": "What is 'Orchestration'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Playing music."
+            },
+            {
+                "id": "b",
+                "text": "Automated configuration, coordination, and management of computer systems/software."
+            },
+            {
+                "id": "c",
+                "text": "Installing drivers."
+            },
+            {
+                "id": "d",
+                "text": "Writing code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Conducting the orchestra.",
+        "explanation": "Orchestration involves managing the lifecycle of containers, including provisioning, deployment, scaling, and networking."
+    },
+    {
+        "id": "ai_ch4_16",
+        "text": "What is a 'Volume' in Docker?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sound level."
+            },
+            {
+                "id": "b",
+                "text": "A mechanism for persisting data generated by and used by Docker containers."
+            },
+            {
+                "id": "c",
+                "text": "A large container."
+            },
+            {
+                "id": "d",
+                "text": "Network bandwidth."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Persistence.",
+        "explanation": "Volumes are the preferred mechanism for persisting data generated by and used by Docker containers."
+    },
+    {
+        "id": "ai_ch4_17",
+        "text": "What is Minikube?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A small car."
+            },
+            {
+                "id": "b",
+                "text": "A tool that runs a single-node Kubernetes cluster locally."
+            },
+            {
+                "id": "c",
+                "text": "A tiny container."
+            },
+            {
+                "id": "d",
+                "text": "A game."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mini K8s.",
+        "explanation": "Minikube works by running a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day."
+    },
+    {
+        "id": "ai_ch4_18",
+        "text": "What is a 'Deployment' in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sending troops."
+            },
+            {
+                "id": "b",
+                "text": "A resource that provides declarative updates for Pods and ReplicaSets."
+            },
+            {
+                "id": "c",
+                "text": "Deleting pods."
+            },
+            {
+                "id": "d",
+                "text": "A network map."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Declarative updates.",
+        "explanation": "A Deployment provides declarative updates for Pods and ReplicaSets, allowing you to define the desired state."
+    },
+    {
+        "id": "ai_ch4_19",
+        "text": "What is a Docker 'Image'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A screenshot."
+            },
+            {
+                "id": "b",
+                "text": "A read-only template with instructions for creating a Docker container."
+            },
+            {
+                "id": "c",
+                "text": "A logo."
+            },
+            {
+                "id": "d",
+                "text": "A running app."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Template.",
+        "explanation": "An image is a read-only template with instructions for creating a Docker container."
+    },
+    {
+        "id": "ai_ch4_20",
+        "text": "Which agent runs on each node in a K8s cluster?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Docker"
+            },
+            {
+                "id": "b",
+                "text": "Kubelet"
+            },
+            {
+                "id": "c",
+                "text": "ApiServer"
+            },
+            {
+                "id": "d",
+                "text": "Etcd"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Little Kube.",
+        "explanation": "The Kubelet is an agent that runs on each node in the cluster. It ensures that containers are running in a Pod."
+    },
+    {
+        "id": "ai_ch4_21",
+        "text": "What does `docker pull` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Downloads an image from a registry."
+            },
+            {
+                "id": "b",
+                "text": "Pulls a container."
+            },
+            {
+                "id": "c",
+                "text": "Starts a container."
+            },
+            {
+                "id": "d",
+                "text": "Stops a container."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Download image.",
+        "explanation": "`docker pull` pulls an image or a repository from a registry."
+    },
+    {
+        "id": "ai_ch4_22",
+        "text": "What is Namespace in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Naming variables."
+            },
+            {
+                "id": "b",
+                "text": "Mechanism to isolate resources within a single cluster."
+            },
+            {
+                "id": "c",
+                "text": "Space name."
+            },
+            {
+                "id": "d",
+                "text": "Storage area."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Virtual cluster.",
+        "explanation": "Namespaces provide a scope for names and allow you to divide cluster resources between multiple users."
+    },
+    {
+        "id": "ai_ch4_23",
+        "text": "What is Docker Compose?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Music software."
+            },
+            {
+                "id": "b",
+                "text": "Tool for defining and running multi-container Docker applications."
+            },
+            {
+                "id": "c",
+                "text": "A writing tool."
+            },
+            {
+                "id": "d",
+                "text": "Image editor."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multi-container.",
+        "explanation": "Docker Compose is a tool for defining and running multi-container Docker applications using YAML."
+    },
+    {
+        "id": "ai_ch4_24",
+        "text": "What keeps the key-value store of the cluster data in K8s?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MySQL"
+            },
+            {
+                "id": "b",
+                "text": "etcd"
+            },
+            {
+                "id": "c",
+                "text": "Redis"
+            },
+            {
+                "id": "d",
+                "text": "Mongo"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Distributed KV store.",
+        "explanation": "etcd is a consistent and highly-available key value store used as Kubernetes' backing store for all cluster data."
+    },
+    {
+        "id": "ai_ch4_25",
+        "text": "What is a 'Layer' in Docker?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A GUI element."
+            },
+            {
+                "id": "b",
+                "text": "An intermediate image used to build the final image."
+            },
+            {
+                "id": "c",
+                "text": "An admin level."
+            },
+            {
+                "id": "d",
+                "text": "A security clearance."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stacked changes.",
+        "explanation": "Docker images are composed of multiple layers, each representing an instruction in the image's Dockerfile."
+    },
+    {
+        "id": "ai_ch4_26",
+        "text": "What is 'Rolling Update'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rolling dice."
+            },
+            {
+                "id": "b",
+                "text": "Updating pods continuously with zero downtime."
+            },
+            {
+                "id": "c",
+                "text": "Rebooting servers."
+            },
+            {
+                "id": "d",
+                "text": "Manual update."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zero downtime.",
+        "explanation": "Rolling updates allow Deployments' update to take place with zero downtime by incrementally updating Pods instances with new ones."
+    },
+    {
+        "id": "ai_ch4_27",
+        "text": "Which network driver is default in Docker?",
+        "options": [
+            {
+                "id": "a",
+                "text": "host"
+            },
+            {
+                "id": "b",
+                "text": "bridge"
+            },
+            {
+                "id": "c",
+                "text": "overlay"
+            },
+            {
+                "id": "d",
+                "text": "macvlan"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Connects containers.",
+        "explanation": "The `bridge` network driver is the default network driver for Docker."
+    },
+    {
+        "id": "ai_ch4_28",
+        "text": "What is 'Ingress' in Kubernetes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Entrance."
+            },
+            {
+                "id": "b",
+                "text": "An API object that manages external access to the services in a cluster (HTTP/HTTPS)."
+            },
+            {
+                "id": "c",
+                "text": "Logging in."
+            },
+            {
+                "id": "d",
+                "text": "Internal routing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "External access.",
+        "explanation": "Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster."
+    },
+    {
+        "id": "ai_ch4_29",
+        "text": "Which field in YAML specifies the type of resource?",
+        "options": [
+            {
+                "id": "a",
+                "text": "type"
+            },
+            {
+                "id": "b",
+                "text": "kind"
+            },
+            {
+                "id": "c",
+                "text": "class"
+            },
+            {
+                "id": "d",
+                "text": "category"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Kind of object.",
+        "explanation": "The `kind` field specifies the type of Kubernetes object you want to create (e.g., Pod, Service)."
+    },
+    {
+        "id": "ai_ch4_30",
+        "text": "What is the Registry?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Windows settings."
+            },
+            {
+                "id": "b",
+                "text": "A storage and distribution system for named Docker images."
+            },
+            {
+                "id": "c",
+                "text": "List of users."
+            },
+            {
+                "id": "d",
+                "text": "Log file."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Image store.",
+        "explanation": "A Registry is a repository for Docker images (e.g., Docker Hub, GCR)."
+    }
+]

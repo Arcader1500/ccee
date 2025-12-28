@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch2_1",
+        "text": "What is TensorFlow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A flow of electricity."
+            },
+            {
+                "id": "b",
+                "text": "An open-source machine learning library developed by Google."
+            },
+            {
+                "id": "c",
+                "text": "A chat app."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Google Brain.",
+        "explanation": "TensorFlow is an end-to-end open source platform for machine learning."
+    },
+    {
+        "id": "dnn_ch2_2",
+        "text": "What is PyTorch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A torch app."
+            },
+            {
+                "id": "b",
+                "text": "An open source machine learning framework based on the Torch library, developed by Facebook (Meta)."
+            },
+            {
+                "id": "c",
+                "text": "A python script."
+            },
+            {
+                "id": "d",
+                "text": "A game engine."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Meta AI.",
+        "explanation": "PyTorch is a popular deep learning framework known for distinct dynamic computation graphs."
+    },
+    {
+        "id": "dnn_ch2_3",
+        "text": "What is a Tensor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A muscle."
+            },
+            {
+                "id": "b",
+                "text": "A multi-dimensional array."
+            },
+            {
+                "id": "c",
+                "text": "A number 10."
+            },
+            {
+                "id": "d",
+                "text": "A linear equation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "N-dimensional matrix.",
+        "explanation": "Tensors are generalizations of vectors and matrices to potentially higher dimensions."
+    },
+    {
+        "id": "dnn_ch2_4",
+        "text": "PyTorch is known for being?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Static."
+            },
+            {
+                "id": "b",
+                "text": "Pythonic and having dynamic computational graphs."
+            },
+            {
+                "id": "c",
+                "text": "Hard to learn."
+            },
+            {
+                "id": "d",
+                "text": "Slow."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dynamic.",
+        "explanation": "PyTorch uses dynamic computation graphs (define-by-run), making it very flexible and 'Pythonic'."
+    },
+    {
+        "id": "dnn_ch2_5",
+        "text": "What is Keras?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A Greek god."
+            },
+            {
+                "id": "b",
+                "text": "A high-level neural networks API, typically running on top of TensorFlow."
+            },
+            {
+                "id": "c",
+                "text": "A low-level language."
+            },
+            {
+                "id": "d",
+                "text": "An OS."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "High-level API.",
+        "explanation": "Keras is designed to enable fast experimentation with deep neural networks."
+    },
+    {
+        "id": "dnn_ch2_6",
+        "text": "Which rank tensor is a scalar?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rank 0"
+            },
+            {
+                "id": "b",
+                "text": "Rank 1"
+            },
+            {
+                "id": "c",
+                "text": "Rank 2"
+            },
+            {
+                "id": "d",
+                "text": "Rank 3"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Single number.",
+        "explanation": "A scalar (single number) is a rank-0 tensor."
+    },
+    {
+        "id": "dnn_ch2_7",
+        "text": "Which rank tensor is a vector?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rank 0"
+            },
+            {
+                "id": "b",
+                "text": "Rank 1"
+            },
+            {
+                "id": "c",
+                "text": "Rank 2"
+            },
+            {
+                "id": "d",
+                "text": "Rank 3"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "1D array.",
+        "explanation": "A vector is a rank-1 tensor."
+    },
+    {
+        "id": "dnn_ch2_8",
+        "text": "What does `.backward()` do in PyTorch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reverses a list."
+            },
+            {
+                "id": "b",
+                "text": "Computes gradients automatically."
+            },
+            {
+                "id": "c",
+                "text": "Undo last action."
+            },
+            {
+                "id": "d",
+                "text": "Moves model to CPU."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Autograd.",
+        "explanation": "It computes the gradient of current tensor w.r.t. graph leaves."
+    },
+    {
+        "id": "dnn_ch2_9",
+        "text": "In TensorFlow 2.x, what is 'Eager Execution'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Running fast."
+            },
+            {
+                "id": "b",
+                "text": "Operations are evaluated immediately as they are called from Python."
+            },
+            {
+                "id": "c",
+                "text": "Lazy loading."
+            },
+            {
+                "id": "d",
+                "text": "Compiling first."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Immediate.",
+        "explanation": "Eager execution runs operations immediately, without building graphs: operations return concrete values instead of graph nodes."
+    },
+    {
+        "id": "dnn_ch2_10",
+        "text": "What is the primary data structure in PyTorch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Numpy array"
+            },
+            {
+                "id": "b",
+                "text": "Torch Tensor"
+            },
+            {
+                "id": "c",
+                "text": "List"
+            },
+            {
+                "id": "d",
+                "text": "Map"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tensor.",
+        "explanation": "`torch.Tensor` is the central data structure."
+    },
+    {
+        "id": "dnn_ch2_11",
+        "text": "How do you move a tensor to GPU in PyTorch?",
+        "options": [
+            {
+                "id": "a",
+                "text": ".gpu()"
+            },
+            {
+                "id": "b",
+                "text": ".cuda() or .to('cuda')"
+            },
+            {
+                "id": "c",
+                "text": ".move()"
+            },
+            {
+                "id": "d",
+                "text": ".fast()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "CUDA.",
+        "explanation": "`.to('cuda')` or `.cuda()` moves the tensor to GPU memory."
+    },
+    {
+        "id": "dnn_ch2_12",
+        "text": "What is 'Autograd'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Automatic car."
+            },
+            {
+                "id": "b",
+                "text": "Automatic Differentiation engine."
+            },
+            {
+                "id": "c",
+                "text": "Automatic plotting."
+            },
+            {
+                "id": "d",
+                "text": "Automatic grading."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Calculates gradients.",
+        "explanation": "Autograd provides automatic differentiation for all operations on Tensors."
+    },
+    {
+        "id": "dnn_ch2_13",
+        "text": "Which library is usually imported as `tf`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Torch Flow"
+            },
+            {
+                "id": "b",
+                "text": "TensorFlow"
+            },
+            {
+                "id": "c",
+                "text": "Theano"
+            },
+            {
+                "id": "d",
+                "text": "Terraform"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Standard alias.",
+        "explanation": "`import tensorflow as tf` is the standard convention."
+    },
+    {
+        "id": "dnn_ch2_14",
+        "text": "What shape is a rank-2 tensor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Point"
+            },
+            {
+                "id": "b",
+                "text": "Line"
+            },
+            {
+                "id": "c",
+                "text": "Matrix (Rows & Cols)"
+            },
+            {
+                "id": "d",
+                "text": "Cube"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Matrix.",
+        "explanation": "Rank-2 tensor corresponds to a matrix."
+    },
+    {
+        "id": "dnn_ch2_15",
+        "text": "What is `torch.nn.Module`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A function."
+            },
+            {
+                "id": "b",
+                "text": "Base class for all neural network modules in PyTorch."
+            },
+            {
+                "id": "c",
+                "text": "A variable."
+            },
+            {
+                "id": "d",
+                "text": "An optimizer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Base class.",
+        "explanation": "Models in PyTorch are typically created by subclassing `nn.Module`."
+    },
+    {
+        "id": "dnn_ch2_16",
+        "text": "What does `reshape()` or `view()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Changes values."
+            },
+            {
+                "id": "b",
+                "text": "Changes the dimensions/shape of the tensor without changing data."
+            },
+            {
+                "id": "c",
+                "text": "Deletes data."
+            },
+            {
+                "id": "d",
+                "text": "Inverts matrix."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Different view.",
+        "explanation": "It returns a new tensor with the same data but of a different shape."
+    },
+    {
+        "id": "dnn_ch2_17",
+        "text": "Comparison: Which one is historically more 'define-and-run' (static graph)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PyTorch"
+            },
+            {
+                "id": "b",
+                "text": "TensorFlow 1.x"
+            },
+            {
+                "id": "c",
+                "text": "Numpy"
+            },
+            {
+                "id": "d",
+                "text": "Sklearn"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Old TF.",
+        "explanation": "TensorFlow 1.x relied on building a static graph first, then running it in a session."
+    },
+    {
+        "id": "dnn_ch2_18",
+        "text": "What is the `.numpy()` method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Converts tensor to numpy array."
+            },
+            {
+                "id": "b",
+                "text": "Imports numpy."
+            },
+            {
+                "id": "c",
+                "text": "Calculates math."
+            },
+            {
+                "id": "d",
+                "text": "Error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "To Numpy.",
+        "explanation": "It converts a generic Tensor to a NumPy array (works on CPU tensors)."
+    },
+    {
+        "id": "dnn_ch2_19",
+        "text": "Which framework uses `.fit()` and `.predict()` style API (Keras)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PyTorch (native)"
+            },
+            {
+                "id": "b",
+                "text": "TensorFlow / Keras"
+            },
+            {
+                "id": "c",
+                "text": "C++"
+            },
+            {
+                "id": "d",
+                "text": "Java"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scikit-learn style.",
+        "explanation": "Keras (integrated in TF) uses the user-friendly `fit()` API."
+    },
+    {
+        "id": "dnn_ch2_20",
+        "text": "What is a 'Computational Graph'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A chart."
+            },
+            {
+                "id": "b",
+                "text": "A directed graph where nodes correspond to mathematical operations."
+            },
+            {
+                "id": "c",
+                "text": "A GPU."
+            },
+            {
+                "id": "d",
+                "text": "A dataset."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Flow of math.",
+        "explanation": "It represents the flow of data and operations in a model."
+    },
+    {
+        "id": "dnn_ch2_21",
+        "text": "Can Tensors be stored on GPU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, only CPU."
+            },
+            {
+                "id": "b",
+                "text": "Yes, for hardware acceleration."
+            },
+            {
+                "id": "c",
+                "text": "Only integers."
+            },
+            {
+                "id": "d",
+                "text": "Only strings."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Acceleration.",
+        "explanation": "Yes, this is key for deep learning speed."
+    },
+    {
+        "id": "dnn_ch2_22",
+        "text": "What is `torch.optim`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Optical library."
+            },
+            {
+                "id": "b",
+                "text": "Package implementing various optimization algorithms."
+            },
+            {
+                "id": "c",
+                "text": "Optional tools."
+            },
+            {
+                "id": "d",
+                "text": "Opinionated settings."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Optimizer.",
+        "explanation": "It contains optimizers like SGD, Adam, etc."
+    },
+    {
+        "id": "dnn_ch2_23",
+        "text": "What does `axis=0` refer to usually?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Columns (width)."
+            },
+            {
+                "id": "b",
+                "text": "Rows (first dimension)."
+            },
+            {
+                "id": "c",
+                "text": "Depth."
+            },
+            {
+                "id": "d",
+                "text": "Time."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "First dim.",
+        "explanation": "In most conventions (numpy/TF/Torch), axis 0 is the first dimension (rows in 2D)."
+    },
+    {
+        "id": "dnn_ch2_24",
+        "text": "Which library integrates tightly with NumPy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Both PyTorch and TensorFlow."
+            },
+            {
+                "id": "b",
+                "text": "Neither."
+            },
+            {
+                "id": "c",
+                "text": "Only Java."
+            },
+            {
+                "id": "d",
+                "text": "Only C."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Both.",
+        "explanation": "Both frameworks are designed to interoperate easily with NumPy."
+    },
+    {
+        "id": "dnn_ch2_25",
+        "text": "What does broadcasting do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sends data over wifi."
+            },
+            {
+                "id": "b",
+                "text": "Automatically expands dimensions of smaller tensors to match larger ones for element-wise operations."
+            },
+            {
+                "id": "c",
+                "text": "Prints data."
+            },
+            {
+                "id": "d",
+                "text": "Compresses data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Match shapes.",
+        "explanation": "Broadcasting allows math on tensors of different shapes."
+    },
+    {
+        "id": "dnn_ch2_26",
+        "text": "What command installs pytorch typically?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pip install pytorch"
+            },
+            {
+                "id": "b",
+                "text": "pip install torch"
+            },
+            {
+                "id": "c",
+                "text": "npm install torch"
+            },
+            {
+                "id": "d",
+                "text": "apt-get torch"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Package name is 'torch'.",
+        "explanation": "The python package name is often `torch`."
+    },
+    {
+        "id": "dnn_ch2_27",
+        "text": "What is TensorBoard?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A physical board."
+            },
+            {
+                "id": "b",
+                "text": "Visualization toolkit for TensorFlow."
+            },
+            {
+                "id": "c",
+                "text": "A keyboard."
+            },
+            {
+                "id": "d",
+                "text": "A game."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Visualizer.",
+        "explanation": "TensorBoard provides visualization for ML experiments (loss curves, graphs)."
+    },
+    {
+        "id": "dnn_ch2_28",
+        "text": "What is ONNX?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Open Neural Network Exchange."
+            },
+            {
+                "id": "b",
+                "text": "Only Neural Network X."
+            },
+            {
+                "id": "c",
+                "text": "Operations on NN."
+            },
+            {
+                "id": "d",
+                "text": "One Neural Net."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Exchange format.",
+        "explanation": "ONNX is an open format to represent deep learning models to allow interoperability."
+    },
+    {
+        "id": "dnn_ch2_29",
+        "text": "What does `requires_grad=True` mean in PyTorch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The tensor needs grading."
+            },
+            {
+                "id": "b",
+                "text": "Operations on this tensor should be tracked for gradient computation."
+            },
+            {
+                "id": "c",
+                "text": "It is constant."
+            },
+            {
+                "id": "d",
+                "text": "It is output."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Track history.",
+        "explanation": "It tells Autograd to track operations on this tensor."
+    },
+    {
+        "id": "dnn_ch2_30",
+        "text": "TensorFlow Lite is for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supercomputers."
+            },
+            {
+                "id": "b",
+                "text": "Mobile and embedded devices."
+            },
+            {
+                "id": "c",
+                "text": "Heavy servers."
+            },
+            {
+                "id": "d",
+                "text": "Web backends."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lite/Mobile.",
+        "explanation": "TFLite is a set of tools to help developers run TensorFlow models on mobile, embedded, and IoT devices."
+    }
+]

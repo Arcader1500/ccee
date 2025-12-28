@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch3_1",
+        "text": "What generally distinguishes a Deep Network from a Shallow one?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cost."
+            },
+            {
+                "id": "b",
+                "text": "Number of hidden layers."
+            },
+            {
+                "id": "c",
+                "text": "Input size."
+            },
+            {
+                "id": "d",
+                "text": "Output size."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "More layers.",
+        "explanation": "Deep learning usually refers to neural networks with multiple (usually >1 or >2) hidden layers."
+    },
+    {
+        "id": "dnn_ch3_2",
+        "text": "What is the benefit of Deep Networks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They are faster to train."
+            },
+            {
+                "id": "b",
+                "text": "They can learn hierarchical representation of features (simple to complex)."
+            },
+            {
+                "id": "c",
+                "text": "They use fewer data."
+            },
+            {
+                "id": "d",
+                "text": "They don't overfit."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hierarchy.",
+        "explanation": "Deep nets learn simple features in early layers and combine them into complex features in deeper layers."
+    },
+    {
+        "id": "dnn_ch3_3",
+        "text": "What is Regularization used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To speed up training."
+            },
+            {
+                "id": "b",
+                "text": "To prevent overfitting (reduce variance)."
+            },
+            {
+                "id": "c",
+                "text": "To increase bias."
+            },
+            {
+                "id": "d",
+                "text": "To add more neurons."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Generalization.",
+        "explanation": "Regularization techniques help the model generalize better by punishing complexity."
+    },
+    {
+        "id": "dnn_ch3_4",
+        "text": "What is L2 Regularization (Weight Decay)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding sum of weights to loss."
+            },
+            {
+                "id": "b",
+                "text": "Adding sum of squared weights to the loss function."
+            },
+            {
+                "id": "c",
+                "text": "Setting weights to zero."
+            },
+            {
+                "id": "d",
+                "text": "Doubling weights."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Squared magnitude.",
+        "explanation": "L2 adds `lambda * sum(w^2)` to the cost, encouraging small diffuse weights."
+    },
+    {
+        "id": "dnn_ch3_5",
+        "text": "What is L1 Regularization capable of?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Making weights infinite."
+            },
+            {
+                "id": "b",
+                "text": "Driving some weights to exactly zero (Feature Selection)."
+            },
+            {
+                "id": "c",
+                "text": "Nothing."
+            },
+            {
+                "id": "d",
+                "text": "Increasing model size."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sparsity.",
+        "explanation": "L1 norm tends to produce sparse weight vectors (many zeros)."
+    },
+    {
+        "id": "dnn_ch3_6",
+        "text": "What is 'Dropout'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Quitting the program."
+            },
+            {
+                "id": "b",
+                "text": "Randomly ignoring (dropping) neurons during training."
+            },
+            {
+                "id": "c",
+                "text": "Deleting layers."
+            },
+            {
+                "id": "d",
+                "text": "Data loss."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Random deactivation.",
+        "explanation": "Dropout prevents units from co-adapting too much by randomly forcing them to output zero during training."
+    },
+    {
+        "id": "dnn_ch3_7",
+        "text": "When is Dropout applied?",
+        "options": [
+            {
+                "id": "a",
+                "text": "During Testing only."
+            },
+            {
+                "id": "b",
+                "text": "During Training only."
+            },
+            {
+                "id": "c",
+                "text": "Always."
+            },
+            {
+                "id": "d",
+                "text": "Never."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Train hard, test easy.",
+        "explanation": "Dropout is used during training; at test time, all neurons are used (often with scaled weights)."
+    },
+    {
+        "id": "dnn_ch3_8",
+        "text": "What is 'Early Stopping'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Crashing."
+            },
+            {
+                "id": "b",
+                "text": "Stopping training when validation error starts to increase."
+            },
+            {
+                "id": "c",
+                "text": "Training for 1 epoch."
+            },
+            {
+                "id": "d",
+                "text": "Stopping before valid loss decreases."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stop before overfit.",
+        "explanation": "It helps prevent overfitting by monitoring validation loss and stopping when it degrades."
+    },
+    {
+        "id": "dnn_ch3_9",
+        "text": "What is Data Augmentation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Buying more data."
+            },
+            {
+                "id": "b",
+                "text": "Creating new training samples by modifying existing ones (rotate, flip, crop)."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Compressing data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Flipping/Rotating.",
+        "explanation": "It artificially increases the size of the training set to reduce overfitting."
+    },
+    {
+        "id": "dnn_ch3_10",
+        "text": "What is 'Momentum' in optimization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Physics force."
+            },
+            {
+                "id": "b",
+                "text": "Technique to accelerate Gradient Descent by accumulating past gradients."
+            },
+            {
+                "id": "c",
+                "text": "Slowing down."
+            },
+            {
+                "id": "d",
+                "text": "Random jumps."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rolling ball.",
+        "explanation": "Momentum helps the optimizer navigate relevant directions and dampens oscillations."
+    },
+    {
+        "id": "dnn_ch3_11",
+        "text": "What is RMSProp?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Root Mean Square Propagation."
+            },
+            {
+                "id": "b",
+                "text": "Random Mean Sum."
+            },
+            {
+                "id": "c",
+                "text": "Rapid Motion System."
+            },
+            {
+                "id": "d",
+                "text": "Real Model Selector."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Adaptive learning rate.",
+        "explanation": "RMSProp divides the gradient by a running average of its recent magnitude."
+    },
+    {
+        "id": "dnn_ch3_12",
+        "text": "What is ADAM optimizer?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A person."
+            },
+            {
+                "id": "b",
+                "text": "Adaptive Moment Estimation; combines Momentum and RMSProp."
+            },
+            {
+                "id": "c",
+                "text": "A basic SGD."
+            },
+            {
+                "id": "d",
+                "text": "A loss function."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Best of both.",
+        "explanation": "Adam is currently one of the most popular optimizers, combining benefits of Momentum and RMSProp."
+    },
+    {
+        "id": "dnn_ch3_13",
+        "text": "Why use Mini-Batch instead of Batch GD?",
+        "options": [
+            {
+                "id": "a",
+                "text": "More accurate gradient."
+            },
+            {
+                "id": "b",
+                "text": "Fits in memory and faster updates per epoch."
+            },
+            {
+                "id": "c",
+                "text": "Slower."
+            },
+            {
+                "id": "d",
+                "text": "Less noise."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Memory and speed.",
+        "explanation": "Mini-batch fits in GPU memory and provides frequent updates."
+    },
+    {
+        "id": "dnn_ch3_14",
+        "text": "In a Deep Network, what happens to features as you go deeper?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They become simpler."
+            },
+            {
+                "id": "b",
+                "text": "They become more complex and abstract."
+            },
+            {
+                "id": "c",
+                "text": "They disappear."
+            },
+            {
+                "id": "d",
+                "text": "They stay the same."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Abstraction.",
+        "explanation": "Early layers detect edges; deeper layers detect objects like faces or cars."
+    },
+    {
+        "id": "dnn_ch3_15",
+        "text": "What is 'Bias' in Bias-Variance tradeoff?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Random noise."
+            },
+            {
+                "id": "b",
+                "text": "Error due to overly simplistic assumptions (Underfitting)."
+            },
+            {
+                "id": "c",
+                "text": "Sensitivity to small fluctuations (Overfitting)."
+            },
+            {
+                "id": "d",
+                "text": "Model weight."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "High bias = Underfit.",
+        "explanation": "Bias is error from erroneous assumptions in the learning algorithm."
+    },
+    {
+        "id": "dnn_ch3_16",
+        "text": "What is 'Variance' in Bias-Variance tradeoff?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Underfitting."
+            },
+            {
+                "id": "b",
+                "text": "Error due to too much complexity/sensitivity to training data (Overfitting)."
+            },
+            {
+                "id": "c",
+                "text": "Constant error."
+            },
+            {
+                "id": "d",
+                "text": "Accuracy."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "High variance = Overfit.",
+        "explanation": "Variance refers to the amount by which the estimate of the target function will change if different training data was used."
+    },
+    {
+        "id": "dnn_ch3_17",
+        "text": "How do you fix High Variance (Overfitting)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Make model smaller, add regularization, more data."
+            },
+            {
+                "id": "b",
+                "text": "Make model bigger."
+            },
+            {
+                "id": "c",
+                "text": "Train longer."
+            },
+            {
+                "id": "d",
+                "text": "Remove data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "More constraint.",
+        "explanation": "To reduce overfitting, categorize: simplifing the model, using regularization, or getting more data."
+    },
+    {
+        "id": "dnn_ch3_18",
+        "text": "How do you fix High Bias (Underfitting)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "More regularization."
+            },
+            {
+                "id": "b",
+                "text": "Make model bigger/more complex, train longer."
+            },
+            {
+                "id": "c",
+                "text": "Less data."
+            },
+            {
+                "id": "d",
+                "text": "Early stopping."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Increase capacity.",
+        "explanation": "If the model is too simple, increase its capacity (layers/neurons)."
+    },
+    {
+        "id": "dnn_ch3_19",
+        "text": "Does Dropout change the expected value of activations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, it reduces it."
+            },
+            {
+                "id": "b",
+                "text": "No, inverted dropout scales remaining activations to maintain expected value."
+            },
+            {
+                "id": "c",
+                "text": "Yes, increases it."
+            },
+            {
+                "id": "d",
+                "text": "Doubles it."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scaling.",
+        "explanation": "Inverted Dropout divides by (1-p) during training to keep expected values consistent."
+    },
+    {
+        "id": "dnn_ch3_20",
+        "text": "What is the 'Universal Approximation Theorem'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deep nets are universal."
+            },
+            {
+                "id": "b",
+                "text": "A NN with at least one hidden layer can approximate any continuous function."
+            },
+            {
+                "id": "c",
+                "text": "NNs can solve everything perfectly."
+            },
+            {
+                "id": "d",
+                "text": "Universes are approximate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "One hidden layer.",
+        "explanation": "It states that a feed-forward network with a single hidden layer containing a finite number of neurons can approximate continuous functions."
+    },
+    {
+        "id": "dnn_ch3_21",
+        "text": "Why are deep networks harder to train than shallow ones?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vanishing/Exploding gradients."
+            },
+            {
+                "id": "b",
+                "text": "They are easier."
+            },
+            {
+                "id": "c",
+                "text": "CPUs are slow."
+            },
+            {
+                "id": "d",
+                "text": "They use too much internet."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Gradient instability.",
+        "explanation": "Gradients can vanish or explode as they propagate back through many layers."
+    },
+    {
+        "id": "dnn_ch3_22",
+        "text": "Which optimization algorithm adapts learning rates for each parameter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Standard SGD"
+            },
+            {
+                "id": "b",
+                "text": "Adam / RMSProp"
+            },
+            {
+                "id": "c",
+                "text": "Gradient Descent"
+            },
+            {
+                "id": "d",
+                "text": "Random Search"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Adaptive.",
+        "explanation": "Adam and RMSProp adjust the learning rate individually for parameters."
+    },
+    {
+        "id": "dnn_ch3_23",
+        "text": "What is 'Weight Initialization' importance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Not important."
+            },
+            {
+                "id": "b",
+                "text": "Crucial to prevent vanishing/exploding gradients at the start."
+            },
+            {
+                "id": "c",
+                "text": "Just for speed."
+            },
+            {
+                "id": "d",
+                "text": "For saving disk space."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Starting point.",
+        "explanation": "Poor initialization can lead to immediate vanishing or exploding gradients."
+    },
+    {
+        "id": "dnn_ch3_24",
+        "text": "What is 'Xavier/Glorot Initialization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Setting all to 0."
+            },
+            {
+                "id": "b",
+                "text": "Heuristic to set initial weights based on input/output size of layer."
+            },
+            {
+                "id": "c",
+                "text": "Setting all to 1."
+            },
+            {
+                "id": "d",
+                "text": "Random integers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Based on Fan-in/Fan-out.",
+        "explanation": "It keeps the variance of activations and gradients roughly the same across layers (good for Tanh/Sigmoid)."
+    },
+    {
+        "id": "dnn_ch3_25",
+        "text": "What is 'He Initialization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "For ReLU networks."
+            },
+            {
+                "id": "b",
+                "text": "For Sigmoid networks."
+            },
+            {
+                "id": "c",
+                "text": "For Tanh networks."
+            },
+            {
+                "id": "d",
+                "text": "For Linear networks."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Kaiming He.",
+        "explanation": "He Initialization works better for layers with ReLU activation."
+    },
+    {
+        "id": "dnn_ch3_26",
+        "text": "What is the typical learning rate decay strategy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Increase LR over time."
+            },
+            {
+                "id": "b",
+                "text": "Decrease LR over time to settle into minimum."
+            },
+            {
+                "id": "c",
+                "text": "Keep constant."
+            },
+            {
+                "id": "d",
+                "text": "Randomize."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cooling schedule.",
+        "explanation": "Reducing learning rate helps the algorithm settle into the minimum more precisely."
+    },
+    {
+        "id": "dnn_ch3_27",
+        "text": "What does a 'Unit' refer to in a hidden layer?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A neuron."
+            },
+            {
+                "id": "b",
+                "text": "A layer."
+            },
+            {
+                "id": "c",
+                "text": "A weight."
+            },
+            {
+                "id": "d",
+                "text": "A bias."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Neuron.",
+        "explanation": "Hidden units are the neurons in the hidden layers."
+    },
+    {
+        "id": "dnn_ch3_28",
+        "text": "Can regularization help if your model is underfitting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, it tends to increase bias (make it simpler)."
+            },
+            {
+                "id": "c",
+                "text": "Always."
+            },
+            {
+                "id": "d",
+                "text": "Maybe."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Regularization restricts.",
+        "explanation": "Regularization restricts the model. If it's already underfitting (too restricted), regularization usually hurts."
+    },
+    {
+        "id": "dnn_ch3_29",
+        "text": "What is a Saddle Point?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The minimum."
+            },
+            {
+                "id": "b",
+                "text": "Point where gradient is zero but it's not a local extremum (min up one way, max down other)."
+            },
+            {
+                "id": "c",
+                "text": "The maximum."
+            },
+            {
+                "id": "d",
+                "text": "Starting point."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Horse saddle.",
+        "explanation": "Saddle points are common in high dimensions and can slow down training."
+    },
+    {
+        "id": "dnn_ch3_30",
+        "text": "Why is 'Shallow' network sometimes preferred?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Less computational resources and easier to interpret."
+            },
+            {
+                "id": "b",
+                "text": "More accuracy."
+            },
+            {
+                "id": "c",
+                "text": "Learns complex features."
+            },
+            {
+                "id": "d",
+                "text": "Cooler."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Simplicity.",
+        "explanation": "Shallow networks (or other ML models) are faster and more interpretable, suitable for simpler problems."
+    }
+]

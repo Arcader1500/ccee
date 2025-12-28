@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch5_1",
+        "text": "What is Predictive Modelling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting the past."
+            },
+            {
+                "id": "b",
+                "text": "Using statistics to predict future outcomes."
+            },
+            {
+                "id": "c",
+                "text": "Drawing pictures."
+            },
+            {
+                "id": "d",
+                "text": "Creating databases."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Future.",
+        "explanation": "Predictive modeling uses statistical techniques to predict future events or outcomes."
+    },
+    {
+        "id": "da_ch5_2",
+        "text": "What is Regression Analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Moving backwards."
+            },
+            {
+                "id": "b",
+                "text": "A set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables."
+            },
+            {
+                "id": "c",
+                "text": "Classification."
+            },
+            {
+                "id": "d",
+                "text": "Psychotherapy."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Relationships.",
+        "explanation": "Regression analysis estimates relationships among variables, often used for prediction."
+    },
+    {
+        "id": "da_ch5_3",
+        "text": "In `y = mx + c`, what is `y`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dependent variable (Target)."
+            },
+            {
+                "id": "b",
+                "text": "Independent variable (Feature)."
+            },
+            {
+                "id": "c",
+                "text": "Slope."
+            },
+            {
+                "id": "d",
+                "text": "Intercept."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Target.",
+        "explanation": "`y` is the dependent variable (target) we are trying to predict."
+    },
+    {
+        "id": "da_ch5_4",
+        "text": "What is a Decision Tree?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A physical tree."
+            },
+            {
+                "id": "b",
+                "text": "A flowchart-like structure where each internal node represents a 'test' on an attribute."
+            },
+            {
+                "id": "c",
+                "text": "A linear equation."
+            },
+            {
+                "id": "d",
+                "text": "A clustering algorithm."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Flowchart.",
+        "explanation": "Decision trees split data into branches to make predictions."
+    },
+    {
+        "id": "da_ch5_5",
+        "text": "Which is a classification problem?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting house price."
+            },
+            {
+                "id": "b",
+                "text": "Predicting temperature."
+            },
+            {
+                "id": "c",
+                "text": "Predicting if an email is spam or not."
+            },
+            {
+                "id": "d",
+                "text": "Predicting sales amount."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Categories.",
+        "explanation": "Spam detection is a classification problem (binary: spam vs not spam), while the others are regression problems (continuous)."
+    },
+    {
+        "id": "da_ch5_6",
+        "text": "What is 'Overfitting'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model is too simple."
+            },
+            {
+                "id": "b",
+                "text": "Model learns the noise in the training data, performing poorly on new data."
+            },
+            {
+                "id": "c",
+                "text": "Model fits perfectly."
+            },
+            {
+                "id": "d",
+                "text": "Data is too large."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Memorizing noise.",
+        "explanation": "Overfitting happens when a model matches the training data so closely that it fails to generalize."
+    },
+    {
+        "id": "da_ch5_7",
+        "text": "Which metric is commonly used for Regression performance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accuracy"
+            },
+            {
+                "id": "b",
+                "text": "RMSE (Root Mean Square Error)"
+            },
+            {
+                "id": "c",
+                "text": "Confusion Matrix"
+            },
+            {
+                "id": "d",
+                "text": "Recall"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Error measurement.",
+        "explanation": "RMSE is a standard way to measure the error of a model in predicting quantitative data."
+    },
+    {
+        "id": "da_ch5_8",
+        "text": "What is Logistic Regression primarily used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Regression."
+            },
+            {
+                "id": "b",
+                "text": "Classification."
+            },
+            {
+                "id": "c",
+                "text": "Clustering."
+            },
+            {
+                "id": "d",
+                "text": "Sorting."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Confusing name.",
+        "explanation": "Despite the name, Logistic Regression is used for binary classification."
+    },
+    {
+        "id": "da_ch5_9",
+        "text": "What is a 'Feature' in predictive modeling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The target."
+            },
+            {
+                "id": "b",
+                "text": "An independent variable or input variable."
+            },
+            {
+                "id": "c",
+                "text": "A bug."
+            },
+            {
+                "id": "d",
+                "text": "The output."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Input.",
+        "explanation": "Features are the input variables used to make predictions."
+    },
+    {
+        "id": "da_ch5_10",
+        "text": "What is Time Series Forecasting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Predicting time."
+            },
+            {
+                "id": "b",
+                "text": "Using historical time-stamped data to predict future values."
+            },
+            {
+                "id": "c",
+                "text": "Sorting by time."
+            },
+            {
+                "id": "d",
+                "text": "Predicting space."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "History predicts future.",
+        "explanation": "Time series forecasting relies on the assumption that past trends and patterns will continue into the future."
+    },
+    {
+        "id": "da_ch5_11",
+        "text": "What is 'Entropy' in Decision Trees?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Energy."
+            },
+            {
+                "id": "b",
+                "text": "Measure of impurity or disorder."
+            },
+            {
+                "id": "c",
+                "text": "Tree height."
+            },
+            {
+                "id": "d",
+                "text": "Leaf count."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Disorder.",
+        "explanation": "Entropy measures the impurity of a dataset; decision trees try to minimize entropy."
+    },
+    {
+        "id": "da_ch5_12",
+        "text": "What is R-squared (Coefficient of Determination)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Error rate."
+            },
+            {
+                "id": "b",
+                "text": "Proportion of variance in the dependent variable predictable from the independent variable(s)."
+            },
+            {
+                "id": "c",
+                "text": "Correlation."
+            },
+            {
+                "id": "d",
+                "text": "Slope."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Explained variance.",
+        "explanation": "R-squared represents the proportion of the variance for a dependent variable that's explained by an independent variable."
+    },
+    {
+        "id": "da_ch5_13",
+        "text": "What is 'Underfitting'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model is too complex."
+            },
+            {
+                "id": "b",
+                "text": "Model is too simple to capture the underlying structure."
+            },
+            {
+                "id": "c",
+                "text": "Perfect fit."
+            },
+            {
+                "id": "d",
+                "text": "Good generalization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Too simple.",
+        "explanation": "Underfitting occurs when the model cannot capture the underlying trend of the data."
+    },
+    {
+        "id": "da_ch5_14",
+        "text": "In supervised segmentation, what is the 'target'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The variable we want to predict."
+            },
+            {
+                "id": "b",
+                "text": "The inputs."
+            },
+            {
+                "id": "c",
+                "text": "The clustering algorithm."
+            },
+            {
+                "id": "d",
+                "text": "The customer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Goal.",
+        "explanation": "The target variable is the outcome we are trying to predict or classify."
+    },
+    {
+        "id": "da_ch5_15",
+        "text": "What is 'Clustering'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supervised Learning."
+            },
+            {
+                "id": "b",
+                "text": "Unsupervised Learning method to group similar data points."
+            },
+            {
+                "id": "c",
+                "text": "Regression."
+            },
+            {
+                "id": "d",
+                "text": "Classification."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Grouping.",
+        "explanation": "Clustering groups objects such that objects in the same group (cluster) are more similar to each other."
+    },
+    {
+        "id": "da_ch5_16",
+        "text": "Which algorithm is used for Linear Regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "K-Means"
+            },
+            {
+                "id": "b",
+                "text": "Least Squares (OLS)"
+            },
+            {
+                "id": "c",
+                "text": "Apriori"
+            },
+            {
+                "id": "d",
+                "text": "PageRank"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Minimizing squares.",
+        "explanation": "Ordinary Least Squares (OLS) minimizes the sum of squared vertical distances between the observed responses and the fitted linear approximation."
+    },
+    {
+        "id": "da_ch5_17",
+        "text": "What is a 'Training Set'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The dataset used to train the model."
+            },
+            {
+                "id": "b",
+                "text": "The dataset used to test the model."
+            },
+            {
+                "id": "c",
+                "text": "The gym."
+            },
+            {
+                "id": "d",
+                "text": "Production data."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Learning material.",
+        "explanation": "The training set is the data used to fit the model."
+    },
+    {
+        "id": "da_ch5_18",
+        "text": "What does 'Information Gain' measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Profit."
+            },
+            {
+                "id": "b",
+                "text": "The reduction in entropy achieved by partitioning data."
+            },
+            {
+                "id": "c",
+                "text": "Data size."
+            },
+            {
+                "id": "d",
+                "text": "Correlation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reduction of disorder.",
+        "explanation": "Information Gain is used in Decision Trees to decide which feature to split on."
+    },
+    {
+        "id": "da_ch5_19",
+        "text": "What is 'Naive Bayes'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A complex neural network."
+            },
+            {
+                "id": "b",
+                "text": "A probabilistic classifier based on Bayes' theorem with 'naive' independence assumptions."
+            },
+            {
+                "id": "c",
+                "text": "A regression model."
+            },
+            {
+                "id": "d",
+                "text": "A hard algorithm."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Probabilistic.",
+        "explanation": "It's called 'Naive' because it assumes features are independent given the class label, which is rarely true but works well."
+    },
+    {
+        "id": "da_ch5_20",
+        "text": "Which is an example of a Regression algorithm?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Linear Regression"
+            },
+            {
+                "id": "b",
+                "text": "Logistic Regression (Standard)"
+            },
+            {
+                "id": "c",
+                "text": "KNN Classifier"
+            },
+            {
+                "id": "d",
+                "text": "K-Means"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Predicting continuous values.",
+        "explanation": "Linear regression is the standard algorithm for regression tasks."
+    },
+    {
+        "id": "da_ch5_21",
+        "text": "What is 'Pruning' in Decision Trees?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding branches."
+            },
+            {
+                "id": "b",
+                "text": "Cutting off branches to prevent overfitting."
+            },
+            {
+                "id": "c",
+                "text": "Watering the tree."
+            },
+            {
+                "id": "d",
+                "text": "Planting seeds."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cutting back.",
+        "explanation": "Pruning reduces the size of decision trees by removing sections that provide little power to classify instances, reducing overfitting."
+    },
+    {
+        "id": "da_ch5_22",
+        "text": "What is 'Supervised Learning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learning without a teacher."
+            },
+            {
+                "id": "b",
+                "text": "Learning from labeled data (input-output pairs)."
+            },
+            {
+                "id": "c",
+                "text": "Learning by playing."
+            },
+            {
+                "id": "d",
+                "text": "Learning from rules."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Labeled data.",
+        "explanation": "The model learns a function that maps an input to an output based on example input-output pairs."
+    },
+    {
+        "id": "da_ch5_23",
+        "text": "What is a 'Residual'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The answer."
+            },
+            {
+                "id": "b",
+                "text": "The difference between observed and predicted value."
+            },
+            {
+                "id": "c",
+                "text": "The variable."
+            },
+            {
+                "id": "d",
+                "text": "The intercept."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Error.",
+        "explanation": "Residual = Observed - Predicted. It represents the error for a single point."
+    },
+    {
+        "id": "da_ch5_24",
+        "text": "Which model is known as a 'Black Box'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Decision Tree"
+            },
+            {
+                "id": "b",
+                "text": "Neural Network"
+            },
+            {
+                "id": "c",
+                "text": "Linear Regression"
+            },
+            {
+                "id": "d",
+                "text": "Rule set"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hard to interpret.",
+        "explanation": "Neural Networks are often called black boxes because their internal logic is hard to interpret compared to trees or rules."
+    },
+    {
+        "id": "da_ch5_25",
+        "text": "What is 'Multicollinearity'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multiple colors."
+            },
+            {
+                "id": "b",
+                "text": "Correlation between independent variables in a regression model."
+            },
+            {
+                "id": "c",
+                "text": "No correlation."
+            },
+            {
+                "id": "d",
+                "text": "Correlation with target."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Problematic redundancy.",
+        "explanation": "Multicollinearity occurs when independent variables are highly correlated with each other, causing issues in regression."
+    },
+    {
+        "id": "da_ch5_26",
+        "text": "What is K-Nearest Neighbors (KNN)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A social network."
+            },
+            {
+                "id": "b",
+                "text": "A simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance)."
+            },
+            {
+                "id": "c",
+                "text": "A regression tool."
+            },
+            {
+                "id": "d",
+                "text": "A tree."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Look at neighbors.",
+        "explanation": "KNN looks at the 'k' closest data points to make a prediction."
+    },
+    {
+        "id": "da_ch5_27",
+        "text": "What represents the 'slope' in simple linear regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "c"
+            },
+            {
+                "id": "b",
+                "text": "m (in y=mx+c) or beta1"
+            },
+            {
+                "id": "c",
+                "text": "x"
+            },
+            {
+                "id": "d",
+                "text": "y"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rate of change.",
+        "explanation": "The slope tells how much Y changes for a unit change in X."
+    },
+    {
+        "id": "da_ch5_28",
+        "text": "Probability Estimation requires the output to be?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A class label."
+            },
+            {
+                "id": "b",
+                "text": "A probability score between 0 and 1."
+            },
+            {
+                "id": "c",
+                "text": "An integer."
+            },
+            {
+                "id": "d",
+                "text": "A string."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "0 to 1.",
+        "explanation": "Probability estimation models predict the probability of class membership."
+    },
+    {
+        "id": "da_ch5_29",
+        "text": "Which of these is used for forecasting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ARIMA"
+            },
+            {
+                "id": "b",
+                "text": "HTML"
+            },
+            {
+                "id": "c",
+                "text": "CSS"
+            },
+            {
+                "id": "d",
+                "text": "JSON"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "AutoRegressive.",
+        "explanation": "ARIMA (AutoRegressive Integrated Moving Average) is a popular model for time series forecasting."
+    },
+    {
+        "id": "da_ch5_30",
+        "text": "What is the 'Holdout Method'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Holding hands."
+            },
+            {
+                "id": "b",
+                "text": "Splitting data into training and testing sets."
+            },
+            {
+                "id": "c",
+                "text": "Using all data for training."
+            },
+            {
+                "id": "d",
+                "text": "Deleting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Split.",
+        "explanation": "The holdout method is the simplest cross-validation technique, holding out a portion of data for testing."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "ai_ch2_1",
+        "text": "What is Apache Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A database."
+            },
+            {
+                "id": "b",
+                "text": "A distributed event streaming platform."
+            },
+            {
+                "id": "c",
+                "text": "A text editor."
+            },
+            {
+                "id": "d",
+                "text": "A web server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Streaming platform.",
+        "explanation": "Apache Kafka is a distributed event streaming platform used for high-performance data pipelines, streaming analytics, etc."
+    },
+    {
+        "id": "ai_ch2_2",
+        "text": "What is a 'Producer' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An entity that writes data to topics."
+            },
+            {
+                "id": "b",
+                "text": "An entity that reads data."
+            },
+            {
+                "id": "c",
+                "text": "The server."
+            },
+            {
+                "id": "d",
+                "text": "The message itself."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Produces data.",
+        "explanation": "Producers are client applications that publish (write) events to Kafka topics."
+    },
+    {
+        "id": "ai_ch2_3",
+        "text": "What is a 'Consumer' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An entity that subscribes to topics and reads signals."
+            },
+            {
+                "id": "b",
+                "text": "The entity creating data."
+            },
+            {
+                "id": "c",
+                "text": "The hard drive."
+            },
+            {
+                "id": "d",
+                "text": "The network."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Consumes data.",
+        "explanation": "Consumers are those that subscribe to (read and process) events."
+    },
+    {
+        "id": "ai_ch2_4",
+        "text": "What is a 'Topic' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A subject of conversation."
+            },
+            {
+                "id": "b",
+                "text": "A category or feed name to which records are stored."
+            },
+            {
+                "id": "c",
+                "text": "A folder."
+            },
+            {
+                "id": "d",
+                "text": "A database table."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Category.",
+        "explanation": "A Topic is a category/feed name to which records are published. It is the core abstraction in Kafka."
+    },
+    {
+        "id": "ai_ch2_5",
+        "text": "What is Spark Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Watching videos on Spark."
+            },
+            {
+                "id": "b",
+                "text": "An extension of core Spark API for scalable, fault-tolerant stream processing."
+            },
+            {
+                "id": "c",
+                "text": "A very fast spark."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Streaming extension.",
+        "explanation": "Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams."
+    },
+    {
+        "id": "ai_ch2_6",
+        "text": "What is DStream?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data Stream."
+            },
+            {
+                "id": "b",
+                "text": "Discretized Stream."
+            },
+            {
+                "id": "c",
+                "text": "Distributed Stream."
+            },
+            {
+                "id": "d",
+                "text": "Double Stream."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Discrete.",
+        "explanation": "DStream (Discretized Stream) is the basic abstraction in Spark Streaming, representing a continuous stream of data."
+    },
+    {
+        "id": "ai_ch2_7",
+        "text": "How is a DStream represented internally?",
+        "options": [
+            {
+                "id": "a",
+                "text": "As a list."
+            },
+            {
+                "id": "b",
+                "text": "As a sequence of RDDs."
+            },
+            {
+                "id": "c",
+                "text": "As a file."
+            },
+            {
+                "id": "d",
+                "text": "As a map."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequence of RDDs.",
+        "explanation": "Internally, a DStream is represented as a sequence of RDDs."
+    },
+    {
+        "id": "ai_ch2_8",
+        "text": "What is Kafka Connect?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A social network."
+            },
+            {
+                "id": "b",
+                "text": "A tool for scalably and reliably streaming data between Apache Kafka and other systems."
+            },
+            {
+                "id": "c",
+                "text": "A cable."
+            },
+            {
+                "id": "d",
+                "text": "A connection command."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Connector tool.",
+        "explanation": "Kafka Connect is a tool for scalable and reliable streaming data between Apache Kafka and other data systems (databases, key-value stores, etc)."
+    },
+    {
+        "id": "ai_ch2_9",
+        "text": "What is a 'Partition' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A wall."
+            },
+            {
+                "id": "b",
+                "text": "A unit of parallelism/storage within a topic."
+            },
+            {
+                "id": "c",
+                "text": "A separate server."
+            },
+            {
+                "id": "d",
+                "text": "A backup."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Topics are split into these.",
+        "explanation": "Topics are partitioned, meaning a topic is spread over a number of buckets located on different Kafka brokers."
+    },
+    {
+        "id": "ai_ch2_10",
+        "text": "Which component manages the Kafka cluster metadata?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Zookeeper (or KRaft)."
+            },
+            {
+                "id": "b",
+                "text": "MySQL."
+            },
+            {
+                "id": "c",
+                "text": "Nginx."
+            },
+            {
+                "id": "d",
+                "text": "Producer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Zoo keeper.",
+        "explanation": "Historically Zookeeper was used to manage cluster state. (Newer Kafka versions use KRaft, but Zookeeper is the classic answer)."
+    },
+    {
+        "id": "ai_ch2_11",
+        "text": "What is the sliding window concept in streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A GUI window."
+            },
+            {
+                "id": "b",
+                "text": "Processing data over a moving time interval."
+            },
+            {
+                "id": "c",
+                "text": "Closing the stream."
+            },
+            {
+                "id": "d",
+                "text": "A physical window."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Moving interval.",
+        "explanation": "Windowed computations allow you to apply transformations over a sliding window of data (e.g., last 10 minutes)."
+    },
+    {
+        "id": "ai_ch2_12",
+        "text": "What is a 'Broker' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A stock trader."
+            },
+            {
+                "id": "b",
+                "text": "A Kafka server."
+            },
+            {
+                "id": "c",
+                "text": "A client."
+            },
+            {
+                "id": "d",
+                "text": "A network switch."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Server node.",
+        "explanation": "A Kafka cluster involves one or more servers, each acts as a 'broker' which stores data and serves clients."
+    },
+    {
+        "id": "ai_ch2_13",
+        "text": "What is structured streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Streaming with SQL."
+            },
+            {
+                "id": "b",
+                "text": "A scalable and fault-tolerant stream processing engine built on the Spark SQL engine."
+            },
+            {
+                "id": "c",
+                "text": "Organized files."
+            },
+            {
+                "id": "d",
+                "text": "Strict rules."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Built on Spark SQL.",
+        "explanation": "Structured Streaming provides high-level APIs based on DataFrames/Datasets, treating streams as infinite tables."
+    },
+    {
+        "id": "ai_ch2_14",
+        "text": "What is 'Offset' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Distance from margin."
+            },
+            {
+                "id": "b",
+                "text": "A unique identifier for a record within a partition."
+            },
+            {
+                "id": "c",
+                "text": "Time delay."
+            },
+            {
+                "id": "d",
+                "text": "Error margin."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Record ID.",
+        "explanation": "Each record in a partition is assigned a sequential ID number called the offset."
+    },
+    {
+        "id": "ai_ch2_15",
+        "text": "What is a Consumer Group?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A meeting of consumers."
+            },
+            {
+                "id": "b",
+                "text": "A group of consumers working together to consume a topic."
+            },
+            {
+                "id": "c",
+                "text": "A marketing term."
+            },
+            {
+                "id": "d",
+                "text": "A failed consumer."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Load balancing consumers.",
+        "explanation": "Consumer groups allow you to scale up consumption by having multiple instances share the load of reading from a topic."
+    },
+    {
+        "id": "ai_ch2_16",
+        "text": "Which transformation is stateful in Spark Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "map"
+            },
+            {
+                "id": "b",
+                "text": "filter"
+            },
+            {
+                "id": "c",
+                "text": "updateStateByKey"
+            },
+            {
+                "id": "d",
+                "text": "foreach"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Maintains state.",
+        "explanation": "`updateStateByKey` allows you to maintain arbitrary state while processing a stream of data."
+    },
+    {
+        "id": "ai_ch2_17",
+        "text": "What does 'Retention Policy' control in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Employee retention."
+            },
+            {
+                "id": "b",
+                "text": "How long records are kept before being discarded."
+            },
+            {
+                "id": "c",
+                "text": "Memory usage."
+            },
+            {
+                "id": "d",
+                "text": "Password security."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Retaining data.",
+        "explanation": "Kafka retains all published records for a configurable period of time (retention period), regardless of whether they have been consumed."
+    },
+    {
+        "id": "ai_ch2_18",
+        "text": "What guarantees does Kafka provide?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No guarantees."
+            },
+            {
+                "id": "b",
+                "text": "Ordering guarantees within a partition."
+            },
+            {
+                "id": "c",
+                "text": "Global total ordering."
+            },
+            {
+                "id": "d",
+                "text": "Infinite storage."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Within partition.",
+        "explanation": "Kafka guarantees that messages sent by a producer to a specific topic partition will be appended in the order they are sent."
+    },
+    {
+        "id": "ai_ch2_19",
+        "text": "What is the batch interval in Spark Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The time between batches of data processing."
+            },
+            {
+                "id": "b",
+                "text": "The time to boot up."
+            },
+            {
+                "id": "c",
+                "text": "The number of servers."
+            },
+            {
+                "id": "d",
+                "text": "1 hour."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Micro-batch time.",
+        "explanation": "Spark Streaming divides the data stream into batches of 'batch interval' seconds."
+    },
+    {
+        "id": "ai_ch2_20",
+        "text": "What is a 'Sink' in Kafka Connect?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A place to wash hands."
+            },
+            {
+                "id": "b",
+                "text": "A connector that delivers data from Kafka to another system."
+            },
+            {
+                "id": "c",
+                "text": "A failed message."
+            },
+            {
+                "id": "d",
+                "text": "A debug tool."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Destination.",
+        "explanation": "A Sink Connector exports data from Kafka topics to an external system (e.g., loading data into a database)."
+    },
+    {
+        "id": "ai_ch2_21",
+        "text": "What is 'Latency' in the context of streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Speed of light."
+            },
+            {
+                "id": "b",
+                "text": "The time delay between data generation and processing result."
+            },
+            {
+                "id": "c",
+                "text": "Bandwidth."
+            },
+            {
+                "id": "d",
+                "text": "Storage capacity."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Delay.",
+        "explanation": "Latency is the delay before a transfer of data begins following an instruction."
+    },
+    {
+        "id": "ai_ch2_22",
+        "text": "Why is Kafka fast?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It uses magic."
+            },
+            {
+                "id": "b",
+                "text": "Sequential I/O, Zero Copy principle, and efficient batching."
+            },
+            {
+                "id": "c",
+                "text": "It uses RAM only."
+            },
+            {
+                "id": "d",
+                "text": "It is written in C."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sequential writes.",
+        "explanation": "Kafka relies heavily on the filesystem for storing and caching messages, using sequential writes which are very fast."
+    },
+    {
+        "id": "ai_ch2_23",
+        "text": "How do you handle check-pointing in Spark Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ssc.checkpoint('path')"
+            },
+            {
+                "id": "b",
+                "text": "ssc.save()"
+            },
+            {
+                "id": "c",
+                "text": "ssc.store()"
+            },
+            {
+                "id": "d",
+                "text": "Automatic."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Set directory.",
+        "explanation": "`streamingContext.checkpoint(directory)` enables checkpointing for fault tolerance."
+    },
+    {
+        "id": "ai_ch2_24",
+        "text": "What is 'Replication Factor' in Kafka?",
+        "options": [
+            {
+                "id": "a",
+                "text": "How many times data is copied for redundancy."
+            },
+            {
+                "id": "b",
+                "text": "The speed of copying."
+            },
+            {
+                "id": "c",
+                "text": "The number of topics."
+            },
+            {
+                "id": "d",
+                "text": "The zoom level."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Redundancy.",
+        "explanation": "Replication factor determines how many copies of the partition log are retained across the cluster."
+    },
+    {
+        "id": "ai_ch2_25",
+        "text": "Can a single partition be consumed by multiple consumers in the SAME group?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No"
+            },
+            {
+                "id": "c",
+                "text": "Depends on settings."
+            },
+            {
+                "id": "d",
+                "text": "Only in cloud."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Group rules.",
+        "explanation": "No, within a consumer group, each partition is consumed by exactly one consumer to ensure ordering."
+    },
+    {
+        "id": "ai_ch2_26",
+        "text": "What is micro-batch processing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Processing one record at a time."
+            },
+            {
+                "id": "b",
+                "text": "Collecting events into small batches and processing them together."
+            },
+            {
+                "id": "c",
+                "text": "Offline batching."
+            },
+            {
+                "id": "d",
+                "text": "Nano processing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Small batches.",
+        "explanation": "Spark Streaming uses micro-batch processing: collecting data for a short period and then running a regular Spark job on it."
+    },
+    {
+        "id": "ai_ch2_27",
+        "text": "What is a 'Source' in Kafka Connect?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Origin of data imported into Kafka."
+            },
+            {
+                "id": "b",
+                "text": "Source code."
+            },
+            {
+                "id": "c",
+                "text": "Documentation."
+            },
+            {
+                "id": "d",
+                "text": "The start button."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Imports data.",
+        "explanation": "A Source Connector imports data from an external system (like a DB) into Kafka topics."
+    },
+    {
+        "id": "ai_ch2_28",
+        "text": "What protocol does Kafka use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "HTTP"
+            },
+            {
+                "id": "b",
+                "text": "FTP"
+            },
+            {
+                "id": "c",
+                "text": "Custom binary TCP protocol."
+            },
+            {
+                "id": "d",
+                "text": "SMTP"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Binary TCP.",
+        "explanation": "Kafka uses a binary protocol over TCP."
+    },
+    {
+        "id": "ai_ch2_29",
+        "text": "What is the key difference between Spark Streaming and Structured Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Spark Streaming uses RDDs; Structured uses DataFrames."
+            },
+            {
+                "id": "b",
+                "text": "Spark Streaming is faster."
+            },
+            {
+                "id": "c",
+                "text": "Structured Streaming is for text only."
+            },
+            {
+                "id": "d",
+                "text": "No difference."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "RDD vs DataFrame.",
+        "explanation": "Spark Streaming is based on DStreams (RDDs), while Structured Streaming is based on DataFrames and Datasets."
+    },
+    {
+        "id": "ai_ch2_30",
+        "text": "How do you handle late data in Structured Streaming?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It is thrown away."
+            },
+            {
+                "id": "b",
+                "text": "Using Watermarking."
+            },
+            {
+                "id": "c",
+                "text": "Manually checking."
+            },
+            {
+                "id": "d",
+                "text": "Pausing the stream."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Watermark.",
+        "explanation": "Watermarking lets the engine know how late the data is allowed to be before being dropped or aggregated."
+    }
+]

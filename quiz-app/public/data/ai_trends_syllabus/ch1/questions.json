@@ -1,0 +1,752 @@
+[
+    {
+        "id": "ai_ch1_1",
+        "text": "What is Apache Spark primarily designed for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Small scale data processing."
+            },
+            {
+                "id": "b",
+                "text": "Large-scale distributed data processing."
+            },
+            {
+                "id": "c",
+                "text": "Web hosting."
+            },
+            {
+                "id": "d",
+                "text": "Database management."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Big Data.",
+        "explanation": "Apache Spark is a unified analytics engine for large-scale data processing."
+    },
+    {
+        "id": "ai_ch1_2",
+        "text": "What does RDD stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Random Distributed Dataset"
+            },
+            {
+                "id": "b",
+                "text": "Resilient Distributed Dataset"
+            },
+            {
+                "id": "c",
+                "text": "Rapid Data Distribution"
+            },
+            {
+                "id": "d",
+                "text": "Redundant Data Drive"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Resilient.",
+        "explanation": "RDD stands for Resilient Distributed Dataset, the fundamental data structure of Spark."
+    },
+    {
+        "id": "ai_ch1_3",
+        "text": "Which component is the entry point to programming Spark with the Dataset and DataFrame API?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SparkContext"
+            },
+            {
+                "id": "b",
+                "text": "SparkSession"
+            },
+            {
+                "id": "c",
+                "text": "SQLContext"
+            },
+            {
+                "id": "d",
+                "text": "HiveContext"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unified session.",
+        "explanation": "SparkSession is the entry point to Spark functionality for the Dataset and DataFrame APIs (introduced in Spark 2.0)."
+    },
+    {
+        "id": "ai_ch1_4",
+        "text": "What is a Transformation in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An operation that returns a result to the driver."
+            },
+            {
+                "id": "b",
+                "text": "An operation that creates a new dataset from an existing one."
+            },
+            {
+                "id": "c",
+                "text": "A saved file."
+            },
+            {
+                "id": "d",
+                "text": "A visualization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lazy evaluation.",
+        "explanation": "Transformations create a new dataset from an existing one (e.g., map, filter) and are lazy."
+    },
+    {
+        "id": "ai_ch1_5",
+        "text": "What is an Action in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An operation that triggers execution and returns a value."
+            },
+            {
+                "id": "b",
+                "text": "Defining a variable."
+            },
+            {
+                "id": "c",
+                "text": "Importing a library."
+            },
+            {
+                "id": "d",
+                "text": "Creating a DataFrame."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Triggers computation.",
+        "explanation": "Actions (e.g., count, collect, save) trigger the execution of the transformations and return a result."
+    },
+    {
+        "id": "ai_ch1_6",
+        "text": "What is PySpark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A Python library for visualizing data."
+            },
+            {
+                "id": "b",
+                "text": "The Python API for Apache Spark."
+            },
+            {
+                "id": "c",
+                "text": "A snake game."
+            },
+            {
+                "id": "d",
+                "text": "A database."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Python + Spark.",
+        "explanation": "PySpark is the Python API for Apache Spark, allowing you to write Spark applications using Python."
+    },
+    {
+        "id": "ai_ch1_7",
+        "text": "Which function is used to display the content of a DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "view()"
+            },
+            {
+                "id": "b",
+                "text": "show()"
+            },
+            {
+                "id": "c",
+                "text": "print()"
+            },
+            {
+                "id": "d",
+                "text": "display()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Show me.",
+        "explanation": "`df.show()` prints the first n rows to the console."
+    },
+    {
+        "id": "ai_ch1_8",
+        "text": "What does Lazy Evaluation mean in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Spark is slow."
+            },
+            {
+                "id": "b",
+                "text": "Transformations are not computed until an action is called."
+            },
+            {
+                "id": "c",
+                "text": "Developers are lazy."
+            },
+            {
+                "id": "d",
+                "text": "Code executes immediately."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Wait for action.",
+        "explanation": "Lazy evaluation means Spark constructs a DAG of execution but doesn't actually compute anything until an action is invoked."
+    },
+    {
+        "id": "ai_ch1_9",
+        "text": "What is the benefit of DataFrames over RDDs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They are slower."
+            },
+            {
+                "id": "b",
+                "text": "They provide a schema and are optimized by Catalyst."
+            },
+            {
+                "id": "c",
+                "text": "They don't support SQL."
+            },
+            {
+                "id": "d",
+                "text": "They use more memory."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Optimized and structured.",
+        "explanation": "DataFrames provide a schema (structure) and are optimized by the Catalyst query optimizer."
+    },
+    {
+        "id": "ai_ch1_10",
+        "text": "Which method caches a DataFrame in memory?",
+        "options": [
+            {
+                "id": "a",
+                "text": "save()"
+            },
+            {
+                "id": "b",
+                "text": "store()"
+            },
+            {
+                "id": "c",
+                "text": "cache()"
+            },
+            {
+                "id": "d",
+                "text": "keep()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Cache it.",
+        "explanation": "`df.cache()` persists the DataFrame with the default storage level (MEMORY_AND_DISK)."
+    },
+    {
+        "id": "ai_ch1_11",
+        "text": "What library in Spark is used for Machine Learning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SparkML"
+            },
+            {
+                "id": "b",
+                "text": "MLlib"
+            },
+            {
+                "id": "c",
+                "text": "PyLearn"
+            },
+            {
+                "id": "d",
+                "text": "SparkAI"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "ML Library.",
+        "explanation": "MLlib is Apache Spark's scalable machine learning library."
+    },
+    {
+        "id": "ai_ch1_12",
+        "text": "How do you read a JSON file in PySpark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "spark.read.json('file.json')"
+            },
+            {
+                "id": "b",
+                "text": "spark.load.json('file.json')"
+            },
+            {
+                "id": "c",
+                "text": "json.read('file.json')"
+            },
+            {
+                "id": "d",
+                "text": "spark.open('file.json')"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Read JSON.",
+        "explanation": "`spark.read.json()` is the standard method to read JSON files into a DataFrame."
+    },
+    {
+        "id": "ai_ch1_13",
+        "text": "What is a DAG in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Distributed Array Group"
+            },
+            {
+                "id": "b",
+                "text": "Directed Acyclic Graph"
+            },
+            {
+                "id": "c",
+                "text": "Data Analytics Grid"
+            },
+            {
+                "id": "d",
+                "text": "Direct Access Group"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Execution plan graph.",
+        "explanation": "DAG (Directed Acyclic Graph) represents the sequence of computations performed on data."
+    },
+    {
+        "id": "ai_ch1_14",
+        "text": "What replaces MapReduce in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "In-memory data processing with transformations/actions."
+            },
+            {
+                "id": "c",
+                "text": "Hadoop."
+            },
+            {
+                "id": "d",
+                "text": "SQL."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Faster model.",
+        "explanation": "Spark uses in-memory processing primitives (map, filter, reduce, etc.) which are much faster than disk-based MapReduce."
+    },
+    {
+        "id": "ai_ch1_15",
+        "text": "What is a Broadcast Variable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A variable sent to all nodes efficiently."
+            },
+            {
+                "id": "b",
+                "text": "A variable that changes often."
+            },
+            {
+                "id": "c",
+                "text": "A specific TV channel."
+            },
+            {
+                "id": "d",
+                "text": "A counter."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Broadcasting to everyone.",
+        "explanation": "Broadcast variables allow the programmer to keep a read-only variable cached on each machine rather than shipping a copy with tasks."
+    },
+    {
+        "id": "ai_ch1_16",
+        "text": "Which operation is a narrow transformation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "groupByKey"
+            },
+            {
+                "id": "b",
+                "text": "reduceByKey"
+            },
+            {
+                "id": "c",
+                "text": "map"
+            },
+            {
+                "id": "d",
+                "text": "join"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "No shuffle.",
+        "explanation": "`map` is a narrow transformation because each partition of the parent RDD is used by at most one partition of the child RDD (no shuffle)."
+    },
+    {
+        "id": "ai_ch1_17",
+        "text": "What is an Accumulator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A variable only added to, used for counters."
+            },
+            {
+                "id": "b",
+                "text": "A battery."
+            },
+            {
+                "id": "c",
+                "text": "A list of data."
+            },
+            {
+                "id": "d",
+                "text": "A broadcast variable."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Counters.",
+        "explanation": "Accumulators are variables that are only added to through an associative and commutative operation, used to implement counters or sums."
+    },
+    {
+        "id": "ai_ch1_18",
+        "text": "Which keyword in SQL is equivalent to `filter` in DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SELECT"
+            },
+            {
+                "id": "b",
+                "text": "WHERE"
+            },
+            {
+                "id": "c",
+                "text": "GROUP BY"
+            },
+            {
+                "id": "d",
+                "text": "ORDER BY"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Condition.",
+        "explanation": "The `WHERE` clause in SQL filters rows, similar to `filter()` or `where()` in DataFrames."
+    },
+    {
+        "id": "ai_ch1_19",
+        "text": "How do you drop duplicate rows in a DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.unique()"
+            },
+            {
+                "id": "b",
+                "text": "df.dropDuplicates()"
+            },
+            {
+                "id": "c",
+                "text": "df.distinct()"
+            },
+            {
+                "id": "d",
+                "text": "Both B and C."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Both work.",
+        "explanation": "`df.distinct()` returns a new DataFrame with distinct rows. `df.dropDuplicates()` does the same."
+    },
+    {
+        "id": "ai_ch1_20",
+        "text": "What is ETL?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Extract, Transform, Load"
+            },
+            {
+                "id": "b",
+                "text": "Execute, Test, Loop"
+            },
+            {
+                "id": "c",
+                "text": "Evaluate, Train, Learn"
+            },
+            {
+                "id": "d",
+                "text": "Easy Text Loading"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Data pipeline process.",
+        "explanation": "ETL stands for Extract, Transform, Load—a standard process in data warehousing."
+    },
+    {
+        "id": "ai_ch1_21",
+        "text": "What is Spark SQL used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Only for connecting to SQL Server."
+            },
+            {
+                "id": "b",
+                "text": "Processing structured data using SQL queries or DataFrame API."
+            },
+            {
+                "id": "c",
+                "text": "Creating websites."
+            },
+            {
+                "id": "d",
+                "text": "Managing users."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Structured data.",
+        "explanation": "Spark SQL is a Spark module for structured data processing."
+    },
+    {
+        "id": "ai_ch1_22",
+        "text": "Which method is used to aggregate data in a DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "agg()"
+            },
+            {
+                "id": "b",
+                "text": "sum()"
+            },
+            {
+                "id": "c",
+                "text": "collect()"
+            },
+            {
+                "id": "d",
+                "text": "map()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Aggregate.",
+        "explanation": "`agg()` is used to compute aggregates (like sum, avg, max) often after a `groupBy`."
+    },
+    {
+        "id": "ai_ch1_23",
+        "text": "What is a Schema in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A diagram."
+            },
+            {
+                "id": "b",
+                "text": "Definition of column names and data types."
+            },
+            {
+                "id": "c",
+                "text": "A plan."
+            },
+            {
+                "id": "d",
+                "text": "A cluster configuration."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Structure definition.",
+        "explanation": "A schema defines the structure of the data, including column names and data types."
+    },
+    {
+        "id": "ai_ch1_24",
+        "text": "Which Spark component manages resources in the cluster?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Driver"
+            },
+            {
+                "id": "b",
+                "text": "Executor"
+            },
+            {
+                "id": "c",
+                "text": "Cluster Manager"
+            },
+            {
+                "id": "d",
+                "text": "Worker"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Resource manager.",
+        "explanation": "The Cluster Manager (like YARN, Mesos, or Standalone) is responsible for allocating resources across applications."
+    },
+    {
+        "id": "ai_ch1_25",
+        "text": "How do you select specific columns in a DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.choose('col')"
+            },
+            {
+                "id": "b",
+                "text": "df.select('col')"
+            },
+            {
+                "id": "c",
+                "text": "df.get('col')"
+            },
+            {
+                "id": "d",
+                "text": "df.fetch('col')"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "SQL style.",
+        "explanation": "`df.select()` is used to project a set of expressions and return a new DataFrame."
+    },
+    {
+        "id": "ai_ch1_26",
+        "text": "What is `count()` in Spark?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A transformation."
+            },
+            {
+                "id": "b",
+                "text": "An action."
+            },
+            {
+                "id": "c",
+                "text": "A data type."
+            },
+            {
+                "id": "d",
+                "text": "A library."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Returns a value.",
+        "explanation": "`count()` is an action that returns the number of elements in the dataset."
+    },
+    {
+        "id": "ai_ch1_27",
+        "text": "What is Exploratory Data Analysis (EDA)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Writing code blindly."
+            },
+            {
+                "id": "b",
+                "text": "Analyzing data sets to summarize their main characteristics."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Copying data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Exploring.",
+        "explanation": "EDA involves using statistics and visualization to understand the data's structure, outliers, and patterns."
+    },
+    {
+        "id": "ai_ch1_28",
+        "text": "Which MLlib class handles vectors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vectors"
+            },
+            {
+                "id": "b",
+                "text": "Arrays"
+            },
+            {
+                "id": "c",
+                "text": "Points"
+            },
+            {
+                "id": "d",
+                "text": "Lists"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Vector factory.",
+        "explanation": "`org.apache.spark.ml.linalg.Vectors` is the factory for creating dense and sparse vectors."
+    },
+    {
+        "id": "ai_ch1_29",
+        "text": "What does `df.describe().show()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Shows summary statistics (mean, stddev, etc.) for numerical columns."
+            },
+            {
+                "id": "b",
+                "text": "Describes the schema."
+            },
+            {
+                "id": "c",
+                "text": "Prints comments."
+            },
+            {
+                "id": "d",
+                "text": "Runs the dataframe."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Statistics.",
+        "explanation": "`describe()` computes statistics like count, mean, stddev, min, max."
+    },
+    {
+        "id": "ai_ch1_30",
+        "text": "Which file format is native to Spark and highly optimized?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CSV"
+            },
+            {
+                "id": "b",
+                "text": "JSON"
+            },
+            {
+                "id": "c",
+                "text": "Parquet"
+            },
+            {
+                "id": "d",
+                "text": "XML"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Columnar storage.",
+        "explanation": "Parquet is a columnar storage format that is highly optimized for Spark."
+    }
+]

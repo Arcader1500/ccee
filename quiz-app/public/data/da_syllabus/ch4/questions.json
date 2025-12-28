@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch4_1",
+        "text": "What does Correlation measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The cause of an event."
+            },
+            {
+                "id": "b",
+                "text": "The strength and direction of a linear relationship between two quantitative variables."
+            },
+            {
+                "id": "c",
+                "text": "The difference between means."
+            },
+            {
+                "id": "d",
+                "text": "The variance."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Relationship strength.",
+        "explanation": "Correlation quantifies the degree to which two variables are related."
+    },
+    {
+        "id": "da_ch4_2",
+        "text": "What is the range of the Pearson Correlation Coefficient (r)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0 to 1"
+            },
+            {
+                "id": "b",
+                "text": "-1 to 1"
+            },
+            {
+                "id": "c",
+                "text": "-infinity to +infinity"
+            },
+            {
+                "id": "d",
+                "text": "0 to 100"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Negative to Positive.",
+        "explanation": "The correlation coefficient ranges from -1 (perfect negative) to +1 (perfect positive)."
+    },
+    {
+        "id": "da_ch4_3",
+        "text": "Does correlation imply causation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, always."
+            },
+            {
+                "id": "b",
+                "text": "No."
+            },
+            {
+                "id": "c",
+                "text": "Only if r is 1."
+            },
+            {
+                "id": "d",
+                "text": "Only if r is -1."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Famous phrase.",
+        "explanation": "Correlation does NOT imply causation; two variables might be correlated due to a third confounding variable."
+    },
+    {
+        "id": "da_ch4_4",
+        "text": "What is Covariance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A measure of how much two random variables vary together."
+            },
+            {
+                "id": "b",
+                "text": "The variance of one variable."
+            },
+            {
+                "id": "c",
+                "text": "The standard deviation."
+            },
+            {
+                "id": "d",
+                "text": "The mean."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Vary together.",
+        "explanation": "Covariance indicates the direction of the linear relationship between variables."
+    },
+    {
+        "id": "da_ch4_5",
+        "text": "What does a correlation of -0.9 indicate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Weak negative relationship."
+            },
+            {
+                "id": "b",
+                "text": "Strong negative relationship."
+            },
+            {
+                "id": "c",
+                "text": "Strong positive relationship."
+            },
+            {
+                "id": "d",
+                "text": "No relationship."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Close to -1.",
+        "explanation": "Values close to -1 indicate a strong negative linear relationship."
+    },
+    {
+        "id": "da_ch4_6",
+        "text": "What is Point Estimation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Estimating a range."
+            },
+            {
+                "id": "b",
+                "text": "Calculating a single value to serve as a 'best guess' or 'best estimate' of an unknown population parameter."
+            },
+            {
+                "id": "c",
+                "text": "Pointing at data."
+            },
+            {
+                "id": "d",
+                "text": "Plotting a point."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Single point.",
+        "explanation": "Point estimation involves using sample data to calculate a single value (like the sample mean) as an estimate of a population parameter."
+    },
+    {
+        "id": "da_ch4_7",
+        "text": "What is Interval Estimation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calculating a single value."
+            },
+            {
+                "id": "b",
+                "text": "Calculating a range of plausible values for an unknown parameter (e.g., Confidence Interval)."
+            },
+            {
+                "id": "c",
+                "text": "Estimating time."
+            },
+            {
+                "id": "d",
+                "text": "Counting intervals."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Range.",
+        "explanation": "Interval estimation provides a range of values within which the parameter is expected to fall."
+    },
+    {
+        "id": "da_ch4_8",
+        "text": "Which technique is used to detect outliers?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Line Chart"
+            },
+            {
+                "id": "b",
+                "text": "Box Plot"
+            },
+            {
+                "id": "c",
+                "text": "Pie Chart"
+            },
+            {
+                "id": "d",
+                "text": "Bar Chart"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Whiskers.",
+        "explanation": "Box plots display outliers as individual points beyond the whiskers (typically 1.5 * IQR)."
+    },
+    {
+        "id": "da_ch4_9",
+        "text": "If two variables have zero covariance, they must be?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Correlated."
+            },
+            {
+                "id": "b",
+                "text": "Uncorrelated."
+            },
+            {
+                "id": "c",
+                "text": "Independent."
+            },
+            {
+                "id": "d",
+                "text": "Dependent."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No linear relation.",
+        "explanation": "Zero covariance implies they are uncorrelated (linearly), though they might still have a non-linear relationship."
+    },
+    {
+        "id": "da_ch4_10",
+        "text": "What is Pearson's r sensitive to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Linear relationships only."
+            },
+            {
+                "id": "b",
+                "text": "Non-linear relationships."
+            },
+            {
+                "id": "c",
+                "text": "Categorical data."
+            },
+            {
+                "id": "d",
+                "text": "Nothing."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Lines.",
+        "explanation": "Pearson's correlation specifically measures linear relationships."
+    },
+    {
+        "id": "da_ch4_11",
+        "text": "What is the standard error of the mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The standard deviation of the population."
+            },
+            {
+                "id": "b",
+                "text": "The standard deviation of the sampling distribution of the sample mean."
+            },
+            {
+                "id": "c",
+                "text": "The variance."
+            },
+            {
+                "id": "d",
+                "text": "The mean itself."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Error of the mean estimate.",
+        "explanation": "Standard error measures the precision of the sample mean as an estimate of the population mean."
+    },
+    {
+        "id": "da_ch4_12",
+        "text": "To calculate a confidence interval for the mean, what do you need besides the sample mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mode."
+            },
+            {
+                "id": "b",
+                "text": "Standard Error and a Z-score or T-score."
+            },
+            {
+                "id": "c",
+                "text": "Median."
+            },
+            {
+                "id": "d",
+                "text": "Minimum value."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Margin of error.",
+        "explanation": "CI = Mean +/- (Critical Value * Standard Error)."
+    },
+    {
+        "id": "da_ch4_13",
+        "text": "What does a positive covariance indicate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Variables move in opposite directions."
+            },
+            {
+                "id": "b",
+                "text": "Variables move in the same direction."
+            },
+            {
+                "id": "c",
+                "text": "No movement."
+            },
+            {
+                "id": "d",
+                "text": "One variable is constant."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Together.",
+        "explanation": "Positive covariance means that as one variable increases, the other tends to increase."
+    },
+    {
+        "id": "da_ch4_14",
+        "text": "Which method is robust correlation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pearson"
+            },
+            {
+                "id": "b",
+                "text": "Spearman Rank Correlation"
+            },
+            {
+                "id": "c",
+                "text": "Least Squares"
+            },
+            {
+                "id": "d",
+                "text": "Linear Regression"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ranks.",
+        "explanation": "Spearman's rank correlation is based on ranks and is less sensitive to outliers (robust) and non-linear monotonic relationships."
+    },
+    {
+        "id": "da_ch4_15",
+        "text": "What is an 'Outlier'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A common value."
+            },
+            {
+                "id": "b",
+                "text": "A data point that differs significantly from other observations."
+            },
+            {
+                "id": "c",
+                "text": "The average."
+            },
+            {
+                "id": "d",
+                "text": "A missing value."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Extreme value.",
+        "explanation": "Outliers are extreme values that deviate from other observations."
+    },
+    {
+        "id": "da_ch4_16",
+        "text": "Ideally, what distribution should residuals have in regression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Uniform"
+            },
+            {
+                "id": "b",
+                "text": "Normal"
+            },
+            {
+                "id": "c",
+                "text": "Skewed"
+            },
+            {
+                "id": "d",
+                "text": "Binomial"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bell curve of errors.",
+        "explanation": "In linear regression, we assume residuals are normally distributed."
+    },
+    {
+        "id": "da_ch4_17",
+        "text": "What is 'Maximum Likelihood Estimation' (MLE)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Guessing."
+            },
+            {
+                "id": "b",
+                "text": "A method of estimating parameters by maximizing a likelihood function."
+            },
+            {
+                "id": "c",
+                "text": "Minimizing error."
+            },
+            {
+                "id": "d",
+                "text": "Finding the average."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Maximize likelihood.",
+        "explanation": "MLE estimates parameters of a probability distribution by maximizing a likelihood function, so that under the assumed statistical model, the observed data is most probable."
+    },
+    {
+        "id": "da_ch4_18",
+        "text": "Bias of an estimator is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Variance."
+            },
+            {
+                "id": "b",
+                "text": "Difference between this estimator's expected value and the true value of the parameter."
+            },
+            {
+                "id": "c",
+                "text": "Standard deviation."
+            },
+            {
+                "id": "d",
+                "text": "Zero."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Distance from truth.",
+        "explanation": "Bias = E[estimator] - True Parameter."
+    },
+    {
+        "id": "da_ch4_19",
+        "text": "What is a 'consistent' estimator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Always gives the same number."
+            },
+            {
+                "id": "b",
+                "text": "Converges to the true parameter value as sample size increases."
+            },
+            {
+                "id": "c",
+                "text": "Is never wrong."
+            },
+            {
+                "id": "d",
+                "text": "Has zero variance."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Better with more data.",
+        "explanation": "Consistency means that having more data gives a more accurate estimate."
+    },
+    {
+        "id": "da_ch4_20",
+        "text": "Which plot is used to visualize correlation between two variables?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Histogram"
+            },
+            {
+                "id": "b",
+                "text": "Scatter Plot"
+            },
+            {
+                "id": "c",
+                "text": "Pie Chart"
+            },
+            {
+                "id": "d",
+                "text": "Bar Chart"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dots.",
+        "explanation": "Scatter plots show individual data points for two variables, making relationships visible."
+    },
+    {
+        "id": "da_ch4_21",
+        "text": "What happens to the confidence interval width if you increase sample size?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It gets wider."
+            },
+            {
+                "id": "b",
+                "text": "It gets narrower."
+            },
+            {
+                "id": "c",
+                "text": "Stays the same."
+            },
+            {
+                "id": "d",
+                "text": "Becomes zero."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "More precision.",
+        "explanation": "Increasing sample size reduces standard error, leading to a narrower (more precise) confidence interval."
+    },
+    {
+        "id": "da_ch4_22",
+        "text": "What happens to confidence interval width if you increase the confidence level (e.g. 95% to 99%)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It gets wider."
+            },
+            {
+                "id": "b",
+                "text": "It gets narrower."
+            },
+            {
+                "id": "c",
+                "text": "Stays same."
+            },
+            {
+                "id": "d",
+                "text": "Becomes infinite."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "More certain needs wider net.",
+        "explanation": "To suffer less risk of being wrong (higher confidence), you need a wider interval."
+    },
+    {
+        "id": "da_ch4_23",
+        "text": "What is 'Autocorrelation'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Self driving correlation."
+            },
+            {
+                "id": "b",
+                "text": "Correlation of a signal with a delayed copy of itself (serial correlation)."
+            },
+            {
+                "id": "c",
+                "text": "Automatic correlation."
+            },
+            {
+                "id": "d",
+                "text": "Correlation between autos."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "With itself over time.",
+        "explanation": "Autocorrelation is common in time series data where past values influence future values."
+    },
+    {
+        "id": "da_ch4_24",
+        "text": "Which value of r represents the strongest correlation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0.1"
+            },
+            {
+                "id": "b",
+                "text": "-0.8"
+            },
+            {
+                "id": "c",
+                "text": "0.5"
+            },
+            {
+                "id": "d",
+                "text": "-0.2"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Magnitude matters.",
+        "explanation": "|-0.8| = 0.8 is the largest magnitude among the options."
+    },
+    {
+        "id": "da_ch4_25",
+        "text": "Can variables be dependent but have zero correlation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No."
+            },
+            {
+                "id": "b",
+                "text": "Yes, if the relationship is non-linear (e.g., quadratic)."
+            },
+            {
+                "id": "c",
+                "text": "Impossible."
+            },
+            {
+                "id": "d",
+                "text": "Only in physics."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Non-linear.",
+        "explanation": "Yes, pearson correlation only measures LINEAR dependence. A perfect U-shape relationship might have r=0."
+    },
+    {
+        "id": "da_ch4_26",
+        "text": "What is the primary use of estimation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To guess randomly."
+            },
+            {
+                "id": "b",
+                "text": "To infer population characteristics from a sample."
+            },
+            {
+                "id": "c",
+                "text": "To calculate the mean of the sample."
+            },
+            {
+                "id": "d",
+                "text": "To draw graphs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sample to Population.",
+        "explanation": "Estimation uses sample statistics to infer values for population parameters."
+    },
+    {
+        "id": "da_ch4_27",
+        "text": "What effect does an outlier have on covariance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "None."
+            },
+            {
+                "id": "b",
+                "text": "Can significantly distort it."
+            },
+            {
+                "id": "c",
+                "text": "Always decreases it."
+            },
+            {
+                "id": "d",
+                "text": "Always increases it."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sensitive.",
+        "explanation": "Like the mean and variance, covariance is sensitive to outliers."
+    },
+    {
+        "id": "da_ch4_28",
+        "text": "What does a confidence level of 95% mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "95% of data is in the interval."
+            },
+            {
+                "id": "b",
+                "text": "There is a 95% probability that the interval contains the true parameter."
+            },
+            {
+                "id": "c",
+                "text": "The parameter is 95."
+            },
+            {
+                "id": "d",
+                "text": "We are 5% sure."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Probability of interval containing truth.",
+        "explanation": "It means if we repeated the experiment process many times, 95% of the calculated intervals would contain the true parameter."
+    },
+    {
+        "id": "da_ch4_29",
+        "text": "Is covariance unitless?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, it depends on the units of the variables."
+            },
+            {
+                "id": "c",
+                "text": "Always."
+            },
+            {
+                "id": "d",
+                "text": "Only for standardized data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Correlation is unitless.",
+        "explanation": "Covariance depends on the scale of the variables. Correlation normalizes it to be unitless."
+    },
+    {
+        "id": "da_ch4_30",
+        "text": "Which statistics are needed to calculate Pearson's r?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Median and Mode."
+            },
+            {
+                "id": "b",
+                "text": "Covariance and Standard Deviations of both variables."
+            },
+            {
+                "id": "c",
+                "text": "Range."
+            },
+            {
+                "id": "d",
+                "text": "Min and Max."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Covariance normalized.",
+        "explanation": "Pearson's correlation = Covariance(X,Y) / (StdDev(X) * StdDev(Y))."
+    }
+]

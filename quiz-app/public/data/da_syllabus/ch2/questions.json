@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch2_1",
+        "text": "What is Central Tendency?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The edges of data."
+            },
+            {
+                "id": "b",
+                "text": "A single value that attempts to describe a set of data by identifying the central position."
+            },
+            {
+                "id": "c",
+                "text": "The variance."
+            },
+            {
+                "id": "d",
+                "text": "A graph."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Center.",
+        "explanation": "Central tendency refers to the center of a distribution: mean, median, and mode."
+    },
+    {
+        "id": "da_ch2_2",
+        "text": "What is the Mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The middle value."
+            },
+            {
+                "id": "b",
+                "text": "The most frequent value."
+            },
+            {
+                "id": "c",
+                "text": "The average."
+            },
+            {
+                "id": "d",
+                "text": "The range."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Average.",
+        "explanation": "The mean is the arithmetic average of a set of numbers."
+    },
+    {
+        "id": "da_ch2_3",
+        "text": "What is the Median?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The average."
+            },
+            {
+                "id": "b",
+                "text": "The middle number in a sorted list of numbers."
+            },
+            {
+                "id": "c",
+                "text": "The most frequent number."
+            },
+            {
+                "id": "d",
+                "text": "The max number."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Middle.",
+        "explanation": "The median divides the data set into two equal halves."
+    },
+    {
+        "id": "da_ch2_4",
+        "text": "What is the Mode?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The average."
+            },
+            {
+                "id": "b",
+                "text": "The value that appears most frequently in a data set."
+            },
+            {
+                "id": "c",
+                "text": "The middle value."
+            },
+            {
+                "id": "d",
+                "text": "The largest value."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Most popular.",
+        "explanation": "The mode is the most frequently occurring value."
+    },
+    {
+        "id": "da_ch2_5",
+        "text": "What does Variance measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Central tendency."
+            },
+            {
+                "id": "b",
+                "text": "How far a set of numbers is spread out from their average value."
+            },
+            {
+                "id": "c",
+                "text": "The sum."
+            },
+            {
+                "id": "d",
+                "text": "The count."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Spread squared.",
+        "explanation": "Variance measures how far each number in the set is from the mean (average of squared differences)."
+    },
+    {
+        "id": "da_ch2_6",
+        "text": "What measures the spread of data; calculated as square root of variance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Range"
+            },
+            {
+                "id": "b",
+                "text": "Mean Deviation"
+            },
+            {
+                "id": "c",
+                "text": "Standard Deviation"
+            },
+            {
+                "id": "d",
+                "text": "Mode"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Standard spread.",
+        "explanation": "Standard Deviation is the square root of the variance and is expressed in the same units as the data."
+    },
+    {
+        "id": "da_ch2_7",
+        "text": "What is the Range?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mean - Median."
+            },
+            {
+                "id": "b",
+                "text": "Difference between the lowest and highest values."
+            },
+            {
+                "id": "c",
+                "text": "Standard Deviation / Mean."
+            },
+            {
+                "id": "d",
+                "text": "Total count."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Max minus Min.",
+        "explanation": "Range = Maximum Value - Minimum Value."
+    },
+    {
+        "id": "da_ch2_8",
+        "text": "What is IQR?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Inter-Quality Rate"
+            },
+            {
+                "id": "b",
+                "text": "Interquartile Range"
+            },
+            {
+                "id": "c",
+                "text": "Inner Quartile Ratio"
+            },
+            {
+                "id": "d",
+                "text": "International Query Rate"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Quartiles.",
+        "explanation": "IQR (Interquartile Range) is the difference between the third quartile (Q3) and the first quartile (Q1)."
+    },
+    {
+        "id": "da_ch2_9",
+        "text": "What does Skewness measure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The height of the curve."
+            },
+            {
+                "id": "b",
+                "text": "The asymmetry of the probability distribution."
+            },
+            {
+                "id": "c",
+                "text": "The spread."
+            },
+            {
+                "id": "d",
+                "text": "The mean."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Asymmetry.",
+        "explanation": "Skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable."
+    },
+    {
+        "id": "da_ch2_10",
+        "text": "In a positively skewed distribution, where is the tail?",
+        "options": [
+            {
+                "id": "a",
+                "text": "On the left."
+            },
+            {
+                "id": "b",
+                "text": "On the right."
+            },
+            {
+                "id": "c",
+                "text": "No tail."
+            },
+            {
+                "id": "d",
+                "text": "In the middle."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Right skew.",
+        "explanation": "Positively skewed (or right-skewed) means the tail on the right side is longer or fatter."
+    },
+    {
+        "id": "da_ch2_11",
+        "text": "What is Kurtosis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Measure of 'tailedness' or peakedness."
+            },
+            {
+                "id": "b",
+                "text": "Measure of center."
+            },
+            {
+                "id": "c",
+                "text": "Measure of skew."
+            },
+            {
+                "id": "d",
+                "text": "Measure of size."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Peakedness.",
+        "explanation": "Kurtosis is a measure of the 'tailedness' of the probability distribution."
+    },
+    {
+        "id": "da_ch2_12",
+        "text": "Which measure is most affected by outliers?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mode"
+            },
+            {
+                "id": "b",
+                "text": "Median"
+            },
+            {
+                "id": "c",
+                "text": "Mean"
+            },
+            {
+                "id": "d",
+                "text": "IQR"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Average is sensitive.",
+        "explanation": "The mean involves every data point, so a single extreme value (outlier) can change it significantly."
+    },
+    {
+        "id": "da_ch2_13",
+        "text": "Which measure is robust to outliers?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Range"
+            },
+            {
+                "id": "b",
+                "text": "Mean"
+            },
+            {
+                "id": "c",
+                "text": "Median"
+            },
+            {
+                "id": "d",
+                "text": "Standard Deviation"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Middle value.",
+        "explanation": "The median depends only on order, so extreme values don't affect it as much."
+    },
+    {
+        "id": "da_ch2_14",
+        "text": "What is the 50th percentile equivalent to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mean"
+            },
+            {
+                "id": "b",
+                "text": "Mode"
+            },
+            {
+                "id": "c",
+                "text": "Median"
+            },
+            {
+                "id": "d",
+                "text": "Range"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Halfway.",
+        "explanation": "The 50th percentile represents the value below which 50% of the observations may be found, which is the Median."
+    },
+    {
+        "id": "da_ch2_15",
+        "text": "What plot uses IQR to display data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Histogram"
+            },
+            {
+                "id": "b",
+                "text": "Box Plot"
+            },
+            {
+                "id": "c",
+                "text": "Scatter Plot"
+            },
+            {
+                "id": "d",
+                "text": "Pie Chart"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Box and Whisker.",
+        "explanation": "A Box Plot (Box and Whisker plot) visually shows the distribution using Q1, Median, Q3, and whiskers."
+    },
+    {
+        "id": "da_ch2_16",
+        "text": "If Mean = Median = Mode, the distribution is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Skewed Left"
+            },
+            {
+                "id": "b",
+                "text": "Skewed Right"
+            },
+            {
+                "id": "c",
+                "text": "Symmetric (Normal)"
+            },
+            {
+                "id": "d",
+                "text": "Uniform"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Bell curve.",
+        "explanation": "In a perfectly symmetric (normal) distribution, the mean, median, and mode are all at the center."
+    },
+    {
+        "id": "da_ch2_17",
+        "text": "What is a Z-score?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The raw score."
+            },
+            {
+                "id": "b",
+                "text": "Number of standard deviations a data point is from the mean."
+            },
+            {
+                "id": "c",
+                "text": "The variance squared."
+            },
+            {
+                "id": "d",
+                "text": "The probability."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Standard score.",
+        "explanation": "Z-score indicates how many standard deviations an element is from the mean."
+    },
+    {
+        "id": "da_ch2_18",
+        "text": "Which is a measure of dispersion?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mean"
+            },
+            {
+                "id": "b",
+                "text": "Median"
+            },
+            {
+                "id": "c",
+                "text": "Standard Deviation"
+            },
+            {
+                "id": "d",
+                "text": "Mode"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Spread.",
+        "explanation": "Standard deviation measures dispersion (spread)."
+    },
+    {
+        "id": "da_ch2_19",
+        "text": "Data that describes categories/labels is called?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Quantitative"
+            },
+            {
+                "id": "b",
+                "text": "Qualitative (Categorical)"
+            },
+            {
+                "id": "c",
+                "text": "Numerical"
+            },
+            {
+                "id": "d",
+                "text": "Discrete"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Quality.",
+        "explanation": "Qualitative or Categorical data describes qualities or characteristics (e.g., Color, Gender)."
+    },
+    {
+        "id": "da_ch2_20",
+        "text": "Data that can be measured numerically is called?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Qualitative"
+            },
+            {
+                "id": "b",
+                "text": "Quantitative"
+            },
+            {
+                "id": "c",
+                "text": "Nominal"
+            },
+            {
+                "id": "d",
+                "text": "Ordinal"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Quantity.",
+        "explanation": "Quantitative data deals with numbers and things you can measure."
+    },
+    {
+        "id": "da_ch2_21",
+        "text": "What is the mode of {1, 2, 2, 3, 4}?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "2"
+            },
+            {
+                "id": "c",
+                "text": "3"
+            },
+            {
+                "id": "d",
+                "text": "2.5"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Available twice.",
+        "explanation": "2 appears most frequently."
+    },
+    {
+        "id": "da_ch2_22",
+        "text": "What is the Co-efficient of Variation (CV)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mean / StdDev"
+            },
+            {
+                "id": "b",
+                "text": "(StdDev / Mean) * 100"
+            },
+            {
+                "id": "c",
+                "text": "Variance / Mean"
+            },
+            {
+                "id": "d",
+                "text": "Range / Mean"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Relative variability.",
+        "explanation": "CV is a standardized measure of dispersion, allowing comparison between datasets with different units or means."
+    },
+    {
+        "id": "da_ch2_23",
+        "text": "Which summary statistic is NOT part of the Five-Number Summary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Min"
+            },
+            {
+                "id": "b",
+                "text": "Q1"
+            },
+            {
+                "id": "c",
+                "text": "Mean"
+            },
+            {
+                "id": "d",
+                "text": "Median (Q2)"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Box plot components.",
+        "explanation": "The Five-Number Summary consists of Min, Q1, Median, Q3, and Max. Mean is not included."
+    },
+    {
+        "id": "da_ch2_24",
+        "text": "What is a Histogram used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Showing relationships."
+            },
+            {
+                "id": "b",
+                "text": "Visualizing the frequency distribution of continuous data."
+            },
+            {
+                "id": "c",
+                "text": "Comparing categories."
+            },
+            {
+                "id": "d",
+                "text": "Showing trends."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bins.",
+        "explanation": "Histograms show how data is distributed across different bins (ranges)."
+    },
+    {
+        "id": "da_ch2_25",
+        "text": "If Mean > Median, the distribution is typically?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Symmetric"
+            },
+            {
+                "id": "b",
+                "text": "Left Skewed"
+            },
+            {
+                "id": "c",
+                "text": "Right Skewed (Positive)"
+            },
+            {
+                "id": "d",
+                "text": "Uniform"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Tail pulls the mean.",
+        "explanation": "In a right-skewed distribution, the long right tail pulls the mean higher than the median."
+    },
+    {
+        "id": "da_ch2_26",
+        "text": "What is 'Ordinal' data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data with no order."
+            },
+            {
+                "id": "b",
+                "text": "Categorical data with an inherent order (e.g., Low, Med, High)."
+            },
+            {
+                "id": "c",
+                "text": "Numbers."
+            },
+            {
+                "id": "d",
+                "text": "Text."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Order matters.",
+        "explanation": "Ordinal data is categorical data where the variables have natural, ordered categories."
+    },
+    {
+        "id": "da_ch2_27",
+        "text": "What is 'Nominal' data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Categorical data without order (e.g., Apple, Orange)."
+            },
+            {
+                "id": "b",
+                "text": "Ordered data."
+            },
+            {
+                "id": "c",
+                "text": "Binary data."
+            },
+            {
+                "id": "d",
+                "text": "Counts."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Names.",
+        "explanation": "Nominal data labels variables without any quantitative value or order."
+    },
+    {
+        "id": "da_ch2_28",
+        "text": "What is the Geometric Mean used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Adding numbers."
+            },
+            {
+                "id": "b",
+                "text": "Growth rates or compounding figures."
+            },
+            {
+                "id": "c",
+                "text": "Finding the mode."
+            },
+            {
+                "id": "d",
+                "text": "Calculating range."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multiplicative.",
+        "explanation": "Geometric mean is appropriate for quantities that multiply together, like growth rates."
+    },
+    {
+        "id": "da_ch2_29",
+        "text": "A value of correlation 'r = 0' implies?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Strong relationship."
+            },
+            {
+                "id": "b",
+                "text": "No linear relationship."
+            },
+            {
+                "id": "c",
+                "text": "Perfect negative relationship."
+            },
+            {
+                "id": "d",
+                "text": "Error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zero correlation.",
+        "explanation": "Zero correlation means there is no linear relationship between the variables."
+    },
+    {
+        "id": "da_ch2_30",
+        "text": "What are Quartiles?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Values that divide data into 4 equal parts."
+            },
+            {
+                "id": "b",
+                "text": "Values that divide data into 2 parts."
+            },
+            {
+                "id": "c",
+                "text": "Values that divide data into 10 parts."
+            },
+            {
+                "id": "d",
+                "text": "Values that divide data into 100 parts."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Quarters.",
+        "explanation": "Quartiles divide a rank-ordered data set into four equal parts (Q1, Q2, Q3)."
+    }
+]

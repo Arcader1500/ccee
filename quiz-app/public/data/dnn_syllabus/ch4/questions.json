@@ -1,0 +1,752 @@
+[
+    {
+        "id": "dnn_ch4_1",
+        "text": "What is the Vanishing Gradient problem?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradients become too large."
+            },
+            {
+                "id": "b",
+                "text": "Gradients become typically very small in earlier layers, preventing them from learning."
+            },
+            {
+                "id": "c",
+                "text": "Gradients disappear into black hole."
+            },
+            {
+                "id": "d",
+                "text": "Gradients are constant."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fading away.",
+        "explanation": "In deep networks with sigmoid/tanh, gradients can shrink exponentially as they backpropagate, killing learning in early layers."
+    },
+    {
+        "id": "dnn_ch4_2",
+        "text": "What is the Exploding Gradient problem?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradients become effectively zero."
+            },
+            {
+                "id": "b",
+                "text": "Gradients excessively accumulate and result in large updates to weights."
+            },
+            {
+                "id": "c",
+                "text": "Gradients become negative."
+            },
+            {
+                "id": "d",
+                "text": "Gradients oscillate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Blow up.",
+        "explanation": "Large error gradients result in huge weight updates, making the model unstable (NaNs)."
+    },
+    {
+        "id": "dnn_ch4_3",
+        "text": "What is the primary cause of Vanishing Gradients?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU activation."
+            },
+            {
+                "id": "b",
+                "text": "Activation functions with gradients < 1 (like Sigmoid/Tanh) in deep networks."
+            },
+            {
+                "id": "c",
+                "text": "Too much data."
+            },
+            {
+                "id": "d",
+                "text": "Large learning rate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sigmoid derivative max is 0.25.",
+        "explanation": "Repeated multiplication of small derivatives (chain rule) causes the gradient to vanish."
+    },
+    {
+        "id": "dnn_ch4_4",
+        "text": "What effectively solves Vanishing Gradient?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using Sigmoid everywhere."
+            },
+            {
+                "id": "b",
+                "text": "Using ReLU (Rectified Linear Unit)."
+            },
+            {
+                "id": "c",
+                "text": "Making network shallower."
+            },
+            {
+                "id": "d",
+                "text": "Deleting layers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Non-saturating.",
+        "explanation": "ReLU has a gradient of 1 for positive inputs, preventing the gradient from shrinking."
+    },
+    {
+        "id": "dnn_ch4_5",
+        "text": "What can solve Exploding Gradient?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradient Clipping."
+            },
+            {
+                "id": "b",
+                "text": "Increasing learning rate."
+            },
+            {
+                "id": "c",
+                "text": "Using bigger weights."
+            },
+            {
+                "id": "d",
+                "text": "Removing bias."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Clip.",
+        "explanation": "Gradient Clipping limits the norm of the gradient to a threshold, preventing explosion."
+    },
+    {
+        "id": "dnn_ch4_6",
+        "text": "What is Gradient Checking?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Checking if gradient exists."
+            },
+            {
+                "id": "b",
+                "text": "Comparing analytical gradients (backprop) with numerical gradients to verify implementation."
+            },
+            {
+                "id": "c",
+                "text": "Visualizing gradient."
+            },
+            {
+                "id": "d",
+                "text": "Clipping gradient."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Verification.",
+        "explanation": "It helps debug the backpropagation implementation by approximating derivatives numerically."
+    },
+    {
+        "id": "dnn_ch4_7",
+        "text": "What is 'Batch Normalization'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normalizing the batch size."
+            },
+            {
+                "id": "b",
+                "text": "Technique to normalize inputs of each layer (substract mean, divide by variance) to stabilize training."
+            },
+            {
+                "id": "c",
+                "text": "Deleting batches."
+            },
+            {
+                "id": "d",
+                "text": "Shuffling data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Norm per layer.",
+        "explanation": "Batch Norm reduces Covariate Shift and allows higher learning rates."
+    },
+    {
+        "id": "dnn_ch4_8",
+        "text": "Does Batch Normalization allow higher learning rates?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes."
+            },
+            {
+                "id": "b",
+                "text": "No, lower."
+            },
+            {
+                "id": "c",
+                "text": "No effect."
+            },
+            {
+                "id": "d",
+                "text": "Makes training slower."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Stabilizes.",
+        "explanation": "Normalization makes the optimization landscape smoother, allowing larger steps."
+    },
+    {
+        "id": "dnn_ch4_9",
+        "text": "Where is Batch Norm usually applied?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Output layer only."
+            },
+            {
+                "id": "b",
+                "text": "Usually before or after Activation function of hidden layers."
+            },
+            {
+                "id": "c",
+                "text": "Input layer only."
+            },
+            {
+                "id": "d",
+                "text": "Outside the network."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hidden layers.",
+        "explanation": "It is applied to the output of a linear layer, before activation (or sometimes after)."
+    },
+    {
+        "id": "dnn_ch4_10",
+        "text": "What is Covariate Shift?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Shifting gears."
+            },
+            {
+                "id": "b",
+                "text": "Change in the distribution of input data."
+            },
+            {
+                "id": "c",
+                "text": "Change in model weights."
+            },
+            {
+                "id": "d",
+                "text": "Change in learning rate."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Distribution change.",
+        "explanation": "Internal Covariate Shift refers to the change in the distribution of network activations due to the change in network parameters during training."
+    },
+    {
+        "id": "dnn_ch4_11",
+        "text": "If backpropagation is implemented incorrectly, the model might?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Still reduce loss but slowly/incorrectly."
+            },
+            {
+                "id": "b",
+                "text": "Print error immediately."
+            },
+            {
+                "id": "c",
+                "text": "Crash."
+            },
+            {
+                "id": "d",
+                "text": "Work perfectly."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Subtle bug.",
+        "explanation": "Gradient bugs are often subtle; the loss might go down but the model won't learn properly."
+    },
+    {
+        "id": "dnn_ch4_12",
+        "text": "In Batch Norm, are mean and variance learnable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, they are calculated from data batches."
+            },
+            {
+                "id": "b",
+                "text": "Yes, treated as weights."
+            },
+            {
+                "id": "c",
+                "text": "Only mean."
+            },
+            {
+                "id": "d",
+                "text": "Only variance."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Statistics vs Parameters.",
+        "explanation": "Mean and Variance are statistics of the batch. However, *Gamma* (scale) and *Beta* (shift) are learnable parameters."
+    },
+    {
+        "id": "dnn_ch4_13",
+        "text": "What are Beta and Gamma in Batch Norm?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hulk rays."
+            },
+            {
+                "id": "b",
+                "text": "Learnable parameters to scale and shift the normalized value."
+            },
+            {
+                "id": "c",
+                "text": "Constants."
+            },
+            {
+                "id": "d",
+                "text": "Learning rates."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Restore representation.",
+        "explanation": "They allow the model to undo the normalization if the optional distribution is not N(0,1)."
+    },
+    {
+        "id": "dnn_ch4_14",
+        "text": "Numerical gradient checking is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Very fast."
+            },
+            {
+                "id": "b",
+                "text": "Computationally expensive/slow."
+            },
+            {
+                "id": "c",
+                "text": "Used in production."
+            },
+            {
+                "id": "d",
+                "text": "Required for every epoch."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Double computation.",
+        "explanation": "It requires computing the loss twice for every parameter perturbation, so it's very slow."
+    },
+    {
+        "id": "dnn_ch4_15",
+        "text": "What happens to Batch Norm at test time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It uses batch statistics of test data."
+            },
+            {
+                "id": "b",
+                "text": "It uses running average (population statistics) collected during training."
+            },
+            {
+                "id": "c",
+                "text": "It is disabled."
+            },
+            {
+                "id": "d",
+                "text": "It uses random numbers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Running average.",
+        "explanation": "At test time, we don't have batches, so we use the moving average mean/variance tracked during training."
+    },
+    {
+        "id": "dnn_ch4_16",
+        "text": "ResNets (Residual Networks) help with vanishing gradient by?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Skip connections (shortcuts)."
+            },
+            {
+                "id": "b",
+                "text": "Using Tanh."
+            },
+            {
+                "id": "c",
+                "text": "Removing layers."
+            },
+            {
+                "id": "d",
+                "text": "Zero weights."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Highway.",
+        "explanation": "Skip connections allow the gradient to flow directly back to earlier layers."
+    },
+    {
+        "id": "dnn_ch4_17",
+        "text": "If loss is NaN, what is a likely cause?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learning rate too small."
+            },
+            {
+                "id": "b",
+                "text": "Exploding Gradient."
+            },
+            {
+                "id": "c",
+                "text": "Zero weights."
+            },
+            {
+                "id": "d",
+                "text": "Dropout."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Not a Number.",
+        "explanation": "Exploding gradients usually lead to weights becoming so large they overflow to Infinity or Nan."
+    },
+    {
+        "id": "dnn_ch4_18",
+        "text": "Why check gradients for only a few iterations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Because it's boring."
+            },
+            {
+                "id": "b",
+                "text": "Because it is slow."
+            },
+            {
+                "id": "c",
+                "text": "Because it's accurate."
+            },
+            {
+                "id": "d",
+                "text": "Because computer crashes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Speed.",
+        "explanation": "It's too slow to run constantly; just verify correctness once."
+    },
+    {
+        "id": "dnn_ch4_19",
+        "text": "Initialization with large weights can lead to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Faster convergence."
+            },
+            {
+                "id": "b",
+                "text": "Exploding gradients or Saturation (in sigmoid/tanh)."
+            },
+            {
+                "id": "c",
+                "text": "Optimal performance."
+            },
+            {
+                "id": "d",
+                "text": "Sparsity."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Saturation.",
+        "explanation": "Large weights push activations into the flat saturation regions of sigmoid/tanh, or cause explosion."
+    },
+    {
+        "id": "dnn_ch4_20",
+        "text": "Which activation function is most prone to Vanishing Gradient?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReLU"
+            },
+            {
+                "id": "b",
+                "text": "Leaky ReLU"
+            },
+            {
+                "id": "c",
+                "text": "Sigmoid"
+            },
+            {
+                "id": "d",
+                "text": "ELU"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Max derivative 0.25.",
+        "explanation": "Sigmoid saturates at both ends, and its derivative is always < 0.25."
+    },
+    {
+        "id": "dnn_ch4_21",
+        "text": "The formula `theta = theta - learning_rate * gradient` is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gradient Ascent"
+            },
+            {
+                "id": "b",
+                "text": "Gradient Descent update rule."
+            },
+            {
+                "id": "c",
+                "text": "Backpropagation."
+            },
+            {
+                "id": "d",
+                "text": "Normalization."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Descent step.",
+        "explanation": "This determines the step size and direction to update weights."
+    },
+    {
+        "id": "dnn_ch4_22",
+        "text": "Does Batch Norm act as a regularizer?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No."
+            },
+            {
+                "id": "b",
+                "text": "Yes, slightly (adds some noise)."
+            },
+            {
+                "id": "c",
+                "text": "It causes overfitting."
+            },
+            {
+                "id": "d",
+                "text": "It replaces Dropout completely."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Noise.",
+        "explanation": "Because mean/variance are estimated on mini-batches, it adds noise, having a slight regularization effect."
+    },
+    {
+        "id": "dnn_ch4_23",
+        "text": "What is `epsilon` in Batch Norm formula?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Learning rate."
+            },
+            {
+                "id": "b",
+                "text": "Small constant to avoid division by zero."
+            },
+            {
+                "id": "c",
+                "text": "Weight."
+            },
+            {
+                "id": "d",
+                "text": "Bias."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stability.",
+        "explanation": "We divide by `sqrt(variance + epsilon)` to ensure stability."
+    },
+    {
+        "id": "dnn_ch4_24",
+        "text": "RNNs are particularly susceptible to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Overfitting."
+            },
+            {
+                "id": "b",
+                "text": "Vanishing/Exploding gradients due to time steps."
+            },
+            {
+                "id": "c",
+                "text": "Underfitting."
+            },
+            {
+                "id": "d",
+                "text": "Fast training."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "BPTT.",
+        "explanation": "Backpropagation Through Time involves many multiplications, amplifying gradient issues."
+    },
+    {
+        "id": "dnn_ch4_25",
+        "text": "Gradient Clipping works by?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Setting gradient to 0."
+            },
+            {
+                "id": "b",
+                "text": "Scaling down the gradient vector if its norm exceeds a threshold."
+            },
+            {
+                "id": "c",
+                "text": "Removing layers."
+            },
+            {
+                "id": "d",
+                "text": "Changing loss function."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rescale.",
+        "explanation": "It preserves the direction but limits the magnitude."
+    },
+    {
+        "id": "dnn_ch4_26",
+        "text": "Centered difference formula for numerical gradient is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "(f(x+h) - f(x)) / h"
+            },
+            {
+                "id": "b",
+                "text": "(f(x+h) - f(x-h)) / 2h"
+            },
+            {
+                "id": "c",
+                "text": "f(x)"
+            },
+            {
+                "id": "d",
+                "text": "f(x+h)"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Two sided.",
+        "explanation": "Two-sided difference is more accurate (O(h^2)) than one-sided difference (O(h))."
+    },
+    {
+        "id": "dnn_ch4_27",
+        "text": "If training loss is decreasing but validation loss increases, you have?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vanishing Gradient."
+            },
+            {
+                "id": "b",
+                "text": "Overfitting."
+            },
+            {
+                "id": "c",
+                "text": "Underfitting."
+            },
+            {
+                "id": "d",
+                "text": "Good model."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Generalization gap.",
+        "explanation": "The model is memorizing training data but failing on new data."
+    },
+    {
+        "id": "dnn_ch4_28",
+        "text": "Saturated neurons mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They are full of water."
+            },
+            {
+                "id": "b",
+                "text": "Activations are close to strict boundaries (0 or 1 for sigmoid), where gradients are near zero."
+            },
+            {
+                "id": "c",
+                "text": "They are dead."
+            },
+            {
+                "id": "d",
+                "text": "They are fast."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Flat curve.",
+        "explanation": "Saturation kills the gradient flow."
+    },
+    {
+        "id": "dnn_ch4_29",
+        "text": "Why normalize inputs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make them positive."
+            },
+            {
+                "id": "b",
+                "text": "To ensure loss surface is spherical/symmetric, speeding up convergence."
+            },
+            {
+                "id": "c",
+                "text": "To compress files."
+            },
+            {
+                "id": "d",
+                "text": "No reason."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sphere vs Ellipse.",
+        "explanation": "Elongated loss surfaces (ellipses) are harder for Gradient Descent to traverse."
+    },
+    {
+        "id": "dnn_ch4_30",
+        "text": "When does 'Dead ReLU' happen?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When learning rate is too high."
+            },
+            {
+                "id": "b",
+                "text": "When weights update such that neuron input is always negative."
+            },
+            {
+                "id": "c",
+                "text": "Both A and B."
+            },
+            {
+                "id": "d",
+                "text": "Never."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Large updates.",
+        "explanation": "A large gradient step can knock weights into a state where the neuron never activates again."
+    }
+]

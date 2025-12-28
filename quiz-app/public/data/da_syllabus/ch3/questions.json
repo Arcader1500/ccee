@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch3_1",
+        "text": "What is a 'Sample' in statistics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The entire group."
+            },
+            {
+                "id": "b",
+                "text": "A subset of the population."
+            },
+            {
+                "id": "c",
+                "text": "A test."
+            },
+            {
+                "id": "d",
+                "text": "A result."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Subset.",
+        "explanation": "A sample is a set of data collected and/or selected from a statistical population by a defined procedure."
+    },
+    {
+        "id": "da_ch3_2",
+        "text": "What is the 'Population'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Everyone living in a city."
+            },
+            {
+                "id": "b",
+                "text": "The entire set of items/people you are interested in."
+            },
+            {
+                "id": "c",
+                "text": "A subset."
+            },
+            {
+                "id": "d",
+                "text": "The count."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The whole group.",
+        "explanation": "The population is the complete set of observations or the entire group that you want to draw conclusions about."
+    },
+    {
+        "id": "da_ch3_3",
+        "text": "What is Bayes' Theorem used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calculating mean."
+            },
+            {
+                "id": "b",
+                "text": "Calculating conditional probability."
+            },
+            {
+                "id": "c",
+                "text": "Calculating dispersion."
+            },
+            {
+                "id": "d",
+                "text": "Sampling."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "P(A|B).",
+        "explanation": "Bayes' theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event."
+    },
+    {
+        "id": "da_ch3_4",
+        "text": "What is P(A|B)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Probability of A or B."
+            },
+            {
+                "id": "b",
+                "text": "Probability of A and B."
+            },
+            {
+                "id": "c",
+                "text": "Conditional probability of A given B."
+            },
+            {
+                "id": "d",
+                "text": "Probability of B given A."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Given B.",
+        "explanation": "The notation P(A|B) stands for the probability of A occurring given that B has occurred."
+    },
+    {
+        "id": "da_ch3_5",
+        "text": "Which distribution is bell-shaped and symmetric?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Binomial"
+            },
+            {
+                "id": "b",
+                "text": "Poisson"
+            },
+            {
+                "id": "c",
+                "text": "Normal (Gaussian)"
+            },
+            {
+                "id": "d",
+                "text": "Uniform"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Bell curve.",
+        "explanation": "The Normal distribution is famous for its symmetric bell shape."
+    },
+    {
+        "id": "da_ch3_6",
+        "text": "What theorem states that the sampling distribution of the mean tends to be normal?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pythagoras Theorem"
+            },
+            {
+                "id": "b",
+                "text": "Central Limit Theorem (CLT)"
+            },
+            {
+                "id": "c",
+                "text": "Bayes Theorem"
+            },
+            {
+                "id": "d",
+                "text": "Law of Large Numbers"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Limit Theorem.",
+        "explanation": "The CLT states that the distribution of sample means approximates a normal distribution as the sample size becomes larger."
+    },
+    {
+        "id": "da_ch3_7",
+        "text": "What is a Null Hypothesis (H0)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The hypothesis we want to prove."
+            },
+            {
+                "id": "b",
+                "text": "The default assumption that there is no effect or difference."
+            },
+            {
+                "id": "c",
+                "text": "The alternative."
+            },
+            {
+                "id": "d",
+                "text": "A false hypothesis."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Status quo.",
+        "explanation": "The null hypothesis typically states that there is no significant difference or effect."
+    },
+    {
+        "id": "da_ch3_8",
+        "text": "What is a P-value?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The probability."
+            },
+            {
+                "id": "b",
+                "text": "Probability of obtaining results at least as extreme as limits, assuming H0 is true."
+            },
+            {
+                "id": "c",
+                "text": "Percentage value."
+            },
+            {
+                "id": "d",
+                "text": "Population value."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Evidence against H0.",
+        "explanation": "A small p-value (< 0.05) indicates strong evidence against the null hypothesis."
+    },
+    {
+        "id": "da_ch3_9",
+        "text": "What is Type I Error?",
+        "options": [
+            {
+                "id": "a",
+                "text": "False Negative."
+            },
+            {
+                "id": "b",
+                "text": "False Positive (Rejecting true H0)."
+            },
+            {
+                "id": "c",
+                "text": "Correct decision."
+            },
+            {
+                "id": "d",
+                "text": "System error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "False Alarm.",
+        "explanation": "Type I error occurs when you incorrectly reject a true Null Hypothesis (False Positive)."
+    },
+    {
+        "id": "da_ch3_10",
+        "text": "What is Type II Error?",
+        "options": [
+            {
+                "id": "a",
+                "text": "False Negative (Failing to reject false H0)."
+            },
+            {
+                "id": "b",
+                "text": "False Positive."
+            },
+            {
+                "id": "c",
+                "text": "True Negative."
+            },
+            {
+                "id": "d",
+                "text": "True Positive."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Miss.",
+        "explanation": "Type II error is failing to reject a null hypothesis that is actually false (False Negative)."
+    },
+    {
+        "id": "da_ch3_11",
+        "text": "Which distribution models the number of successes in n independent trials (yes/no)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normal"
+            },
+            {
+                "id": "b",
+                "text": "Binomial"
+            },
+            {
+                "id": "c",
+                "text": "Poisson"
+            },
+            {
+                "id": "d",
+                "text": "Exponential"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Binary outcome.",
+        "explanation": "The Binomial distribution models the number of successes in a sequence of independent experiments, each asking a yes/no question."
+    },
+    {
+        "id": "da_ch3_12",
+        "text": "Which distribution models the number of events in a fixed interval of time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Binomial"
+            },
+            {
+                "id": "b",
+                "text": "Poisson"
+            },
+            {
+                "id": "c",
+                "text": "Normal"
+            },
+            {
+                "id": "d",
+                "text": "Uniform"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Rare events / rates.",
+        "explanation": "The Poisson distribution expresses the probability of a given number of events occurring in a fixed interval of time or space."
+    },
+    {
+        "id": "da_ch3_13",
+        "text": "What is Stratified Sampling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Random picking."
+            },
+            {
+                "id": "b",
+                "text": "Dividing population into subgroups (strata) and sampling from each."
+            },
+            {
+                "id": "c",
+                "text": "Picking every kth item."
+            },
+            {
+                "id": "d",
+                "text": "Convenience sampling."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Strata / Layers.",
+        "explanation": "Stratified sampling ensures subgroups are represented by sampling from distinct strata."
+    },
+    {
+        "id": "da_ch3_14",
+        "text": "What implies that two events A and B are independent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "P(A and B) = P(A) + P(B)"
+            },
+            {
+                "id": "b",
+                "text": "P(A and B) = P(A) * P(B)"
+            },
+            {
+                "id": "c",
+                "text": "P(A) = P(B)"
+            },
+            {
+                "id": "d",
+                "text": "P(A|B) = 0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multiplication rule.",
+        "explanation": "If A and B are independent, the probability of both occurring is the product of their individual probabilities."
+    },
+    {
+        "id": "da_ch3_15",
+        "text": "Which test compares observed vs expected frequencies of categorical data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "T-Test"
+            },
+            {
+                "id": "b",
+                "text": "Z-Test"
+            },
+            {
+                "id": "c",
+                "text": "Chi-Square Test"
+            },
+            {
+                "id": "d",
+                "text": "ANOVA"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Goodness of fit.",
+        "explanation": "The Chi-Square test is used to determine if there is a significant difference between expected frequencies and observed frequencies."
+    },
+    {
+        "id": "da_ch3_16",
+        "text": "What is the 'Alternative Hypothesis' (H1)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The null."
+            },
+            {
+                "id": "b",
+                "text": "The statement that there IS an effect or difference."
+            },
+            {
+                "id": "c",
+                "text": "A backup plan."
+            },
+            {
+                "id": "d",
+                "text": "An error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "What you want to prove.",
+        "explanation": "The alternative hypothesis is the hypothesis used in hypothesis testing that is contrary to the null hypothesis."
+    },
+    {
+        "id": "da_ch3_17",
+        "text": "What is a Random Variable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A variable in code."
+            },
+            {
+                "id": "b",
+                "text": "A variable whose possible values are numerical outcomes of a random phenomenon."
+            },
+            {
+                "id": "c",
+                "text": "A random number."
+            },
+            {
+                "id": "d",
+                "text": "An unknown."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Maps outcomes to numbers.",
+        "explanation": "A random variable is a numerical description of the outcome of a statistical experiment."
+    },
+    {
+        "id": "da_ch3_18",
+        "text": "For a normal distribution, what % of data is within 1 standard deviation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "50%"
+            },
+            {
+                "id": "b",
+                "text": "68%"
+            },
+            {
+                "id": "c",
+                "text": "95%"
+            },
+            {
+                "id": "d",
+                "text": "99.7%"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Empirical rule 68-95-99.7.",
+        "explanation": "Approximately 68% of observations fall within one standard deviation of the mean."
+    },
+    {
+        "id": "da_ch3_19",
+        "text": "What is joint probability?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Probability of two events occurring together."
+            },
+            {
+                "id": "b",
+                "text": "Probability of one event."
+            },
+            {
+                "id": "c",
+                "text": "Probability of union."
+            },
+            {
+                "id": "d",
+                "text": "Sum of probabilities."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Together.",
+        "explanation": "Joint probability is the probability of two events happening at the same time."
+    },
+    {
+        "id": "da_ch3_20",
+        "text": "What is 'Sampling Error'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mistake in calculation."
+            },
+            {
+                "id": "b",
+                "text": "Error caused by observing a sample instead of the whole population."
+            },
+            {
+                "id": "c",
+                "text": "Wrong formula."
+            },
+            {
+                "id": "d",
+                "text": "Computer crash."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sample vs Population.",
+        "explanation": "Sampling error arises because a sample is not a perfect representation of the population."
+    },
+    {
+        "id": "da_ch3_21",
+        "text": "When do you use a Z-Test vs T-Test?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Z-Test when population variance is known and sample is large."
+            },
+            {
+                "id": "b",
+                "text": "T-Test when population variance is known."
+            },
+            {
+                "id": "c",
+                "text": "They are same."
+            },
+            {
+                "id": "d",
+                "text": "Z-Test is only for zero."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Sample size and variance.",
+        "explanation": "Z-test is used when population standard deviation is known and sample size is large (>30). T-test is for smaller samples or unknown variance."
+    },
+    {
+        "id": "da_ch3_22",
+        "text": "What is 'Re-sampling'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sampling again."
+            },
+            {
+                "id": "b",
+                "text": "Methods like Bootstrapping that draw repeated samples from the original data."
+            },
+            {
+                "id": "c",
+                "text": "Rejecting samples."
+            },
+            {
+                "id": "d",
+                "text": "Calculating mean."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bootstrapping.",
+        "explanation": "Resampling involves drawing repeated samples from the original data samples."
+    },
+    {
+        "id": "da_ch3_23",
+        "text": "What is Sample Space?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A room for samples."
+            },
+            {
+                "id": "b",
+                "text": "The set of all possible outcomes of an experiment."
+            },
+            {
+                "id": "c",
+                "text": "A subset."
+            },
+            {
+                "id": "d",
+                "text": "The event."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "All possibilities.",
+        "explanation": "The sample space is the set of all possible outcomes or results of that experiment."
+    },
+    {
+        "id": "da_ch3_24",
+        "text": "Which distribution is 'flat' (all outcomes equally likely)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Normal"
+            },
+            {
+                "id": "b",
+                "text": "Uniform"
+            },
+            {
+                "id": "c",
+                "text": "Poisson"
+            },
+            {
+                "id": "d",
+                "text": "Binomial"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Uniformity.",
+        "explanation": "In a uniform distribution, every value in the range is equally likely."
+    },
+    {
+        "id": "da_ch3_25",
+        "text": "What is the probability of rolling a 6 on a fair die?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1/2"
+            },
+            {
+                "id": "b",
+                "text": "1/6"
+            },
+            {
+                "id": "c",
+                "text": "1/10"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "One side out of six.",
+        "explanation": "There are 6 equally likely outcomes, one of which is 6."
+    },
+    {
+        "id": "da_ch3_26",
+        "text": "Marginal probability refers to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Probability of an event occurring unconditionally."
+            },
+            {
+                "id": "b",
+                "text": "Small probability."
+            },
+            {
+                "id": "c",
+                "text": "Probability on the edge."
+            },
+            {
+                "id": "d",
+                "text": "Conditional probability."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Unconditional.",
+        "explanation": "Marginal probability is the probability of a single event occurring, unconditioned on any other event."
+    },
+    {
+        "id": "da_ch3_27",
+        "text": "Bayes Theorem is fundamental to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Frequentist statistics."
+            },
+            {
+                "id": "b",
+                "text": "Bayesian inference."
+            },
+            {
+                "id": "c",
+                "text": "Calculus."
+            },
+            {
+                "id": "d",
+                "text": "Geometry."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bayes.",
+        "explanation": "It is the foundation of Bayesian statistics/inference."
+    },
+    {
+        "id": "da_ch3_28",
+        "text": "What does a Confidence Interval represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A break time."
+            },
+            {
+                "id": "b",
+                "text": "A range of values that is likely to contain the population parameter."
+            },
+            {
+                "id": "c",
+                "text": "100% certainty."
+            },
+            {
+                "id": "d",
+                "text": "The error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Range of confidence.",
+        "explanation": "A 95% confidence interval means we are 95% confident the true population parameter lies within this range."
+    },
+    {
+        "id": "da_ch3_29",
+        "text": "What is 'Bias' in sampling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Random error."
+            },
+            {
+                "id": "b",
+                "text": "Systematic error favoring certain outcomes."
+            },
+            {
+                "id": "c",
+                "text": "Standard deviation."
+            },
+            {
+                "id": "d",
+                "text": "Variance."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unfair.",
+        "explanation": "Bias is a systematic tendency which causes differences between results and the true value."
+    },
+    {
+        "id": "da_ch3_30",
+        "text": "Which tests are used for quantitative data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Z-test, T-test, ANOVA"
+            },
+            {
+                "id": "b",
+                "text": "Chi-square"
+            },
+            {
+                "id": "c",
+                "text": "Bar charts"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Comparing means.",
+        "explanation": "Tests like Z, T, and ANOVA compare means of numerical variables."
+    }
+]

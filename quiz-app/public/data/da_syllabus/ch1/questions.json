@@ -1,0 +1,752 @@
+[
+    {
+        "id": "da_ch1_1",
+        "text": "What is the first phase of the Data Analytics Lifecycle?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data Preparation"
+            },
+            {
+                "id": "b",
+                "text": "Discovery"
+            },
+            {
+                "id": "c",
+                "text": "Model Planning"
+            },
+            {
+                "id": "d",
+                "text": "Model Building"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Finding out.",
+        "explanation": "Discovery is the first phase, where the team learns the business domain, assesses resources, and frames the problem."
+    },
+    {
+        "id": "da_ch1_2",
+        "text": "Which phase involves ETL (Extract, Transform, Load)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Discovery"
+            },
+            {
+                "id": "b",
+                "text": "Data Preparation"
+            },
+            {
+                "id": "c",
+                "text": "Operationalize"
+            },
+            {
+                "id": "d",
+                "text": "Communicate Results"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Getting data ready.",
+        "explanation": "Data Preparation involves processing data (ETL) to create a robust dataset for modeling."
+    },
+    {
+        "id": "da_ch1_3",
+        "text": "What is the main goal of Data Visualization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make data look pretty."
+            },
+            {
+                "id": "b",
+                "text": "To communicate information clearly and efficiently via statistical graphics, plots and information graphics."
+            },
+            {
+                "id": "c",
+                "text": "To hide data."
+            },
+            {
+                "id": "d",
+                "text": "To increase file size."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Clear communication.",
+        "explanation": "Data visualization communicates complex data clearly and efficiently to users."
+    },
+    {
+        "id": "da_ch1_4",
+        "text": "Which of these is a modern Data Analytics tool?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Tableau"
+            },
+            {
+                "id": "b",
+                "text": "MS Paint"
+            },
+            {
+                "id": "c",
+                "text": "Notepad"
+            },
+            {
+                "id": "d",
+                "text": "Calculator"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Visual analytics.",
+        "explanation": "Tableau is a leading visual analytics platform."
+    },
+    {
+        "id": "da_ch1_5",
+        "text": "What follows the 'Model Building' phase?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Discovery"
+            },
+            {
+                "id": "b",
+                "text": "Communicate Results"
+            },
+            {
+                "id": "c",
+                "text": "Data Prep"
+            },
+            {
+                "id": "d",
+                "text": "Retirement"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tell stakeholders.",
+        "explanation": "After building (and testing) the model, you Communicate Results to stakeholders."
+    },
+    {
+        "id": "da_ch1_6",
+        "text": "What is 'Big Data' characterized by?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Volume, Velocity, Variety"
+            },
+            {
+                "id": "b",
+                "text": "Value, Vision, Voice"
+            },
+            {
+                "id": "c",
+                "text": "Video, VCR, Vinyl"
+            },
+            {
+                "id": "d",
+                "text": "Very Big Files"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "The 3 Vs.",
+        "explanation": "Big Data is often defined by the 3 Vs: Volume, Velocity, and Variety."
+    },
+    {
+        "id": "da_ch1_7",
+        "text": "Which tool is commonly used for statistical computing and graphics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "R"
+            },
+            {
+                "id": "b",
+                "text": "C++"
+            },
+            {
+                "id": "c",
+                "text": "HTML"
+            },
+            {
+                "id": "d",
+                "text": "CSS"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Single letter.",
+        "explanation": "R is a language and environment for statistical computing and graphics."
+    },
+    {
+        "id": "da_ch1_8",
+        "text": "What is Exploratory Data Analysis (EDA)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Final reporting."
+            },
+            {
+                "id": "b",
+                "text": "Initial investigation on data to discover patterns, spot anomalies, to check assumptions."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Selling data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Exploring initially.",
+        "explanation": "EDA is an approach to analyzing data sets to summarize their main characteristics, often with visual methods."
+    },
+    {
+        "id": "da_ch1_9",
+        "text": "In which phase do you determine the problem statement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Operationalize"
+            },
+            {
+                "id": "b",
+                "text": "Discovery"
+            },
+            {
+                "id": "c",
+                "text": "Model Building"
+            },
+            {
+                "id": "d",
+                "text": "Data Prep"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "First phase.",
+        "explanation": "Discovery involves framing the business problem as an analytics challenge."
+    },
+    {
+        "id": "da_ch1_10",
+        "text": "What is a 'Sandbox' in analytics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Playground for kids."
+            },
+            {
+                "id": "b",
+                "text": "A separate workspace for exploring data without interfering with production systems."
+            },
+            {
+                "id": "c",
+                "text": "A desert environment."
+            },
+            {
+                "id": "d",
+                "text": "A security risk."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Isolated play area.",
+        "explanation": "An analytic sandbox is a set of resources enabling data scientists to explore data without impacting production."
+    },
+    {
+        "id": "da_ch1_11",
+        "text": "What is the purpose of 'Operationalize'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To delete the model."
+            },
+            {
+                "id": "b",
+                "text": "To deploy the model into a production environment."
+            },
+            {
+                "id": "c",
+                "text": "To plan the model."
+            },
+            {
+                "id": "d",
+                "text": "To fix bugs."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Make it live.",
+        "explanation": "Operationalize means moving the analytics project into the production environment for real-world use."
+    },
+    {
+        "id": "da_ch1_12",
+        "text": "Which chart is best for showing trends over time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pie Chart"
+            },
+            {
+                "id": "b",
+                "text": "Line Chart"
+            },
+            {
+                "id": "c",
+                "text": "Scatter Plot"
+            },
+            {
+                "id": "d",
+                "text": "Bar Chart"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Continuous line.",
+        "explanation": "Line charts are ideal for displaying trends over a continuous period (time series)."
+    },
+    {
+        "id": "da_ch1_13",
+        "text": "What is Data Cleansing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Washing the hard drive."
+            },
+            {
+                "id": "b",
+                "text": "Detecting and correcting (or removing) corrupt or inaccurate records."
+            },
+            {
+                "id": "c",
+                "text": "Sorting data."
+            },
+            {
+                "id": "d",
+                "text": "Compressing data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cleaning dirty data.",
+        "explanation": "Data cleansing is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data."
+    },
+    {
+        "id": "da_ch1_14",
+        "text": "What does SQL stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Simple Query Lists"
+            },
+            {
+                "id": "b",
+                "text": "Structured Query Language"
+            },
+            {
+                "id": "c",
+                "text": "Standard Question Link"
+            },
+            {
+                "id": "d",
+                "text": "System Quality Level"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Database language.",
+        "explanation": "SQL (Structured Query Language) is the standard language for relational database management systems."
+    },
+    {
+        "id": "da_ch1_15",
+        "text": "Which is an open source visual analytics tool?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Tableau Public"
+            },
+            {
+                "id": "b",
+                "text": "Power BI"
+            },
+            {
+                "id": "c",
+                "text": "Google Data Studio"
+            },
+            {
+                "id": "d",
+                "text": "Apache Superset"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Apache.",
+        "explanation": "Apache Superset is a modern, enterprise-ready business intelligence web application."
+    },
+    {
+        "id": "da_ch1_16",
+        "text": "What is 'Model Planning'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Building the model physically."
+            },
+            {
+                "id": "b",
+                "text": "Determining the methods, techniques, and workflow to follow for the subsequent model building phase."
+            },
+            {
+                "id": "c",
+                "text": "Buying hardware."
+            },
+            {
+                "id": "d",
+                "text": "Hiring models."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Planning the approach.",
+        "explanation": "Model Planning involves selecting the appropriate techniques and variables to use."
+    },
+    {
+        "id": "da_ch1_17",
+        "text": "What is a 'Dataset'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A collection of data."
+            },
+            {
+                "id": "b",
+                "text": "A single number."
+            },
+            {
+                "id": "c",
+                "text": "A computer."
+            },
+            {
+                "id": "d",
+                "text": "A program."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Set of data.",
+        "explanation": "A dataset is a collection of data, typically presented in tabular form."
+    },
+    {
+        "id": "da_ch1_18",
+        "text": "Which graph is best for comparing categories?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Line Chart"
+            },
+            {
+                "id": "b",
+                "text": "Bar Chart"
+            },
+            {
+                "id": "c",
+                "text": "Scatter Plot"
+            },
+            {
+                "id": "d",
+                "text": "Histogram"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bars.",
+        "explanation": "Bar charts are excellent for comparing discrete categories."
+    },
+    {
+        "id": "da_ch1_19",
+        "text": "What is the key difference between Business Intelligence (BI) and Data Analytics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BI uses Excel, Analytics uses Python."
+            },
+            {
+                "id": "b",
+                "text": "BI focuses on descriptive analysis (what happened), Analytics includes predictive (what will happen)."
+            },
+            {
+                "id": "c",
+                "text": "No difference."
+            },
+            {
+                "id": "d",
+                "text": "BI is harder."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Past vs Future.",
+        "explanation": "BI typically looks at historical data to understand what happened; Advanced Analytics looks forward to predict what will happen."
+    },
+    {
+        "id": "da_ch1_20",
+        "text": "What is 'Unstructured Data'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data in SQL tables."
+            },
+            {
+                "id": "b",
+                "text": "Information that does not have a pre-defined data model (e.g., text, video, audio)."
+            },
+            {
+                "id": "c",
+                "text": "Spreadsheets."
+            },
+            {
+                "id": "d",
+                "text": "CSV files."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No structure.",
+        "explanation": "Unstructured data (like emails, videos) doesn't fit neatly into a database table."
+    },
+    {
+        "id": "da_ch1_21",
+        "text": "What is 'metadata'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Big data."
+            },
+            {
+                "id": "b",
+                "text": "Data about data."
+            },
+            {
+                "id": "c",
+                "text": "False data."
+            },
+            {
+                "id": "d",
+                "text": "Phone data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Meta description.",
+        "explanation": "Metadata is data that describes other data (e.g., file size, author, creation date)."
+    },
+    {
+        "id": "da_ch1_22",
+        "text": "Which tool is known for its spreadsheet capabilities?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Microsoft Word"
+            },
+            {
+                "id": "b",
+                "text": "Microsoft Excel"
+            },
+            {
+                "id": "c",
+                "text": "Photoshop"
+            },
+            {
+                "id": "d",
+                "text": "PowerPoint"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cells and rows.",
+        "explanation": "Excel is the most ubiquitous spreadsheet tool for basic data analysis."
+    },
+    {
+        "id": "da_ch1_23",
+        "text": "What is a 'Dashboard'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A car part."
+            },
+            {
+                "id": "b",
+                "text": "A visual interface that provides an at-a-glance view of key performance indicators."
+            },
+            {
+                "id": "c",
+                "text": "A database."
+            },
+            {
+                "id": "d",
+                "text": "A server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "At a glance.",
+        "explanation": "A dashboard consolidates and arranges numbers, metrics, and performance scorecards on a single screen."
+    },
+    {
+        "id": "da_ch1_24",
+        "text": "What is the role of a 'Data Scientist'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To fix printers."
+            },
+            {
+                "id": "b",
+                "text": "To analyze and interpret complex digital data to assist a business in its decision-making."
+            },
+            {
+                "id": "c",
+                "text": "To write HTML."
+            },
+            {
+                "id": "d",
+                "text": "To sell software."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Analyze and model.",
+        "explanation": "Data scientists combine statistics, computer science, and business knowledge to extract insights from data."
+    },
+    {
+        "id": "da_ch1_25",
+        "text": "What implies that data is reliable and accurate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Data Velocity"
+            },
+            {
+                "id": "b",
+                "text": "Data Veracity"
+            },
+            {
+                "id": "c",
+                "text": "Data Volume"
+            },
+            {
+                "id": "d",
+                "text": "Data Variety"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Truthfulness.",
+        "explanation": "Veracity refers to the quality, accuracy, and trustworthiness of the data."
+    },
+    {
+        "id": "da_ch1_26",
+        "text": "Which language is heavily used in Data Analytics besides R?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Assembly"
+            },
+            {
+                "id": "b",
+                "text": "Python"
+            },
+            {
+                "id": "c",
+                "text": "Cobol"
+            },
+            {
+                "id": "d",
+                "text": "Pascal"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Snake.",
+        "explanation": "Python is a dominant language in data science due to libraries like Pandas and Scikit-learn."
+    },
+    {
+        "id": "da_ch1_27",
+        "text": "What is 'SAS'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Statistical Analysis System"
+            },
+            {
+                "id": "b",
+                "text": "System As Service"
+            },
+            {
+                "id": "c",
+                "text": "Super Analytics System"
+            },
+            {
+                "id": "d",
+                "text": "Standard Analysis Service"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Statistical software.",
+        "explanation": "SAS is a integrated software suite for advanced analytics, business intelligence, data management, etc."
+    },
+    {
+        "id": "da_ch1_28",
+        "text": "What is a 'Data Warehouse'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A physical warehouse."
+            },
+            {
+                "id": "b",
+                "text": "A large store of data accumulated from a wide range of sources within a company."
+            },
+            {
+                "id": "c",
+                "text": "A backup drive."
+            },
+            {
+                "id": "d",
+                "text": "A software store."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Central repository.",
+        "explanation": "A data warehouse is a central repository of information that can be analyzed to make better decisions."
+    },
+    {
+        "id": "da_ch1_29",
+        "text": "What is 'Data Mining'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Digging for gold."
+            },
+            {
+                "id": "b",
+                "text": "Process of discovering patterns in large data sets."
+            },
+            {
+                "id": "c",
+                "text": "Deleting data."
+            },
+            {
+                "id": "d",
+                "text": "Encrypting data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mining for insights.",
+        "explanation": "Data mining is the process of discovering patterns, correlations, and anomalies within large datasets."
+    },
+    {
+        "id": "da_ch1_30",
+        "text": "What allows executing R code inside a visual interface?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Notepad"
+            },
+            {
+                "id": "b",
+                "text": "RStudio"
+            },
+            {
+                "id": "c",
+                "text": "Paint"
+            },
+            {
+                "id": "d",
+                "text": "Word"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "IDE for R.",
+        "explanation": "RStudio is the most popular IDE for R."
+    }
+]
