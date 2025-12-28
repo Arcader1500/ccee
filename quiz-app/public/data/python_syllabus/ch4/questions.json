@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch4_1",
+        "text": "Which keyword is used to define a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "func"
+            },
+            {
+                "id": "b",
+                "text": "def"
+            },
+            {
+                "id": "c",
+                "text": "function"
+            },
+            {
+                "id": "d",
+                "text": "lambda"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Short for define.",
+        "explanation": "The `def` keyword introduces a function definition."
+    },
+    {
+        "id": "py_ch4_2",
+        "text": "What is a lambda function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A function that loops forever."
+            },
+            {
+                "id": "b",
+                "text": "An anonymous small function."
+            },
+            {
+                "id": "c",
+                "text": "A function connected to a database."
+            },
+            {
+                "id": "d",
+                "text": "A recursive function."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It has no name.",
+        "explanation": "A lambda function is a small anonymous function defined with the `lambda` keyword."
+    },
+    {
+        "id": "py_ch4_3",
+        "text": "How do you specify a default value for a function parameter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "def func(x : 1):"
+            },
+            {
+                "id": "b",
+                "text": "def func(x = 1):"
+            },
+            {
+                "id": "c",
+                "text": "def func(x default 1):"
+            },
+            {
+                "id": "d",
+                "text": "def func(x -> 1):"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use the assignment operator in the definition.",
+        "explanation": "Default parameter values are specified using `parameter=value` in the function definition header."
+    },
+    {
+        "id": "py_ch4_4",
+        "text": "Which module allows working with Regular Expressions in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "regex"
+            },
+            {
+                "id": "b",
+                "text": "re"
+            },
+            {
+                "id": "c",
+                "text": "reg"
+            },
+            {
+                "id": "d",
+                "text": "pyregex"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Two letters.",
+        "explanation": "The built-in module for regular expressions in Python is `re`."
+    },
+    {
+        "id": "py_ch4_5",
+        "text": "What does `re.match()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Searches the entire string."
+            },
+            {
+                "id": "b",
+                "text": "Checks for a match only at the beginning of the string."
+            },
+            {
+                "id": "c",
+                "text": "Replaces text."
+            },
+            {
+                "id": "d",
+                "text": "Splits text."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It's strict about the start.",
+        "explanation": "`re.match()` checks for a match only at the beginning of the string. `re.search()` scans the entire string."
+    },
+    {
+        "id": "py_ch4_6",
+        "text": "What is the return type of a function that has no return statement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "int"
+            },
+            {
+                "id": "b",
+                "text": "0"
+            },
+            {
+                "id": "c",
+                "text": "void"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "It returns the None object.",
+        "explanation": "In Python, if a function ends without a return statement, it implicitly returns `None`."
+    },
+    {
+        "id": "py_ch4_7",
+        "text": "How do you handle arbitrary number of positional arguments in a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "*args"
+            },
+            {
+                "id": "b",
+                "text": "**kwargs"
+            },
+            {
+                "id": "c",
+                "text": "...args"
+            },
+            {
+                "id": "d",
+                "text": "args[]"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "The asterisk is key.",
+        "explanation": "`*args` collects extra positional arguments into a tuple."
+    },
+    {
+        "id": "py_ch4_8",
+        "text": "Which `re` function returns all non-overlapping matches of a pattern?",
+        "options": [
+            {
+                "id": "a",
+                "text": "findall()"
+            },
+            {
+                "id": "b",
+                "text": "search_all()"
+            },
+            {
+                "id": "c",
+                "text": "match_all()"
+            },
+            {
+                "id": "d",
+                "text": "collect()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Find them all.",
+        "explanation": "`re.findall()` returns all non-overlapping matches of the pattern in the string, as a list of strings."
+    },
+    {
+        "id": "py_ch4_9",
+        "text": "What keyword is used to access a global variable inside a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "outer"
+            },
+            {
+                "id": "b",
+                "text": "global"
+            },
+            {
+                "id": "c",
+                "text": "super"
+            },
+            {
+                "id": "d",
+                "text": "extern"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Declare it as global.",
+        "explanation": "The `global` keyword allows you to modify a variable defined in the global scope."
+    },
+    {
+        "id": "py_ch4_10",
+        "text": "What does `*` mean in a regular expression?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matches exactly one character."
+            },
+            {
+                "id": "b",
+                "text": "Matches zero or more occurrences of the preceding element."
+            },
+            {
+                "id": "c",
+                "text": "Matches any character."
+            },
+            {
+                "id": "d",
+                "text": "Matches the end of the line."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Quantifier for zero or more.",
+        "explanation": "The asterisk `*` is a quantifier matching 0 or more repetitions of the preceding regex element."
+    },
+    {
+        "id": "py_ch4_11",
+        "text": "Which built-in function returns a list of attributes and methods of an object?",
+        "options": [
+            {
+                "id": "a",
+                "text": "help()"
+            },
+            {
+                "id": "b",
+                "text": "dir()"
+            },
+            {
+                "id": "c",
+                "text": "list()"
+            },
+            {
+                "id": "d",
+                "text": "type()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Short for directory.",
+        "explanation": "`dir()` tries to return a list of valid attributes for the object."
+    },
+    {
+        "id": "py_ch4_12",
+        "text": "How do you call a function `my_func`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "call my_func"
+            },
+            {
+                "id": "b",
+                "text": "my_func"
+            },
+            {
+                "id": "c",
+                "text": "my_func()"
+            },
+            {
+                "id": "d",
+                "text": "run my_func"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Use parentheses.",
+        "explanation": "A function is called by using its name followed by parentheses `()`."
+    },
+    {
+        "id": "py_ch4_13",
+        "text": "What is a docstring?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A string variable."
+            },
+            {
+                "id": "b",
+                "text": "A comment starting with #"
+            },
+            {
+                "id": "c",
+                "text": "The first string literal in a function used for documentation."
+            },
+            {
+                "id": "d",
+                "text": "A string containing a document."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Documentation string.",
+        "explanation": "A docstring is a string literal that occurs as the first statement in a module, function, class, or method definition."
+    },
+    {
+        "id": "py_ch4_14",
+        "text": "Which regex character matches 'any single character' except newline?",
+        "options": [
+            {
+                "id": "a",
+                "text": "*"
+            },
+            {
+                "id": "b",
+                "text": "?"
+            },
+            {
+                "id": "c",
+                "text": "."
+            },
+            {
+                "id": "d",
+                "text": "\\"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The dot.",
+        "explanation": "The dot `.` matches any character except a newline."
+    },
+    {
+        "id": "py_ch4_15",
+        "text": "What does `**kwargs` allow in function arguments?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Arbitrary number of keyword arguments."
+            },
+            {
+                "id": "b",
+                "text": "Arbitrary number of positional arguments."
+            },
+            {
+                "id": "c",
+                "text": "Pointer to arguments."
+            },
+            {
+                "id": "d",
+                "text": "Squared arguments."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Keyword Arguments.",
+        "explanation": "`**kwargs` collects extra keyword arguments into a dictionary."
+    },
+    {
+        "id": "py_ch4_16",
+        "text": "How do you return multiple values from a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "return x y"
+            },
+            {
+                "id": "b",
+                "text": "return x; return y"
+            },
+            {
+                "id": "c",
+                "text": "return x, y"
+            },
+            {
+                "id": "d",
+                "text": "You cannot."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It actually returns a tuple.",
+        "explanation": "`return x, y` returns a tuple containing x and y, effectively returning multiple values."
+    },
+    {
+        "id": "py_ch4_17",
+        "text": "Which regex meant 'Digit' (0-9)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "\\w"
+            },
+            {
+                "id": "b",
+                "text": "\\d"
+            },
+            {
+                "id": "c",
+                "text": "\\s"
+            },
+            {
+                "id": "d",
+                "text": "\\n"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "d for digit.",
+        "explanation": "`\\d` matches any decimal digit [0-9]."
+    },
+    {
+        "id": "py_ch4_18",
+        "text": "What is recursion?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A function looping."
+            },
+            {
+                "id": "b",
+                "text": "A function calling itself."
+            },
+            {
+                "id": "c",
+                "text": "A database query."
+            },
+            {
+                "id": "d",
+                "text": "Importing a module."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Self-reference.",
+        "explanation": "Recursion occurs when a function calls itself directly or indirectly."
+    },
+    {
+        "id": "py_ch4_19",
+        "text": "What does the `pass` statement do in a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Returns None."
+            },
+            {
+                "id": "b",
+                "text": "Exits the function."
+            },
+            {
+                "id": "c",
+                "text": "Does nothing (placeholder)."
+            },
+            {
+                "id": "d",
+                "text": "Skips the function call."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It allows syntax to be valid without code.",
+        "explanation": "`pass` is a null operation; nothing happens when it executes. It's used as a placeholder."
+    },
+    {
+        "id": "py_ch4_20",
+        "text": "Which `re` method replaces matches with a string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "re.replace()"
+            },
+            {
+                "id": "b",
+                "text": "re.sub()"
+            },
+            {
+                "id": "c",
+                "text": "re.change()"
+            },
+            {
+                "id": "d",
+                "text": "re.swap()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Substitute.",
+        "explanation": "`re.sub(pattern, repl, string)` substitutes occurrences of the pattern with the replacement string."
+    },
+    {
+        "id": "py_ch4_21",
+        "text": "What is the scope of a variable defined inside a function?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Global"
+            },
+            {
+                "id": "b",
+                "text": "Universal"
+            },
+            {
+                "id": "c",
+                "text": "Local"
+            },
+            {
+                "id": "d",
+                "text": "Module"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Restricted to the function.",
+        "explanation": "Variables defined inside a function have local scope and are only accessible within that function."
+    },
+    {
+        "id": "py_ch4_22",
+        "text": "What corresponds to 'Start of string' in Regex?",
+        "options": [
+            {
+                "id": "a",
+                "text": "$"
+            },
+            {
+                "id": "b",
+                "text": "^"
+            },
+            {
+                "id": "c",
+                "text": "."
+            },
+            {
+                "id": "d",
+                "text": "*"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The caret symbol.",
+        "explanation": "`^` asserts position at the start of the string."
+    },
+    {
+        "id": "py_ch4_23",
+        "text": "Which of these is a valid Lambda syntax?",
+        "options": [
+            {
+                "id": "a",
+                "text": "lambda x: x + 1"
+            },
+            {
+                "id": "b",
+                "text": "lambda x -> x + 1"
+            },
+            {
+                "id": "c",
+                "text": "func x: x + 1"
+            },
+            {
+                "id": "d",
+                "text": "def lambda(x): x+1"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Colon separates arguments and expression.",
+        "explanation": "The syntax is `lambda arguments: expression`."
+    },
+    {
+        "id": "py_ch4_24",
+        "text": "What does `type()` return?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The value of the object"
+            },
+            {
+                "id": "b",
+                "text": "The type of the object"
+            },
+            {
+                "id": "c",
+                "text": "The size of the object"
+            },
+            {
+                "id": "d",
+                "text": "The id of the object"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It tells you the class.",
+        "explanation": "`type(object)` returns the type (class) of the object."
+    },
+    {
+        "id": "py_ch4_25",
+        "text": "What follows `def function_name`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "{}"
+            },
+            {
+                "id": "b",
+                "text": "()"
+            },
+            {
+                "id": "c",
+                "text": "[]"
+            },
+            {
+                "id": "d",
+                "text": ":"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parameters go here.",
+        "explanation": "Parentheses `()` (containing optional parameters) follow the function name, then a colon."
+    },
+    {
+        "id": "py_ch4_26",
+        "text": "What does `re.split()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Splits a string by a regex pattern."
+            },
+            {
+                "id": "b",
+                "text": "Splits a string by spaces."
+            },
+            {
+                "id": "c",
+                "text": "Splits a pattern."
+            },
+            {
+                "id": "d",
+                "text": "Joins strings."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Splitting based on regex.",
+        "explanation": "`re.split(pattern, string)` splits the string by the occurrences of the pattern."
+    },
+    {
+        "id": "py_ch4_27",
+        "text": "Which argument type requires the name when calling?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Positional"
+            },
+            {
+                "id": "b",
+                "text": "Keyword"
+            },
+            {
+                "id": "c",
+                "text": "Default"
+            },
+            {
+                "id": "d",
+                "text": "Variable"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Key=Value.",
+        "explanation": "Keyword arguments are passed by explicitly specifying the parameter name (e.g., `func(x=1)`)."
+    },
+    {
+        "id": "py_ch4_28",
+        "text": "What is `None` in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "An empty string"
+            },
+            {
+                "id": "d",
+                "text": "A special constant representing the absence of a value"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Null value.",
+        "explanation": "`None` is the sole singleton object used to represent null or the absence of a value."
+    },
+    {
+        "id": "py_ch4_29",
+        "text": "Which character matches the end of the string in Regex?",
+        "options": [
+            {
+                "id": "a",
+                "text": "^"
+            },
+            {
+                "id": "b",
+                "text": "$"
+            },
+            {
+                "id": "c",
+                "text": "END"
+            },
+            {
+                "id": "d",
+                "text": "\\z"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dollar sign.",
+        "explanation": "`$` asserts position at the end of the string."
+    },
+    {
+        "id": "py_ch4_30",
+        "text": "What is a closure in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Closing a file."
+            },
+            {
+                "id": "b",
+                "text": "Finishing a loop."
+            },
+            {
+                "id": "c",
+                "text": "A nested function remembering the environment it was created in."
+            },
+            {
+                "id": "d",
+                "text": "Ending the program."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Enclosed scope.",
+        "explanation": "A closure is a function object that remembers values in enclosing scopes even if they are not present in memory."
+    }
+]

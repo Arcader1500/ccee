@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch6_1",
+        "text": "What is Reflection in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Mirroring code."
+            },
+            {
+                "id": "b",
+                "text": "Feature to examine or modify the behavior of methods, classes, and interfaces at runtime."
+            },
+            {
+                "id": "c",
+                "text": "Shadowing variables."
+            },
+            {
+                "id": "d",
+                "text": "Thinking about code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Introspection.",
+        "explanation": "Reflection allows a Java program to inspect and manipulate the internal properties of the program (classes, methods, fields) at runtime."
+    },
+    {
+        "id": "java_ch6_2",
+        "text": "Which class is the entry point for Reflection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "java.lang.Object"
+            },
+            {
+                "id": "b",
+                "text": "java.lang.Class"
+            },
+            {
+                "id": "c",
+                "text": "java.lang.Reflect"
+            },
+            {
+                "id": "d",
+                "text": "java.util.Scanner"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Class of class.",
+        "explanation": "Instances of `java.lang.Class` represent classes and interfaces in a running Java application and are the starting point for reflection."
+    },
+    {
+        "id": "java_ch6_3",
+        "text": "What is the result of `Class.forName(\"java.lang.String\")`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Creates a String object."
+            },
+            {
+                "id": "b",
+                "text": "Returns the Class object for String."
+            },
+            {
+                "id": "c",
+                "text": "Compiler error."
+            },
+            {
+                "id": "d",
+                "text": "Loads the DLL."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Gets the Class.",
+        "explanation": "`Class.forName` loads the class and returns the `Class` object associated with the class or interface with the given string name."
+    },
+    {
+        "id": "java_ch6_4",
+        "text": "Which package contains the IoC Container implementation in Spring?",
+        "options": [
+            {
+                "id": "a",
+                "text": "org.springframework.beans"
+            },
+            {
+                "id": "b",
+                "text": "org.springframework.core"
+            },
+            {
+                "id": "c",
+                "text": "org.springframework.web"
+            },
+            {
+                "id": "d",
+                "text": "java.util"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Beans and Context.",
+        "explanation": "The Spring IoC container is typically found in packages like `org.springframework.beans` and `org.springframework.context`."
+    },
+    {
+        "id": "java_ch6_5",
+        "text": "What is Dependency Injection (DI)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Injecting code into viruses."
+            },
+            {
+                "id": "b",
+                "text": "Design pattern where an object receives other objects that it depends on."
+            },
+            {
+                "id": "c",
+                "text": "Installing dependencies via maven."
+            },
+            {
+                "id": "d",
+                "text": "Linking libraries."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inversion of Control.",
+        "explanation": "DI is a technique whereby one object supplies the dependencies of another object, implementing Inversion of Control."
+    },
+    {
+        "id": "java_ch6_6",
+        "text": "What is Node.js primarily based on?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Python"
+            },
+            {
+                "id": "b",
+                "text": "Chrome's V8 JavaScript engine."
+            },
+            {
+                "id": "c",
+                "text": "Java JVM."
+            },
+            {
+                "id": "d",
+                "text": "Ruby."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Google Chrome engine.",
+        "explanation": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+    },
+    {
+        "id": "java_ch6_7",
+        "text": "What is standard scope of a Spring Bean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Prototype"
+            },
+            {
+                "id": "b",
+                "text": "Singleton"
+            },
+            {
+                "id": "c",
+                "text": "Request"
+            },
+            {
+                "id": "d",
+                "text": "Session"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "One instance.",
+        "explanation": "The default scope of a bean in Spring is Singleton (one instance per Spring IoC container)."
+    },
+    {
+        "id": "java_ch6_8",
+        "text": "Can Reflection access private fields?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, by calling `setAccessible(true)`."
+            },
+            {
+                "id": "c",
+                "text": "Yes, always."
+            },
+            {
+                "id": "d",
+                "text": "Only in debug mode."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Make accessible.",
+        "explanation": "Reflection allows suppressing default Java language access control checks using `setAccessible(true)`."
+    },
+    {
+        "id": "java_ch6_9",
+        "text": "What differentiates Node.js from Browser JS?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Syntax is different."
+            },
+            {
+                "id": "b",
+                "text": "Node.js has no DOM; assumes server env (file system access etc)."
+            },
+            {
+                "id": "c",
+                "text": "Browser JS is compiled."
+            },
+            {
+                "id": "d",
+                "text": "Node.js is synchronous."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No window or document.",
+        "explanation": "Node.js runs on the server, so it doesn't have browser APIs like DOM/Window, but adds server APIs like `fs` (file system)."
+    },
+    {
+        "id": "java_ch6_10",
+        "text": "Which annotation marks a class as a Spring Bean component?",
+        "options": [
+            {
+                "id": "a",
+                "text": "@Bean"
+            },
+            {
+                "id": "b",
+                "text": "@Component"
+            },
+            {
+                "id": "c",
+                "text": "@JavaBean"
+            },
+            {
+                "id": "d",
+                "text": "@Object"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Component scan.",
+        "explanation": "`@Component` is a generic stereotype for any Spring-managed component."
+    },
+    {
+        "id": "java_ch6_11",
+        "text": "What is the purpose of REPL in Node.js?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Read Eval Print Loop - interactive shell."
+            },
+            {
+                "id": "b",
+                "text": "Repeat Loop."
+            },
+            {
+                "id": "c",
+                "text": "Replica of database."
+            },
+            {
+                "id": "d",
+                "text": "Report Log."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Interactive shell.",
+        "explanation": "REPL stands for Read-Eval-Print-Loop, an interactive programming environment."
+    },
+    {
+        "id": "java_ch6_12",
+        "text": "What is Spring MVC?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Model View Controller framework for building web apps."
+            },
+            {
+                "id": "b",
+                "text": "Database framework."
+            },
+            {
+                "id": "c",
+                "text": "Security module."
+            },
+            {
+                "id": "d",
+                "text": "Cloud service."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Web Framework.",
+        "explanation": "Spring MVC is the Model-View-Controller framework implementation in Spring for building web applications."
+    },
+    {
+        "id": "java_ch6_13",
+        "text": "How do you instantiate a class using Reflection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "new Class()"
+            },
+            {
+                "id": "b",
+                "text": "clazz.newInstance() or constructor.newInstance()"
+            },
+            {
+                "id": "c",
+                "text": "Class.create()"
+            },
+            {
+                "id": "d",
+                "text": "Reflection.make()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "New Instance.",
+        "explanation": "`class.newInstance()` (deprecated) or `constructor.newInstance()` is used to create a new instance via reflection."
+    },
+    {
+        "id": "java_ch6_14",
+        "text": "Is Node.js single-threaded?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, it's multi-threaded like Java."
+            },
+            {
+                "id": "b",
+                "text": "Yes, it uses a single-threaded event loop."
+            },
+            {
+                "id": "c",
+                "text": "Only on Windows."
+            },
+            {
+                "id": "d",
+                "text": "It has no threads."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Event Loop.",
+        "explanation": "Node.js is single-threaded and uses an event-driven, non-blocking I/O model."
+    },
+    {
+        "id": "java_ch6_15",
+        "text": "What is `@Autowired` in Spring?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It automatically generates a car."
+            },
+            {
+                "id": "b",
+                "text": "It marks a dependency to be injected automatically."
+            },
+            {
+                "id": "c",
+                "text": "It runs the wireframe."
+            },
+            {
+                "id": "d",
+                "text": "It connects to the web."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Automatic wiring.",
+        "explanation": "`@Autowired` is used to automatically wire bean dependencies."
+    },
+    {
+        "id": "java_ch6_16",
+        "text": "What is a Spring Boot?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A shoe."
+            },
+            {
+                "id": "b",
+                "text": "An extension of Spring to create stand-alone applications."
+            },
+            {
+                "id": "c",
+                "text": "The start-up script."
+            },
+            {
+                "id": "d",
+                "text": "A specialized IDE."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Opinionated view.",
+        "explanation": "Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can \"just run\"."
+    },
+    {
+        "id": "java_ch6_17",
+        "text": "Which method retrieves all methods of a class via Reflection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "getMethods()"
+            },
+            {
+                "id": "b",
+                "text": "getAll()"
+            },
+            {
+                "id": "c",
+                "text": "readMethods()"
+            },
+            {
+                "id": "d",
+                "text": "scan()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Array of methods.",
+        "explanation": "`Class.getMethods()` returns an array containing `Method` objects reflecting all the public methods of the class."
+    },
+    {
+        "id": "java_ch6_18",
+        "text": "What is the package manager for Node.js?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pip"
+            },
+            {
+                "id": "b",
+                "text": "npm"
+            },
+            {
+                "id": "c",
+                "text": "maven"
+            },
+            {
+                "id": "d",
+                "text": "gradle"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Node Package Manager.",
+        "explanation": "npm (Node Package Manager) is the default package manager for Node.js."
+    },
+    {
+        "id": "java_ch6_19",
+        "text": "What is AOP in Spring?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Array Oriented Programming"
+            },
+            {
+                "id": "b",
+                "text": "Aspect Oriented Programming"
+            },
+            {
+                "id": "c",
+                "text": "Application Object Protocol"
+            },
+            {
+                "id": "d",
+                "text": "Any Object Pattern"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Aspects.",
+        "explanation": "AOP (Aspect-Oriented Programming) allows separating cross-cutting concerns (like logging, security) from business logic."
+    },
+    {
+        "id": "java_ch6_20",
+        "text": "Which file is the entry point for a standard Node.js app usually?",
+        "options": [
+            {
+                "id": "a",
+                "text": "index.html"
+            },
+            {
+                "id": "b",
+                "text": "app.js / index.js"
+            },
+            {
+                "id": "c",
+                "text": "main.java"
+            },
+            {
+                "id": "d",
+                "text": "style.css"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Javascript file.",
+        "explanation": "Usually `index.js` or `app.js` serves as the entry point."
+    },
+    {
+        "id": "java_ch6_21",
+        "text": "Can Reflection reduce performance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, it enhances it."
+            },
+            {
+                "id": "b",
+                "text": "Yes, because of dynamic resolution."
+            },
+            {
+                "id": "c",
+                "text": "No impact."
+            },
+            {
+                "id": "d",
+                "text": "Only on integers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dynamic overhead.",
+        "explanation": "Yes, reflection involves dynamic type resolution and security checks, which are slower than direct method calls."
+    },
+    {
+        "id": "java_ch6_22",
+        "text": "What is a 'Callback' in Node.js?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A phone call."
+            },
+            {
+                "id": "b",
+                "text": "A function passed as an argument to be executed later."
+            },
+            {
+                "id": "c",
+                "text": "A variable."
+            },
+            {
+                "id": "d",
+                "text": "A loop."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Call me back.",
+        "explanation": "A callback is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action."
+    },
+    {
+        "id": "java_ch6_23",
+        "text": "Which Spring module handles database interactions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Spring Web"
+            },
+            {
+                "id": "b",
+                "text": "Spring JDBC / Spring Data"
+            },
+            {
+                "id": "c",
+                "text": "Spring Security"
+            },
+            {
+                "id": "d",
+                "text": "Spring Test"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Data.",
+        "explanation": "Spring JDBC and Spring Data modules provide abstraction layers for database access."
+    },
+    {
+        "id": "java_ch6_24",
+        "text": "How do you invoke a method using reflection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "method.call()"
+            },
+            {
+                "id": "b",
+                "text": "method.invoke(obj, args)"
+            },
+            {
+                "id": "c",
+                "text": "method.run()"
+            },
+            {
+                "id": "d",
+                "text": "method.execute()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Invoke.",
+        "explanation": "`method.invoke(objectInstance, arguments)` is used to call the underlying method."
+    },
+    {
+        "id": "java_ch6_25",
+        "text": "What is `module.exports` in Node.js?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A method to delete exports."
+            },
+            {
+                "id": "b",
+                "text": "A system to export functions/objects from a module."
+            },
+            {
+                "id": "c",
+                "text": "A browser feature."
+            },
+            {
+                "id": "d",
+                "text": "A Java feature."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Exporting module.",
+        "explanation": "`module.exports` is the object that's actually returned as the result of a `require` call, allowing you to expose functions."
+    },
+    {
+        "id": "java_ch6_26",
+        "text": "What is `@RestController`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A controller for RESTful web services."
+            },
+            {
+                "id": "b",
+                "text": "A controller for taking a rest."
+            },
+            {
+                "id": "c",
+                "text": "A view resolver."
+            },
+            {
+                "id": "d",
+                "text": "A database mapper."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Combination of Controller and ResponseBody.",
+        "explanation": "`@RestController` is a convenience annotation that adds `@Controller` and `@ResponseBody`."
+    },
+    {
+        "id": "java_ch6_27",
+        "text": "Which method gets the superclass of a Class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "getSuper()"
+            },
+            {
+                "id": "b",
+                "text": "getSuperclass()"
+            },
+            {
+                "id": "c",
+                "text": "getParent()"
+            },
+            {
+                "id": "d",
+                "text": "getBase()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Super class.",
+        "explanation": "`Class.getSuperclass()` returns the Class representing the superclass of the entity."
+    },
+    {
+        "id": "java_ch6_28",
+        "text": "What framework is Express.js related to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Java"
+            },
+            {
+                "id": "b",
+                "text": "Node.js"
+            },
+            {
+                "id": "c",
+                "text": "Python"
+            },
+            {
+                "id": "d",
+                "text": "C++"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Web app for Node.",
+        "explanation": "Express.js is a popular minimalist web framework for Node.js."
+    },
+    {
+        "id": "java_ch6_29",
+        "text": "What is the Spring Context?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The text content."
+            },
+            {
+                "id": "b",
+                "text": "The IoC container that instantiates and wires beans."
+            },
+            {
+                "id": "c",
+                "text": "A log file."
+            },
+            {
+                "id": "d",
+                "text": "A web page."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "ApplicationContext.",
+        "explanation": "`ApplicationContext` is the central interface to the Spring IoC container."
+    },
+    {
+        "id": "java_ch6_30",
+        "text": "Is Reflection used in frameworks like Spring/Hibernate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, never."
+            },
+            {
+                "id": "b",
+                "text": "Yes, heavily."
+            },
+            {
+                "id": "c",
+                "text": "Only for logging."
+            },
+            {
+                "id": "d",
+                "text": "Only for comments."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Magic behind the scenes.",
+        "explanation": "Yes, frameworks rely heavily on reflection to instantiate beans, inject dependencies, and map objects without knowing types at compile time."
+    }
+]

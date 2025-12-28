@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch1_1",
+        "text": "What does JVM stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Java Visual Machine"
+            },
+            {
+                "id": "b",
+                "text": "Java Virtual Machine"
+            },
+            {
+                "id": "c",
+                "text": "Java Verified Model"
+            },
+            {
+                "id": "d",
+                "text": "Just Virtual Mode"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It creates a virtual environment.",
+        "explanation": "JVM stands for Java Virtual Machine, the engine that drives the Java code."
+    },
+    {
+        "id": "java_ch1_2",
+        "text": "Which component is responsible for compiling Java code?",
+        "options": [
+            {
+                "id": "a",
+                "text": "JVM"
+            },
+            {
+                "id": "b",
+                "text": "JRE"
+            },
+            {
+                "id": "c",
+                "text": "JDK"
+            },
+            {
+                "id": "d",
+                "text": "JIT"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Development Kit.",
+        "explanation": "JDK (Java Development Kit) includes the compiler (javac) needed to compile Java source code."
+    },
+    {
+        "id": "java_ch1_3",
+        "text": "Which of these is NOT a primitive data type in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "int"
+            },
+            {
+                "id": "b",
+                "text": "boolean"
+            },
+            {
+                "id": "c",
+                "text": "String"
+            },
+            {
+                "id": "d",
+                "text": "char"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It starts with a capital letter.",
+        "explanation": "String is a class (reference type) in Java, not a primitive data type."
+    },
+    {
+        "id": "java_ch1_4",
+        "text": "What consists of the method signature in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Method name and return type."
+            },
+            {
+                "id": "b",
+                "text": "Method name, parameter list, and return type."
+            },
+            {
+                "id": "c",
+                "text": "Method name and parameter list."
+            },
+            {
+                "id": "d",
+                "text": "Return type only."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Name and arguments.",
+        "explanation": "In Java, the method signature consists of the method name and the parameter list (types and order). Return type is not part of the signature."
+    },
+    {
+        "id": "java_ch1_5",
+        "text": "Which keyword is used to declare a constant variable in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "const"
+            },
+            {
+                "id": "b",
+                "text": "final"
+            },
+            {
+                "id": "c",
+                "text": "static"
+            },
+            {
+                "id": "d",
+                "text": "immutable"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It is the final value.",
+        "explanation": "The `final` keyword is used to declare a constant in Java; its value cannot be changed once assigned."
+    },
+    {
+        "id": "java_ch1_6",
+        "text": "What is the size of an int variable in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "16 bit"
+            },
+            {
+                "id": "b",
+                "text": "32 bit"
+            },
+            {
+                "id": "c",
+                "text": "64 bit"
+            },
+            {
+                "id": "d",
+                "text": "8 bit"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Standard integer size.",
+        "explanation": "In Java, an `int` is a 32-bit signed two's complement integer."
+    },
+    {
+        "id": "java_ch1_7",
+        "text": "Which wrapper class corresponds to the primitive type 'char'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Char"
+            },
+            {
+                "id": "b",
+                "text": "Character"
+            },
+            {
+                "id": "c",
+                "text": "String"
+            },
+            {
+                "id": "d",
+                "text": "Letter"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Full word.",
+        "explanation": "The wrapper class for `char` is `Character`."
+    },
+    {
+        "id": "java_ch1_8",
+        "text": "What is Autoboxing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Automatic conversion of primitive types to corresponding wrapper classes."
+            },
+            {
+                "id": "b",
+                "text": "Automatic garbage collection."
+            },
+            {
+                "id": "c",
+                "text": "Converting wrapper to primitive."
+            },
+            {
+                "id": "d",
+                "text": "Running code in a box."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Boxing into a wrapper.",
+        "explanation": "Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes."
+    },
+    {
+        "id": "java_ch1_9",
+        "text": "Which loop is guaranteed to execute at least once?",
+        "options": [
+            {
+                "id": "a",
+                "text": "for"
+            },
+            {
+                "id": "b",
+                "text": "while"
+            },
+            {
+                "id": "c",
+                "text": "do-while"
+            },
+            {
+                "id": "d",
+                "text": "foreach"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It checks condition after execution.",
+        "explanation": "The `do-while` loop executes the block of code first, and then checks the condition, guaranteeing at least one execution."
+    },
+    {
+        "id": "java_ch1_10",
+        "text": "What is the entry point of a Java application?",
+        "options": [
+            {
+                "id": "a",
+                "text": "start()"
+            },
+            {
+                "id": "b",
+                "text": "main method"
+            },
+            {
+                "id": "c",
+                "text": "init()"
+            },
+            {
+                "id": "d",
+                "text": "void run()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "public static void ...",
+        "explanation": "The `main` method (`public static void main(String[] args)`) is the entry point for standard Java applications."
+    },
+    {
+        "id": "java_ch1_11",
+        "text": "Which operator is used to check object type?",
+        "options": [
+            {
+                "id": "a",
+                "text": "typeof"
+            },
+            {
+                "id": "b",
+                "text": "instanceof"
+            },
+            {
+                "id": "c",
+                "text": "is"
+            },
+            {
+                "id": "d",
+                "text": "check"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Is it an instance of?",
+        "explanation": "The `instanceof` operator compares an object to a specified type."
+    },
+    {
+        "id": "java_ch1_12",
+        "text": "What does Bytecode mean in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Machine code for the CPU."
+            },
+            {
+                "id": "b",
+                "text": "Intermediate code generated by compiler executed by JVM."
+            },
+            {
+                "id": "c",
+                "text": "Source code."
+            },
+            {
+                "id": "d",
+                "text": "Binary data."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Intermediate.",
+        "explanation": "Bytecode is the instruction set for the Java Virtual Machine, serving as an intermediate representation between source code and machine code."
+    },
+    {
+        "id": "java_ch1_13",
+        "text": "Can a switch statement work with Strings in Java (version 7+)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if they are constant."
+            },
+            {
+                "id": "d",
+                "text": "Only single characters."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It was added in Java 7.",
+        "explanation": "Yes, starting from Java 7, the `switch` statement supports String objects."
+    },
+    {
+        "id": "java_ch1_14",
+        "text": "Which data type would you use for a True/False value?",
+        "options": [
+            {
+                "id": "a",
+                "text": "int"
+            },
+            {
+                "id": "b",
+                "text": "bit"
+            },
+            {
+                "id": "c",
+                "text": "boolean"
+            },
+            {
+                "id": "d",
+                "text": "Boolean"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Lowercase primitive.",
+        "explanation": "`boolean` is the primitive data type for true/false values. `Boolean` is the wrapper class."
+    },
+    {
+        "id": "java_ch1_15",
+        "text": "What is the default value of an int variable declared as a class field?",
+        "options": [
+            {
+                "id": "a",
+                "text": "null"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "0"
+            },
+            {
+                "id": "d",
+                "text": "Undefined"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Zero.",
+        "explanation": "Instance variables (fields) of numeric types are initialized to 0 by default."
+    },
+    {
+        "id": "java_ch1_16",
+        "text": "Which statement breaks out of the current loop iteration and proceeds to the next?",
+        "options": [
+            {
+                "id": "a",
+                "text": "break"
+            },
+            {
+                "id": "b",
+                "text": "return"
+            },
+            {
+                "id": "c",
+                "text": "continue"
+            },
+            {
+                "id": "d",
+                "text": "skip"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Continue processing.",
+        "explanation": "`continue` skips the current iteration and jumps to the next one."
+    },
+    {
+        "id": "java_ch1_17",
+        "text": "How many primitive types are there in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "6"
+            },
+            {
+                "id": "b",
+                "text": "7"
+            },
+            {
+                "id": "c",
+                "text": "8"
+            },
+            {
+                "id": "d",
+                "text": "9"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "byte, short, int, long, floar, double, boolean, char.",
+        "explanation": "There are 8 primitive types: byte, short, int, long, float, double, boolean, char."
+    },
+    {
+        "id": "java_ch1_18",
+        "text": "What does JIT stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Just In Time"
+            },
+            {
+                "id": "b",
+                "text": "Java In Time"
+            },
+            {
+                "id": "c",
+                "text": "Just Internal Test"
+            },
+            {
+                "id": "d",
+                "text": "Java Interface Type"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Compilation strategy.",
+        "explanation": "JIT (Just-In-Time) compiler is a component of the JRE that improves performance by compiling bytecodes to native machine code at run time."
+    },
+    {
+        "id": "java_ch1_19",
+        "text": "What is the correct syntax to output text to console?",
+        "options": [
+            {
+                "id": "a",
+                "text": "print('Text')"
+            },
+            {
+                "id": "b",
+                "text": "System.out.println('Text')"
+            },
+            {
+                "id": "c",
+                "text": "Console.write('Text')"
+            },
+            {
+                "id": "d",
+                "text": "System.print('Text')"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Uses System class.",
+        "explanation": "`System.out.println(\"...\")` is the standard way to print a line to the console."
+    },
+    {
+        "id": "java_ch1_20",
+        "text": "Which logical operator represents OR?",
+        "options": [
+            {
+                "id": "a",
+                "text": "&"
+            },
+            {
+                "id": "b",
+                "text": "||"
+            },
+            {
+                "id": "c",
+                "text": "!!"
+            },
+            {
+                "id": "d",
+                "text": "OR"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Double pipes.",
+        "explanation": "`||` is the logical OR operator in Java."
+    },
+    {
+        "id": "java_ch1_21",
+        "text": "Is 'String' a wrapper class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No, it's a primitive."
+            },
+            {
+                "id": "c",
+                "text": "No, it's an immutable class but not a wrapper for a primitive."
+            },
+            {
+                "id": "d",
+                "text": "Yes, it wraps char."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Wrappers usually share the name of the primitive.",
+        "explanation": "String is an object class, but it is not technically a 'Wrapper Class' like Integer or Boolean which wrap specific primitives. It represents a sequence of chars."
+    },
+    {
+        "id": "java_ch1_22",
+        "text": "What is the range of a `byte` data type?",
+        "options": [
+            {
+                "id": "a",
+                "text": "0 to 255"
+            },
+            {
+                "id": "b",
+                "text": "-128 to 127"
+            },
+            {
+                "id": "c",
+                "text": "-32768 to 32767"
+            },
+            {
+                "id": "d",
+                "text": "0 to 65535"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "8-bit signed.",
+        "explanation": "A byte is 8-bit signed, so it ranges from -128 to 127."
+    },
+    {
+        "id": "java_ch1_23",
+        "text": "What is type casting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Creating a new class."
+            },
+            {
+                "id": "b",
+                "text": "Converting a value from one data type to another."
+            },
+            {
+                "id": "c",
+                "text": "Checking the type."
+            },
+            {
+                "id": "d",
+                "text": "Throwing an exception."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Conversion.",
+        "explanation": "Type casting is assigning a value of one primitive data type to another type."
+    },
+    {
+        "id": "java_ch1_24",
+        "text": "Which loop is best when you know the number of iterations in advance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "while"
+            },
+            {
+                "id": "b",
+                "text": "do-while"
+            },
+            {
+                "id": "c",
+                "text": "for"
+            },
+            {
+                "id": "d",
+                "text": "recursive"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Standard counting loop.",
+        "explanation": "The `for` loop is typically used when the number of iterations is known."
+    },
+    {
+        "id": "java_ch1_25",
+        "text": "What happens if you declare a variable inside a for loop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It can be accessed outside the loop."
+            },
+            {
+                "id": "b",
+                "text": "It is only accessible within the loop."
+            },
+            {
+                "id": "c",
+                "text": "It throws an error."
+            },
+            {
+                "id": "d",
+                "text": "It becomes a global variable."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scope.",
+        "explanation": "Variables declared inside a loop have local scope and are only accessible within that loop's block."
+    },
+    {
+        "id": "java_ch1_26",
+        "text": "Which command is used to run a compiled Java class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "javac"
+            },
+            {
+                "id": "b",
+                "text": "java"
+            },
+            {
+                "id": "c",
+                "text": "run"
+            },
+            {
+                "id": "d",
+                "text": "execute"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Just java.",
+        "explanation": "`java ClassName` is the command to run the application."
+    },
+    {
+        "id": "java_ch1_27",
+        "text": "What is the correct way to parse a String to an int?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Integer.parseInt(\"123\")"
+            },
+            {
+                "id": "b",
+                "text": "int.parse(\"123\")"
+            },
+            {
+                "id": "c",
+                "text": "(int)\"123\""
+            },
+            {
+                "id": "d",
+                "text": "Integer.valueOf(\"123\")"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Parse Int.",
+        "explanation": "`Integer.parseInt()` returns multiple int primitive. `Integer.valueOf()` returns an Integer object."
+    },
+    {
+        "id": "java_ch1_28",
+        "text": "Which symbol is used for ternary operator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "?:"
+            },
+            {
+                "id": "b",
+                "text": "??"
+            },
+            {
+                "id": "c",
+                "text": "||"
+            },
+            {
+                "id": "d",
+                "text": "->"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Question mark and colon.",
+        "explanation": "The ternary operator is `condition ? value_if_true : value_if_false`."
+    },
+    {
+        "id": "java_ch1_29",
+        "text": "Comment in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<!-- Comment -->"
+            },
+            {
+                "id": "b",
+                "text": "// Comment"
+            },
+            {
+                "id": "c",
+                "text": "# Comment"
+            },
+            {
+                "id": "d",
+                "text": "-- Comment"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Double slash.",
+        "explanation": "`//` is used for single line comments in Java."
+    },
+    {
+        "id": "java_ch1_30",
+        "text": "What is Unboxing?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Converting primitive to Wrapper."
+            },
+            {
+                "id": "b",
+                "text": "Converting Wrapper type to primitive."
+            },
+            {
+                "id": "c",
+                "text": "Opening a package."
+            },
+            {
+                "id": "d",
+                "text": "Installing a library."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Reverse of boxing.",
+        "explanation": "Unboxing is the automatic conversion of wrapper types back to their corresponding primitive types."
+    }
+]

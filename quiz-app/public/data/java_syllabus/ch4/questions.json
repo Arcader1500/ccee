@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch4_1",
+        "text": "What does a Lambda Expression enable in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Object Oriented Programming"
+            },
+            {
+                "id": "b",
+                "text": "Functional Programming"
+            },
+            {
+                "id": "c",
+                "text": "Procedural Programming"
+            },
+            {
+                "id": "d",
+                "text": "Memory Management"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Introduced in Java 8.",
+        "explanation": "Lambda expressions provide a clear and concise way to represent one method interface using an expression, enabling functional programming."
+    },
+    {
+        "id": "java_ch4_2",
+        "text": "What is a Functional Interface?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An interface with exactly one abstract method."
+            },
+            {
+                "id": "b",
+                "text": "An interface with multiple abstract methods."
+            },
+            {
+                "id": "c",
+                "text": "An interface used by functions."
+            },
+            {
+                "id": "d",
+                "text": "An interface without methods."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "SAM type.",
+        "explanation": "A functional interface has exactly one abstract method (SAM - Single Abstract Method), enabling lambda expressions."
+    },
+    {
+        "id": "java_ch4_3",
+        "text": "Which operator is used for method references?",
+        "options": [
+            {
+                "id": "a",
+                "text": "->"
+            },
+            {
+                "id": "b",
+                "text": "::"
+            },
+            {
+                "id": "c",
+                "text": "."
+            },
+            {
+                "id": "d",
+                "text": "=>"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Double colon.",
+        "explanation": "Method references use the double colon operator `::` (e.g., `System.out::println`)."
+    },
+    {
+        "id": "java_ch4_4",
+        "text": "What is the Stream API used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "I/O operations."
+            },
+            {
+                "id": "b",
+                "text": "File handling."
+            },
+            {
+                "id": "c",
+                "text": "Processing sequences of elements."
+            },
+            {
+                "id": "d",
+                "text": "Networking."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Processing data.",
+        "explanation": "The Stream API supports functional-style operations on streams of elements, such as map-reduce transformations on collections."
+    },
+    {
+        "id": "java_ch4_5",
+        "text": "Which method initiates a Stream from a Collection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "getStream()"
+            },
+            {
+                "id": "b",
+                "text": "createStream()"
+            },
+            {
+                "id": "c",
+                "text": "stream()"
+            },
+            {
+                "id": "d",
+                "text": "list()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Simple name.",
+        "explanation": "The `stream()` method in the Collection interface returns a sequential Stream with this collection as its source."
+    },
+    {
+        "id": "java_ch4_6",
+        "text": "What is the syntax for a generic class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "class Box[T]"
+            },
+            {
+                "id": "b",
+                "text": "class Box<T>"
+            },
+            {
+                "id": "c",
+                "text": "class Box(T)"
+            },
+            {
+                "id": "d",
+                "text": "class Box{T}"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Diamond or angle brackets.",
+        "explanation": "Generics use angle brackets `<>` to specify type parameters."
+    },
+    {
+        "id": "java_ch4_7",
+        "text": "What is Type Erasure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Removing variables at runtime."
+            },
+            {
+                "id": "b",
+                "text": "Deleting types from source code."
+            },
+            {
+                "id": "c",
+                "text": "Compiler removing generic type info after type checking."
+            },
+            {
+                "id": "d",
+                "text": "Cleaning memory."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Performed by compiler.",
+        "explanation": "Type erasure is the process where the compiler enforces type safety and then removes (erases) type details during compilation, so runtime bytecode contains only raw types."
+    },
+    {
+        "id": "java_ch4_8",
+        "text": "Which Stream operation transforms elements?",
+        "options": [
+            {
+                "id": "a",
+                "text": "filter"
+            },
+            {
+                "id": "b",
+                "text": "map"
+            },
+            {
+                "id": "c",
+                "text": "reduce"
+            },
+            {
+                "id": "d",
+                "text": "collect"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Mapping one value to another.",
+        "explanation": "`map()` is an intermediate operation that applies a function to each element, transforming it."
+    },
+    {
+        "id": "java_ch4_9",
+        "text": "What does `filter()` do in a Stream?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Transforms elements."
+            },
+            {
+                "id": "b",
+                "text": "Selects elements matching a predicate."
+            },
+            {
+                "id": "c",
+                "text": "Sorts elements."
+            },
+            {
+                "id": "d",
+                "text": "Removes duplicates."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Predicate test.",
+        "explanation": "`filter()` returns a stream consisting of elements that match the given predicate."
+    },
+    {
+        "id": "java_ch4_10",
+        "text": "Which class represents a date without time in the new Date/Time API?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Date"
+            },
+            {
+                "id": "b",
+                "text": "LocalDateTime"
+            },
+            {
+                "id": "c",
+                "text": "LocalDate"
+            },
+            {
+                "id": "d",
+                "text": "SimpleDate"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Local Date.",
+        "explanation": "`LocalDate` represents a date without time and time-zone in the ISO-8601 calendar system."
+    },
+    {
+        "id": "java_ch4_11",
+        "text": "What is `Optional` class used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To make parameters optional."
+            },
+            {
+                "id": "b",
+                "text": "To avoid NullPointerExceptions."
+            },
+            {
+                "id": "c",
+                "text": "To choose between options."
+            },
+            {
+                "id": "d",
+                "text": "To optimizations."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Container object.",
+        "explanation": "`Optional<T>` is a container object used to contain not-null objects, helping to avoid null checks and crashes."
+    },
+    {
+        "id": "java_ch4_12",
+        "text": "Which interface represents a function that accepts one argument and produces a result?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Consumer"
+            },
+            {
+                "id": "b",
+                "text": "Supplier"
+            },
+            {
+                "id": "c",
+                "text": "Function"
+            },
+            {
+                "id": "d",
+                "text": "Predicate"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Input -> Output.",
+        "explanation": "`Function<T, R>` represents a function that accepts one argument and produces a result."
+    },
+    {
+        "id": "java_ch4_13",
+        "text": "What does `forEach` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Returns a list."
+            },
+            {
+                "id": "b",
+                "text": "Iterates over elements and performs an action."
+            },
+            {
+                "id": "c",
+                "text": "Filters loops."
+            },
+            {
+                "id": "d",
+                "text": "Maps elements."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Terminal operation.",
+        "explanation": "`forEach` performs an action for each element of this stream (terminal operation)."
+    },
+    {
+        "id": "java_ch4_14",
+        "text": "Which Stream operation is terminal?",
+        "options": [
+            {
+                "id": "a",
+                "text": "map"
+            },
+            {
+                "id": "b",
+                "text": "filter"
+            },
+            {
+                "id": "c",
+                "text": "collect"
+            },
+            {
+                "id": "d",
+                "text": "peek"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Ends the stream.",
+        "explanation": "`collect()` is a terminal operation that typically returns a collection or a value, closing the stream."
+    },
+    {
+        "id": "java_ch4_15",
+        "text": "What is the wildcard character in Generics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "*"
+            },
+            {
+                "id": "b",
+                "text": "?"
+            },
+            {
+                "id": "c",
+                "text": "&"
+            },
+            {
+                "id": "d",
+                "text": "%"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Question mark.",
+        "explanation": "The question mark `?` is the wildcard in generics, representing an unknown type."
+    },
+    {
+        "id": "java_ch4_16",
+        "text": "Which interface takes an argument and returns a boolean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Function"
+            },
+            {
+                "id": "b",
+                "text": "Consumer"
+            },
+            {
+                "id": "c",
+                "text": "Predicate"
+            },
+            {
+                "id": "d",
+                "text": "Supplier"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Used for filtering.",
+        "explanation": "`Predicate<T>` represents a predicate (boolean-valued function) of one argument."
+    },
+    {
+        "id": "java_ch4_17",
+        "text": "How do you create a Set in Java 9+ easily?",
+        "options": [
+            {
+                "id": "a",
+                "text": "new Set()"
+            },
+            {
+                "id": "b",
+                "text": "Set.of()"
+            },
+            {
+                "id": "c",
+                "text": "Set.create()"
+            },
+            {
+                "id": "d",
+                "text": "Set.make()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Static factory.",
+        "explanation": "`Set.of(...)` enables creating immutable sets easily."
+    },
+    {
+        "id": "java_ch4_18",
+        "text": "What does `sorted()` do in a stream?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Randomizes order."
+            },
+            {
+                "id": "b",
+                "text": "Sorts elements according to natural order or comparator."
+            },
+            {
+                "id": "c",
+                "text": "Removes duplicates."
+            },
+            {
+                "id": "d",
+                "text": "Reverses the stream."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sorts.",
+        "explanation": "`sorted()` returns a stream consisting of the elements in sorted order."
+    },
+    {
+        "id": "java_ch4_19",
+        "text": "Which class is thread-safe equivalent of ArrayList?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Vector"
+            },
+            {
+                "id": "b",
+                "text": "LinkedList"
+            },
+            {
+                "id": "c",
+                "text": "HashMap"
+            },
+            {
+                "id": "d",
+                "text": "HashSet"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Legacy class.",
+        "explanation": "`Vector` is synchronized and thread-safe, unlike `ArrayList`."
+    },
+    {
+        "id": "java_ch4_20",
+        "text": "What does `reduce()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Increases stream size."
+            },
+            {
+                "id": "b",
+                "text": "Performs a reduction on elements to a single value."
+            },
+            {
+                "id": "c",
+                "text": "Removes elements."
+            },
+            {
+                "id": "d",
+                "text": "Splits the stream."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Accumulation.",
+        "explanation": "`reduce()` performs a reduction on the elements of the stream, using an associative accumulation function, and returns an Optional."
+    },
+    {
+        "id": "java_ch4_21",
+        "text": "Which interface takes no arguments and returns a result?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Runable"
+            },
+            {
+                "id": "b",
+                "text": "Consumer"
+            },
+            {
+                "id": "c",
+                "text": "Supplier"
+            },
+            {
+                "id": "d",
+                "text": "Function"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Supplies value.",
+        "explanation": "`Supplier<T>` represents a supplier of results, taking no arguments."
+    },
+    {
+        "id": "java_ch4_22",
+        "text": "How do you handle time zones in Java 8?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ZoneDate"
+            },
+            {
+                "id": "b",
+                "text": "ZonedDateTime"
+            },
+            {
+                "id": "c",
+                "text": "GlobalDate"
+            },
+            {
+                "id": "d",
+                "text": "WorldTime"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Zoned.",
+        "explanation": "`ZonedDateTime` is a date-time with a time-zone in the ISO-8601 calendar system."
+    },
+    {
+        "id": "java_ch4_23",
+        "text": "What is the Diamond operator `<>`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Type inference for generic instance creation."
+            },
+            {
+                "id": "b",
+                "text": "A special loop."
+            },
+            {
+                "id": "c",
+                "text": "Inheritance symbol."
+            },
+            {
+                "id": "d",
+                "text": "Pointer."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Java 7 inference.",
+        "explanation": "Introduced in Java 7, the diamond operator `<>` allows the compiler to infer the type arguments for the constructor."
+    },
+    {
+        "id": "java_ch4_24",
+        "text": "Which functional interface accepts an argument and returns nothing (void)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Supplier"
+            },
+            {
+                "id": "b",
+                "text": "Predicate"
+            },
+            {
+                "id": "c",
+                "text": "Consumer"
+            },
+            {
+                "id": "d",
+                "text": "Runner"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Consumes data.",
+        "explanation": "`Consumer<T>` represents an operation that accepts a single input argument and returns no result (void)."
+    },
+    {
+        "id": "java_ch4_25",
+        "text": "Best map implementation for key-value pairs where order doesn't matter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TreeMap"
+            },
+            {
+                "id": "b",
+                "text": "HashMap"
+            },
+            {
+                "id": "c",
+                "text": "LinkedHashMap"
+            },
+            {
+                "id": "d",
+                "text": "ArrayMap"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hashing.",
+        "explanation": "`HashMap` is typically the most efficient implementation for basic key-value storage where order implies no meaning."
+    },
+    {
+        "id": "java_ch4_26",
+        "text": "What is `distinct()` in a stream?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Checks distinction."
+            },
+            {
+                "id": "b",
+                "text": "Returns a stream with unique elements."
+            },
+            {
+                "id": "c",
+                "text": "Distributes processing."
+            },
+            {
+                "id": "d",
+                "text": "None."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unique.",
+        "explanation": "`distinct()` returns a stream consisting of the distinct elements (according to Object.equals(Object))."
+    },
+    {
+        "id": "java_ch4_27",
+        "text": "How do you parse a date string '2023-10-01'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "LocalDate.parse('2023-10-01')"
+            },
+            {
+                "id": "b",
+                "text": "new LocalDate('2023-10-01')"
+            },
+            {
+                "id": "c",
+                "text": "Date.parse('2023-10-01')"
+            },
+            {
+                "id": "d",
+                "text": "Calendar.set('2023-10-01')"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Static parse method.",
+        "explanation": "`LocalDate.parse()` is the standard way to parse an ISO formatted date string."
+    },
+    {
+        "id": "java_ch4_28",
+        "text": "Which collection allows duplicate elements?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Set"
+            },
+            {
+                "id": "b",
+                "text": "List"
+            },
+            {
+                "id": "c",
+                "text": "Map (Keys)"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ordered sequence.",
+        "explanation": "`List` interface allows duplicate elements and maintains insertion order."
+    },
+    {
+        "id": "java_ch4_29",
+        "text": "What is a `parallelStream()`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A stream that runs in parallel threads."
+            },
+            {
+                "id": "b",
+                "text": "A straight stream."
+            },
+            {
+                "id": "c",
+                "text": "Two streams."
+            },
+            {
+                "id": "d",
+                "text": "A stream for arrays."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Multi-core.",
+        "explanation": "`parallelStream()` returns a possibly parallel Stream with the collection as its source, leveraging multi-core processors."
+    },
+    {
+        "id": "java_ch4_30",
+        "text": "Can a Lambda expression access local variables?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, only if they are final or effectively final."
+            },
+            {
+                "id": "c",
+                "text": "Yes, always."
+            },
+            {
+                "id": "d",
+                "text": "Yes, and can modify them."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Effectively final.",
+        "explanation": "Lambda expressions can capture local variables only if they are final or effectively final (assigned only once)."
+    }
+]

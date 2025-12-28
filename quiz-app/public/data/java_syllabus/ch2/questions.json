@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch2_1",
+        "text": "What are the four pillars of OOP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Abstraction, Encapsulation, Inheritance, Polymorphism"
+            },
+            {
+                "id": "b",
+                "text": "Classes, Objects, Methods, Variables"
+            },
+            {
+                "id": "c",
+                "text": "Public, Private, Protected, Default"
+            },
+            {
+                "id": "d",
+                "text": "Try, Catch, Finally, Throw"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "AEIP.",
+        "explanation": "The four fundamental principles of Object-Oriented Programming are Abstraction, Encapsulation, Inheritance, and Polymorphism."
+    },
+    {
+        "id": "java_ch2_2",
+        "text": "Which access modifier makes a member visible only within its own class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "public"
+            },
+            {
+                "id": "b",
+                "text": "protected"
+            },
+            {
+                "id": "c",
+                "text": "private"
+            },
+            {
+                "id": "d",
+                "text": "default"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Strictly internal.",
+        "explanation": "`private` members are accessible only within the class they are declared."
+    },
+    {
+        "id": "java_ch2_3",
+        "text": "What is a constructor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A special method to initialize objects."
+            },
+            {
+                "id": "b",
+                "text": "A method to delete objects."
+            },
+            {
+                "id": "c",
+                "text": "A static block."
+            },
+            {
+                "id": "d",
+                "text": "A return type."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Constructs the object.",
+        "explanation": "A constructor is a block of code (similar to a method) called when an instance of an object is created."
+    },
+    {
+        "id": "java_ch2_4",
+        "text": "How do you implement an interface in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "class A extends B"
+            },
+            {
+                "id": "b",
+                "text": "class A implements B"
+            },
+            {
+                "id": "c",
+                "text": "class A imports B"
+            },
+            {
+                "id": "d",
+                "text": "class A uses B"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Keyword starts with 'i'.",
+        "explanation": "The `implements` keyword is used to implement an interface."
+    },
+    {
+        "id": "java_ch2_5",
+        "text": "Can a class extend multiple classes in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No"
+            },
+            {
+                "id": "c",
+                "text": "Only abstract classes."
+            },
+            {
+                "id": "d",
+                "text": "Only interfaces."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Diamond problem avoidance.",
+        "explanation": "Java does not support multiple inheritance of state (classes). A class can only extend one superclass."
+    },
+    {
+        "id": "java_ch2_6",
+        "text": "What is method overloading?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Same method name, different class."
+            },
+            {
+                "id": "b",
+                "text": "Same method name, different parameters."
+            },
+            {
+                "id": "c",
+                "text": "Same method name, same parameters."
+            },
+            {
+                "id": "d",
+                "text": "Different method name, same parameters."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Different signature.",
+        "explanation": "Method overloading occurs when a class has multiple methods with the same name but different parameter lists."
+    },
+    {
+        "id": "java_ch2_7",
+        "text": "What is declared with 'interface' keyword?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A concrete class."
+            },
+            {
+                "id": "b",
+                "text": "A purely abstract type specifying a contract."
+            },
+            {
+                "id": "c",
+                "text": "A variable."
+            },
+            {
+                "id": "d",
+                "text": "A package."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Contract.",
+        "explanation": "An interface is a reference type in Java, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types."
+    },
+    {
+        "id": "java_ch2_8",
+        "text": "What does 'super' keyword refer to?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The current object."
+            },
+            {
+                "id": "b",
+                "text": "The parent class object."
+            },
+            {
+                "id": "c",
+                "text": "The main method."
+            },
+            {
+                "id": "d",
+                "text": "The static context."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Superclass.",
+        "explanation": "`super` is a reference variable used to refer to the immediate parent class object."
+    },
+    {
+        "id": "java_ch2_9",
+        "text": "Can an abstract class have constructors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only private constructors."
+            },
+            {
+                "id": "d",
+                "text": "Only if it has no abstract methods."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Initialization.",
+        "explanation": "Yes, abstract classes can have constructors which are called when a subclass is instantiated."
+    },
+    {
+        "id": "java_ch2_10",
+        "text": "Which modifier prevents method overriding?",
+        "options": [
+            {
+                "id": "a",
+                "text": "static"
+            },
+            {
+                "id": "b",
+                "text": "final"
+            },
+            {
+                "id": "c",
+                "text": "constant"
+            },
+            {
+                "id": "d",
+                "text": "private"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Final version.",
+        "explanation": "A `final` method cannot be overridden by subclasses."
+    },
+    {
+        "id": "java_ch2_11",
+        "text": "What is Encapsulation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Wrapping code and data together into a single unit."
+            },
+            {
+                "id": "b",
+                "text": "Hiding the implementation details."
+            },
+            {
+                "id": "c",
+                "text": "Protecting data from outside access."
+            },
+            {
+                "id": "d",
+                "text": "All of the above."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "It covers hiding and wrapping.",
+        "explanation": "Encapsulation involves wrapping data and code, hiding implementation details, and restricting access."
+    },
+    {
+        "id": "java_ch2_12",
+        "text": "Which keyword refers to the current instance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "this"
+            },
+            {
+                "id": "b",
+                "text": "self"
+            },
+            {
+                "id": "c",
+                "text": "me"
+            },
+            {
+                "id": "d",
+                "text": "current"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "This object.",
+        "explanation": "`this` is a reference variable that refers to the current object."
+    },
+    {
+        "id": "java_ch2_13",
+        "text": "What is an immutable class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A class that cannot be subclassed."
+            },
+            {
+                "id": "b",
+                "text": "A class whose instances cannot be modified after creation."
+            },
+            {
+                "id": "c",
+                "text": "A class with no methods."
+            },
+            {
+                "id": "d",
+                "text": "A class with only static members."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Unchangeable.",
+        "explanation": "An immutable class is one whose object's state cannot be changed after it is constructed (e.g., String)."
+    },
+    {
+        "id": "java_ch2_14",
+        "text": "Can an interface extend another interface?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if they are in the same package."
+            },
+            {
+                "id": "d",
+                "text": "Only if abstract."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inheritance of contracts.",
+        "explanation": "Yes, an interface can extend another interface using the `extends` keyword."
+    },
+    {
+        "id": "java_ch2_15",
+        "text": "What is dynamic binding (Runtime Polymorphism)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Method overloading."
+            },
+            {
+                "id": "b",
+                "text": "Method overriding."
+            },
+            {
+                "id": "c",
+                "text": "Static binding."
+            },
+            {
+                "id": "d",
+                "text": "Compilation."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Resolved at runtime.",
+        "explanation": "Method overriding is an example of runtime polymorphism, usually resolved via dynamic binding."
+    },
+    {
+        "id": "java_ch2_16",
+        "text": "Which class is the root of the Java class hierarchy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "java.lang.Class"
+            },
+            {
+                "id": "b",
+                "text": "java.lang.Object"
+            },
+            {
+                "id": "c",
+                "text": "java.lang.Root"
+            },
+            {
+                "id": "d",
+                "text": "java.lang.System"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The Object.",
+        "explanation": "`Object` is the root class of the java class hierarchy. All classes inherit from it."
+    },
+    {
+        "id": "java_ch2_17",
+        "text": "What is the return type of a constructor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "void"
+            },
+            {
+                "id": "b",
+                "text": "The class type"
+            },
+            {
+                "id": "c",
+                "text": "int"
+            },
+            {
+                "id": "d",
+                "text": "It has no return type."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "It doesn't return.",
+        "explanation": "Constructors do not have a return type, not even void."
+    },
+    {
+        "id": "java_ch2_18",
+        "text": "Can we overload the main method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only in subclasses."
+            },
+            {
+                "id": "d",
+                "text": "Only if private."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It's just a static method.",
+        "explanation": "Yes, standard `main` method can be overloaded, but JVM calls the one with `String[] args`."
+    },
+    {
+        "id": "java_ch2_19",
+        "text": "What happens if you don't define a constructor in a class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Compilation error."
+            },
+            {
+                "id": "b",
+                "text": "Java provides a default no-argument constructor."
+            },
+            {
+                "id": "c",
+                "text": "The class cannot be instantiated."
+            },
+            {
+                "id": "d",
+                "text": "It inherits one."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Default behavior.",
+        "explanation": "If no constructor is defined, the Java compiler inserts a default no-argument constructor."
+    },
+    {
+        "id": "java_ch2_20",
+        "text": "Which access modifier gives the widest visibility?",
+        "options": [
+            {
+                "id": "a",
+                "text": "public"
+            },
+            {
+                "id": "b",
+                "text": "private"
+            },
+            {
+                "id": "c",
+                "text": "protected"
+            },
+            {
+                "id": "d",
+                "text": "default"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Open to all.",
+        "explanation": "`public` makes the member accessible from any other class."
+    },
+    {
+        "id": "java_ch2_21",
+        "text": "What is an abstract method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A method with no name."
+            },
+            {
+                "id": "b",
+                "text": "A method with declared signature but no implementation."
+            },
+            {
+                "id": "c",
+                "text": "A private method."
+            },
+            {
+                "id": "d",
+                "text": "A static method."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "No body.",
+        "explanation": "An abstract method has a signature but no body (implementation) and ends with a semicolon."
+    },
+    {
+        "id": "java_ch2_22",
+        "text": "Can a static method access non-static (instance) members directly?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No"
+            },
+            {
+                "id": "c",
+                "text": "Only variables."
+            },
+            {
+                "id": "d",
+                "text": "Only methods."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Static belongs to class, instance to object.",
+        "explanation": "No, static methods belong to the class and cannot access instance members directly without an object reference."
+    },
+    {
+        "id": "java_ch2_23",
+        "text": "What is the primary purpose of 'this()' invocation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To call the parent constructor."
+            },
+            {
+                "id": "b",
+                "text": "To call another constructor in the same class."
+            },
+            {
+                "id": "c",
+                "text": "To call a method."
+            },
+            {
+                "id": "d",
+                "text": "To create an object."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Constructor chaining.",
+        "explanation": "`this()` is used to call one constructor from another within the same class."
+    },
+    {
+        "id": "java_ch2_24",
+        "text": "Which casting is potentially unsafe (data loss)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Widening casting (smaller to larger)."
+            },
+            {
+                "id": "b",
+                "text": "Narrowing casting (larger to smaller)."
+            },
+            {
+                "id": "c",
+                "text": "Upcasting."
+            },
+            {
+                "id": "d",
+                "text": "Boxing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fitting big into small.",
+        "explanation": "Narrowing casting (e.g., double to int) must be done manually and can lose information."
+    },
+    {
+        "id": "java_ch2_25",
+        "text": "Can an interface contain method implementations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, never."
+            },
+            {
+                "id": "b",
+                "text": "Yes, using 'default' or 'static' keywords (Java 8+)."
+            },
+            {
+                "id": "c",
+                "text": "Yes, always."
+            },
+            {
+                "id": "d",
+                "text": "Only in abstract interfaces."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Since Java 8.",
+        "explanation": "From Java 8 onwards, interfaces can have default and static methods with implementations."
+    },
+    {
+        "id": "java_ch2_26",
+        "text": "What implies 'Is-A' relationship?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Association"
+            },
+            {
+                "id": "b",
+                "text": "Inheritance"
+            },
+            {
+                "id": "c",
+                "text": "Composition"
+            },
+            {
+                "id": "d",
+                "text": "Aggregation"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Child is a Parent.",
+        "explanation": "Inheritance denotes an 'Is-A' relationship (e.g., Dog is a Animal)."
+    },
+    {
+        "id": "java_ch2_27",
+        "text": "What implies 'Has-A' relationship?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Inheritance"
+            },
+            {
+                "id": "b",
+                "text": "Composition/Aggregation"
+            },
+            {
+                "id": "c",
+                "text": "Polymorphism"
+            },
+            {
+                "id": "d",
+                "text": "Abstraction"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Containing something.",
+        "explanation": "Composition or Aggregation implies a 'Has-A' relationship (e.g., Car has a Engine)."
+    },
+    {
+        "id": "java_ch2_28",
+        "text": "Which method is used to compare two objects for equality?",
+        "options": [
+            {
+                "id": "a",
+                "text": "=="
+            },
+            {
+                "id": "b",
+                "text": "equals()"
+            },
+            {
+                "id": "c",
+                "text": "compare()"
+            },
+            {
+                "id": "d",
+                "text": "check()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Method in Object class.",
+        "explanation": "The `equals()` method is used to check if two objects are semantically equal."
+    },
+    {
+        "id": "java_ch2_29",
+        "text": "Can a final variable be initialized in the constructor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, it must be initialized at declaration."
+            },
+            {
+                "id": "b",
+                "text": "Yes, if it's not initialized at declaration."
+            },
+            {
+                "id": "c",
+                "text": "Yes, anytime."
+            },
+            {
+                "id": "d",
+                "text": "No, final variables are static."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Blank final.",
+        "explanation": "A 'blank final' variable can be initialized in the constructor."
+    },
+    {
+        "id": "java_ch2_30",
+        "text": "What is the purpose of the 'package' keyword?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To compile code."
+            },
+            {
+                "id": "b",
+                "text": "To group related classes and interfaces."
+            },
+            {
+                "id": "c",
+                "text": "To create a library."
+            },
+            {
+                "id": "d",
+                "text": "To import code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Organization.",
+        "explanation": "Packages are used to group related classes to organize code and prevent naming conflicts."
+    }
+]

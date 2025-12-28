@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch5_1",
+        "text": "Which keyword is used to define a class in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Function"
+            },
+            {
+                "id": "b",
+                "text": "Class"
+            },
+            {
+                "id": "c",
+                "text": "class"
+            },
+            {
+                "id": "d",
+                "text": "define"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's all lowercase.",
+        "explanation": "The `class` keyword is used to define a new class."
+    },
+    {
+        "id": "py_ch5_2",
+        "text": "What is `__init__` in Python classes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A destructor."
+            },
+            {
+                "id": "b",
+                "text": "A static method."
+            },
+            {
+                "id": "c",
+                "text": "The constructor method."
+            },
+            {
+                "id": "d",
+                "text": "An optional method."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It initializes the object.",
+        "explanation": "`__init__` is the constructor method in Python, called when an object is created to initialize attributes."
+    },
+    {
+        "id": "py_ch5_3",
+        "text": "What does the `self` parameter represent?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The current class."
+            },
+            {
+                "id": "b",
+                "text": "The instance of the class."
+            },
+            {
+                "id": "c",
+                "text": "A global variable."
+            },
+            {
+                "id": "d",
+                "text": "The parent class."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Refers to itself.",
+        "explanation": "`self` represents the instance of the class. It allows access to the attributes and methods of the class."
+    },
+    {
+        "id": "py_ch5_4",
+        "text": "How do you achieve inheritance in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "class Child extends Parent:"
+            },
+            {
+                "id": "b",
+                "text": "class Child(Parent):"
+            },
+            {
+                "id": "c",
+                "text": "class Child inherits Parent:"
+            },
+            {
+                "id": "d",
+                "text": "class Child : Parent"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parent class goes in parentheses.",
+        "explanation": "Inheritance is defined by passing the parent class in parentheses: `class Child(Parent):`."
+    },
+    {
+        "id": "py_ch5_5",
+        "text": "What is a decorator in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A designated class for styling."
+            },
+            {
+                "id": "b",
+                "text": "A design pattern."
+            },
+            {
+                "id": "c",
+                "text": "A function that takes another function and extends its behavior."
+            },
+            {
+                "id": "d",
+                "text": "A variable type."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It wraps a function.",
+        "explanation": "A decorator is a function that takes another function and extends its behavior without explicitly modifying it."
+    },
+    {
+        "id": "py_ch5_6",
+        "text": "How do you denote a private attribute in a class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "private var"
+            },
+            {
+                "id": "b",
+                "text": "__var"
+            },
+            {
+                "id": "c",
+                "text": "_var"
+            },
+            {
+                "id": "d",
+                "text": "var.private"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Double underscore prefix.",
+        "explanation": "Prefixing an attribute with two underscores `__variable` triggers name mangling, effectively making it private to the class."
+    },
+    {
+        "id": "py_ch5_7",
+        "text": "What is method overriding?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Calling a method from a module."
+            },
+            {
+                "id": "b",
+                "text": "Defining a method in a child class with the same name as in the parent class."
+            },
+            {
+                "id": "c",
+                "text": "Defining two methods with same name in same class."
+            },
+            {
+                "id": "d",
+                "text": "Deleting a method."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Replacing parent behavior.",
+        "explanation": "Method overriding occurs when a child class provides a specific implementation of a method that is already provided by its parent class."
+    },
+    {
+        "id": "py_ch5_8",
+        "text": "Which function check if an object is an instance of a class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "check_instance()"
+            },
+            {
+                "id": "b",
+                "text": "isinstance()"
+            },
+            {
+                "id": "c",
+                "text": "typeof()"
+            },
+            {
+                "id": "d",
+                "text": "instanceof()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Is it an instance?",
+        "explanation": "`isinstance(obj, Class)` returns True if `obj` is an instance of `Class` or a subclass of it."
+    },
+    {
+        "id": "py_ch5_9",
+        "text": "What function allows you to call a method from the parent class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "parent()"
+            },
+            {
+                "id": "b",
+                "text": "base()"
+            },
+            {
+                "id": "c",
+                "text": "super()"
+            },
+            {
+                "id": "d",
+                "text": "this()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Superclass.",
+        "explanation": "`super()` returns a proxy object that allows you to refer to the parent class."
+    },
+    {
+        "id": "py_ch5_10",
+        "text": "What is polymorphism?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using many shapes."
+            },
+            {
+                "id": "b",
+                "text": "Using a single interface to represent different data types."
+            },
+            {
+                "id": "c",
+                "text": "Multiple inheritance."
+            },
+            {
+                "id": "d",
+                "text": "Data hiding."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Many forms.",
+        "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass."
+    },
+    {
+        "id": "py_ch5_11",
+        "text": "Which decorator is used to define a class method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "@static"
+            },
+            {
+                "id": "b",
+                "text": "@method"
+            },
+            {
+                "id": "c",
+                "text": "@classmethod"
+            },
+            {
+                "id": "d",
+                "text": "@class"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The name is exact.",
+        "explanation": "`@classmethod` is the decorator used to define a method bound to the class and not the instance."
+    },
+    {
+        "id": "py_ch5_12",
+        "text": "What is the first argument of a class method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "self"
+            },
+            {
+                "id": "b",
+                "text": "cls"
+            },
+            {
+                "id": "c",
+                "text": "static"
+            },
+            {
+                "id": "d",
+                "text": "nothing"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Represents the class.",
+        "explanation": "By convention, `cls` is used as the first parameter of a class method, representing the class itself."
+    },
+    {
+        "id": "py_ch5_13",
+        "text": "What happens if a child class does not define `__init__`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It cannot be instantiated."
+            },
+            {
+                "id": "b",
+                "text": "It uses the parent's `__init__`."
+            },
+            {
+                "id": "c",
+                "text": "It throws an error."
+            },
+            {
+                "id": "d",
+                "text": "It creates an empty object."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It inherits it.",
+        "explanation": "If a child class doesn't define its own `__init__`, it inherits and uses the `__init__` of the parent class."
+    },
+    {
+        "id": "py_ch5_14",
+        "text": "Which method is called when `print(obj)` is executed?",
+        "options": [
+            {
+                "id": "a",
+                "text": "__print__"
+            },
+            {
+                "id": "b",
+                "text": "__string__"
+            },
+            {
+                "id": "c",
+                "text": "__str__"
+            },
+            {
+                "id": "d",
+                "text": "__repr__"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "String representation.",
+        "explanation": "`__str__` is called to compute the 'informal' string representation of an object, used by `print()`."
+    },
+    {
+        "id": "py_ch5_15",
+        "text": "What is multiple inheritance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Inheriting repeatedly."
+            },
+            {
+                "id": "b",
+                "text": "A class having more than one parent."
+            },
+            {
+                "id": "c",
+                "text": "A class having many children."
+            },
+            {
+                "id": "d",
+                "text": "A chain of inheritance."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multiple parents.",
+        "explanation": "Multiple inheritance is a feature where a class can inherit attributes and methods from more than one parent class."
+    },
+    {
+        "id": "py_ch5_16",
+        "text": "How do you check if a class is a subclass of another?",
+        "options": [
+            {
+                "id": "a",
+                "text": "issubclass()"
+            },
+            {
+                "id": "b",
+                "text": "isinstance()"
+            },
+            {
+                "id": "c",
+                "text": "checksub()"
+            },
+            {
+                "id": "d",
+                "text": "childof()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "The name checks out.",
+        "explanation": "`issubclass(Child, Parent)` returns True if `Child` is a subclass of `Parent`."
+    },
+    {
+        "id": "py_ch5_17",
+        "text": "What is a static method?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A method that cannot change."
+            },
+            {
+                "id": "b",
+                "text": "A method bound to the class but doesn't receive `cls` or `self` implicitly."
+            },
+            {
+                "id": "c",
+                "text": "A global function."
+            },
+            {
+                "id": "d",
+                "text": "A private method."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use @staticmethod.",
+        "explanation": "Static methods are similar to regular functions but belong to a class's namespace. They do not accept `self` or `cls`."
+    },
+    {
+        "id": "py_ch5_18",
+        "text": "Which operator is used to access attributes of an object?",
+        "options": [
+            {
+                "id": "a",
+                "text": "->"
+            },
+            {
+                "id": "b",
+                "text": "."
+            },
+            {
+                "id": "c",
+                "text": "::"
+            },
+            {
+                "id": "d",
+                "text": ":"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dot notation.",
+        "explanation": "The dot `.` operator is used to access attributes and methods of an object."
+    },
+    {
+        "id": "py_ch5_19",
+        "text": "What is encapsulation?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Restricting access to methods and variables."
+            },
+            {
+                "id": "b",
+                "text": "Running code in a capsule."
+            },
+            {
+                "id": "c",
+                "text": "Compressing code."
+            },
+            {
+                "id": "d",
+                "text": "Combining modules."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hiding internal state.",
+        "explanation": "Encapsulation involves bundling data and methods that operate on that data within a unit (class) and restricting access to some of the object's components."
+    },
+    {
+        "id": "py_ch5_20",
+        "text": "What does `pass` do in an empty class definition?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It errors out."
+            },
+            {
+                "id": "b",
+                "text": "It allows the class to be defined without content."
+            },
+            {
+                "id": "c",
+                "text": "It skips the definition."
+            },
+            {
+                "id": "d",
+                "text": "It imports the parent."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Placeholder.",
+        "explanation": "`pass` is a placeholder that allows syntactically correct empty class or function definitions."
+    },
+    {
+        "id": "py_ch5_21",
+        "text": "What is getter method used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To set variable values."
+            },
+            {
+                "id": "b",
+                "text": "To access private variable values."
+            },
+            {
+                "id": "c",
+                "text": "To delete variables."
+            },
+            {
+                "id": "d",
+                "text": "To get user input."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Accessing data.",
+        "explanation": "Getter methods provide read access to private properties/attributes of a class."
+    },
+    {
+        "id": "py_ch5_22",
+        "text": "Which magic method is used to define behavior for the `+` operator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "__plus__"
+            },
+            {
+                "id": "b",
+                "text": "__sum__"
+            },
+            {
+                "id": "c",
+                "text": "__add__"
+            },
+            {
+                "id": "d",
+                "text": "__append__"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Think 'add'.",
+        "explanation": "The `__add__` special method allows customization of the addition operator `+` for your class."
+    },
+    {
+        "id": "py_ch5_23",
+        "text": "Can you have variables with the same name in different classes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if they are private."
+            },
+            {
+                "id": "d",
+                "text": "Only if they are static."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scope matters.",
+        "explanation": "Yes, different classes define different namespaces, so they can have attributes with identical names without conflict."
+    },
+    {
+        "id": "py_ch5_24",
+        "text": "What is an abstract class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A class that cannot be instantiated."
+            },
+            {
+                "id": "b",
+                "text": "A summary of a class."
+            },
+            {
+                "id": "c",
+                "text": "A class with no methods."
+            },
+            {
+                "id": "d",
+                "text": "A visual class."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Blueprint only.",
+        "explanation": "An abstract class is a class that contains one or more abstract methods and cannot be instantiated directly. It's meant to be subclassed."
+    },
+    {
+        "id": "py_ch5_25",
+        "text": "How do you delete an attribute from an object?",
+        "options": [
+            {
+                "id": "a",
+                "text": "delete obj.attr"
+            },
+            {
+                "id": "b",
+                "text": "del obj.attr"
+            },
+            {
+                "id": "c",
+                "text": "obj.remove(attr)"
+            },
+            {
+                "id": "d",
+                "text": "remove obj.attr"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The `del` statement.",
+        "explanation": "`del obj.attribute` removes the attribute from the object."
+    },
+    {
+        "id": "py_ch5_26",
+        "text": "What does `__name__` attribute store?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The name of the file."
+            },
+            {
+                "id": "b",
+                "text": "The name of the class/module."
+            },
+            {
+                "id": "c",
+                "text": "The user's name."
+            },
+            {
+                "id": "d",
+                "text": "The variable name."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Identity string.",
+        "explanation": "`__name__` is a built-in attribute that evaluates to the name of the current module or class."
+    },
+    {
+        "id": "py_ch5_27",
+        "text": "Which of these is NOT an OOP principle?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Encapsulation"
+            },
+            {
+                "id": "b",
+                "text": "Polymorphism"
+            },
+            {
+                "id": "c",
+                "text": "Compilation"
+            },
+            {
+                "id": "d",
+                "text": "Inheritance"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Compilation is a process.",
+        "explanation": "Compilation is a step in program execution, not a core principle of Object-Oriented Programming (Encapsulation, Abstraction, Inheritance, Polymorphism)."
+    },
+    {
+        "id": "py_ch5_28",
+        "text": "What does `@property` decorator do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Defines a real estate property."
+            },
+            {
+                "id": "b",
+                "text": "Makes a method behave like an attribute (getter)."
+            },
+            {
+                "id": "c",
+                "text": "Makes a variable static."
+            },
+            {
+                "id": "d",
+                "text": "Validates types."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Access like a variable.",
+        "explanation": "`@property` allows you to define a method that can be accessed like an attribute, without parentheses."
+    },
+    {
+        "id": "py_ch5_29",
+        "text": "Which object is the base class for all classes in Python 3?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Base"
+            },
+            {
+                "id": "b",
+                "text": "Root"
+            },
+            {
+                "id": "c",
+                "text": "object"
+            },
+            {
+                "id": "d",
+                "text": "Class"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Everything is an object.",
+        "explanation": "In Python 3, all classes explicitly or implicitly inherit from the `object` class."
+    },
+    {
+        "id": "py_ch5_30",
+        "text": "What is Method Resolution Order (MRO)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The order in which methods are written."
+            },
+            {
+                "id": "b",
+                "text": "The order in which base classes are searched for a method."
+            },
+            {
+                "id": "c",
+                "text": "The speed of methods."
+            },
+            {
+                "id": "d",
+                "text": "The list of all methods."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inheritance hierarchy search.",
+        "explanation": "MRO determines the order in which the hierarchy of classes is searched to find the correct method implementation to use."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch3_1",
+        "text": "Which of the following creates an empty dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "[]"
+            },
+            {
+                "id": "b",
+                "text": "()"
+            },
+            {
+                "id": "c",
+                "text": "{}"
+            },
+            {
+                "id": "d",
+                "text": "dict[]"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Dictionaries use curly braces.",
+        "explanation": "Curly braces `{}` create an empty dictionary (unless declared as a set, but `{}` specifically defaults to dict)."
+    },
+    {
+        "id": "py_ch3_2",
+        "text": "How do you access the value associated with key 'name' in a dictionary `d`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "d.name"
+            },
+            {
+                "id": "b",
+                "text": "d['name']"
+            },
+            {
+                "id": "c",
+                "text": "d(name)"
+            },
+            {
+                "id": "d",
+                "text": "d.get_value('name')"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use square brackets with the key string.",
+        "explanation": "`d['name']` retrieves the value for the key 'name'. `d.get('name')` is also valid but the option lists direct access."
+    },
+    {
+        "id": "py_ch3_3",
+        "text": "What happens if you try to access a key that does not exist in a dictionary using `[]`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Returns None"
+            },
+            {
+                "id": "b",
+                "text": "Returns 0"
+            },
+            {
+                "id": "c",
+                "text": "KeyError"
+            },
+            {
+                "id": "d",
+                "text": "Creates the key"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It raises an exception.",
+        "explanation": "Accessing a missing key via bracket notation `d['key']` raises a `KeyError`."
+    },
+    {
+        "id": "py_ch3_4",
+        "text": "Which method is used to add an element to the end of a list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "add()"
+            },
+            {
+                "id": "b",
+                "text": "push()"
+            },
+            {
+                "id": "c",
+                "text": "append()"
+            },
+            {
+                "id": "d",
+                "text": "insert()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It appends to the end.",
+        "explanation": "The `.append(item)` method adds an item to the end of the list."
+    },
+    {
+        "id": "py_ch3_5",
+        "text": "How do you remove a key-value pair from a dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "del d['key']"
+            },
+            {
+                "id": "b",
+                "text": "remove(d['key'])"
+            },
+            {
+                "id": "c",
+                "text": "d.delete('key')"
+            },
+            {
+                "id": "d",
+                "text": "d.pop['key']"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Use the 'delete' keyword.",
+        "explanation": "`del d['key']` removes the key and its associated value from the dictionary."
+    },
+    {
+        "id": "py_ch3_6",
+        "text": "Which method creates a new list by applying a function to each element of an iterable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "filter()"
+            },
+            {
+                "id": "b",
+                "text": "reduce()"
+            },
+            {
+                "id": "c",
+                "text": "map()"
+            },
+            {
+                "id": "d",
+                "text": "apply()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It 'maps' a function to values.",
+        "explanation": "`map(function, iterable)` applies the function to every item in the iterable."
+    },
+    {
+        "id": "py_ch3_7",
+        "text": "What is the key difference between a list and a tuple?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Lists are immutable, tuples are mutable."
+            },
+            {
+                "id": "b",
+                "text": "Lists are mutable, tuples are immutable."
+            },
+            {
+                "id": "c",
+                "text": "Lists cannot contain strings."
+            },
+            {
+                "id": "d",
+                "text": "There is no difference."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Can you change them?",
+        "explanation": "Lists are mutable (can be changed), whereas tuples are immutable (cannot be changed)."
+    },
+    {
+        "id": "py_ch3_8",
+        "text": "What does `d.keys()` return?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A list of values"
+            },
+            {
+                "id": "b",
+                "text": "A list of keys"
+            },
+            {
+                "id": "c",
+                "text": "A list of tuples (key, value)"
+            },
+            {
+                "id": "d",
+                "text": "The memory address"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It returns a view of the keys.",
+        "explanation": "`d.keys()` returns a view object that displays a list of all the keys in the dictionary."
+    },
+    {
+        "id": "py_ch3_9",
+        "text": "How do you merge two dictionaries `d1` and `d2` in Python 3.9+?",
+        "options": [
+            {
+                "id": "a",
+                "text": "d1 + d2"
+            },
+            {
+                "id": "b",
+                "text": "d1.append(d2)"
+            },
+            {
+                "id": "c",
+                "text": "d1 | d2"
+            },
+            {
+                "id": "d",
+                "text": "merge(d1, d2)"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The pipe operator.",
+        "explanation": "Python 3.9 introduced the union operator `|` for dictionaries: `d1 | d2` creates a merged dictionary."
+    },
+    {
+        "id": "py_ch3_10",
+        "text": "What list method inserts an item at a specific index?",
+        "options": [
+            {
+                "id": "a",
+                "text": "add_at()"
+            },
+            {
+                "id": "b",
+                "text": "append()"
+            },
+            {
+                "id": "c",
+                "text": "push()"
+            },
+            {
+                "id": "d",
+                "text": "insert()"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "It takes an index and an item.",
+        "explanation": "`list.insert(index, item)` adds an element at the specified position."
+    },
+    {
+        "id": "py_ch3_11",
+        "text": "How do you combine a list of strings into a single string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "list.toString()"
+            },
+            {
+                "id": "b",
+                "text": "''.join(list)"
+            },
+            {
+                "id": "c",
+                "text": "Combine(list)"
+            },
+            {
+                "id": "d",
+                "text": "String(list)"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use the join method on a separator string.",
+        "explanation": "`''.join(list)` concatenates the elements of the list into a single string using the empty string as a separator."
+    },
+    {
+        "id": "py_ch3_12",
+        "text": "Which operation checks if a key exists in a dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "has_key()"
+            },
+            {
+                "id": "b",
+                "text": "exists()"
+            },
+            {
+                "id": "c",
+                "text": "key in dict"
+            },
+            {
+                "id": "d",
+                "text": "dict.contains(key)"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Use the 'in' membership operator.",
+        "explanation": "The `in` operator checks for the existence of a key in a dictionary: `'key' in d`."
+    },
+    {
+        "id": "py_ch3_13",
+        "text": "What does `list.pop()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Removes the first element"
+            },
+            {
+                "id": "b",
+                "text": "Removes and returns the last element"
+            },
+            {
+                "id": "c",
+                "text": "Deletes the list"
+            },
+            {
+                "id": "d",
+                "text": "Removes a random element"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Think 'popping' off the top of a stack.",
+        "explanation": "`pop()` removes the item at the given index (default is -1, the last item) and returns it."
+    },
+    {
+        "id": "py_ch3_14",
+        "text": "How do you create a list with numbers 0 to 4?",
+        "options": [
+            {
+                "id": "a",
+                "text": "[0-4]"
+            },
+            {
+                "id": "b",
+                "text": "list(range(5))"
+            },
+            {
+                "id": "c",
+                "text": "range(5).list()"
+            },
+            {
+                "id": "d",
+                "text": "Array(5)"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Cast the range object.",
+        "explanation": "`range(5)` creates the sequence, and `list()` converts it to a list: `[0, 1, 2, 3, 4]`."
+    },
+    {
+        "id": "py_ch3_15",
+        "text": "What happens when you use the `+` operator on two lists?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It adds corresponding elements."
+            },
+            {
+                "id": "b",
+                "text": "It concatenates them."
+            },
+            {
+                "id": "c",
+                "text": "It creates a nested list."
+            },
+            {
+                "id": "d",
+                "text": "Error"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Similar to string concatenation.",
+        "explanation": "The `+` operator concatenates two lists, creating a new list containing all elements from both."
+    },
+    {
+        "id": "py_ch3_16",
+        "text": "Which method sorts a list in-place?",
+        "options": [
+            {
+                "id": "a",
+                "text": "sorted(list)"
+            },
+            {
+                "id": "b",
+                "text": "list.sort()"
+            },
+            {
+                "id": "c",
+                "text": "list.order()"
+            },
+            {
+                "id": "d",
+                "text": "list.arrange()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It modifies the original list.",
+        "explanation": "`list.sort()` sorts the list in place and returns None. `sorted(list)` returns a new sorted list."
+    },
+    {
+        "id": "py_ch3_17",
+        "text": "How can you remove the first occurrence of a value 'x' from a list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "list.delete(x)"
+            },
+            {
+                "id": "b",
+                "text": "list.remove(x)"
+            },
+            {
+                "id": "c",
+                "text": "list.pop(x)"
+            },
+            {
+                "id": "d",
+                "text": "del list[x]"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Remove by value.",
+        "explanation": "`list.remove(x)` searches for the first instance of 'x' and removes it. Raises ValueError if not found."
+    },
+    {
+        "id": "py_ch3_18",
+        "text": "What is a dictionary comprehension?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A way to understand dictionaries better."
+            },
+            {
+                "id": "b",
+                "text": "A concise syntax to create dictionaries from iterables."
+            },
+            {
+                "id": "c",
+                "text": "A method to compress dictionaries."
+            },
+            {
+                "id": "d",
+                "text": "A type of error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Like list comprehension but for dicts.",
+        "explanation": "Dictionary comprehension provides a concise way to create dictionaries: `{k: v for k, v in iterable}`."
+    },
+    {
+        "id": "py_ch3_19",
+        "text": "What does `d.get('key', 'default')` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sets 'key' to 'default'."
+            },
+            {
+                "id": "b",
+                "text": "Returns 'default' if 'key' is missing, else the value."
+            },
+            {
+                "id": "c",
+                "text": "Returns tuple ('key', 'default')."
+            },
+            {
+                "id": "d",
+                "text": "Errors if key is missing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "A safe way to access values.",
+        "explanation": "`get()` returns the value for the key if it exists, otherwise it returns the default value provided."
+    },
+    {
+        "id": "py_ch3_20",
+        "text": "Which function returns the number of items in a dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "size(d)"
+            },
+            {
+                "id": "b",
+                "text": "d.count()"
+            },
+            {
+                "id": "c",
+                "text": "len(d)"
+            },
+            {
+                "id": "d",
+                "text": "count(d)"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Same as for lists and strings.",
+        "explanation": "`len(d)` returns the number of key-value pairs in the dictionary."
+    },
+    {
+        "id": "py_ch3_21",
+        "text": "What type of keys are allowed in a Python dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Only strings"
+            },
+            {
+                "id": "b",
+                "text": "Any mutable object"
+            },
+            {
+                "id": "c",
+                "text": "Any hashable (immutable) object"
+            },
+            {
+                "id": "d",
+                "text": "Only integers"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Keys must not change.",
+        "explanation": "Dictionary keys must be hashable, which generally means they must be immutable types like strings, numbers, or tuples."
+    },
+    {
+        "id": "py_ch3_22",
+        "text": "How do you reverse a list `nums` in place?",
+        "options": [
+            {
+                "id": "a",
+                "text": "nums.reverse()"
+            },
+            {
+                "id": "b",
+                "text": "reversed(nums)"
+            },
+            {
+                "id": "c",
+                "text": "nums[::-1]"
+            },
+            {
+                "id": "d",
+                "text": "nums.inverse()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "It is a method of the list object.",
+        "explanation": "`nums.reverse()` reverses the elements of the list in place. `nums[::-1]` creates a new reversed list."
+    },
+    {
+        "id": "py_ch3_23",
+        "text": "What method returns all values in a dictionary?",
+        "options": [
+            {
+                "id": "a",
+                "text": "d.items()"
+            },
+            {
+                "id": "b",
+                "text": "d.vals()"
+            },
+            {
+                "id": "c",
+                "text": "d.values()"
+            },
+            {
+                "id": "d",
+                "text": "d.content()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Plural of value.",
+        "explanation": "`d.values()` returns a view object that displays a list of all the values in the dictionary."
+    },
+    {
+        "id": "py_ch3_24",
+        "text": "What is slicing in a list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Deleting elements."
+            },
+            {
+                "id": "b",
+                "text": "Accessing a subset of elements."
+            },
+            {
+                "id": "c",
+                "text": "Cutting the list in half."
+            },
+            {
+                "id": "d",
+                "text": "Mixing two lists."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Using the colon syntax.",
+        "explanation": "Slicing allowing accessing regular patterns or ranges of elements, e.g., `list[start:stop]`."
+    },
+    {
+        "id": "py_ch3_25",
+        "text": "What happens if you multiply a list by an integer, e.g., `[0] * 3`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "[0, 3]"
+            },
+            {
+                "id": "b",
+                "text": "[0, 0, 0]"
+            },
+            {
+                "id": "c",
+                "text": "[0, 1, 2]"
+            },
+            {
+                "id": "d",
+                "text": "Error"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It repeats the list content.",
+        "explanation": "List multiplication repeats the elements of the list. `[0] * 3` results in `[0, 0, 0]`."
+    },
+    {
+        "id": "py_ch3_26",
+        "text": "Which method is used to empty a list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "list.delete_all()"
+            },
+            {
+                "id": "b",
+                "text": "list.empty()"
+            },
+            {
+                "id": "c",
+                "text": "list.clear()"
+            },
+            {
+                "id": "d",
+                "text": "list = []"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Make it clear.",
+        "explanation": "`list.clear()` removes all elements from the list. Reassigning `list = []` creates a new list but doesn't modify the old object referenced elsewhere."
+    },
+    {
+        "id": "py_ch3_27",
+        "text": "What is returned by `d.items()`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "List of keys"
+            },
+            {
+                "id": "b",
+                "text": "List of values"
+            },
+            {
+                "id": "c",
+                "text": "List of (key, value) tuples"
+            },
+            {
+                "id": "d",
+                "text": "Dictionary string"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Pairs.",
+        "explanation": "`d.items()` returns a view of the dictionary's items (key-value pairs) as tuples."
+    },
+    {
+        "id": "py_ch3_28",
+        "text": "How do you copy a list `a` to `b` such that modifying `b` doesn't affect `a`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "b = a"
+            },
+            {
+                "id": "b",
+                "text": "b = a.copy()"
+            },
+            {
+                "id": "c",
+                "text": "b = copy(a)"
+            },
+            {
+                "id": "d",
+                "text": "b = a.mirror()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Create a shallow copy.",
+        "explanation": "`b = a.copy()` or `b = a[:]` creates a shallow copy. `b = a` only copies the reference."
+    },
+    {
+        "id": "py_ch3_29",
+        "text": "What is the index of the last element in a list `lst`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "lst.length"
+            },
+            {
+                "id": "b",
+                "text": "len(lst)"
+            },
+            {
+                "id": "c",
+                "text": "len(lst) - 1"
+            },
+            {
+                "id": "d",
+                "text": "-0"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Zero-based indexing.",
+        "explanation": "Since indexing starts at 0, the last element is at `len(lst) - 1`. You can also use `-1`."
+    },
+    {
+        "id": "py_ch3_30",
+        "text": "Can a dictionary contain another dictionary as a value?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, nesting is allowed."
+            },
+            {
+                "id": "c",
+                "text": "Only if keys are integers."
+            },
+            {
+                "id": "d",
+                "text": "Only in JSON mode."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Nested data structures.",
+        "explanation": "Yes, dictionaries can contain any object as a value, including other dictionaries (nested dictionaries)."
+    }
+]

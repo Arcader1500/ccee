@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch5_1",
+        "text": "What is the main way to create a thread in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Extending Thread class or implementing Runnable interface."
+            },
+            {
+                "id": "b",
+                "text": "Extending Run class."
+            },
+            {
+                "id": "c",
+                "text": "Implementing Thread interface."
+            },
+            {
+                "id": "d",
+                "text": "Calling `System.createThread()`."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Two main ways.",
+        "explanation": "You can create a thread by extending the `Thread` class or implementing the `Runnable` interface."
+    },
+    {
+        "id": "java_ch5_2",
+        "text": "Which method serves as the entry point for a thread?",
+        "options": [
+            {
+                "id": "a",
+                "text": "start()"
+            },
+            {
+                "id": "b",
+                "text": "run()"
+            },
+            {
+                "id": "c",
+                "text": "init()"
+            },
+            {
+                "id": "d",
+                "text": "main()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It runs code.",
+        "explanation": "The `run()` method contains the code that constitutes the new thread's task, but you call `start()` to execute it in a new thread."
+    },
+    {
+        "id": "java_ch5_3",
+        "text": "How do you start a thread execution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "thread.run()"
+            },
+            {
+                "id": "b",
+                "text": "thread.start()"
+            },
+            {
+                "id": "c",
+                "text": "thread.execute()"
+            },
+            {
+                "id": "d",
+                "text": "thread.begin()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Start it.",
+        "explanation": "`start()` method starts a new thread of execution and then calls `run()`. Calling `run()` directly just executes it in the current thread."
+    },
+    {
+        "id": "java_ch5_4",
+        "text": "Which keyword plays a central role in synchronization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "volatile"
+            },
+            {
+                "id": "b",
+                "text": "synchronized"
+            },
+            {
+                "id": "c",
+                "text": "locked"
+            },
+            {
+                "id": "d",
+                "text": "atomic"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sync.",
+        "explanation": "The `synchronized` keyword is used to control access to shared resources by multiple threads."
+    },
+    {
+        "id": "java_ch5_5",
+        "text": "What is a Deadlock?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When a thread dies."
+            },
+            {
+                "id": "b",
+                "text": "When two or more threads are waiting for each other to release locks forever."
+            },
+            {
+                "id": "c",
+                "text": "When a thread finishes execution."
+            },
+            {
+                "id": "d",
+                "text": "Memory leak."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Stuck waiting.",
+        "explanation": "Deadlock describes a situation where two or more threads are blocked forever, waiting for each other."
+    },
+    {
+        "id": "java_ch5_6",
+        "text": "What is the `wait()` method used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To pause execution for a fixed time."
+            },
+            {
+                "id": "b",
+                "text": "To tell the thread to give up the monitor and sleep until notified."
+            },
+            {
+                "id": "c",
+                "text": "To stop the thread."
+            },
+            {
+                "id": "d",
+                "text": "To yield CPU."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inter-thread communication.",
+        "explanation": "`wait()` causes the current thread to wait until another thread invokes the `notify()` or `notifyAll()` method for this object."
+    },
+    {
+        "id": "java_ch5_7",
+        "text": "Which method wakes up a single thread waiting on an object's monitor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "notify()"
+            },
+            {
+                "id": "b",
+                "text": "notifyAll()"
+            },
+            {
+                "id": "c",
+                "text": "wake()"
+            },
+            {
+                "id": "d",
+                "text": "resume()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Notify one.",
+        "explanation": "`notify()` wakes up a single thread that is waiting on this object's monitor."
+    },
+    {
+        "id": "java_ch5_8",
+        "text": "What is the Runnable interface?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A class."
+            },
+            {
+                "id": "b",
+                "text": "A functional interface with a single `run` method."
+            },
+            {
+                "id": "c",
+                "text": "A marker interface."
+            },
+            {
+                "id": "d",
+                "text": "An exception."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It can be run.",
+        "explanation": "`Runnable` is a functional interface usually aimed at being executed by a thread."
+    },
+    {
+        "id": "java_ch5_9",
+        "text": "Does `synchronized` guarantee visibility of changes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only for integers."
+            },
+            {
+                "id": "d",
+                "text": "Only for static fields."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Memory model.",
+        "explanation": "Yes, entering/exiting a synchronized block establishes a happens-before relationship, guaranteeing memory visibility."
+    },
+    {
+        "id": "java_ch5_10",
+        "text": "What is `Thread.sleep()` used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To kill the thread."
+            },
+            {
+                "id": "b",
+                "text": "To pause the currently execution thread for a specified millisecond duration."
+            },
+            {
+                "id": "c",
+                "text": "To wait for a lock."
+            },
+            {
+                "id": "d",
+                "text": "To start a thread."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sleeping.",
+        "explanation": "`Thread.sleep(millis)` causes the currently executing thread to sleep (temporarily cease execution)."
+    },
+    {
+        "id": "java_ch5_11",
+        "text": "What is a Race Condition?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A contest between threads."
+            },
+            {
+                "id": "b",
+                "text": "When program behavior depends on improper execution timing of threads."
+            },
+            {
+                "id": "c",
+                "text": "Fast execution."
+            },
+            {
+                "id": "d",
+                "text": "Parallel processing."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Racing for resources.",
+        "explanation": "A race condition occurs when two or more threads access shared data and try to change it at the same time."
+    },
+    {
+        "id": "java_ch5_12",
+        "text": "Which state is a thread in after `start()` is called but before it gets CPU?",
+        "options": [
+            {
+                "id": "a",
+                "text": "New"
+            },
+            {
+                "id": "b",
+                "text": "Runnable"
+            },
+            {
+                "id": "c",
+                "text": "Running"
+            },
+            {
+                "id": "d",
+                "text": "Blocked"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Ready to run.",
+        "explanation": "After `start()` is called, the thread enters the `Runnable` state, waiting for the thread scheduler to select it."
+    },
+    {
+        "id": "java_ch5_13",
+        "text": "Which keyword ensures that the value of a variable is always read from main memory?",
+        "options": [
+            {
+                "id": "a",
+                "text": "static"
+            },
+            {
+                "id": "b",
+                "text": "final"
+            },
+            {
+                "id": "c",
+                "text": "volatile"
+            },
+            {
+                "id": "d",
+                "text": "transient"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Volatile memory.",
+        "explanation": "`volatile` keyword guarantees that a variable's value is always read from the main memory, not from thread cache."
+    },
+    {
+        "id": "java_ch5_14",
+        "text": "Can we start a thread twice?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No, it throws IllegalThreadStateException."
+            },
+            {
+                "id": "c",
+                "text": "Only if it finished."
+            },
+            {
+                "id": "d",
+                "text": "Only if exception occurred."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "One life.",
+        "explanation": "No, a thread cannot be started twice. Attempting to do so throws `IllegalThreadStateException`."
+    },
+    {
+        "id": "java_ch5_15",
+        "text": "What is thread priority?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An integer that hints the scheduler about importance."
+            },
+            {
+                "id": "b",
+                "text": "A strict rule for execution order."
+            },
+            {
+                "id": "c",
+                "text": "A timestamp."
+            },
+            {
+                "id": "d",
+                "text": "Memory size."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Hint to scheduler.",
+        "explanation": "Priority is an integer (1-10) used by the thread scheduler to decide when each thread should be allowed to run."
+    },
+    {
+        "id": "java_ch5_16",
+        "text": "Which method is used to wait for a thread to die (complete)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "wait()"
+            },
+            {
+                "id": "b",
+                "text": "join()"
+            },
+            {
+                "id": "c",
+                "text": "stop()"
+            },
+            {
+                "id": "d",
+                "text": "complete()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Join the flow.",
+        "explanation": "`join()` method allows one thread to wait for the completion of another."
+    },
+    {
+        "id": "java_ch5_17",
+        "text": "What is `ExecutorService`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A service to execute code in main thread."
+            },
+            {
+                "id": "b",
+                "text": "A higher-level replacement for working with threads directly."
+            },
+            {
+                "id": "c",
+                "text": "A database service."
+            },
+            {
+                "id": "d",
+                "text": "A compiler tool."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "ThreadPools.",
+        "explanation": "`ExecutorService` provides a framework for managing a pool of threads and assigning tasks to them."
+    },
+    {
+        "id": "java_ch5_18",
+        "text": "Is `wait()` a method of Thread class?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No, it belongs to Object class."
+            },
+            {
+                "id": "c",
+                "text": "No, it belongs to Runnable."
+            },
+            {
+                "id": "d",
+                "text": "No, it belongs to System."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Monitor lock is on Object.",
+        "explanation": "`wait()`, `notify()`, and `notifyAll()` are methods of the `Object` class because the monitor lock is associated with the object."
+    },
+    {
+        "id": "java_ch5_19",
+        "text": "What is a Daemon Thread?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A virus."
+            },
+            {
+                "id": "b",
+                "text": "A background thread that does not prevent JVM from exiting."
+            },
+            {
+                "id": "c",
+                "text": "A high priority thread."
+            },
+            {
+                "id": "d",
+                "text": "The main thread."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Service provider.",
+        "explanation": "Daemon threads are service threads (like GC). The JVM exits when the only threads running are all daemon threads."
+    },
+    {
+        "id": "java_ch5_20",
+        "text": "Which interface represents a task that returns a result?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Runnable"
+            },
+            {
+                "id": "b",
+                "text": "Callable"
+            },
+            {
+                "id": "c",
+                "text": "Future"
+            },
+            {
+                "id": "d",
+                "text": "Task"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Calls back with result.",
+        "explanation": "`Callable<V>` is similar to `Runnable` but it can return a value and throw a checked exception."
+    },
+    {
+        "id": "java_ch5_21",
+        "text": "What is Thread Safety?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using antivirus."
+            },
+            {
+                "id": "b",
+                "text": "Code that functions correctly during simultaneous execution by multiple threads."
+            },
+            {
+                "id": "c",
+                "text": "Encapsulation."
+            },
+            {
+                "id": "d",
+                "text": "Using private variables."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Safe for multi-threading.",
+        "explanation": "Thread safety means execution by multiple threads simultaneously does not cause data corruption or unexpected behavior."
+    },
+    {
+        "id": "java_ch5_22",
+        "text": "How do you stop a thread safely in modern Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Thread.stop()"
+            },
+            {
+                "id": "b",
+                "text": "Thread.kill()"
+            },
+            {
+                "id": "c",
+                "text": "Using a flag or interruption mechanism."
+            },
+            {
+                "id": "d",
+                "text": "System.exit()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Don't use deprecated methods.",
+        "explanation": "`Thread.stop()` is deprecated and unsafe. Use a boolean flag or the `interrupt()` mechanism."
+    },
+    {
+        "id": "java_ch5_23",
+        "text": "What is `Future` in concurrency?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The next version of Java."
+            },
+            {
+                "id": "b",
+                "text": "Represents the result of an asynchronous computation."
+            },
+            {
+                "id": "c",
+                "text": "A thread."
+            },
+            {
+                "id": "d",
+                "text": "A lock."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Result to come.",
+        "explanation": "A `Future` represents the result of an asynchronous computation. Methods are provided to check if the computation is complete and to retrieve the result."
+    },
+    {
+        "id": "java_ch5_24",
+        "text": "Who manages the threads in a pool?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The programmer."
+            },
+            {
+                "id": "b",
+                "text": "The Executor Framework."
+            },
+            {
+                "id": "c",
+                "text": "The CPU."
+            },
+            {
+                "id": "d",
+                "text": "The Compiler."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Executor.",
+        "explanation": "The Executor Framework (part of `java.util.concurrent`) manages thread creation, lifecycle, and task scheduling."
+    },
+    {
+        "id": "java_ch5_25",
+        "text": "Which lock is reentrant?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ReentrantLock"
+            },
+            {
+                "id": "b",
+                "text": "Intrinsic lock (synchronized)."
+            },
+            {
+                "id": "c",
+                "text": "Both A and B"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Re-entering.",
+        "explanation": "Both the intrinsic lock used by `synchronized` and the `ReentrantLock` class allow a thread to re-acquire the same lock it already holds."
+    },
+    {
+        "id": "java_ch5_26",
+        "text": "What is `ThreadLocal`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A local variable."
+            },
+            {
+                "id": "b",
+                "text": "A variable whose value is unique to each thread."
+            },
+            {
+                "id": "c",
+                "text": "A shared variable."
+            },
+            {
+                "id": "d",
+                "text": "A database connection."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Local to thread.",
+        "explanation": "`ThreadLocal` provides thread-local variables. Each thread accessing such a variable has its own, independently initialized copy."
+    },
+    {
+        "id": "java_ch5_27",
+        "text": "What is starving in threads?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Low battery."
+            },
+            {
+                "id": "b",
+                "text": "When a thread is unable to gain regular access to shared resources."
+            },
+            {
+                "id": "c",
+                "text": "When a thread has no code."
+            },
+            {
+                "id": "d",
+                "text": "Deadlock."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Hungry for resources.",
+        "explanation": "Starvation describes a situation where a thread is unable to gain regular access to shared resources and is unable to make progress."
+    },
+    {
+        "id": "java_ch5_28",
+        "text": "Which method checks if a thread has been interrupted?",
+        "options": [
+            {
+                "id": "a",
+                "text": "isInterrupted()"
+            },
+            {
+                "id": "b",
+                "text": "checkInterrupt()"
+            },
+            {
+                "id": "c",
+                "text": "isStopped()"
+            },
+            {
+                "id": "d",
+                "text": "status()"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Is it?",
+        "explanation": "`thread.isInterrupted()` checks whether the thread has been interrupted."
+    },
+    {
+        "id": "java_ch5_29",
+        "text": "What is AtomicInteger?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A small int."
+            },
+            {
+                "id": "b",
+                "text": "An int value that may be updated atomically."
+            },
+            {
+                "id": "c",
+                "text": "A nuclear integer."
+            },
+            {
+                "id": "d",
+                "text": "A constant."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Thread-safe int.",
+        "explanation": "`AtomicInteger` is a class in `java.util.concurrent.atomic` that provides atomic (thread-safe) operations on an int."
+    },
+    {
+        "id": "java_ch5_30",
+        "text": "Is `StringBuilder` thread-safe?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes"
+            },
+            {
+                "id": "b",
+                "text": "No"
+            },
+            {
+                "id": "c",
+                "text": "Only in loops."
+            },
+            {
+                "id": "d",
+                "text": "It depends."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "StringBuffer is safe.",
+        "explanation": "`StringBuilder` is NOT thread-safe (use `StringBuffer` for thread safety). `StringBuilder` is faster for single-threaded use."
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch6_1",
+        "text": "Which block is used to catch an exception in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "try"
+            },
+            {
+                "id": "b",
+                "text": "catch"
+            },
+            {
+                "id": "c",
+                "text": "except"
+            },
+            {
+                "id": "d",
+                "text": "handle"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Paired with try.",
+        "explanation": "The `except` block is used to catch and handle exceptions that occur in the `try` block."
+    },
+    {
+        "id": "py_ch6_2",
+        "text": "What code always executes after a try-except block, regardless of errors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "else"
+            },
+            {
+                "id": "b",
+                "text": "always"
+            },
+            {
+                "id": "c",
+                "text": "finally"
+            },
+            {
+                "id": "d",
+                "text": "done"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Final step.",
+        "explanation": "The `finally` block is always executed whether an exception occurred or not, useful for cleanup."
+    },
+    {
+        "id": "py_ch6_3",
+        "text": "Which keyword is used to raise an exception manually?",
+        "options": [
+            {
+                "id": "a",
+                "text": "throw"
+            },
+            {
+                "id": "b",
+                "text": "raise"
+            },
+            {
+                "id": "c",
+                "text": "error"
+            },
+            {
+                "id": "d",
+                "text": "trigger"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Lift it up.",
+        "explanation": "The `raise` keyword is used to explicitly throw/raise an exception."
+    },
+    {
+        "id": "py_ch6_4",
+        "text": "What does the `else` block do in a try-except statement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Executes if an exception occurs."
+            },
+            {
+                "id": "b",
+                "text": "Executes if NO exception occurs."
+            },
+            {
+                "id": "c",
+                "text": "Executes always."
+            },
+            {
+                "id": "d",
+                "text": "Is invalid syntax."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Opposite of except.",
+        "explanation": "The `else` block runs only if the code in the `try` block executed successfully without raising an exception."
+    },
+    {
+        "id": "py_ch6_5",
+        "text": "How do you define a user-defined exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Create a function."
+            },
+            {
+                "id": "b",
+                "text": "Create a class inheriting from Exception."
+            },
+            {
+                "id": "c",
+                "text": "Use the error keyword."
+            },
+            {
+                "id": "d",
+                "text": "Import it."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inheritance.",
+        "explanation": "User-defined exceptions are created by defining a new class that inherits from the built-in `Exception` class."
+    },
+    {
+        "id": "py_ch6_6",
+        "text": "What happens if an exception is not caught?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The program crashes/terminates."
+            },
+            {
+                "id": "b",
+                "text": "It is ignored."
+            },
+            {
+                "id": "c",
+                "text": "The program restarts."
+            },
+            {
+                "id": "d",
+                "text": "The computer freezes."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Unhandled exception.",
+        "explanation": "If an exception is raised and not caught by an except block, the program terminates and prints a traceback."
+    },
+    {
+        "id": "py_ch6_7",
+        "text": "Which exception is raised when dividing by zero?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ValueError"
+            },
+            {
+                "id": "b",
+                "text": "MathError"
+            },
+            {
+                "id": "c",
+                "text": "ZeroDivisionError"
+            },
+            {
+                "id": "d",
+                "text": "ArithmeticError"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The name is explicit.",
+        "explanation": "`ZeroDivisionError` is raised when the second argument of a division or modulo operation is zero."
+    },
+    {
+        "id": "py_ch6_8",
+        "text": "What is the base class for all built-in non-system-exiting exceptions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BaseException"
+            },
+            {
+                "id": "b",
+                "text": "Error"
+            },
+            {
+                "id": "c",
+                "text": "Exception"
+            },
+            {
+                "id": "d",
+                "text": "Object"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Standard exception base.",
+        "explanation": "`Exception` is the base class for all built-in, non-system-exiting exceptions. `BaseException` is the root of everything including `SystemExit`."
+    },
+    {
+        "id": "py_ch6_9",
+        "text": "Can a `try` block have multiple `except` blocks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only up to 3."
+            },
+            {
+                "id": "d",
+                "text": "Only if nested."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Catching different errors.",
+        "explanation": "Yes, you can have multiple `except` blocks to handle different types of exceptions specifically."
+    },
+    {
+        "id": "py_ch6_10",
+        "text": "Which module provides a comprehensive logging system?",
+        "options": [
+            {
+                "id": "a",
+                "text": "logger"
+            },
+            {
+                "id": "b",
+                "text": "log"
+            },
+            {
+                "id": "c",
+                "text": "logging"
+            },
+            {
+                "id": "d",
+                "text": "debug"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's the action of creating logs.",
+        "explanation": "The `logging` module defines functions and classes which implement a flexible event logging system."
+    },
+    {
+        "id": "py_ch6_11",
+        "text": "Which logging level is used for serious problems causing program termination?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DEBUG"
+            },
+            {
+                "id": "b",
+                "text": "INFO"
+            },
+            {
+                "id": "c",
+                "text": "WARNING"
+            },
+            {
+                "id": "d",
+                "text": "CRITICAL"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "Highest severity.",
+        "explanation": "`CRITICAL` (or FATAL) denotes a very serious error that might prevent the program from continuing."
+    },
+    {
+        "id": "py_ch6_12",
+        "text": "Which exception is raised when an index is out of range?",
+        "options": [
+            {
+                "id": "a",
+                "text": "KeyError"
+            },
+            {
+                "id": "b",
+                "text": "ValueError"
+            },
+            {
+                "id": "c",
+                "text": "IndexError"
+            },
+            {
+                "id": "d",
+                "text": "RangeError"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's about the index.",
+        "explanation": "`IndexError` is raised when a sequence subscript (index) is out of range."
+    },
+    {
+        "id": "py_ch6_13",
+        "text": "How can you catch ALL exceptions (not recommended generally)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "except All:"
+            },
+            {
+                "id": "b",
+                "text": "except Exception:"
+            },
+            {
+                "id": "c",
+                "text": "except:"
+            },
+            {
+                "id": "d",
+                "text": "catch all"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Bare except.",
+        "explanation": "A bare `except:` clause catches all exceptions, including system-exiting ones. `except Exception:` catches all standard exceptions. `except:` is the syntax for 'all'."
+    },
+    {
+        "id": "py_ch6_14",
+        "text": "What does `assert` statement do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Checking if a variable exists."
+            },
+            {
+                "id": "b",
+                "text": "Tests a condition and triggers an error if false."
+            },
+            {
+                "id": "c",
+                "text": "Defines a constant."
+            },
+            {
+                "id": "d",
+                "text": "Prints a message."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Assertions.",
+        "explanation": "`assert condition` tests the condition. If False, it raises an `AssertionError`."
+    },
+    {
+        "id": "py_ch6_15",
+        "text": "Which exception is raised when a function receives an argument of right type but inappropriate value?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TypeError"
+            },
+            {
+                "id": "b",
+                "text": "ValueError"
+            },
+            {
+                "id": "c",
+                "text": "KeyError"
+            },
+            {
+                "id": "d",
+                "text": "AttributeError"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The value is wrong.",
+        "explanation": "`ValueError` is raised when a built-in operation or function receives an argument that has the right type but an inappropriate value."
+    },
+    {
+        "id": "py_ch6_16",
+        "text": "Which logging level is appropriate for development diagnosis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DEBUG"
+            },
+            {
+                "id": "b",
+                "text": "ERROR"
+            },
+            {
+                "id": "c",
+                "text": "INFO"
+            },
+            {
+                "id": "d",
+                "text": "NONE"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Detailed information.",
+        "explanation": "`DEBUG` provides detailed information, typically of interest only when diagnosing problems."
+    },
+    {
+        "id": "py_ch6_17",
+        "text": "What does `pdb` stand for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Python Data Base"
+            },
+            {
+                "id": "b",
+                "text": "Program Debugger"
+            },
+            {
+                "id": "c",
+                "text": "Python Debugger"
+            },
+            {
+                "id": "d",
+                "text": "Private Debug"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Built-in interactive debugger.",
+        "explanation": "`pdb` is the Python Debugger module."
+    },
+    {
+        "id": "py_ch6_18",
+        "text": "How do you start the debugger inside your script?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pdb.start()"
+            },
+            {
+                "id": "b",
+                "text": "import pdb; pdb.set_trace()"
+            },
+            {
+                "id": "c",
+                "text": "debug()"
+            },
+            {
+                "id": "d",
+                "text": "debugger"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Set a trace.",
+        "explanation": "`import pdb; pdb.set_trace()` pauses execution and enters the `pdb` interactive shell (breakpoint)."
+    },
+    {
+        "id": "py_ch6_19",
+        "text": "What exception handles missing keys in dictionaries?",
+        "options": [
+            {
+                "id": "a",
+                "text": "IndexError"
+            },
+            {
+                "id": "b",
+                "text": "MissingKeyError"
+            },
+            {
+                "id": "c",
+                "text": "KeyError"
+            },
+            {
+                "id": "d",
+                "text": "LookupError"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's a Key Error.",
+        "explanation": "`KeyError` is raised when a dictionary key is not found."
+    },
+    {
+        "id": "py_ch6_20",
+        "text": "What is syntax error?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An error detected during parsing."
+            },
+            {
+                "id": "b",
+                "text": "An error during execution."
+            },
+            {
+                "id": "c",
+                "text": "A logical error."
+            },
+            {
+                "id": "d",
+                "text": "A file not found error."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Grammar of the code.",
+        "explanation": "A `SyntaxError` occurs when the parser detects incorrect syntax that doesn't follow the language grammar."
+    },
+    {
+        "id": "py_ch6_21",
+        "text": "Can you define an exception class without any body?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, using pass."
+            },
+            {
+                "id": "c",
+                "text": "Yes, but it won't work."
+            },
+            {
+                "id": "d",
+                "text": "Only in Python 2."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Just pass.",
+        "explanation": "Yes, `class MyError(Exception): pass` is a valid way to define a custom exception type without extra behavior."
+    },
+    {
+        "id": "py_ch6_22",
+        "text": "Which error occurs when you try to open a file that doesn't exist?",
+        "options": [
+            {
+                "id": "a",
+                "text": "FileError"
+            },
+            {
+                "id": "b",
+                "text": "IOError"
+            },
+            {
+                "id": "c",
+                "text": "FileNotFoundError"
+            },
+            {
+                "id": "d",
+                "text": "PathError"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "File not found.",
+        "explanation": "`FileNotFoundError` is raised when a file or directory is requested but doesn't exist."
+    },
+    {
+        "id": "py_ch6_23",
+        "text": "What does `logging.basicConfig()` do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clears the logs."
+            },
+            {
+                "id": "b",
+                "text": "Configures the logging system with default values."
+            },
+            {
+                "id": "c",
+                "text": "Prints basic logs."
+            },
+            {
+                "id": "d",
+                "text": "Enables debugging."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Basic configuration.",
+        "explanation": "It configures the logging system, setting default level, format, output stream, etc."
+    },
+    {
+        "id": "py_ch6_24",
+        "text": "Which exception catches type mismatch errors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "TypeError"
+            },
+            {
+                "id": "b",
+                "text": "ValueError"
+            },
+            {
+                "id": "c",
+                "text": "CastError"
+            },
+            {
+                "id": "d",
+                "text": "ClassError"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Type.",
+        "explanation": "`TypeError` is raised when an operation or function is applied to an object of inappropriate type."
+    },
+    {
+        "id": "py_ch6_25",
+        "text": "What is the order of execution in `try-except-else-finally`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "try -> except -> else -> finally"
+            },
+            {
+                "id": "b",
+                "text": "try -> (except or else) -> finally"
+            },
+            {
+                "id": "c",
+                "text": "try -> finally -> except"
+            },
+            {
+                "id": "d",
+                "text": "Random"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Logical flow.",
+        "explanation": "`try` runs first. If exception: `except`. If no exception: `else`. `finally` runs last regardless."
+    },
+    {
+        "id": "py_ch6_26",
+        "text": "Can you raise a built-in exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, only custom ones."
+            },
+            {
+                "id": "b",
+                "text": "Yes, e.g., raise ValueError('message')"
+            },
+            {
+                "id": "c",
+                "text": "Only if imported."
+            },
+            {
+                "id": "d",
+                "text": "Yes, but it's bad practice."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Raise anything.",
+        "explanation": "You can manually raise any exception, including built-ins like `raise ValueError(\"Invalid input\")`."
+    },
+    {
+        "id": "py_ch6_27",
+        "text": "Which exception handles attribute access failure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AccessError"
+            },
+            {
+                "id": "b",
+                "text": "AttributeError"
+            },
+            {
+                "id": "c",
+                "text": "NameError"
+            },
+            {
+                "id": "d",
+                "text": "MemberError"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Attribute missing.",
+        "explanation": "`AttributeError` is raised when an attribute reference or assignment fails."
+    },
+    {
+        "id": "py_ch6_28",
+        "text": "What is tracepack?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A list of files."
+            },
+            {
+                "id": "b",
+                "text": "A specialized logger."
+            },
+            {
+                "id": "c",
+                "text": "Stack trace information printed when an exception occurs."
+            },
+            {
+                "id": "d",
+                "text": "A backup tool."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Trace back.",
+        "explanation": "A traceback (or stack trace) provides information about the active stack frames when the exception occurred."
+    },
+    {
+        "id": "py_ch6_29",
+        "text": "What is the standard indentation for Python code?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2 spaces"
+            },
+            {
+                "id": "b",
+                "text": "4 spaces"
+            },
+            {
+                "id": "c",
+                "text": "1 tab"
+            },
+            {
+                "id": "d",
+                "text": "8 spaces"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "PEP 8 recommendation.",
+        "explanation": "PEP 8 recommends using 4 spaces per indentation level."
+    },
+    {
+        "id": "py_ch6_30",
+        "text": "Does `finally` execute if `return` is used in `try`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if there is an error."
+            },
+            {
+                "id": "d",
+                "text": "Depends on Python version."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It is always executed.",
+        "explanation": "The `finally` clause is executed even if a `return` statement is encountered in the `try` block."
+    }
+]

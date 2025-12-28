@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch1_1",
+        "text": "Which of the following commands is used to output text to the console in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "echo()"
+            },
+            {
+                "id": "b",
+                "text": "print()"
+            },
+            {
+                "id": "c",
+                "text": "console.log()"
+            },
+            {
+                "id": "d",
+                "text": "printf()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It is a built-in function that 'prints' to the standard output.",
+        "explanation": "The `print()` function is the standard way to display output in Python."
+    },
+    {
+        "id": "py_ch1_2",
+        "text": "What is the correct file extension for Python source files?",
+        "options": [
+            {
+                "id": "a",
+                "text": ".python"
+            },
+            {
+                "id": "b",
+                "text": ".pyt"
+            },
+            {
+                "id": "c",
+                "text": ".pt"
+            },
+            {
+                "id": "d",
+                "text": ".py"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "It is a two-letter extension derived from the language name.",
+        "explanation": "Python source code is saved in files with the `.py` extension."
+    },
+    {
+        "id": "py_ch1_3",
+        "text": "Which of the following is NOT a valid variable name in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "my_var"
+            },
+            {
+                "id": "b",
+                "text": "_variable"
+            },
+            {
+                "id": "c",
+                "text": "2var"
+            },
+            {
+                "id": "d",
+                "text": "var2"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Variable names cannot start with a number.",
+        "explanation": "Python variable names must start with a letter or an underscore, not a number."
+    },
+    {
+        "id": "py_ch1_4",
+        "text": "Which symbol is used for single-line comments in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "//"
+            },
+            {
+                "id": "b",
+                "text": "/*"
+            },
+            {
+                "id": "c",
+                "text": "#"
+            },
+            {
+                "id": "d",
+                "text": "--"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It is the hash symbol.",
+        "explanation": "The `#` symbol is used to denote the start of a single-line comment in Python."
+    },
+    {
+        "id": "py_ch1_5",
+        "text": "What is the result of `type(10)` in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<class 'float'>"
+            },
+            {
+                "id": "b",
+                "text": "<class 'int'>"
+            },
+            {
+                "id": "c",
+                "text": "<class 'number'>"
+            },
+            {
+                "id": "d",
+                "text": "<class 'integer'>"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "10 is a whole number without a decimal point.",
+        "explanation": "The value `10` is an integer, so `type(10)` returns `<class 'int'>`."
+    },
+    {
+        "id": "py_ch1_6",
+        "text": "Which operator is used for exponentiation (power) in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "^"
+            },
+            {
+                "id": "b",
+                "text": "**"
+            },
+            {
+                "id": "c",
+                "text": "^^"
+            },
+            {
+                "id": "d",
+                "text": "pow"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It involves two asterisks.",
+        "explanation": "The `**` operator is used for exponentiation in Python (e.g., `2**3` is 8)."
+    },
+    {
+        "id": "py_ch1_7",
+        "text": "What is the output of `10 // 3` in Python 3?",
+        "options": [
+            {
+                "id": "a",
+                "text": "3.333"
+            },
+            {
+                "id": "b",
+                "text": "3.0"
+            },
+            {
+                "id": "c",
+                "text": "3"
+            },
+            {
+                "id": "d",
+                "text": "4"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Double forward slash performs floor division.",
+        "explanation": "The `//` operator performs floor division, discarding the fractional part. `10 // 3` matches 3 into 10 three times."
+    },
+    {
+        "id": "py_ch1_8",
+        "text": "Which of the following is a mutable data type?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Tuple"
+            },
+            {
+                "id": "b",
+                "text": "String"
+            },
+            {
+                "id": "c",
+                "text": "List"
+            },
+            {
+                "id": "d",
+                "text": "Integer"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "This type allows you to add, remove, or change elements after creation.",
+        "explanation": "Lists are mutable sequences in Python. Tuples, strings, and numbers are immutable."
+    },
+    {
+        "id": "py_ch1_9",
+        "text": "What is the correct syntax for an 'if' statement in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "if (x > 5) { }"
+            },
+            {
+                "id": "b",
+                "text": "if x > 5:"
+            },
+            {
+                "id": "c",
+                "text": "if x > 5 then"
+            },
+            {
+                "id": "d",
+                "text": "if [x > 5]"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Python uses a colon to start a block.",
+        "explanation": "Python does not use parentheses (mandatory) or curly braces for blocks. The condition is followed by a colon."
+    },
+    {
+        "id": "py_ch1_10",
+        "text": "How do you break out of the nearest enclosing loop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "stop"
+            },
+            {
+                "id": "b",
+                "text": "exit"
+            },
+            {
+                "id": "c",
+                "text": "break"
+            },
+            {
+                "id": "d",
+                "text": "return"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The keyword suggests 'breaking' the loop cycle.",
+        "explanation": "The `break` statement terminates the nearest enclosing loop immediately."
+    },
+    {
+        "id": "py_ch1_11",
+        "text": "What happens if you use `continue` statement inside a loop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Terminates the loop"
+            },
+            {
+                "id": "b",
+                "text": "Skips the rest of the code in the current iteration"
+            },
+            {
+                "id": "c",
+                "text": "Restarts the loop from the beginning"
+            },
+            {
+                "id": "d",
+                "text": "Exits the program"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It continues to the next iteration directly.",
+        "explanation": "`continue` skips the remaining statements in the current iteration and jumps to the next iteration of the loop."
+    },
+    {
+        "id": "py_ch1_12",
+        "text": "Which function is used to accept user input?",
+        "options": [
+            {
+                "id": "a",
+                "text": "get()"
+            },
+            {
+                "id": "b",
+                "text": "scan()"
+            },
+            {
+                "id": "c",
+                "text": "input()"
+            },
+            {
+                "id": "d",
+                "text": "read()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The function name describes taking 'input' from the user.",
+        "explanation": "`input()` pauses execution and waits for the user to type something."
+    },
+    {
+        "id": "py_ch1_13",
+        "text": "What is the output of `bool({})`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "None"
+            },
+            {
+                "id": "d",
+                "text": "Error"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Empty containers are considered 'falsy'.",
+        "explanation": "In Python, empty dictionaries, lists, tuples, and strings evaluate to `False` in a boolean context."
+    },
+    {
+        "id": "py_ch1_14",
+        "text": "How is a code block defined in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using curly braces {}"
+            },
+            {
+                "id": "b",
+                "text": "Using indentation"
+            },
+            {
+                "id": "c",
+                "text": "Using begin and end keywords"
+            },
+            {
+                "id": "d",
+                "text": "Using brackets []"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Python uses whitespace to define structure.",
+        "explanation": "Python relies on indentation (whitespace) to define the scope of loops, functions, and conditionals."
+    },
+    {
+        "id": "py_ch1_15",
+        "text": "Which logical operator returns True only if both operands are True?",
+        "options": [
+            {
+                "id": "a",
+                "text": "or"
+            },
+            {
+                "id": "b",
+                "text": "not"
+            },
+            {
+                "id": "c",
+                "text": "and"
+            },
+            {
+                "id": "d",
+                "text": "xor"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Both conditions must be met.",
+        "explanation": "The `and` operator requires both operands to be True for the result to be True."
+    },
+    {
+        "id": "py_ch1_16",
+        "text": "What is the result of `3 < 5 and 5 < 3`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "One of the conditions is false.",
+        "explanation": "`3 < 5` is True, but `5 < 3` is False. Since `and` requires both to be True, the result is False."
+    },
+    {
+        "id": "py_ch1_17",
+        "text": "Which statement allows checking multiple conditions sequentially?",
+        "options": [
+            {
+                "id": "a",
+                "text": "else-if"
+            },
+            {
+                "id": "b",
+                "text": "elseif"
+            },
+            {
+                "id": "c",
+                "text": "elif"
+            },
+            {
+                "id": "d",
+                "text": "switch"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's a contraction of 'else if'.",
+        "explanation": "Python uses the `elif` keyword for chained conditional checks."
+    },
+    {
+        "id": "py_ch1_18",
+        "text": "What does the `range(5)` function produce?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Numbers 1, 2, 3, 4, 5"
+            },
+            {
+                "id": "b",
+                "text": "Numbers 0, 1, 2, 3, 4, 5"
+            },
+            {
+                "id": "c",
+                "text": "Numbers 0, 1, 2, 3, 4"
+            },
+            {
+                "id": "d",
+                "text": "Numbers 1, 2, 3, 4"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It starts at 0 by default and is exclusive of the stop value.",
+        "explanation": "`range(5)` generates a sequence starting from 0 up to, but not including, 5 (i.e., 0, 1, 2, 3, 4)."
+    },
+    {
+        "id": "py_ch1_19",
+        "text": "What is the result of `not True`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "None"
+            },
+            {
+                "id": "d",
+                "text": "1"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It inverts the boolean value.",
+        "explanation": "The `not` operator inverts the boolean value, so `not True` is `False`."
+    },
+    {
+        "id": "py_ch1_20",
+        "text": "What is the correct way to assign the same value to multiple variables?",
+        "options": [
+            {
+                "id": "a",
+                "text": "x, y, z = 1"
+            },
+            {
+                "id": "b",
+                "text": "x = y = z = 1"
+            },
+            {
+                "id": "c",
+                "text": "x = 1, y = 1, z = 1"
+            },
+            {
+                "id": "d",
+                "text": "x : y : z = 1"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "You can chain assignment operators.",
+        "explanation": "Python allows chained assignment: `x = y = z = 1` sets all three variables to 1."
+    },
+    {
+        "id": "py_ch1_21",
+        "text": "Which of the following creates an infinite loop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "while False:"
+            },
+            {
+                "id": "b",
+                "text": "for i in range(1000):"
+            },
+            {
+                "id": "c",
+                "text": "while True:"
+            },
+            {
+                "id": "d",
+                "text": "do while(True):"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The condition must always remain true.",
+        "explanation": "`while True:` creates a loop that never terminates unless a `break` statement is encountered or the program is interrupted."
+    },
+    {
+        "id": "py_ch1_22",
+        "text": "What is the value of `x` after `x = 5; x += 3`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "5"
+            },
+            {
+                "id": "b",
+                "text": "3"
+            },
+            {
+                "id": "c",
+                "text": "8"
+            },
+            {
+                "id": "d",
+                "text": "15"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "This is an in-place addition operator.",
+        "explanation": "`x += 3` is equivalent to `x = x + 3`. If x was 5, it becomes 8."
+    },
+    {
+        "id": "py_ch1_23",
+        "text": "Which operator tests for object identity?",
+        "options": [
+            {
+                "id": "a",
+                "text": "=="
+            },
+            {
+                "id": "b",
+                "text": "==="
+            },
+            {
+                "id": "c",
+                "text": "is"
+            },
+            {
+                "id": "d",
+                "text": "id"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It checks if two references point to the same object in memory.",
+        "explanation": "The `is` operator checks for object identity (if they share the same memory address), whereas `==` checks for value equality."
+    },
+    {
+        "id": "py_ch1_24",
+        "text": "What determines the precedence of operators in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Left to right order only"
+            },
+            {
+                "id": "b",
+                "text": "Parentheses and standard mathematical rules (PEMDAS)"
+            },
+            {
+                "id": "c",
+                "text": "Python version"
+            },
+            {
+                "id": "d",
+                "text": "Randomly determined"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parentheses have the highest priority.",
+        "explanation": "Python follows operator precedence rules similar to standard mathematics (PEMDAS), which can be overridden by parentheses."
+    },
+    {
+        "id": "py_ch1_25",
+        "text": "What is the result of `10 % 3`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "3"
+            },
+            {
+                "id": "b",
+                "text": "1"
+            },
+            {
+                "id": "c",
+                "text": "3.33"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "This is the modulo operator.",
+        "explanation": "`%` returns the remainder of the division. 10 divided by 3 is 3 with a remainder of 1."
+    },
+    {
+        "id": "py_ch1_26",
+        "text": "Which of these is a Python keyword for a Null value?",
+        "options": [
+            {
+                "id": "a",
+                "text": "null"
+            },
+            {
+                "id": "b",
+                "text": "NULL"
+            },
+            {
+                "id": "c",
+                "text": "None"
+            },
+            {
+                "id": "d",
+                "text": "nil"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It starts with a capital 'N'.",
+        "explanation": "`None` is the keyword used in Python to define a null value or no value."
+    },
+    {
+        "id": "py_ch1_27",
+        "text": "How do you iterate over a list `items` along with the index?",
+        "options": [
+            {
+                "id": "a",
+                "text": "for i in items:"
+            },
+            {
+                "id": "b",
+                "text": "for i, item in enumerate(items):"
+            },
+            {
+                "id": "c",
+                "text": "for i in range(items):"
+            },
+            {
+                "id": "d",
+                "text": "for item in items with index:"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use the built-in function that 'enumerates' the items.",
+        "explanation": "`enumerate()` allows you to loop over an iterable and have an automatic counter (index) alongside the values."
+    },
+    {
+        "id": "py_ch1_28",
+        "text": "What does the `id()` function return?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The type of the object"
+            },
+            {
+                "id": "b",
+                "text": "The size of the object"
+            },
+            {
+                "id": "c",
+                "text": "The unique identifier (memory address) of the object"
+            },
+            {
+                "id": "d",
+                "text": "The value of the object"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Think of it as the object's identity card in memory.",
+        "explanation": "`id()` returns a unique integer for the object, which is its memory address in CPython."
+    },
+    {
+        "id": "py_ch1_29",
+        "text": "Which statement is used to handle exceptions/errors?",
+        "options": [
+            {
+                "id": "a",
+                "text": "catch"
+            },
+            {
+                "id": "b",
+                "text": "handle"
+            },
+            {
+                "id": "c",
+                "text": "except"
+            },
+            {
+                "id": "d",
+                "text": "error"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It is paired with `try`.",
+        "explanation": "Python uses `try` and `except` blocks to handle exceptions."
+    },
+    {
+        "id": "py_ch1_30",
+        "text": "What is the output of `print(r'\\n')`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A new line"
+            },
+            {
+                "id": "b",
+                "text": "\\n"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "Empty string"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The 'r' stands for raw string.",
+        "explanation": "Prefixing a string with `r` makes it a raw string, where backslashes are treated as literal characters. So it prints `\\n` literally, not a newline."
+    }
+]

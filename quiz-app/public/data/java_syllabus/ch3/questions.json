@@ -1,0 +1,752 @@
+[
+    {
+        "id": "java_ch3_1",
+        "text": "Which class is the superclass of all exceptions and errors in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "java.lang.Exception"
+            },
+            {
+                "id": "b",
+                "text": "java.lang.Throwable"
+            },
+            {
+                "id": "c",
+                "text": "java.lang.Error"
+            },
+            {
+                "id": "d",
+                "text": "java.lang.Object"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Able to be thrown.",
+        "explanation": "`Throwable` is the superclass of all errors and exceptions in the Java language."
+    },
+    {
+        "id": "java_ch3_2",
+        "text": "Which keyword is used to explicitly throw an exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "throws"
+            },
+            {
+                "id": "b",
+                "text": "throw"
+            },
+            {
+                "id": "c",
+                "text": "raise"
+            },
+            {
+                "id": "d",
+                "text": "catch"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Singular.",
+        "explanation": "The `throw` keyword is used to explicitly throw an exception from a method or block of code."
+    },
+    {
+        "id": "java_ch3_3",
+        "text": "What is a Checked Exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An exception checked at runtime."
+            },
+            {
+                "id": "b",
+                "text": "An exception checked at compile-time."
+            },
+            {
+                "id": "c",
+                "text": "An error."
+            },
+            {
+                "id": "d",
+                "text": "A RuntimeException."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Verified by compiler.",
+        "explanation": "Checked exceptions are checked at compile-time. The program must explicitly handle them (try-catch) or declare them (throws)."
+    },
+    {
+        "id": "java_ch3_4",
+        "text": "Which block is guaranteed to execute regardless of exception occurrence?",
+        "options": [
+            {
+                "id": "a",
+                "text": "catch"
+            },
+            {
+                "id": "b",
+                "text": "try"
+            },
+            {
+                "id": "c",
+                "text": "finally"
+            },
+            {
+                "id": "d",
+                "text": "final"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "At the end.",
+        "explanation": "The `finally` block is executed after the try block, regardless of whether an exception is ignored or handled."
+    },
+    {
+        "id": "java_ch3_5",
+        "text": "What is the difference between `throw` and `throws`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No difference."
+            },
+            {
+                "id": "b",
+                "text": "`throw` is used in method signature, `throws` inside block."
+            },
+            {
+                "id": "c",
+                "text": "`throw` is used to throw an exception, `throws` declares an exception."
+            },
+            {
+                "id": "d",
+                "text": "`throws` is for checked, `throw` for unchecked."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Action vs Declaration.",
+        "explanation": "`throw` is an action to throw an exception object. `throws` is used in a method signature to declare that the method might throw exceptions."
+    },
+    {
+        "id": "java_ch3_6",
+        "text": "Which exception implies a condition from which reasonable application might not recover?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Exception"
+            },
+            {
+                "id": "b",
+                "text": "Error"
+            },
+            {
+                "id": "c",
+                "text": "RuntimeException"
+            },
+            {
+                "id": "d",
+                "text": "Timeout"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Serious problem.",
+        "explanation": "`Error` indicates serious problems that a reasonable application should not try to catch (e.g., OutOfMemoryError)."
+    },
+    {
+        "id": "java_ch3_7",
+        "text": "Which of these is an unchecked exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "IOException"
+            },
+            {
+                "id": "b",
+                "text": "SQLException"
+            },
+            {
+                "id": "c",
+                "text": "NullPointerException"
+            },
+            {
+                "id": "d",
+                "text": "ClassNotFoundException"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Runtime Exception.",
+        "explanation": "`NullPointerException` extends `RuntimeException`, making it an unchecked exception."
+    },
+    {
+        "id": "java_ch3_8",
+        "text": "Can we have a try block without a catch block?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No, never."
+            },
+            {
+                "id": "b",
+                "text": "Yes, if followed by finally."
+            },
+            {
+                "id": "c",
+                "text": "Yes, always."
+            },
+            {
+                "id": "d",
+                "text": "Only in interfaces."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Try-Finally.",
+        "explanation": "A `try` block must be followed by either a `catch` block or a `finally` block (or both)."
+    },
+    {
+        "id": "java_ch3_9",
+        "text": "How do you create a custom exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Extend class Main."
+            },
+            {
+                "id": "b",
+                "text": "Extend class Throwable, Exception, or RuntimeException."
+            },
+            {
+                "id": "c",
+                "text": "Implement class Exception."
+            },
+            {
+                "id": "d",
+                "text": "Use 'custom' keyword."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Inheritance.",
+        "explanation": "To create a custom exception, you define a class that extends `Exception` (for checked) or `RuntimeException` (for unchecked)."
+    },
+    {
+        "id": "java_ch3_10",
+        "text": "What happens if a method calls another method that throws a checked exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Nothing."
+            },
+            {
+                "id": "b",
+                "text": "The caller must handle it (catch) or declare it (throws)."
+            },
+            {
+                "id": "c",
+                "text": "The program crashes."
+            },
+            {
+                "id": "d",
+                "text": "It is ignored automatically."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Handle or Declare.",
+        "explanation": "The calling method must either handle the checked exception using `try-catch` or assume responsibility by declaring `throws`."
+    },
+    {
+        "id": "java_ch3_11",
+        "text": "What is try-with-resources?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A try block with parameters."
+            },
+            {
+                "id": "b",
+                "text": "Automatic resource management mechanism introduced in Java 7."
+            },
+            {
+                "id": "c",
+                "text": "A way to try multiple resources."
+            },
+            {
+                "id": "d",
+                "text": "Multithreading."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Auto close.",
+        "explanation": "Try-with-resources ensures that each resource (implementing AutoCloseable) is closed at the end of the statement."
+    },
+    {
+        "id": "java_ch3_12",
+        "text": "Which method prints the stack trace of an exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "printTrace()"
+            },
+            {
+                "id": "b",
+                "text": "showStack()"
+            },
+            {
+                "id": "c",
+                "text": "printStackTrace()"
+            },
+            {
+                "id": "d",
+                "text": "trace()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Standard method.",
+        "explanation": "`exception.printStackTrace()` prints the throwable and its backtrace to the standard error stream."
+    },
+    {
+        "id": "java_ch3_13",
+        "text": "Can you catch multiple exceptions in a single catch block?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, using pipe character | (Java 7+)."
+            },
+            {
+                "id": "c",
+                "text": "Yes, using commas."
+            },
+            {
+                "id": "d",
+                "text": "Only if they are siblings."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Multi-catch.",
+        "explanation": "Java 7 introduced multi-catch: `catch (IOException | SQLException ex)`."
+    },
+    {
+        "id": "java_ch3_14",
+        "text": "Which exception is thrown when parsing an invalid number string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NumberFormatException"
+            },
+            {
+                "id": "b",
+                "text": "IllegalNumberException"
+            },
+            {
+                "id": "c",
+                "text": "ParseException"
+            },
+            {
+                "id": "d",
+                "text": "FormatError"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Number format.",
+        "explanation": "`NumberFormatException` is thrown when attempting to convert a string that doesn't have the appropriate format into a numeric type."
+    },
+    {
+        "id": "java_ch3_15",
+        "text": "Does the order of catch blocks matter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes, subclasses must come before superclasses."
+            },
+            {
+                "id": "c",
+                "text": "Yes, superclasses must come before subclasses."
+            },
+            {
+                "id": "d",
+                "text": "Only for errors."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Specific to General.",
+        "explanation": "If you catch a superclass exception first, the subclass catch block will never be reached (unreachable code error). Specific exceptions usually go first."
+    },
+    {
+        "id": "java_ch3_16",
+        "text": "What happens in a finally block if the try block explicitly returns?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finally is skipped."
+            },
+            {
+                "id": "b",
+                "text": "Finally executes before the method actually returns."
+            },
+            {
+                "id": "c",
+                "text": "Error."
+            },
+            {
+                "id": "d",
+                "text": "Finally executes after return."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Always executes.",
+        "explanation": "The `finally` block executes right before the actual return provided by the `try` block."
+    },
+    {
+        "id": "java_ch3_17",
+        "text": "What is `java.io.FileNotFoundException`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An Error."
+            },
+            {
+                "id": "b",
+                "text": "An Unchecked Exception."
+            },
+            {
+                "id": "c",
+                "text": "A Checked Exception."
+            },
+            {
+                "id": "d",
+                "text": "A Runtime Exception."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "IO implies checking.",
+        "explanation": "`IOException` and its subclasses (like `FileNotFoundException`) are checked exceptions."
+    },
+    {
+        "id": "java_ch3_18",
+        "text": "Which keyword prevents an exception from being handled?",
+        "options": [
+            {
+                "id": "a",
+                "text": "final"
+            },
+            {
+                "id": "b",
+                "text": "void"
+            },
+            {
+                "id": "c",
+                "text": "Does not exist."
+            },
+            {
+                "id": "d",
+                "text": "block"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "You can't really prevent handling.",
+        "explanation": "There is no keyword to prevent exception handling. `System.exit(0)` is the only way to stop `finally`."
+    },
+    {
+        "id": "java_ch3_19",
+        "text": "Which exception implies division by zero?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CalculationException"
+            },
+            {
+                "id": "b",
+                "text": "ArithmeticException"
+            },
+            {
+                "id": "c",
+                "text": "MathError"
+            },
+            {
+                "id": "d",
+                "text": "NumbersException"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Arithmetic.",
+        "explanation": "`ArithmeticException` is thrown when an exceptional arithmetic condition has occurred (e.g., divide by zero)."
+    },
+    {
+        "id": "java_ch3_20",
+        "text": "What interface must resources implement to be used in try-with-resources?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Closable"
+            },
+            {
+                "id": "b",
+                "text": "AutoCloseable"
+            },
+            {
+                "id": "c",
+                "text": "Disposable"
+            },
+            {
+                "id": "d",
+                "text": "Endable"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Auto close.",
+        "explanation": "A resource must implement the `java.lang.AutoCloseable` interface."
+    },
+    {
+        "id": "java_ch3_21",
+        "text": "Is `ArrayIndexOutOfBoundsException` checked or unchecked?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Checked"
+            },
+            {
+                "id": "b",
+                "text": "Unchecked"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "Neither"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Runtime logic error.",
+        "explanation": "It is a subclass of `RuntimeException`, so it is unchecked."
+    },
+    {
+        "id": "java_ch3_22",
+        "text": "What is the result of `System.exit(0)` in a try block on the finally block?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Finally executes normally."
+            },
+            {
+                "id": "b",
+                "text": "Finally is skipped (not executed)."
+            },
+            {
+                "id": "c",
+                "text": "Finally executes twice."
+            },
+            {
+                "id": "d",
+                "text": "Error."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "JVM shuts down.",
+        "explanation": "`System.exit(0)` terminates the JVM immediately, so `finally` block is not executed."
+    },
+    {
+        "id": "java_ch3_23",
+        "text": "What does `getCause()` method do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Returns the cause of the crash."
+            },
+            {
+                "id": "b",
+                "text": "Returns the exception that caused this exception (exception chaining)."
+            },
+            {
+                "id": "c",
+                "text": "Returns the method name."
+            },
+            {
+                "id": "d",
+                "text": "Returns the line number."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Chain.",
+        "explanation": "`getCause()` returns the cause of this throwable or null if the cause is nonexistent or unknown."
+    },
+    {
+        "id": "java_ch3_24",
+        "text": "Can we throw `Error` types?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only OutOfMemoryError."
+            },
+            {
+                "id": "d",
+                "text": "Only in main method."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "They are Throwable.",
+        "explanation": "Yes, `Error` extends `Throwable`, so you can technically throw them, though it's rarely good practice to handle/throw them manually."
+    },
+    {
+        "id": "java_ch3_25",
+        "text": "What is the output `try { return 1; } finally { return 2; }`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "2"
+            },
+            {
+                "id": "c",
+                "text": "Compilation Error"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Finally overrides.",
+        "explanation": "If `finally` block also returns a value, it overrides the return value from the `try` block."
+    },
+    {
+        "id": "java_ch3_26",
+        "text": "Which exception is commonly used for unimplemented methods?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NotImplementedException"
+            },
+            {
+                "id": "b",
+                "text": "UnsupportedOperationException"
+            },
+            {
+                "id": "c",
+                "text": "MethodNotFoundException"
+            },
+            {
+                "id": "d",
+                "text": "FutureException"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Operation not supported.",
+        "explanation": "`UnsupportedOperationException` is a standard RuntimeException to indicate that the requested operation is not supported."
+    },
+    {
+        "id": "java_ch3_27",
+        "text": "Are exceptions objects in Java?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only Checked ones."
+            },
+            {
+                "id": "d",
+                "text": "Only Errors."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Everything is an object.",
+        "explanation": "Yes, all exceptions are instances of classes extending `Throwable`."
+    },
+    {
+        "id": "java_ch3_28",
+        "text": "Which method is called if an object is cleaned up by Garbage Collector?",
+        "options": [
+            {
+                "id": "a",
+                "text": "close()"
+            },
+            {
+                "id": "b",
+                "text": "delete()"
+            },
+            {
+                "id": "c",
+                "text": "finalize()"
+            },
+            {
+                "id": "d",
+                "text": "end()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Finalize.",
+        "explanation": "`finalize()` (deprecated now) is called by GC before reclaiming the object's memory."
+    },
+    {
+        "id": "java_ch3_29",
+        "text": "What is `StackOverflowError`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Checked Exception"
+            },
+            {
+                "id": "b",
+                "text": "Runtime Exception"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "Interface"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Recursion too deep.",
+        "explanation": "It's an `Error` thrown when a stack overflow occurs because an application recurses too deeply."
+    },
+    {
+        "id": "java_ch3_30",
+        "text": "Which method sets the cause of an exception?",
+        "options": [
+            {
+                "id": "a",
+                "text": "setCause()"
+            },
+            {
+                "id": "b",
+                "text": "initCause()"
+            },
+            {
+                "id": "c",
+                "text": "addCause()"
+            },
+            {
+                "id": "d",
+                "text": "link()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Initialize cause.",
+        "explanation": "`initCause()` method initializes the cause of this throwable."
+    }
+]

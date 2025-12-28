@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch2_1",
+        "text": "Which index is used to access the first character of a string in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1"
+            },
+            {
+                "id": "b",
+                "text": "0"
+            },
+            {
+                "id": "c",
+                "text": "-1"
+            },
+            {
+                "id": "d",
+                "text": "Start"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Python uses zero-based indexing.",
+        "explanation": "In Python, like many other languages, indexing starts at 0."
+    },
+    {
+        "id": "py_ch2_2",
+        "text": "How do you check the length of a string `s`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "s.length()"
+            },
+            {
+                "id": "b",
+                "text": "length(s)"
+            },
+            {
+                "id": "c",
+                "text": "len(s)"
+            },
+            {
+                "id": "d",
+                "text": "s.size()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It is a built-in function, not a string method.",
+        "explanation": "The global built-in function `len()` returns the number of items in an object, including strings."
+    },
+    {
+        "id": "py_ch2_3",
+        "text": "Tuples are immutable. What does this mean?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They cannot be deleted."
+            },
+            {
+                "id": "b",
+                "text": "They cannot be changed after creation."
+            },
+            {
+                "id": "c",
+                "text": "They can only contain numbers."
+            },
+            {
+                "id": "d",
+                "text": "They are always sorted."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Think 'mutation' or 'change'.",
+        "explanation": "Immutable objects cannot be modified after they are created. You cannot add, remove, or change elements of a tuple."
+    },
+    {
+        "id": "py_ch2_4",
+        "text": "Which operator is used to concatenate two strings?",
+        "options": [
+            {
+                "id": "a",
+                "text": "&"
+            },
+            {
+                "id": "b",
+                "text": "."
+            },
+            {
+                "id": "c",
+                "text": "+"
+            },
+            {
+                "id": "d",
+                "text": "concat"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's the same operator used for addition.",
+        "explanation": "The `+` operator joins (concatenates) two strings together."
+    },
+    {
+        "id": "py_ch2_5",
+        "text": "What is the output of `print('Python'[-1])`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "P"
+            },
+            {
+                "id": "b",
+                "text": "n"
+            },
+            {
+                "id": "c",
+                "text": "o"
+            },
+            {
+                "id": "d",
+                "text": "Error"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Negative indices count from the end.",
+        "explanation": "Index `-1` refers to the last character of the string, which is 'n'."
+    },
+    {
+        "id": "py_ch2_6",
+        "text": "How do you create a tuple with a single element?",
+        "options": [
+            {
+                "id": "a",
+                "text": "(1)"
+            },
+            {
+                "id": "b",
+                "text": "(1,)"
+            },
+            {
+                "id": "c",
+                "text": "[1]"
+            },
+            {
+                "id": "d",
+                "text": "tuple(1)"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "A comma is crucial.",
+        "explanation": "Parentheses alone are for grouping math. To denote a tuple with one element, you strictly need a trailing comma: `(1,)`."
+    },
+    {
+        "id": "py_ch2_7",
+        "text": "What does the slice `s[1:4]` return for `s = 'Python'`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pyt"
+            },
+            {
+                "id": "b",
+                "text": "yth"
+            },
+            {
+                "id": "c",
+                "text": "ytho"
+            },
+            {
+                "id": "d",
+                "text": "Pyth"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Start at index 1 (inclusive) and stop at 4 (exclusive).",
+        "explanation": "Index 1 is 'y'. The slice goes up to but does not include index 4 ('o'). So indices 1, 2, 3 are 'y', 't', 'h'."
+    },
+    {
+        "id": "py_ch2_8",
+        "text": "Which string method converts all characters to lowercase?",
+        "options": [
+            {
+                "id": "a",
+                "text": "toLower()"
+            },
+            {
+                "id": "b",
+                "text": "lowercase()"
+            },
+            {
+                "id": "c",
+                "text": "lower()"
+            },
+            {
+                "id": "d",
+                "text": "down()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's a direct method name.",
+        "explanation": "The `.lower()` method returns a copy of the string converted to lowercase."
+    },
+    {
+        "id": "py_ch2_9",
+        "text": "What is the result of `'Hi' * 3`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hi3"
+            },
+            {
+                "id": "b",
+                "text": "HiHiHi"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "HHHiii"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "This is string repetition.",
+        "explanation": "The `*` operator, when used with a string and an integer, repeats the string that many times."
+    },
+    {
+        "id": "py_ch2_10",
+        "text": "How do you split a string `s` into a list of substrings based on a delimiter?",
+        "options": [
+            {
+                "id": "a",
+                "text": "s.explode()"
+            },
+            {
+                "id": "b",
+                "text": "s.cut()"
+            },
+            {
+                "id": "c",
+                "text": "s.split()"
+            },
+            {
+                "id": "d",
+                "text": "s.divide()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The method is named after the action of 'splitting'.",
+        "explanation": "`s.split(delimiter)` splits the string into a list. The default delimiter is whitespace."
+    },
+    {
+        "id": "py_ch2_11",
+        "text": "What method removes leading and trailing whitespace from a string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "trim()"
+            },
+            {
+                "id": "b",
+                "text": "strip()"
+            },
+            {
+                "id": "c",
+                "text": "clean()"
+            },
+            {
+                "id": "d",
+                "text": "remove()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Think of 'stripping' away the excess.",
+        "explanation": "`strip()` removes whitespace from both the beginning and end of a string."
+    },
+    {
+        "id": "py_ch2_12",
+        "text": "Which of the following creates an empty tuple?",
+        "options": [
+            {
+                "id": "a",
+                "text": "[]"
+            },
+            {
+                "id": "b",
+                "text": "{}"
+            },
+            {
+                "id": "c",
+                "text": "()"
+            },
+            {
+                "id": "d",
+                "text": "empty()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Tuples use parentheses.",
+        "explanation": "An empty pair of parentheses `()` creates an empty tuple."
+    },
+    {
+        "id": "py_ch2_13",
+        "text": "What does the `find()` method return if the substring is not found?",
+        "options": [
+            {
+                "id": "a",
+                "text": "None"
+            },
+            {
+                "id": "b",
+                "text": "Error"
+            },
+            {
+                "id": "c",
+                "text": "-1"
+            },
+            {
+                "id": "d",
+                "text": "0"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It returns a negative number to indicate failure.",
+        "explanation": "`find()` returns the lowest index of the substring, or `-1` if it is not found."
+    },
+    {
+        "id": "py_ch2_14",
+        "text": "Which formatting method allows you to use placeholders like `{}`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "f-strings"
+            },
+            {
+                "id": "b",
+                "text": "% formatting"
+            },
+            {
+                "id": "c",
+                "text": "format()"
+            },
+            {
+                "id": "d",
+                "text": "template()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It is a string method called `.format()`.",
+        "explanation": "The `str.format()` method uses curly braces `{}` as placeholders for replacement fields."
+    },
+    {
+        "id": "py_ch2_15",
+        "text": "What is an 'f-string' in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A string starting with 'f' that allows embedded expressions."
+            },
+            {
+                "id": "b",
+                "text": "A fast string."
+            },
+            {
+                "id": "c",
+                "text": "A fixed string."
+            },
+            {
+                "id": "d",
+                "text": "A function string."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Introduced in Python 3.6.",
+        "explanation": "F-strings (formatted string literals) are prefixed with `f` and allow you to embed expressions inside curly braces `{}`."
+    },
+    {
+        "id": "py_ch2_16",
+        "text": "What happens when you try to change a value in a tuple? e.g., `t[0] = 5`",
+        "options": [
+            {
+                "id": "a",
+                "text": "The value changes."
+            },
+            {
+                "id": "b",
+                "text": "TypeError"
+            },
+            {
+                "id": "c",
+                "text": "ValueError"
+            },
+            {
+                "id": "d",
+                "text": "Nothing happens."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Tuples are immutable.",
+        "explanation": "Attempting to assign an item in a tuple raises a `TypeError` because tuples do not support item assignment."
+    },
+    {
+        "id": "py_ch2_17",
+        "text": "Which method is used to convert a tuple to a list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "convert()"
+            },
+            {
+                "id": "b",
+                "text": "toList()"
+            },
+            {
+                "id": "c",
+                "text": "list()"
+            },
+            {
+                "id": "d",
+                "text": "tuple_to_list()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Use the list constructor.",
+        "explanation": "The `list()` constructor takes an iterable (like a tuple) and creates a new list from it."
+    },
+    {
+        "id": "py_ch2_18",
+        "text": "What is the result of `'123'.isdigit()`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "It checks if all characters are digits.",
+        "explanation": "`.isdigit()` returns True if all characters in the string are digits."
+    },
+    {
+        "id": "py_ch2_19",
+        "text": "How can you count the occurrences of a character 'a' in a string `s`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "s.find('a')"
+            },
+            {
+                "id": "b",
+                "text": "s.count('a')"
+            },
+            {
+                "id": "c",
+                "text": "count(s, 'a')"
+            },
+            {
+                "id": "d",
+                "text": "s.num('a')"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use the count method.",
+        "explanation": "The `.count(substring)` method returns the number of non-overlapping occurrences of a substring."
+    },
+    {
+        "id": "py_ch2_20",
+        "text": "What slice represents the whole string but reversed?",
+        "options": [
+            {
+                "id": "a",
+                "text": "s[::-1]"
+            },
+            {
+                "id": "b",
+                "text": "s[0:-1]"
+            },
+            {
+                "id": "c",
+                "text": "s[-1:0]"
+            },
+            {
+                "id": "d",
+                "text": "s[1:1]"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Step value of -1.",
+        "explanation": "A slice `[::-1]` has a default start and end, but a step of -1, which iterates the sequence backwards."
+    },
+    {
+        "id": "py_ch2_21",
+        "text": "Can a tuple contain other tuples?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if they are the same size."
+            },
+            {
+                "id": "d",
+                "text": "Only in Python 2."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Nesting is allowed.",
+        "explanation": "Tuples can contain any objects, including other tuples (nested tuples)."
+    },
+    {
+        "id": "py_ch2_22",
+        "text": "What is the output of `'abc'.upper()`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Abc"
+            },
+            {
+                "id": "b",
+                "text": "ABC"
+            },
+            {
+                "id": "c",
+                "text": "abc"
+            },
+            {
+                "id": "d",
+                "text": "A-B-C"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Converts entire string to upper case.",
+        "explanation": "`.upper()` converts all characters in the string to uppercase."
+    },
+    {
+        "id": "py_ch2_23",
+        "text": "Which is correct string escaping for a single quote inside a single-quoted string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "'I\\'m'"
+            },
+            {
+                "id": "b",
+                "text": "'I'm'"
+            },
+            {
+                "id": "c",
+                "text": "'I\"m'"
+            },
+            {
+                "id": "d",
+                "text": "'I/m'"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Use the backslash.",
+        "explanation": "The backslash `\\` is the escape character. `\\'` represents a literal single quote."
+    },
+    {
+        "id": "py_ch2_24",
+        "text": "What method replaces occurrences of a substring with another string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "swap()"
+            },
+            {
+                "id": "b",
+                "text": "change()"
+            },
+            {
+                "id": "c",
+                "text": "replace()"
+            },
+            {
+                "id": "d",
+                "text": "switch()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The name is literally the action.",
+        "explanation": "`replace(old, new)` returns a copy of the string with all occurrences of substring `old` replaced by `new`."
+    },
+    {
+        "id": "py_ch2_25",
+        "text": "What is the result of `' '.join(['a', 'b', 'c'])`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "'abc'"
+            },
+            {
+                "id": "b",
+                "text": "'a,b,c'"
+            },
+            {
+                "id": "c",
+                "text": "'a b c'"
+            },
+            {
+                "id": "d",
+                "text": "['a', 'b', 'c']"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The string calling the method is the separator.",
+        "explanation": "`.join()` concatenates the list elements using the string it was called on (a space in this case) as a separator."
+    },
+    {
+        "id": "py_ch2_26",
+        "text": "What does `s.startswith('Py')` return if `s = 'Python'`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "True"
+            },
+            {
+                "id": "b",
+                "text": "False"
+            },
+            {
+                "id": "c",
+                "text": "Error"
+            },
+            {
+                "id": "d",
+                "text": "'Py'"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Does it start with those letters?",
+        "explanation": "`.startswith()` returns `True` if the string starts with the specified prefix."
+    },
+    {
+        "id": "py_ch2_27",
+        "text": "Which of these is NOT a string formatting method in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "%-formatting"
+            },
+            {
+                "id": "b",
+                "text": "str.format()"
+            },
+            {
+                "id": "c",
+                "text": "f-strings"
+            },
+            {
+                "id": "d",
+                "text": "make_string()"
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "make_string is not standard.",
+        "explanation": "`make_string()` is not a standard Python string formatting method."
+    },
+    {
+        "id": "py_ch2_28",
+        "text": "How do you capitalize only the first character of a string?",
+        "options": [
+            {
+                "id": "a",
+                "text": "uppercase()"
+            },
+            {
+                "id": "b",
+                "text": "capitalize()"
+            },
+            {
+                "id": "c",
+                "text": "title()"
+            },
+            {
+                "id": "d",
+                "text": "start()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It makes the first letter capital and the rest lower.",
+        "explanation": "`.capitalize()` creates a copy with the first character capitalized and the rest lowercased. `.title()` capitalizes every word."
+    },
+    {
+        "id": "py_ch2_29",
+        "text": "Can you unpack a tuple into variables? e.g., `x, y = (1, 2)`",
+        "options": [
+            {
+                "id": "a",
+                "text": "No"
+            },
+            {
+                "id": "b",
+                "text": "Yes"
+            },
+            {
+                "id": "c",
+                "text": "Only if mutable"
+            },
+            {
+                "id": "d",
+                "text": "Only in functions"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "This is a common Python feature.",
+        "explanation": "Tuple unpacking allows you to assign elements of a tuple (or list) to individual variables in a single statement."
+    },
+    {
+        "id": "py_ch2_30",
+        "text": "What is the correct way to check if a substring 'on' exists in `s = 'Python'`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "'on' in s"
+            },
+            {
+                "id": "b",
+                "text": "s.contains('on')"
+            },
+            {
+                "id": "c",
+                "text": "s.has('on')"
+            },
+            {
+                "id": "d",
+                "text": "exists('on', s)"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Use the 'in' keyword.",
+        "explanation": "The `in` keyword checks for membership. `'on' in s` evaluates to `True`."
+    }
+]

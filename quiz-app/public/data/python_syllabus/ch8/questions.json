@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch8_1",
+        "text": "Which library is commonly used for making HTTP requests in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "http"
+            },
+            {
+                "id": "b",
+                "text": "fetch"
+            },
+            {
+                "id": "c",
+                "text": "requests"
+            },
+            {
+                "id": "d",
+                "text": "urllib2"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's straightforward 'requests'.",
+        "explanation": "The `requests` library is the de facto standard for making HTTP requests in Python."
+    },
+    {
+        "id": "py_ch8_2",
+        "text": "Which Python framework is known as a 'micro-framework'?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Django"
+            },
+            {
+                "id": "b",
+                "text": "Flask"
+            },
+            {
+                "id": "c",
+                "text": "Pyramid"
+            },
+            {
+                "id": "d",
+                "text": "FastAPI"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Small flask.",
+        "explanation": "Flask is classified as a micro-framework because it does not require particular tools or libraries (like a DB abstraction layer) by default."
+    },
+    {
+        "id": "py_ch8_3",
+        "text": "Which framework follows the 'Batteries Included' philosophy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Flask"
+            },
+            {
+                "id": "b",
+                "text": "Django"
+            },
+            {
+                "id": "c",
+                "text": "Bottle"
+            },
+            {
+                "id": "d",
+                "text": "Tornado"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "The big one.",
+        "explanation": "Django follows the 'Batteries Included' philosophy, providing everything you need (ORM, auth, admin) out of the box."
+    },
+    {
+        "id": "py_ch8_4",
+        "text": "What tool is used for Web Scraping to extract data from HTML?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BeautifulSoup"
+            },
+            {
+                "id": "b",
+                "text": "PrettyXML"
+            },
+            {
+                "id": "c",
+                "text": "HTMLParser"
+            },
+            {
+                "id": "d",
+                "text": "WebReader"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "A beautiful soup of tags.",
+        "explanation": "BeautifulSoup is a Python library for pulling data out of HTML and XML files."
+    },
+    {
+        "id": "py_ch8_5",
+        "text": "What is Scrapy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A text editor."
+            },
+            {
+                "id": "b",
+                "text": "A fast, high-level web crawling framework."
+            },
+            {
+                "id": "c",
+                "text": "A database."
+            },
+            {
+                "id": "d",
+                "text": "A broken piece of code."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Crawling framework.",
+        "explanation": "Scrapy is an open source and collaborative framework for extracting the data you need from websites (crawling)."
+    },
+    {
+        "id": "py_ch8_6",
+        "text": "Which SQL database is built-in to Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MySQL"
+            },
+            {
+                "id": "b",
+                "text": "PostgreSQL"
+            },
+            {
+                "id": "c",
+                "text": "SQLite"
+            },
+            {
+                "id": "d",
+                "text": "Oracle"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Lightweight SQL.",
+        "explanation": "Python includes the `sqlite3` module in its standard library, allowing valid SQL operations without a separate server."
+    },
+    {
+        "id": "py_ch8_7",
+        "text": "How do you define a route in Flask?",
+        "options": [
+            {
+                "id": "a",
+                "text": "@app.route('/path')"
+            },
+            {
+                "id": "b",
+                "text": "app.add_route('/path')"
+            },
+            {
+                "id": "c",
+                "text": "def route('/path'):"
+            },
+            {
+                "id": "d",
+                "text": "Route('/path')"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Decorator on the app object.",
+        "explanation": "Flask uses the `@app.route()` decorator to bind a function to a URL."
+    },
+    {
+        "id": "py_ch8_8",
+        "text": "What is an ORM?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Object Relational Mapper"
+            },
+            {
+                "id": "b",
+                "text": "Order Record Manager"
+            },
+            {
+                "id": "c",
+                "text": "Online Resource Monitor"
+            },
+            {
+                "id": "d",
+                "text": "Operational Request Maker"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Mapping objects to relations.",
+        "explanation": "ORM (Object Relational Mapper) allows you to interact with your database using objects instead of writing raw SQL."
+    },
+    {
+        "id": "py_ch8_9",
+        "text": "Which standard library module is used for parsing URLs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "urlparse"
+            },
+            {
+                "id": "b",
+                "text": "urllib"
+            },
+            {
+                "id": "c",
+                "text": "http.url"
+            },
+            {
+                "id": "d",
+                "text": "requests.url"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "URL library.",
+        "explanation": "`urllib` (specifically `urllib.parse`) is the standard Python module for parsing URLs."
+    },
+    {
+        "id": "py_ch8_10",
+        "text": "What is a major difference between Flask and Django?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Flask uses Python, Django uses Java."
+            },
+            {
+                "id": "b",
+                "text": "Django provides an admin interface, Flask does not by default."
+            },
+            {
+                "id": "c",
+                "text": "Flask is faster than Django."
+            },
+            {
+                "id": "d",
+                "text": "Django is for microservices only."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Admin panel.",
+        "explanation": "Django comes with a built-in, ready-to-use Admin interface. Flask does not include this by default."
+    },
+    {
+        "id": "py_ch8_11",
+        "text": "How do you connect to a SQLite database in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "sqlite.connect()"
+            },
+            {
+                "id": "b",
+                "text": "sqlite3.connect('db.sqlite')"
+            },
+            {
+                "id": "c",
+                "text": "db.open('sqlite')"
+            },
+            {
+                "id": "d",
+                "text": "connect('sqlite')"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Use the sqlite3 module.",
+        "explanation": "`sqlite3.connect('filename')` establishes a connection to a valid SQLite 3 database file."
+    },
+    {
+        "id": "py_ch8_12",
+        "text": "What is WSGI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Web Socket Gateway Interface"
+            },
+            {
+                "id": "b",
+                "text": "Web Server Gateway Interface"
+            },
+            {
+                "id": "c",
+                "text": "Wide System Graphic Interface"
+            },
+            {
+                "id": "d",
+                "text": "Web Standard General Interface"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Server to Application interface.",
+        "explanation": "WSGI (Web Server Gateway Interface) is a standard interface between web servers and Python web applications/frameworks."
+    },
+    {
+        "id": "py_ch8_13",
+        "text": "What status code indicates a successful HTTP request?",
+        "options": [
+            {
+                "id": "a",
+                "text": "404"
+            },
+            {
+                "id": "b",
+                "text": "500"
+            },
+            {
+                "id": "c",
+                "text": "200"
+            },
+            {
+                "id": "d",
+                "text": "301"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "OK.",
+        "explanation": "Status code 200 (OK) indicates that the request has succeeded."
+    },
+    {
+        "id": "py_ch8_14",
+        "text": "Which attribute of the `response` object in Requests contains the text content?",
+        "options": [
+            {
+                "id": "a",
+                "text": "response.body"
+            },
+            {
+                "id": "b",
+                "text": "response.content_text"
+            },
+            {
+                "id": "c",
+                "text": "response.text"
+            },
+            {
+                "id": "d",
+                "text": "response.string"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's the text.",
+        "explanation": "`response.text` returns the content of the response, in unicode (decoded)."
+    },
+    {
+        "id": "py_ch8_15",
+        "text": "What is the purpose of a virtual environment in Python web development?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To run Python faster."
+            },
+            {
+                "id": "b",
+                "text": "To isolate project dependencies."
+            },
+            {
+                "id": "c",
+                "text": "To hide code."
+            },
+            {
+                "id": "d",
+                "text": "To simulate a server."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Isolation.",
+        "explanation": "Virtual environments allow different projects to have different dependencies (libraries) without conflict."
+    },
+    {
+        "id": "py_ch8_16",
+        "text": "Which command creates a new Django project?",
+        "options": [
+            {
+                "id": "a",
+                "text": "django-admin startproject name"
+            },
+            {
+                "id": "b",
+                "text": "django create project"
+            },
+            {
+                "id": "c",
+                "text": "flask init name"
+            },
+            {
+                "id": "d",
+                "text": "python new django"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "django-admin command.",
+        "explanation": "`django-admin startproject [name]` is the command to create a new Django project directory structure."
+    },
+    {
+        "id": "py_ch8_17",
+        "text": "What is a 'cursor' in database terms?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The mouse pointer."
+            },
+            {
+                "id": "b",
+                "text": "A control structure used to traverse and process database records."
+            },
+            {
+                "id": "c",
+                "text": "A type of table."
+            },
+            {
+                "id": "d",
+                "text": "A deletion tool."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Traverses records.",
+        "explanation": "A database cursor is a control structure that enables traversal over the records in a database."
+    },
+    {
+        "id": "py_ch8_18",
+        "text": "What is REST?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Relational Engine State Transfer"
+            },
+            {
+                "id": "b",
+                "text": "Representational State Transfer"
+            },
+            {
+                "id": "c",
+                "text": "Rapid Execution Status Tool"
+            },
+            {
+                "id": "d",
+                "text": "Remote Server Transfer"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Architecture style.",
+        "explanation": "REST stands for Representational State Transfer, an architectural style for providing standards between computer systems on the web."
+    },
+    {
+        "id": "py_ch8_19",
+        "text": "Which Python library is often used for asynchronous web scraping?",
+        "options": [
+            {
+                "id": "a",
+                "text": "requests"
+            },
+            {
+                "id": "b",
+                "text": "aiohttp"
+            },
+            {
+                "id": "c",
+                "text": "pandas"
+            },
+            {
+                "id": "d",
+                "text": "numpy"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Async I/O HTTP.",
+        "explanation": "`aiohttp` is an asynchronous HTTP client/server framework for asyncio and Python."
+    },
+    {
+        "id": "py_ch8_20",
+        "text": "What is a template engine used for in Flask/Django?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To run SQL queries."
+            },
+            {
+                "id": "b",
+                "text": "To generate HTML dynamically by combining templates with data."
+            },
+            {
+                "id": "c",
+                "text": "To compile Python code."
+            },
+            {
+                "id": "d",
+                "text": "To manage database migrations."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Jinja2 is one.",
+        "explanation": "Template engines (like Jinja2 in Flask, DTL in Django) combine static HTML templates with dynamic data from the application."
+    },
+    {
+        "id": "py_ch8_21",
+        "text": "What prevents SQL Injection?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using raw strings."
+            },
+            {
+                "id": "b",
+                "text": "Parameterized queries."
+            },
+            {
+                "id": "c",
+                "text": "Concatenating input."
+            },
+            {
+                "id": "d",
+                "text": "Using SQLite."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Don't concatenate strings.",
+        "explanation": "Using parameterized queries (placeholder values) allows the database driver to escape inputs, preventing SQL injection."
+    },
+    {
+        "id": "py_ch8_22",
+        "text": "What does `robots.txt` define?",
+        "options": [
+            {
+                "id": "a",
+                "text": "How robots are built."
+            },
+            {
+                "id": "b",
+                "text": "Rules for web crawlers/bots on which pages to access."
+            },
+            {
+                "id": "c",
+                "text": "JavaScript code."
+            },
+            {
+                "id": "d",
+                "text": "CSS styles."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Crawler policy.",
+        "explanation": "The `robots.txt` file tells search engine crawlers which pages or files the crawler can or cannot request from your site."
+    },
+    {
+        "id": "py_ch8_23",
+        "text": "What is the result of `requests.get('url').json()`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The HTML content."
+            },
+            {
+                "id": "b",
+                "text": "The JSON response parsed into a Python dictionary/list."
+            },
+            {
+                "id": "c",
+                "text": "A comprehensive error report."
+            },
+            {
+                "id": "d",
+                "text": "The raw bytes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Parses JSON.",
+        "explanation": "The `.json()` method parses the JSON response and returns it as a Python dictionary or list."
+    },
+    {
+        "id": "py_ch8_24",
+        "text": "Which command runs the Django development server?",
+        "options": [
+            {
+                "id": "a",
+                "text": "python manage.py runserver"
+            },
+            {
+                "id": "b",
+                "text": "django run"
+            },
+            {
+                "id": "c",
+                "text": "python start"
+            },
+            {
+                "id": "d",
+                "text": "python app.py"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Run server via manage.py.",
+        "explanation": "`python manage.py runserver` starts the lightweight development web server included with Django."
+    },
+    {
+        "id": "py_ch8_25",
+        "text": "What is Middleware in Web Frameworks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Hardware components."
+            },
+            {
+                "id": "b",
+                "text": "Software that acts as a bridge between an OS and database."
+            },
+            {
+                "id": "c",
+                "text": "Hooks that process requests/responses globally."
+            },
+            {
+                "id": "d",
+                "text": "The front-end framework."
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "In the middle.",
+        "explanation": "Middleware is a framework of hooks into Django's/Flask's request/response processing. It's a light, low-level 'plugin' system."
+    },
+    {
+        "id": "py_ch8_26",
+        "text": "Which method is used to commit changes to a database transaction?",
+        "options": [
+            {
+                "id": "a",
+                "text": "push()"
+            },
+            {
+                "id": "b",
+                "text": "send()"
+            },
+            {
+                "id": "c",
+                "text": "commit()"
+            },
+            {
+                "id": "d",
+                "text": "execute()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Make it permanent.",
+        "explanation": "`connection.commit()` saves the changes made during the current transaction."
+    },
+    {
+        "id": "py_ch8_27",
+        "text": "What allows real-time communication in web apps?",
+        "options": [
+            {
+                "id": "a",
+                "text": "AJAX"
+            },
+            {
+                "id": "b",
+                "text": "WebSockets"
+            },
+            {
+                "id": "c",
+                "text": "HTML5"
+            },
+            {
+                "id": "d",
+                "text": "CSS3"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sockets.",
+        "explanation": "WebSockets provide full-duplex communication channels over a single TCP connection, enabling real-time features."
+    },
+    {
+        "id": "py_ch8_28",
+        "text": "Which parser is commonly used with BeautifulSoup?",
+        "options": [
+            {
+                "id": "a",
+                "text": "lxml"
+            },
+            {
+                "id": "b",
+                "text": "json"
+            },
+            {
+                "id": "c",
+                "text": "yaml"
+            },
+            {
+                "id": "d",
+                "text": "csv"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Fast XML/HTML parser.",
+        "explanation": "`lxml` is a very fast and feature-rich XML/HTML processing library often used as the parser for BeautifulSoup."
+    },
+    {
+        "id": "py_ch8_29",
+        "text": "What is Data Persistence?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Keeping variables in RAM."
+            },
+            {
+                "id": "b",
+                "text": "Saving data to storage so it survives process restarts."
+            },
+            {
+                "id": "c",
+                "text": "Trying hard to get data."
+            },
+            {
+                "id": "d",
+                "text": "Caching."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Persisting.",
+        "explanation": "Persistence refers to the characteristic of state that outlives the process that created it (e.g., storing in a database)."
+    },
+    {
+        "id": "py_ch8_30",
+        "text": "Which decorator handles GET requests specifically in Flask?",
+        "options": [
+            {
+                "id": "a",
+                "text": "@app.get()"
+            },
+            {
+                "id": "b",
+                "text": "@app.route(..., methods=['GET'])"
+            },
+            {
+                "id": "c",
+                "text": "Both A and B"
+            },
+            {
+                "id": "d",
+                "text": "None"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Both are valid.",
+        "explanation": "`@app.route('/', methods=['GET'])` is standard; newer Flask versions also support `@app.get('/')`."
+    }
+]

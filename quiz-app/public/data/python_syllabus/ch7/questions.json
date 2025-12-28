@@ -1,0 +1,752 @@
+[
+    {
+        "id": "py_ch7_1",
+        "text": "Which library is the fundamental package for scientific computing in Python?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pandas"
+            },
+            {
+                "id": "b",
+                "text": "NumPy"
+            },
+            {
+                "id": "c",
+                "text": "Matplotlib"
+            },
+            {
+                "id": "d",
+                "text": "Scikit-learn"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Numerical Python.",
+        "explanation": "NumPy (Numerical Python) is the fundamental package for scientific computing with Python, offering powerful array objects."
+    },
+    {
+        "id": "py_ch7_2",
+        "text": "What is the main data structure in NumPy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "DataFrame"
+            },
+            {
+                "id": "b",
+                "text": "List"
+            },
+            {
+                "id": "c",
+                "text": "ndarray"
+            },
+            {
+                "id": "d",
+                "text": "Tree"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "N-dimensional array.",
+        "explanation": "The core of NumPy is the `ndarray` (N-dimensional array) object."
+    },
+    {
+        "id": "py_ch7_3",
+        "text": "Which library is primarily used for data manipulation and analysis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "NumPy"
+            },
+            {
+                "id": "b",
+                "text": "Pandas"
+            },
+            {
+                "id": "c",
+                "text": "Seaborn"
+            },
+            {
+                "id": "d",
+                "text": "Requests"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Panel Data.",
+        "explanation": "Pandas is the most popular library for data manipulation and analysis, offering structures like DataFrames."
+    },
+    {
+        "id": "py_ch7_4",
+        "text": "How do you install pandas using pip?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pip install pandas"
+            },
+            {
+                "id": "b",
+                "text": "pip get pandas"
+            },
+            {
+                "id": "c",
+                "text": "conda install pandas"
+            },
+            {
+                "id": "d",
+                "text": "npm install pandas"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Standard pip install command.",
+        "explanation": "`pip install pandas` is the standard command to install the library from PyPI."
+    },
+    {
+        "id": "py_ch7_5",
+        "text": "What is a DataFrame in Pandas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A 1D array."
+            },
+            {
+                "id": "b",
+                "text": "A 2D labeled data structure with columns of potentially different types."
+            },
+            {
+                "id": "c",
+                "text": "A database."
+            },
+            {
+                "id": "d",
+                "text": "A 3D array."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Like a spreadsheet.",
+        "explanation": "A DataFrame is a 2-dimensional labeled data structure, similar to a spreadsheet or SQL table."
+    },
+    {
+        "id": "py_ch7_6",
+        "text": "Which library is built on top of Matplotlib and provides a high-level interface for statistical graphics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bokeh"
+            },
+            {
+                "id": "b",
+                "text": "Seaborn"
+            },
+            {
+                "id": "c",
+                "text": "Plotly"
+            },
+            {
+                "id": "d",
+                "text": "Ggplot"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Sea-based name.",
+        "explanation": "Seaborn is based on Matplotlib and provides a high-level interface for drawing attractive statistical graphics."
+    },
+    {
+        "id": "py_ch7_7",
+        "text": "How do you read a CSV file into a Pandas DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pd.read_csv('file.csv')"
+            },
+            {
+                "id": "b",
+                "text": "pd.load_csv('file.csv')"
+            },
+            {
+                "id": "c",
+                "text": "pd.import_csv('file.csv')"
+            },
+            {
+                "id": "d",
+                "text": "csv.read('file.csv')"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Read CSV.",
+        "explanation": "`pd.read_csv()` is the standard function to load data from a CSV file into a DataFrame."
+    },
+    {
+        "id": "py_ch7_8",
+        "text": "Which NumPy function creates an array of zeros?",
+        "options": [
+            {
+                "id": "a",
+                "text": "np.empty()"
+            },
+            {
+                "id": "b",
+                "text": "np.null()"
+            },
+            {
+                "id": "c",
+                "text": "np.zeros()"
+            },
+            {
+                "id": "d",
+                "text": "np.void()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "The name indicates the value.",
+        "explanation": "`np.zeros((rows, cols))` creates an array filled with zeros."
+    },
+    {
+        "id": "py_ch7_9",
+        "text": "What is the shape of a NumPy array?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The total number of elements."
+            },
+            {
+                "id": "b",
+                "text": "A tuple representing the dimensions of the array."
+            },
+            {
+                "id": "c",
+                "text": "The memory size."
+            },
+            {
+                "id": "d",
+                "text": "The data type."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Dimensions tuple.",
+        "explanation": "The `.shape` attribute returns a tuple of integers indicating the size of the array in each dimension."
+    },
+    {
+        "id": "py_ch7_10",
+        "text": "Which Pandas method is used to view the first few rows of a DataFrame?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.start()"
+            },
+            {
+                "id": "b",
+                "text": "df.top()"
+            },
+            {
+                "id": "c",
+                "text": "df.head()"
+            },
+            {
+                "id": "d",
+                "text": "df.first()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Head of the table.",
+        "explanation": "`df.head(n)` returns the first `n` rows (default 5) of the DataFrame."
+    },
+    {
+        "id": "py_ch7_11",
+        "text": "What is Scipy used for?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Web development."
+            },
+            {
+                "id": "b",
+                "text": "Advanced scientific and technical computing (integration, optimization, etc.)."
+            },
+            {
+                "id": "c",
+                "text": "Database management."
+            },
+            {
+                "id": "d",
+                "text": "Game development."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Scientific Python.",
+        "explanation": "SciPy builds on NumPy and provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, etc."
+    },
+    {
+        "id": "py_ch7_12",
+        "text": "How do you select a column 'Age' from a DataFrame `df`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df['Age']"
+            },
+            {
+                "id": "b",
+                "text": "df.select('Age')"
+            },
+            {
+                "id": "c",
+                "text": "df.get('Age')"
+            },
+            {
+                "id": "d",
+                "text": "df(Age)"
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Bracket notation.",
+        "explanation": "You can select a column using bracket notation `df['Age']` or dot notation `df.Age` (if valid identifier)."
+    },
+    {
+        "id": "py_ch7_13",
+        "text": "Which library enables interactive plotting?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matplotlib"
+            },
+            {
+                "id": "b",
+                "text": "Seaborn"
+            },
+            {
+                "id": "c",
+                "text": "Plotly"
+            },
+            {
+                "id": "d",
+                "text": "NumPy"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "It's known for interactivity.",
+        "explanation": "Plotly is a graphing library that makes interactive, publication-quality graphs."
+    },
+    {
+        "id": "py_ch7_14",
+        "text": "What is the purpose of `matplotlib.pyplot`?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To calculate math."
+            },
+            {
+                "id": "b",
+                "text": "To provide a MATLAB-like plotting interface."
+            },
+            {
+                "id": "c",
+                "text": "To manage paths."
+            },
+            {
+                "id": "d",
+                "text": "To handle pipes."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Plotting like MATLAB.",
+        "explanation": "`matplotlib.pyplot` is a collection of functions that make Matplotlib work like MATLAB."
+    },
+    {
+        "id": "py_ch7_15",
+        "text": "How do you drop missing values in Pandas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.drop_missing()"
+            },
+            {
+                "id": "b",
+                "text": "df.dropna()"
+            },
+            {
+                "id": "c",
+                "text": "df.clean()"
+            },
+            {
+                "id": "d",
+                "text": "df.remove_null()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Drop NA (Not Available).",
+        "explanation": "`df.dropna()` removes rows (or columns) that contain missing values (NaN)."
+    },
+    {
+        "id": "py_ch7_16",
+        "text": "What does `df.describe()` return?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The structure of the DataFrame."
+            },
+            {
+                "id": "b",
+                "text": "Summary statistics (count, mean, std, etc.)."
+            },
+            {
+                "id": "c",
+                "text": "A description string."
+            },
+            {
+                "id": "d",
+                "text": "The column names."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Descriptive statistics.",
+        "explanation": "`df.describe()` generates descriptive statistics summarizing the central tendency, dispersion, and shape of the dataset."
+    },
+    {
+        "id": "py_ch7_17",
+        "text": "Which NumPy method computes the mean of an array?",
+        "options": [
+            {
+                "id": "a",
+                "text": "np.avg()"
+            },
+            {
+                "id": "b",
+                "text": "np.average()"
+            },
+            {
+                "id": "c",
+                "text": "np.mean()"
+            },
+            {
+                "id": "d",
+                "text": "np.median()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Statistical mean.",
+        "explanation": "`np.mean()` computes the arithmetic mean along the specified axis."
+    },
+    {
+        "id": "py_ch7_18",
+        "text": "What is the primary difference between a Series and a DataFrame in Pandas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Series is 1D, DataFrame is 2D."
+            },
+            {
+                "id": "b",
+                "text": "Series is 2D, DataFrame is 3D."
+            },
+            {
+                "id": "c",
+                "text": "Series holds numbers, DataFrame holds text."
+            },
+            {
+                "id": "d",
+                "text": "No difference."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Dimensions.",
+        "explanation": "A Series is a one-dimensional labeled array. A DataFrame is a two-dimensional labeled data structure (like a table of Series)."
+    },
+    {
+        "id": "py_ch7_19",
+        "text": "How do you filter rows in a DataFrame `df` where column 'A' > 5?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.query('A > 5')"
+            },
+            {
+                "id": "b",
+                "text": "df['A' > 5]"
+            },
+            {
+                "id": "c",
+                "text": "df[df['A'] > 5]"
+            },
+            {
+                "id": "d",
+                "text": "All of the above."
+            }
+        ],
+        "correctOptionId": "d",
+        "hint": "There are multiple ways.",
+        "explanation": "`df[df['A'] > 5]` is standard boolean indexing. `df.query('A > 5')` is also valid. The logic works in multiple ways."
+    },
+    {
+        "id": "py_ch7_20",
+        "text": "What plot is best for showing distribution of a single numerical variable?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scatter plot"
+            },
+            {
+                "id": "b",
+                "text": "Histogram"
+            },
+            {
+                "id": "c",
+                "text": "Pie chart"
+            },
+            {
+                "id": "d",
+                "text": "Line chart"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Bins of data.",
+        "explanation": "A histogram is used to visualize the distribution of a continuous numerical variable."
+    },
+    {
+        "id": "py_ch7_21",
+        "text": "What is Broadcasting in NumPy?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Sending data to other computers."
+            },
+            {
+                "id": "b",
+                "text": "Mechanism to treat arrays of different shapes during arithmetic operations."
+            },
+            {
+                "id": "c",
+                "text": "Streaming video."
+            },
+            {
+                "id": "d",
+                "text": "Copying arrays."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Arithmetic on different shapes.",
+        "explanation": "Broadcasting describes how NumPy treats arrays with different shapes during arithmetic operations (extending the smaller array)."
+    },
+    {
+        "id": "py_ch7_22",
+        "text": "How do you merge two DataFrames on a key?",
+        "options": [
+            {
+                "id": "a",
+                "text": "pd.concat()"
+            },
+            {
+                "id": "b",
+                "text": "pd.merge()"
+            },
+            {
+                "id": "c",
+                "text": "pd.join()"
+            },
+            {
+                "id": "d",
+                "text": "pd.combine()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Like SQL merge/join.",
+        "explanation": "`pd.merge()` provides database-style join operations."
+    },
+    {
+        "id": "py_ch7_23",
+        "text": "Which function is used to create a scatter plot in Matplotlib?",
+        "options": [
+            {
+                "id": "a",
+                "text": "plt.plot()"
+            },
+            {
+                "id": "b",
+                "text": "plt.bar()"
+            },
+            {
+                "id": "c",
+                "text": "plt.scatter()"
+            },
+            {
+                "id": "d",
+                "text": "plt.hist()"
+            }
+        ],
+        "correctOptionId": "c",
+        "hint": "Scatter.",
+        "explanation": "`plt.scatter()` creates a scatter plot."
+    },
+    {
+        "id": "py_ch7_24",
+        "text": "What is `iloc` used for in Pandas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Integer-location based indexing."
+            },
+            {
+                "id": "b",
+                "text": "Label-based indexing."
+            },
+            {
+                "id": "c",
+                "text": "Iterating locally."
+            },
+            {
+                "id": "d",
+                "text": "Inserting location."
+            }
+        ],
+        "correctOptionId": "a",
+        "hint": "Integer Location.",
+        "explanation": "`iloc` allows selection by position/index (integer location) rather than labels."
+    },
+    {
+        "id": "py_ch7_25",
+        "text": "What is a heatmap?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A map of temperatures."
+            },
+            {
+                "id": "b",
+                "text": "A graphical representation of data where values are depicted by color."
+            },
+            {
+                "id": "c",
+                "text": "A busy chart."
+            },
+            {
+                "id": "d",
+                "text": "A 3D bar chart."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Color-coded matrix.",
+        "explanation": "A heatmap is a data visualization technique where individual values contained in a matrix are represented as colors."
+    },
+    {
+        "id": "py_ch7_26",
+        "text": "Which library adheres to the Grammar of Graphics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Matplotlib"
+            },
+            {
+                "id": "b",
+                "text": "ggplot / plotnine"
+            },
+            {
+                "id": "c",
+                "text": "NumPy"
+            },
+            {
+                "id": "d",
+                "text": "Scipy"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "GG stands for Grammar of Graphics.",
+        "explanation": "`ggplot` (and its Python port `plotnine`) works based on the Grammar of Graphics philosophy."
+    },
+    {
+        "id": "py_ch7_27",
+        "text": "What does `np.arange(10)` return?",
+        "options": [
+            {
+                "id": "a",
+                "text": "List [0 ... 9]"
+            },
+            {
+                "id": "b",
+                "text": "Array [0, 1, ..., 9]"
+            },
+            {
+                "id": "c",
+                "text": "Array [1, ..., 10]"
+            },
+            {
+                "id": "d",
+                "text": "10 random numbers."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Array range.",
+        "explanation": "`np.arange(10)` creates a NumPy array with values from 0 to 9."
+    },
+    {
+        "id": "py_ch7_28",
+        "text": "How do you handle missing data by filling it with a specific value '0' in Pandas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "df.fill(0)"
+            },
+            {
+                "id": "b",
+                "text": "df.fillna(0)"
+            },
+            {
+                "id": "c",
+                "text": "df.replace_na(0)"
+            },
+            {
+                "id": "d",
+                "text": "df.set_missing(0)"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Fill NA.",
+        "explanation": "`df.fillna(value)` fills NA/NaN values with the specified value."
+    },
+    {
+        "id": "py_ch7_29",
+        "text": "Which Seaborn function draws a box plot?",
+        "options": [
+            {
+                "id": "a",
+                "text": "sns.box()"
+            },
+            {
+                "id": "b",
+                "text": "sns.boxplot()"
+            },
+            {
+                "id": "c",
+                "text": "sns.box_chart()"
+            },
+            {
+                "id": "d",
+                "text": "sns.whisker()"
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "It's a box plot.",
+        "explanation": "`sns.boxplot()` draws a box plot to show distributions with respect to categories."
+    },
+    {
+        "id": "py_ch7_30",
+        "text": "What is the result of adding two NumPy arrays of the same shape?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Concatenation."
+            },
+            {
+                "id": "b",
+                "text": "Element-wise addition."
+            },
+            {
+                "id": "c",
+                "text": "Error."
+            },
+            {
+                "id": "d",
+                "text": "Matrix multiplication."
+            }
+        ],
+        "correctOptionId": "b",
+        "hint": "Vectorized operation.",
+        "explanation": "Arithmetic operations on NumPy arrays are element-wise. `A + B` adds corresponding elements."
+    }
+]
